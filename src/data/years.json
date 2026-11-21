@@ -56,6 +56,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
           "verified": true
+        },
+        {
+          "text": "King Francis I of France orders the building of the Château de Chambord, a vast hunting lodge in the Loire valley.",
+          "context": "Work began in September.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord",
+          "verified": false
         }
       ]
     }
@@ -212,6 +220,51 @@
     }
   },
   {
+    "year": 1592,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Japanese warlord Toyotomi Hideyoshi sends a huge army across the sea to invade Korea, beginning the Imjin War.",
+          "context": "The first landings were in April.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Japanese_invasions_of_Korea_(1592%E2%80%931598)",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Plague closes London's theatres, leaving actors and playwrights without work.",
+          "context": "The theatres were shut for much of the year and the next.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Elizabethan_theatre",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Korean admiral Yi Sun-sin destroys a Japanese fleet with his armoured turtle ships at the Battle of Hansando.",
+          "context": "It was fought in August.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Hansando",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "A pamphlet by the writer Robert Greene attacks an \"upstart crow\", the first known mention of William Shakespeare as a London playwright.",
+          "context": "Greene wrote it as he lay dying, in the early autumn.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Robert_Greene_(dramatist)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1600,
     "clues": {
       "politics": [
@@ -363,6 +416,96 @@
     }
   },
   {
+    "year": 1610,
+    "clues": {
+      "politics": [
+        {
+          "text": "King Henry IV of France is stabbed to death in his carriage in Paris by a Catholic fanatic, François Ravaillac.",
+          "context": "It happened in May.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Assassination_of_Henry_IV_of_France",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Spanish settlers found Santa Fe, in what is now New Mexico, one of the oldest European towns in the United States.",
+          "context": "Pedro de Peralta founded it as the colony's capital.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Italian astronomer Galileo Galilei discovers four moons orbiting Jupiter and publishes the news in The Starry Messenger.",
+          "context": "He first saw them in January.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Sidereus_Nuncius",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Italian painter Caravaggio, famous for his dramatic light and shadow, dies on the Tuscan coast while travelling to Rome.",
+          "context": "He died in July.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Caravaggio",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1632,
+    "clues": {
+      "politics": [
+        {
+          "text": "King Gustavus Adolphus of Sweden is killed leading a cavalry charge at the Battle of Lützen, in the Thirty Years' War.",
+          "context": "He died in November, though his army won the battle.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_L%C3%BCtzen_(1632)",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Swedish rulers found the University of Tartu, in what is now Estonia.",
+          "context": "It was founded in June, as the Academia Gustaviana.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/University_of_Tartu",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Italian scientist Galileo Galilei publishes his Dialogue about the two chief world systems, defending a Sun-centred universe.",
+          "context": "It led to his trial for heresy the following year.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Mughal emperor Shah Jahan begins building the Taj Mahal, at Agra, as a tomb for his wife Mumtaz Mahal.",
+          "context": "Work began soon after her death the year before.",
+          "region": "South Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Taj_Mahal",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1637,
     "clues": {
       "politics": [
@@ -501,6 +644,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Taj_Mahal",
           "verified": true
+        },
+        {
+          "text": "The Royal Academy of Painting and Sculpture is founded in Paris, as a school for the king's artists.",
+          "context": "It was founded in January.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mie_royale_de_peinture_et_de_sculpture",
+          "verified": false
         }
       ]
     }
@@ -546,6 +697,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Misanthrope",
           "verified": true
+        },
+        {
+          "text": "The Dutch painter Frans Hals, famous for his lively portraits, dies in Haarlem.",
+          "context": "He died in August.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Frans_Hals",
+          "verified": false
         }
       ]
     }
@@ -604,6 +763,51 @@
     }
   },
   {
+    "year": 1687,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Ottoman army is crushed at the Second Battle of Mohács, in Hungary, by the forces of the Holy Roman Empire.",
+          "context": "It was fought in August.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Moh%C3%A1cs_(1687)",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A Venetian shell hits an Ottoman gunpowder store inside the Parthenon, in Athens, and blows the roof off the ancient temple.",
+          "context": "The explosion was in September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Parthenon",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The English scientist Isaac Newton publishes the Principia, setting out his laws of motion and universal gravitation.",
+          "context": "It was published in July.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Italian-born French composer Jean-Baptiste Lully dies in Paris after striking his foot with his conducting staff.",
+          "context": "He died in March, of gangrene.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lully",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1707,
     "clues": {
       "politics": [
@@ -652,6 +856,141 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Dieterich_Buxtehude",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1712,
+    "clues": {
+      "politics": [
+        {
+          "text": "Diplomats gather at Utrecht, in the Dutch Republic, to negotiate an end to the War of the Spanish Succession.",
+          "context": "The congress opened in January.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Peace_of_Utrecht",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A court in Hertfordshire convicts Jane Wenham of witchcraft, the last such conviction in England.",
+          "context": "The judge secured her pardon soon afterwards.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Jane_Wenham",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The English inventor Thomas Newcomen installs the first practical steam engine, to pump water out of a coal mine near Dudley.",
+          "context": "It was installed at the Conygree coalworks.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Thomas_Newcomen",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The English poet Alexander Pope publishes the first version of The Rape of the Lock, a mock-heroic poem about a stolen curl of hair.",
+          "context": "A longer version followed two years later.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Rape_of_the_Lock",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1739,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Persian ruler Nader Shah sacks Delhi, taking the Peacock Throne and vast treasure from the Mughal Empire.",
+          "context": "He took the city in March.",
+          "region": "South Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Nader_Shah",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Enslaved people rise in the Stono Rebellion near Charleston, South Carolina, the largest slave revolt in the British mainland colonies.",
+          "context": "It began in September.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Stono_Rebellion",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The French engineer Jacques de Vaucanson shows a mechanical duck that appears to eat, digest and excrete grain.",
+          "context": "He showed it in Paris.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Digesting_Duck",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "George Frideric Handel's oratorio Israel in Egypt is first performed in London.",
+          "context": "It premiered in April.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Israel_in_Egypt",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1755,
+    "clues": {
+      "politics": [
+        {
+          "text": "General Edward Braddock's British army is ambushed and routed by French and Native American forces near the Monongahela River.",
+          "context": "The battle was fought in July.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_the_Monongahela",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A huge earthquake, tsunami and fire destroy much of Lisbon, the Portuguese capital, on All Saints' Day.",
+          "context": "It struck on the first of November.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The German philosopher Immanuel Kant proposes that the solar system formed from a spinning cloud of gas and dust.",
+          "context": "He published the idea anonymously.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The English writer Samuel Johnson publishes A Dictionary of the English Language, after nearly nine years of work.",
+          "context": "It was published in April.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/A_Dictionary_of_the_English_Language",
+          "verified": false
         }
       ]
     }
@@ -710,6 +1049,51 @@
     }
   },
   {
+    "year": 1781,
+    "clues": {
+      "politics": [
+        {
+          "text": "A British army under Lord Cornwallis surrenders to American and French forces at Yorktown, Virginia.",
+          "context": "The surrender was in October.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Austrian emperor Joseph II grants Protestants and Orthodox Christians the right to worship in his lands.",
+          "context": "He issued the Patent of Toleration in October.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Joseph_II,_Holy_Roman_Emperor",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The British astronomer William Herschel discovers a new planet, Uranus, using a telescope he built himself, in Bath.",
+          "context": "He found it in March.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Uranus",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Wolfgang Amadeus Mozart's opera Idomeneo premieres in Munich.",
+          "context": "It premiered in January.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Idomeneo",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1791,
     "clues": {
       "politics": [
@@ -758,6 +1142,96 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Magic_Flute",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1792,
+    "clues": {
+      "politics": [
+        {
+          "text": "Revolutionary France wins its first great victory at Valmy, and the National Convention declares France a republic.",
+          "context": "Valmy was fought on the twentieth of September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Valmy",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The English writer Mary Wollstonecraft publishes A Vindication of the Rights of Woman, arguing that women deserve an education.",
+          "context": "It came out in January.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Scottish engineer William Murdoch lights his house in Redruth, in Cornwall, with gas made from coal.",
+          "context": "He lit the house in the early part of the 1790s.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/William_Murdoch",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "A French army officer, Claude Joseph Rouget de Lisle, writes a marching song in Strasbourg that becomes the French national anthem.",
+          "context": "He wrote it in April.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/La_Marseillaise",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1793,
+    "clues": {
+      "politics": [
+        {
+          "text": "King Louis XVI of France is executed by guillotine in Paris.",
+          "context": "He was executed in January.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Louis_XVI",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Committee of Public Safety begins the Reign of Terror in France, as thousands go to the guillotine.",
+          "context": "It was declared in September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Reign_of_Terror",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The American inventor Eli Whitney builds a machine that quickly separates cotton fibres from their seeds, the cotton gin.",
+          "context": "He built it in Georgia and patented it the next year.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Cotton_gin",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The French painter Jacques-Louis David completes The Death of Marat, showing the murdered revolutionary in his bath.",
+          "context": "It was painted in the months after the killing in July.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Death_of_Marat",
+          "verified": false
         }
       ]
     }
@@ -826,6 +1300,14 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Tipu_Sultan",
           "verified": true
+        },
+        {
+          "text": "Napoleon Bonaparte seizes power in a coup in Paris and becomes First Consul of France.",
+          "context": "The coup took place in November.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Napoleon",
+          "verified": false
         }
       ],
       "society": [
@@ -1057,6 +1539,51 @@
     }
   },
   {
+    "year": 1812,
+    "clues": {
+      "politics": [
+        {
+          "text": "The United States declares war on Britain, beginning a three-year conflict over trade, impressment and expansion.",
+          "context": "Congress voted for war in June. The conflict is known by the year it began.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/War_of_1812",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Fires burn much of Moscow as Napoleon's army occupies the Russian city.",
+          "context": "The fires started in September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Scottish engineer Henry Bell launches the paddle steamer Comet on the River Clyde, the first successful commercial steamboat in Europe.",
+          "context": "It began carrying passengers in August.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/PS_Comet",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The German brothers Jacob and Wilhelm Grimm publish the first volume of their collected fairy tales.",
+          "context": "It came out in December.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1815,
     "clues": {
       "politics": [
@@ -1075,6 +1602,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
           "verified": true
+        },
+        {
+          "text": "The Congress of Vienna ends, redrawing the map of Europe after the defeat of Napoleon.",
+          "context": "Its final act was signed in June.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Congress_of_Vienna",
+          "verified": false
         }
       ],
       "society": [
@@ -1163,6 +1698,51 @@
     }
   },
   {
+    "year": 1825,
+    "clues": {
+      "politics": [
+        {
+          "text": "Patriots known as the Thirty-Three Orientals declare independence for the territory of Uruguay from Brazil.",
+          "context": "The declaration was in August.",
+          "region": "Latin America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Thirty-Three_Orientals",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Erie Canal opens, linking the Hudson River to the Great Lakes across New York State.",
+          "context": "It opened in October.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Erie_Canal",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Stockton and Darlington Railway opens in northern England, the first public railway to use steam locomotives.",
+          "context": "George Stephenson's engine pulled the first train in September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The French lawyer Jean Anthelme Brillat-Savarin publishes The Physiology of Taste, a famous book about food and dining.",
+          "context": "It was published in December.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Jean_Anthelme_Brillat-Savarin",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1830,
     "clues": {
       "politics": [
@@ -1216,6 +1796,51 @@
     }
   },
   {
+    "year": 1837,
+    "clues": {
+      "politics": [
+        {
+          "text": "Eighteen-year-old Victoria becomes queen of the United Kingdom on the death of her uncle, King William IV.",
+          "context": "She became queen in June.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Queen_Victoria",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A financial panic spreads from New York as banks stop paying out, and the American economy slides into depression.",
+          "context": "The Panic of 1837 began in May.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Panic_of_1837",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "In Britain, William Cooke and Charles Wheatstone patent the first commercial electric telegraph.",
+          "context": "They patented it in June.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Cooke_and_Wheatstone_telegraph",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Danish author Hans Christian Andersen publishes The Little Mermaid.",
+          "context": "It appeared in a collection of his fairy tales in the spring.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(Andersen_fairy_tale)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1839,
     "clues": {
       "politics": [
@@ -1246,6 +1871,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Daguerreotype",
           "verified": true
+        },
+        {
+          "text": "The American inventor Charles Goodyear discovers how to harden rubber by heating it with sulphur, in a process called vulcanisation.",
+          "context": "He found the process by accident.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Charles_Goodyear",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -1314,6 +1947,96 @@
     }
   },
   {
+    "year": 1842,
+    "clues": {
+      "politics": [
+        {
+          "text": "Britain and China sign the Treaty of Nanking, ending the First Opium War and handing over Hong Kong island.",
+          "context": "It was signed in August aboard a British warship.",
+          "region": "East Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Treaty_of_Nanking",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Illustrated London News publishes its first issue, as the world's first illustrated weekly newspaper.",
+          "context": "It first appeared in May.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/The_Illustrated_London_News",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The American doctor Crawford Long uses ether to put a patient to sleep for an operation, in Jefferson, Georgia.",
+          "context": "He operated in March.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Crawford_Long",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Russian writer Nikolai Gogol publishes Dead Souls, a satirical novel about a swindler who buys dead serfs.",
+          "context": "It was published in May.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Dead_Souls",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1848,
+    "clues": {
+      "politics": [
+        {
+          "text": "Revolutions spread across Europe, beginning in Sicily and Paris, and toppling King Louis-Philippe of France.",
+          "context": "The unrest began in January and February.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Revolutions_of_1848",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Delegates meet at Seneca Falls, in New York, for the first women's rights convention in the United States.",
+          "context": "It was held in July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Seneca_Falls_Convention",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The British physicist William Thomson, later Lord Kelvin, proposes an absolute temperature scale with a lowest possible temperature.",
+          "context": "He proposed it in a paper that year.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Kelvin",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "A group of young English painters founds the Pre-Raphaelite Brotherhood in London, led by Dante Gabriel Rossetti and John Everett Millais.",
+          "context": "It was founded in September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1851,
     "clues": {
       "politics": [
@@ -1359,6 +2082,51 @@
     }
   },
   {
+    "year": 1853,
+    "clues": {
+      "politics": [
+        {
+          "text": "American Commodore Matthew Perry sails his black ships into Edo Bay, demanding that Japan open to trade.",
+          "context": "He arrived in July.",
+          "region": "East Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Matthew_C._Perry",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Baron Haussmann is appointed to rebuild Paris, and begins carving wide boulevards through the old city.",
+          "context": "He was appointed in June by Napoleon III.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Georges-Eug%C3%A8ne_Haussmann",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The English engineer Sir George Cayley's glider carries a man across a valley in Yorkshire, perhaps the first manned glider flight.",
+          "context": "The passenger was reportedly his coachman.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/George_Cayley",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Giuseppe Verdi's opera La traviata, based on a play by Alexandre Dumas the younger, premieres in Venice.",
+          "context": "It premiered in March and was a failure at first.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/La_traviata",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1857,
     "clues": {
       "politics": [
@@ -1389,6 +2157,14 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Elisha_Otis",
           "verified": true
+        },
+        {
+          "text": "The French chemist Louis Pasteur shows that fermentation is caused by living yeast, a step towards germ theory.",
+          "context": "He published the finding in Lille.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -1468,6 +2244,59 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities",
           "verified": true
+        },
+        {
+          "text": "Giuseppe Verdi's opera A Masked Ball premieres in Rome, after censors force changes to the plot.",
+          "context": "It premiered in February.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Un_ballo_in_maschera",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1863,
+    "clues": {
+      "politics": [
+        {
+          "text": "President Abraham Lincoln issues the Emancipation Proclamation, declaring enslaved people in the rebel states to be free.",
+          "context": "It took effect on New Year's Day.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Emancipation_Proclamation",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Football clubs meet in a London tavern and form the Football Association, laying down the first common rules of the game.",
+          "context": "They met in October.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Football_Association",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The world's first underground railway, the Metropolitan Railway, opens in London.",
+          "context": "It opened in January.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Metropolitan_Railway",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The French painter Édouard Manet shows Le Déjeuner sur l'herbe at the Salon des Refusés, in Paris, and causes a scandal.",
+          "context": "It was shown in May.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Le_D%C3%A9jeuner_sur_l%27herbe",
+          "verified": false
         }
       ]
     }
@@ -1521,6 +2350,51 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1867,
+    "clues": {
+      "politics": [
+        {
+          "text": "Britain's North American colonies unite as the Dominion of Canada.",
+          "context": "Confederation took place on the first of July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The German thinker Karl Marx publishes the first volume of Das Kapital, his study of capitalism.",
+          "context": "It was published in September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Das_Kapital",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Swedish chemist Alfred Nobel patents dynamite, a safe and stable explosive.",
+          "context": "He patented it in Britain and Sweden.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Dynamite",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Austrian composer Johann Strauss the Younger's waltz The Blue Danube premieres in Vienna.",
+          "context": "It premiered in February.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Blue_Danube",
+          "verified": false
         }
       ]
     }
@@ -1632,6 +2506,51 @@
     }
   },
   {
+    "year": 1874,
+    "clues": {
+      "politics": [
+        {
+          "text": "Benjamin Disraeli becomes British prime minister after the Conservatives win a general election.",
+          "context": "He took office in February.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The explorer Henry Morton Stanley sets out from Zanzibar on an expedition across central Africa.",
+          "context": "He left in November. The journey took nearly three years.",
+          "region": "Africa",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Henry_Morton_Stanley",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The American farmer Joseph Glidden patents barbed wire, which changes the way the Great Plains are farmed.",
+          "context": "He patented it in November.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Joseph_Glidden",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "A group of French artists, including Claude Monet and Pierre-Auguste Renoir, hold the first Impressionist exhibition in Paris.",
+          "context": "It opened in April.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Impressionism",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1876,
     "clues": {
       "politics": [
@@ -1685,6 +2604,51 @@
     }
   },
   {
+    "year": 1877,
+    "clues": {
+      "politics": [
+        {
+          "text": "Queen Victoria is proclaimed Empress of India at a grand durbar in Delhi.",
+          "context": "The proclamation was on New Year's Day.",
+          "region": "South Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Delhi_Durbar",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A railway workers' strike spreads across the United States, with riots in Pittsburgh and other cities.",
+          "context": "It began in July.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Great_Railroad_Strike_of_1877",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The American inventor Thomas Edison builds the first phonograph, a machine that records and plays back sound.",
+          "context": "He demonstrated it in December.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Phonograph",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Pyotr Ilyich Tchaikovsky's ballet Swan Lake premieres at the Bolshoi Theatre, in Moscow.",
+          "context": "It opened in March, to a poor reception.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Swan_Lake",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1879,
     "clues": {
       "politics": [
@@ -1725,6 +2689,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/A_Doll%27s_House",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1881,
+    "clues": {
+      "politics": [
+        {
+          "text": "Revolutionaries assassinate Tsar Alexander II of Russia with a bomb in Saint Petersburg.",
+          "context": "He was killed in March.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Alexander_II_of_Russia",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Lawmen and outlaws fight a famous gunfight at the O.K. Corral, in Tombstone, Arizona.",
+          "context": "It happened in October.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Gunfight_at_the_O.K._Corral",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The German firm Siemens opens the world's first electric tram line, in Lichterfelde, near Berlin.",
+          "context": "It opened in May.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Werner_von_Siemens",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The French painter Pierre-Auguste Renoir paints Luncheon of the Boating Party, a lively scene of friends on a balcony above the Seine.",
+          "context": "He finished it after working on it for a year.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Luncheon_of_the_Boating_Party",
+          "verified": false
         }
       ]
     }
@@ -1836,6 +2845,51 @@
     }
   },
   {
+    "year": 1886,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Apache leader Geronimo surrenders to the United States Army in Arizona, ending the last major Indian war.",
+          "context": "He surrendered in September.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Geronimo",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Statue of Liberty is dedicated by President Grover Cleveland in New York Harbor.",
+          "context": "The dedication was in October.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The German engineer Karl Benz receives a patent for his motor car, the first for a practical petrol-driven vehicle.",
+          "context": "The patent was granted in January.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The French painter Georges Seurat exhibits A Sunday Afternoon on the Island of La Grande Jatte, made of thousands of tiny dots of colour.",
+          "context": "It was shown at the last Impressionist exhibition.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1888,
     "clues": {
       "politics": [
@@ -1846,6 +2900,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Lei_%C3%81urea",
           "verified": true
+        },
+        {
+          "text": "Wilhelm II becomes German emperor in the Year of the Three Emperors, after the deaths of his grandfather and father.",
+          "context": "He took the throne in June.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Wilhelm_II,_German_Emperor",
+          "verified": false
         }
       ],
       "society": [
@@ -1884,6 +2946,186 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1889,
+    "clues": {
+      "politics": [
+        {
+          "text": "Emperor Meiji grants Japan its first modern constitution, creating an elected parliament.",
+          "context": "The constitution was proclaimed in February.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Meiji_Constitution",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A dam above Johnstown, Pennsylvania, collapses after heavy rain, and the flood kills more than two thousand people.",
+          "context": "It happened in May.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Johnstown_Flood",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The engineer Gustave Eiffel's tower is finished in Paris for the World's Fair, making it the tallest structure in the world.",
+          "context": "It was completed in March.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Dutch painter Vincent van Gogh paints The Starry Night while staying in an asylum at Saint-Rémy, in southern France.",
+          "context": "He painted it in June.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/The_Starry_Night",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1891,
+    "clues": {
+      "politics": [
+        {
+          "text": "France and Russia agree a friendship that grows into an alliance, bringing together two rivals of Germany.",
+          "context": "The first agreement was in August.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Franco-Russian_Alliance",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Canadian-American teacher James Naismith invents basketball in Springfield, Massachusetts.",
+          "context": "He invented it in December, using peach baskets.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/James_Naismith",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Russia begins building the Trans-Siberian Railway, to link Moscow with the Pacific port of Vladivostok.",
+          "context": "Construction began in May.",
+          "region": "Northern Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Trans-Siberian_Railway",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Irish writer Oscar Wilde publishes The Picture of Dorian Gray as a book, a novel about a man whose portrait ages in his place.",
+          "context": "It came out in the spring.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1894,
+    "clues": {
+      "politics": [
+        {
+          "text": "Japan and China go to war over control of Korea, in the First Sino-Japanese War.",
+          "context": "War was declared in August.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/First_Sino-Japanese_War",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Pierre de Coubertin founds the International Olympic Committee at a congress in Paris.",
+          "context": "It was founded in June.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/International_Olympic_Committee",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Tower Bridge opens across the River Thames in London, with a middle section that lifts to let ships through.",
+          "context": "It opened in June.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Tower_Bridge",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Claude Debussy's Prelude to the Afternoon of a Faun premieres in Paris.",
+          "context": "It premiered in December.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Pr%C3%A9lude_%C3%A0_l%27apr%C3%A8s-midi_d%27un_faune",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1895,
+    "clues": {
+      "politics": [
+        {
+          "text": "Japan and China sign the Treaty of Shimonoseki, ending their war, and China gives Taiwan to Japan.",
+          "context": "It was signed in April.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Swedish inventor Alfred Nobel signs his will, leaving his fortune to fund prizes in his name.",
+          "context": "He signed it in November.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Alfred_Nobel",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The German physicist Wilhelm Röntgen discovers X-rays in his laboratory in Würzburg.",
+          "context": "He found them in November.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The French brothers Auguste and Louis Lumière show a film to a paying audience, in a Paris café.",
+          "context": "It was shown on the twenty-eighth of December.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re",
+          "verified": false
         }
       ]
     }
@@ -1945,6 +3187,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Seagull",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1897,
+    "clues": {
+      "politics": [
+        {
+          "text": "Theodor Herzl opens the first Zionist Congress in Basel, Switzerland.",
+          "context": "It opened in August.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/First_Zionist_Congress",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Gold is found in the Klondike region of Canada, setting off a rush of prospectors to the Yukon.",
+          "context": "The news reached the cities in July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Klondike_Gold_Rush",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The British physicist J. J. Thomson announces the discovery of the electron, the first subatomic particle.",
+          "context": "He announced it in April.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/J._J._Thomson",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Irish writer Bram Stoker publishes the vampire novel Dracula.",
+          "context": "It came out in May.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Dracula",
+          "verified": false
         }
       ]
     }
@@ -2051,6 +3338,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Tosca",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1901,
+    "clues": {
+      "politics": [
+        {
+          "text": "The six Australian colonies join to form the Commonwealth of Australia.",
+          "context": "Federation took place on New Year's Day.",
+          "region": "Oceania",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Federation_of_Australia",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The first Nobel Prizes are awarded in Stockholm.",
+          "context": "They were presented in December.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Nobel_Prize",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Italian inventor Guglielmo Marconi receives the first wireless signal sent across the Atlantic Ocean, in Newfoundland.",
+          "context": "He received the signal in December.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The German writer Thomas Mann publishes his first novel, Buddenbrooks, about the decline of a merchant family.",
+          "context": "It was published in October.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Buddenbrooks",
+          "verified": false
         }
       ]
     }
@@ -2313,6 +3645,51 @@
     }
   },
   {
+    "year": 1911,
+    "clues": {
+      "politics": [
+        {
+          "text": "An army uprising at Wuchang, in China, begins the revolution that will overthrow the Qing dynasty.",
+          "context": "It began in October.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Wuchang_Uprising",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Norwegian explorer Roald Amundsen and his team reach the South Pole.",
+          "context": "They arrived in December.",
+          "region": "Global",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Roald_Amundsen",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The New Zealand-born physicist Ernest Rutherford proposes that atoms have a tiny, dense nucleus at their centre.",
+          "context": "He announced his model in Manchester.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Mona Lisa is stolen from the Louvre, in Paris, by an Italian workman, Vincenzo Peruggia.",
+          "context": "It was stolen in August and recovered two years later.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Mona_Lisa",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1912,
     "clues": {
       "politics": [
@@ -2366,6 +3743,96 @@
     }
   },
   {
+    "year": 1914,
+    "clues": {
+      "politics": [
+        {
+          "text": "American forces occupy the Mexican port of Veracruz, during the Mexican Revolution.",
+          "context": "They landed in April.",
+          "region": "Latin America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/United_States_occupation_of_Veracruz",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "British and German soldiers stop fighting and meet in no man's land on Christmas Day.",
+          "context": "The truce was spontaneous and unofficial.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Christmas_truce",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Panama Canal opens, letting ships sail between the Atlantic and Pacific oceans.",
+          "context": "The first ship passed through in August.",
+          "region": "Latin America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Panama_Canal",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Charlie Chaplin first appears as the Tramp, in a short film made in Venice, California.",
+          "context": "The film was released in February.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Kid_Auto_Races_at_Venice",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1917,
+    "clues": {
+      "politics": [
+        {
+          "text": "The British government issues the Balfour Declaration, supporting a national home for the Jewish people in Palestine.",
+          "context": "It was issued in November.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Balfour_Declaration",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A ship loaded with explosives blows up in Halifax harbour, in Canada, in the largest man-made explosion of its time.",
+          "context": "It happened in December.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Halifax_Explosion",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "British tanks attack in large numbers for the first time at the Battle of Cambrai, in France.",
+          "context": "The battle began in November.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Cambrai_(1917)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The French artist Marcel Duchamp submits a porcelain urinal signed \"R. Mutt\", titled Fountain, to an exhibition in New York.",
+          "context": "It was submitted in April.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Fountain_(Duchamp)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1919,
     "clues": {
       "politics": [
@@ -2414,6 +3881,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Bauhaus",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1920,
+    "clues": {
+      "politics": [
+        {
+          "text": "The League of Nations holds its first council meeting, in Paris.",
+          "context": "It met in January.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/League_of_Nations",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Prohibition begins in the United States, banning the making and selling of alcoholic drinks.",
+          "context": "It took effect in January.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Station KDKA in Pittsburgh makes the first scheduled commercial radio broadcast, reporting the results of a presidential election.",
+          "context": "It broadcast in November.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/KDKA_(AM)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The German film The Cabinet of Dr. Caligari premieres in Berlin and sets the style of expressionist cinema.",
+          "context": "It premiered in February.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Cabinet_of_Dr._Caligari",
+          "verified": false
         }
       ]
     }
@@ -2525,6 +4037,51 @@
     }
   },
   {
+    "year": 1924,
+    "clues": {
+      "politics": [
+        {
+          "text": "Vladimir Lenin, the founder of the Soviet state, dies near Moscow.",
+          "context": "He died in January.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Vladimir_Lenin",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The first Winter Olympic Games are held in Chamonix, in the French Alps.",
+          "context": "They opened in January.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1924_Winter_Olympics",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Two American Army aircraft complete the first flight around the world, after nearly six months.",
+          "context": "They finished in September.",
+          "region": "Global",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Douglas_World_Cruiser",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "George Gershwin's Rhapsody in Blue premieres at a concert in New York, with the composer at the piano.",
+          "context": "It premiered in February.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Rhapsody_in_Blue",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1926,
     "clues": {
       "politics": [
@@ -2578,6 +4135,51 @@
     }
   },
   {
+    "year": 1927,
+    "clues": {
+      "politics": [
+        {
+          "text": "Chiang Kai-shek's forces turn on their Communist allies in Shanghai, in a bloody purge.",
+          "context": "It happened in April.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/April_12_Incident",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The American pilot Charles Lindbergh flies solo and non-stop from New York to Paris.",
+          "context": "He landed in May.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Charles_Lindbergh",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The young American inventor Philo Farnsworth demonstrates the first fully electronic television system, in San Francisco.",
+          "context": "The first image was transmitted in September.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Philo_Farnsworth",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Fritz Lang's science-fiction film Metropolis premieres in Berlin.",
+          "context": "It premiered in January.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1928,
     "clues": {
       "politics": [
@@ -2626,6 +4228,96 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Threepenny_Opera",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1929,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Lateran Treaty is signed, creating the Vatican City as an independent state inside Rome.",
+          "context": "It was signed in February by Mussolini's government and the Pope.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Lateran_Treaty",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The New York stock market crashes, and a long worldwide depression begins.",
+          "context": "The crash came in late October.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The airship Graf Zeppelin flies around the world, carrying passengers.",
+          "context": "The flight took place in August.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Graf_Zeppelin",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Belgian cartoonist Hergé creates Tintin, the boy reporter, for a children's newspaper supplement.",
+          "context": "The first story began in January.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Tintin_(character)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1930,
+    "clues": {
+      "politics": [
+        {
+          "text": "Mahatma Gandhi leads the Salt March to the sea at Dandi, to protest against the British salt tax.",
+          "context": "It began in March.",
+          "region": "South Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Salt_March",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Uruguay hosts and wins the first football World Cup, in Montevideo.",
+          "context": "The final was in July.",
+          "region": "Latin America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The American astronomer Clyde Tombaugh discovers Pluto, at the Lowell Observatory in Arizona.",
+          "context": "The discovery was announced in March.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Pluto",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The American painter Grant Wood paints American Gothic, a stern farmer and his daughter in front of a house.",
+          "context": "It was exhibited in Chicago in the autumn.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/American_Gothic",
+          "verified": false
         }
       ]
     }
@@ -2740,6 +4432,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Modern_Times_(film)",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1937,
+    "clues": {
+      "politics": [
+        {
+          "text": "Japanese and Chinese troops clash at the Marco Polo Bridge, near Beijing, starting a full-scale war.",
+          "context": "It happened in July.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The German airship Hindenburg bursts into flames as it lands in New Jersey.",
+          "context": "It happened in May.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Hindenburg_disaster",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The British engineer Frank Whittle runs the first jet engine on a test bed in Rugby, England.",
+          "context": "The test was in April.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Frank_Whittle",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Pablo Picasso paints Guernica, a huge black-and-white protest against the bombing of a Basque town.",
+          "context": "He painted it in Paris in the spring.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
+          "verified": false
         }
       ]
     }
@@ -3055,6 +4792,51 @@
     }
   },
   {
+    "year": 1952,
+    "clues": {
+      "politics": [
+        {
+          "text": "Army officers overthrow King Farouk of Egypt in a coup led by the Free Officers.",
+          "context": "The coup was in July.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_1952",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A thick smog settles over London and kills thousands of people, in the Great Smog.",
+          "context": "It lasted for several days in December.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Great_Smog_of_London",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The United States tests the first hydrogen bomb, at Enewetak Atoll in the Pacific Ocean.",
+          "context": "The test was in November.",
+          "region": "Oceania",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Ivy_Mike",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The American writer Ernest Hemingway publishes The Old Man and the Sea.",
+          "context": "It came out in September.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1953,
     "clues": {
       "politics": [
@@ -3111,6 +4893,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Waiting_for_Godot",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1954,
+    "clues": {
+      "politics": [
+        {
+          "text": "Vietnamese forces under General Võ Nguyên Giáp defeat the French at Dien Bien Phu.",
+          "context": "The battle ended in May.",
+          "region": "Southeast Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The British runner Roger Bannister runs the first mile in under four minutes, at Oxford.",
+          "context": "He did it in May.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Roger_Bannister",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The United States launches Nautilus, the world's first nuclear-powered submarine.",
+          "context": "It was launched in January.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Japanese film Godzilla, about a giant monster awakened by nuclear tests, premieres in Tokyo.",
+          "context": "It premiered in November.",
+          "region": "East Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Godzilla_(1954_film)",
+          "verified": false
         }
       ]
     }
@@ -3283,6 +5110,96 @@
     }
   },
   {
+    "year": 1958,
+    "clues": {
+      "politics": [
+        {
+          "text": "Mao Zedong launches the Great Leap Forward, an attempt to industrialise China very fast.",
+          "context": "It began in the early part of the year.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Great_Leap_Forward",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Brussels World's Fair opens with the Atomium, a giant model of an iron crystal.",
+          "context": "It opened in April.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Expo_58",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The American engineer Jack Kilby demonstrates the first working integrated circuit at Texas Instruments.",
+          "context": "He demonstrated it in September.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Jack_Kilby",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Nigerian writer Chinua Achebe publishes Things Fall Apart.",
+          "context": "It was published in June.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1959,
+    "clues": {
+      "politics": [
+        {
+          "text": "Fidel Castro's rebels take Havana as the dictator Fulgencio Batista flees Cuba.",
+          "context": "Batista left at the very start of the year.",
+          "region": "Latin America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Cuban_Revolution",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Dalai Lama flees Tibet for India after a failed uprising against Chinese rule in Lhasa.",
+          "context": "He escaped in March.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1959_Tibetan_uprising",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "A Soviet space probe crashes into the Moon on purpose, the first human-made object to reach another world.",
+          "context": "The probe was Luna 2, in September.",
+          "region": "Central Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Luna_2",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The American trumpeter Miles Davis records Kind of Blue, one of the best-selling jazz albums of all time.",
+          "context": "It was released in August.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1960,
     "clues": {
       "politics": [
@@ -3293,6 +5210,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Congo_Crisis",
           "verified": true
+        },
+        {
+          "text": "John F. Kennedy narrowly wins the American presidential election, defeating Richard Nixon.",
+          "context": "The vote was in November.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+          "verified": false
         }
       ],
       "society": [
@@ -3356,6 +5281,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Trial_of_Adolf_Eichmann",
           "verified": true
+        },
+        {
+          "text": "Black and white activists ride buses through the American South to challenge segregation, as the Freedom Riders.",
+          "context": "The first rides left Washington in May.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Freedom_Riders",
+          "verified": false
         }
       ],
       "technology": [
@@ -3376,6 +5309,51 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Breakfast_at_Tiffany%27s_(film)",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1962,
+    "clues": {
+      "politics": [
+        {
+          "text": "Algeria becomes independent from France after a bitter war of independence.",
+          "context": "Independence came on the third of July.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Algerian_War",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The American biologist Rachel Carson publishes Silent Spring, a warning about pesticides that inspires the environmental movement.",
+          "context": "It came out in September.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Silent_Spring",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The communications satellite Telstar is launched, and sends the first live television pictures across the Atlantic.",
+          "context": "It was launched in July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Telstar",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The first James Bond film, Dr. No, premieres in London, starring Sean Connery.",
+          "context": "It premiered in October.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Dr._No_(film)",
+          "verified": false
         }
       ]
     }
@@ -3429,6 +5407,51 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1965,
+    "clues": {
+      "politics": [
+        {
+          "text": "Singapore leaves the Federation of Malaysia and becomes an independent republic under Lee Kuan Yew.",
+          "context": "It separated in August.",
+          "region": "Southeast Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Singapore",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Civil rights marchers are beaten by state troopers on the Edmund Pettus Bridge in Selma, Alabama, on Bloody Sunday.",
+          "context": "It happened in March.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Soviet cosmonaut Alexei Leonov makes the first spacewalk, floating outside his spacecraft for about twelve minutes.",
+          "context": "He did it in March.",
+          "region": "Central Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Alexei_Leonov",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Bob Dylan plugs in an electric guitar at the Newport Folk Festival, and is booed by part of the crowd.",
+          "context": "It happened in July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Bob_Dylan",
+          "verified": false
         }
       ]
     }
@@ -3552,6 +5575,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/May_68",
           "verified": true
+        },
+        {
+          "text": "The civil rights leader Martin Luther King Jr. is assassinated in Memphis, Tennessee.",
+          "context": "He was shot in April.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr.",
+          "verified": false
         }
       ],
       "technology": [
@@ -3572,6 +5603,51 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1969,
+    "clues": {
+      "politics": [
+        {
+          "text": "Golda Meir becomes Prime Minister of Israel.",
+          "context": "She took office in March.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Golda_Meir",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Woodstock festival draws about four hundred thousand people to a farm in upstate New York.",
+          "context": "It was held in August.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Woodstock",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The first message is sent over ARPANET, the computer network that grew into the internet.",
+          "context": "It was sent between computers at UCLA and Stanford in October.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/ARPANET",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Beatles release Abbey Road, whose cover shows them crossing a London street.",
+          "context": "It was released in September.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Abbey_Road",
+          "verified": false
         }
       ]
     }
@@ -3879,6 +5955,51 @@
     }
   },
   {
+    "year": 1977,
+    "clues": {
+      "politics": [
+        {
+          "text": "Egyptian president Anwar Sadat visits Jerusalem, the first Arab leader to go to Israel.",
+          "context": "He went in November.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Anwar_Sadat",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A huge power cut plunges New York City into darkness, followed by looting and fires.",
+          "context": "The blackout was in July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/New_York_City_blackout_of_1977",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "NASA launches two Voyager probes on a grand tour of the outer planets.",
+          "context": "They were launched in August and September.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Voyager_program",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "George Lucas's space adventure Star Wars opens in American cinemas.",
+          "context": "It opened in May.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1979,
     "clues": {
       "politics": [
@@ -3960,6 +6081,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens",
           "verified": true
+        },
+        {
+          "text": "The former Beatle John Lennon is shot dead outside his home in New York City.",
+          "context": "He was killed in December.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/John_Lennon",
+          "verified": false
         }
       ],
       "technology": [
@@ -3980,6 +6109,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Name_of_the_Rose",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1981,
+    "clues": {
+      "politics": [
+        {
+          "text": "Egyptian president Anwar Sadat is assassinated by soldiers during a military parade in Cairo.",
+          "context": "He was killed in October.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Prince Charles marries Lady Diana Spencer at Saint Paul's Cathedral, in front of a worldwide television audience.",
+          "context": "The wedding was in July.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_Charles_and_Lady_Diana_Spencer",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "IBM launches its Personal Computer, setting the standard for desktop computers.",
+          "context": "It was launched in August.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The music channel MTV launches in the United States, opening with the video for Video Killed the Radio Star.",
+          "context": "It launched in August.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/MTV",
+          "verified": false
         }
       ]
     }
@@ -4078,6 +6252,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Do_They_Know_It%27s_Christmas%3F",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1985,
+    "clues": {
+      "politics": [
+        {
+          "text": "Mikhail Gorbachev becomes leader of the Soviet Union and begins a programme of reform.",
+          "context": "He took power in March.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Rock stars play the Live Aid concerts in London and Philadelphia to raise money for famine victims in Ethiopia.",
+          "context": "The concerts were in July.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Live_Aid",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "A team led by Robert Ballard finds the wreck of the Titanic on the floor of the North Atlantic.",
+          "context": "They found it in September.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Robert_Ballard",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The film Back to the Future, in which a teenager travels through time in a car, opens in American cinemas.",
+          "context": "It opened in July.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Back_to_the_Future",
+          "verified": false
         }
       ]
     }
@@ -4295,6 +6514,51 @@
     }
   },
   {
+    "year": 1992,
+    "clues": {
+      "politics": [
+        {
+          "text": "Twelve European countries sign the Maastricht Treaty, creating the European Union.",
+          "context": "They signed in February.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Barcelona hosts the Summer Olympic Games.",
+          "context": "They opened in July.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/1992_Summer_Olympics",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "A British engineer, Neil Papworth, sends the first text message, \"Merry Christmas\", to a mobile phone.",
+          "context": "The message was sent in December.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/SMS",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Disney's animated film Aladdin, with a genie voiced by Robin Williams, is released.",
+          "context": "It was released in November.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1993,
     "clues": {
       "politics": [
@@ -4438,6 +6702,51 @@
     }
   },
   {
+    "year": 1996,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Taliban capture Kabul and take control of most of Afghanistan.",
+          "context": "They took the city in September.",
+          "region": "Central Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Taliban",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A bomb explodes in a park during the Summer Olympic Games in Atlanta, Georgia.",
+          "context": "It exploded in July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Centennial_Olympic_Park_bombing",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "NASA launches the Mars Pathfinder mission, which will land a small rover called Sojourner on Mars.",
+          "context": "It was launched in December.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Mars_Pathfinder",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The film Trainspotting, about young heroin users in Edinburgh, is released in Britain.",
+          "context": "It was released in February.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Trainspotting_(film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1997,
     "clues": {
       "politics": [
@@ -4539,6 +6848,51 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Titanic_(1997_film)",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 2001,
+    "clues": {
+      "politics": [
+        {
+          "text": "American and British forces begin air strikes on Afghanistan, after the attacks of the previous month.",
+          "context": "The strikes began in October.",
+          "region": "Central Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The energy company Enron files for bankruptcy, the largest in American history at the time.",
+          "context": "It filed in December.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Enron",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Apple releases the iPod, a pocket-sized digital music player.",
+          "context": "It was released in October.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/IPod",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The French romantic comedy Amélie, set in Paris, is released and becomes a hit around the world.",
+          "context": "It was released in April.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Am%C3%A9lie",
+          "verified": false
         }
       ]
     }
@@ -4793,6 +7147,51 @@
     }
   },
   {
+    "year": 2009,
+    "clues": {
+      "politics": [
+        {
+          "text": "Thousands of Iranians protest in Tehran after a disputed presidential election, in what becomes known as the Green Movement.",
+          "context": "The protests began in June.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2009_Iranian_presidential_election_protests",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A passenger jet makes an emergency landing on the Hudson River in New York, and everyone on board survives.",
+          "context": "It happened in January.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/US_Airways_Flight_1549",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "A programmer using the name Satoshi Nakamoto starts the Bitcoin network by creating its first block.",
+          "context": "It started in January.",
+          "region": "Global",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Bitcoin",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "James Cameron's film Avatar opens, and goes on to become the highest-earning film in history.",
+          "context": "It opened in December.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 2010,
     "clues": {
       "politics": [
@@ -4884,6 +7283,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Watson_(computer)",
           "verified": true
+        },
+        {
+          "text": "Apple unveils Siri, a voice assistant, on its new iPhone.",
+          "context": "It was unveiled in October.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Siri",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -4929,6 +7336,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Curiosity_(rover)",
           "verified": true
+        },
+        {
+          "text": "Scientists at CERN, near Geneva, announce the discovery of a particle consistent with the Higgs boson.",
+          "context": "They announced it in July.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Higgs_boson",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -4997,6 +7412,51 @@
     }
   },
   {
+    "year": 2014,
+    "clues": {
+      "politics": [
+        {
+          "text": "Russia annexes the Crimean peninsula from Ukraine, after troops without insignia take control.",
+          "context": "The annexation was in March.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A Malaysia Airlines jet disappears over the Indian Ocean with everyone on board, in one of aviation's great mysteries.",
+          "context": "It vanished in March.",
+          "region": "Southeast Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The European probe Rosetta lands a small craft, Philae, on a comet.",
+          "context": "The landing was in November.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Philae_(spacecraft)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Richard Linklater's film Boyhood, shot over twelve years with the same cast, premieres.",
+          "context": "It premiered in January.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Boyhood_(film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 2016,
     "clues": {
       "politics": [
@@ -5050,6 +7510,51 @@
     }
   },
   {
+    "year": 2018,
+    "clues": {
+      "politics": [
+        {
+          "text": "The leaders of North and South Korea meet at Panmunjom and sign a declaration promising peace.",
+          "context": "They met in April.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Panmunjom_Declaration",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Twelve boys and their football coach are rescued from a flooded cave in Thailand, after more than two weeks.",
+          "context": "The rescue was in July.",
+          "region": "Southeast Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "SpaceX launches Falcon Heavy, the most powerful rocket of its day, with a sports car as a test cargo.",
+          "context": "It was launched in February.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Falcon_Heavy",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Marvel's film Black Panther, set in the African kingdom of Wakanda, is released.",
+          "context": "It was released in February.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 2019,
     "clues": {
       "politics": [
@@ -5090,6 +7595,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Parasite_(2019_film)",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 2021,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Taliban retake Kabul as the Afghan government collapses and Western troops withdraw.",
+          "context": "They entered the city in August.",
+          "region": "Central Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021)",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The container ship Ever Given runs aground in the Suez Canal and blocks it for nearly a week.",
+          "context": "It was stuck in March.",
+          "region": "Africa",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Ever_Given",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "NASA's small helicopter Ingenuity makes the first powered flight on another planet, on Mars.",
+          "context": "It flew in April.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Ingenuity_(helicopter)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The South Korean television series Squid Game is released and becomes a global hit.",
+          "context": "It was released in September.",
+          "region": "East Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Squid_Game",
+          "verified": false
         }
       ]
     }
@@ -5143,6 +7693,51 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/RRR_(film)",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 2024,
+    "clues": {
+      "politics": [
+        {
+          "text": "Syria's president Bashar al-Assad flees to Russia as rebels take Damascus, ending his family's long rule.",
+          "context": "It happened in December.",
+          "region": "Middle East",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Paris hosts the Summer Olympic Games, with an opening ceremony held along the River Seine.",
+          "context": "The Games opened in July.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/2024_Summer_Olympics",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "SpaceX catches a returning Super Heavy booster with giant mechanical arms on its launch tower.",
+          "context": "It happened in October.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The film Wicked, based on the Broadway musical about the witches of Oz, is released.",
+          "context": "It was released in November.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Wicked_(2024_film)",
+          "verified": false
         }
       ]
     }
