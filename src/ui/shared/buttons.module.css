@@ -1,0 +1,35 @@
+.primary,
+.secondary {
+  min-height: 48px;
+  padding: 0 28px;
+  font: inherit;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primary {
+  color: #ffffff;
+  background: var(--text);
+  border: 1px solid var(--text);
+}
+
+.primary:hover:not(:disabled) {
+  background: #333333;
+}
+
+.secondary {
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--muted);
+}
+
+.secondary:hover:not(:disabled) {
+  background: var(--bg);
+}
+
+.primary:disabled,
+.secondary:disabled {
+  opacity: 0.55;
+  cursor: default;
+}

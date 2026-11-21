@@ -1,0 +1,133 @@
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px 16px 48px;
+  text-align: center;
+}
+
+.hero {
+  padding: 24px 16px;
+  background: var(--surface);
+  border: 1px solid var(--gold);
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px var(--surface), 0 0 0 5px var(--gold-soft);
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.total {
+  margin: 4px 0 0;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.rank {
+  min-height: 1.5em;
+  margin: 6px 0 0;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.sub {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.stats div {
+  padding: 12px 8px;
+  background: var(--surface);
+  border: 1px solid var(--gold-soft);
+  border-radius: 10px;
+}
+
+.stats dt {
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.stats dd {
+  margin: 4px 0 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 28px;
+  border-collapse: collapse;
+  background: var(--surface);
+}
+
+.table th,
+.table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--gold-soft);
+  text-align: right;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.table thead th,
+.table tfoot th,
+.table tfoot td {
+  font-weight: 700;
+}
+
+.table thead th {
+  color: var(--muted);
+}
+
+.table th:first-child,
+.table td:first-child {
+  text-align: left;
+}
+
+.table tfoot th {
+  text-align: left;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+@media (max-width: 720px) {
+  .total {
+    font-size: 3.5rem;
+  }
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Narrow screens: tighter cells that may wrap, so every column fits without sideways scrolling. */
+@media (max-width: 560px) {
+  .table th,
+  .table td {
+    padding: 8px 4px;
+    font-size: 0.8125rem;
+    white-space: normal;
+    line-height: 1.3;
+  }
+}

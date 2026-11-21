@@ -1,0 +1,186 @@
+.politics {
+  --base: var(--politics);
+  --dark: var(--politics-dark);
+  --tint: var(--politics-tint);
+  --border: var(--politics-border);
+}
+.society {
+  --base: var(--society);
+  --dark: var(--society-dark);
+  --tint: var(--society-tint);
+  --border: var(--society-border);
+}
+.technology {
+  --base: var(--technology);
+  --dark: var(--technology-dark);
+  --tint: var(--technology-tint);
+  --border: var(--technology-border);
+}
+.arts {
+  --base: var(--arts);
+  --dark: var(--arts-dark);
+  --tint: var(--arts-tint);
+  --border: var(--arts-border);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 168px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.revealed {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  animation: fade-in 0.25s ease-out;
+}
+
+.hidden {
+  background: #f3f1ec;
+  border: 1px dashed var(--base);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+}
+
+.revealed .header {
+  background: var(--tint);
+  border-bottom: 1px solid var(--border);
+}
+
+.medallion {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.solid {
+  background: var(--base);
+  color: #ffffff;
+}
+
+.outlined {
+  background: var(--surface);
+  color: var(--base);
+  border: 1.5px solid var(--base);
+}
+
+.title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.caption {
+  margin-left: auto;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.body {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.context {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.source {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+/* A generous hit area for the link, so it is easy to tap. */
+.source a {
+  display: inline-block;
+  padding: 14px 0;
+  color: var(--dark);
+}
+
+.placeholder {
+  margin: 0;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.revealButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  width: 100%;
+  margin-top: auto;
+  padding: 6px 12px;
+  background: var(--surface);
+  color: var(--dark);
+  border: 1.5px solid var(--base);
+  border-radius: 8px;
+  font: inherit;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.revealButton:hover {
+  background: var(--tint);
+}
+
+.keyBadge {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  background: var(--tint);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.revealLabel {
+  font-weight: 700;
+}
+
+.revealCost {
+  margin-left: auto;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .revealed {
+    animation: none;
+  }
+}

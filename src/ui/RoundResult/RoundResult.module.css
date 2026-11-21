@@ -1,0 +1,192 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px 16px 48px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 8px 0 8px;
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+
+.brand::before,
+.brand::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid var(--gold-soft);
+}
+
+.round {
+  margin: 0 0 20px;
+  text-align: center;
+  color: var(--muted);
+}
+
+.summary {
+  padding: 24px 16px;
+  background: var(--surface);
+  border: 1px solid var(--gold);
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px var(--surface), 0 0 0 5px var(--gold-soft);
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.answer {
+  margin: 4px 0 0;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.distance {
+  margin: 4px 0 8px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.detail {
+  margin: 0 0 8px;
+  color: var(--muted);
+}
+
+.points {
+  margin: 0 0 24px;
+  font-size: 1.125rem;
+}
+
+.points strong {
+  font-size: 1.75rem;
+}
+
+.timeline {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.track {
+  position: relative;
+  height: 4px;
+  margin: 14px 8px;
+  background: var(--gold-soft);
+  border-radius: 2px;
+}
+
+.gap {
+  position: absolute;
+  top: -1px;
+  height: 6px;
+  background: var(--gold);
+}
+
+.marker {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translate(-50%, -50%);
+}
+
+/* Different shapes as well as different colours, so the markers never rely on colour alone. */
+.answerMarker {
+  background: var(--text);
+  border-radius: 50%;
+}
+
+.guessMarker {
+  background: var(--surface);
+  border: 2.5px solid var(--technology-dark);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.ends {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4px;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9375rem;
+}
+
+.key li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.swatch {
+  position: static;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.guessMarker.swatch {
+  transform: rotate(45deg);
+  border-width: 2px;
+}
+
+.clues {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+/* A single clue sits in the middle rather than in the left column. */
+.clues:has(> :only-child) {
+  grid-template-columns: minmax(0, 480px);
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.next {
+  min-height: 48px;
+  padding: 0 28px;
+  font: inherit;
+  font-weight: 700;
+  color: #ffffff;
+  background: var(--text);
+  border: 1px solid var(--text);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.next:hover {
+  background: #333333;
+}
+
+@media (max-width: 720px) {
+  .clues {
+    grid-template-columns: 1fr;
+  }
+  .answer {
+    font-size: 3.5rem;
+  }
+}
