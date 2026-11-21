@@ -1,0 +1,63 @@
+import { describe, expect, it } from 'vitest';
+import { CONFIG_VERSION } from '../config';
+import { formatDate, ordinal } from './format';
+import type { RoundResult } from './session';
+import { buildSessionResult, sessionStats } from './stats';
+
+function round(year: number, guess: number, cluesShown: number, score: number): RoundResult {
+  return {
+    year,
+    guess,
+    yearsOff: Math.abs(year - guess),
+    cluesShown,
+    revealed: ['politics', 'society', 'technology', 'arts_culture'].slice(0, cluesShown) as RoundResult['revealed'],
+    score,
+  };
+}
+
+const results = [round(1969, 1969, 1, 1000), round(1900, 1910, 2, 503), round(1800, 1830, 4, 150)];
+
+describe('sessionStats', () => {
+  it('works out the skill stats', () => {
+    expect(sessionStats(results)).toEqual({
+      avgYearsOff: 13.3, // (0 + 10 + 30) / 3, to one decimal place
+      exactHits: 1,
+      cluesUsed: 7,
+      cluesAvailable: 12,
+    });
+  });
+  it('copes with no rounds', () => {
+    expect(sessionStats([])).toEqual({ avgYearsOff: 0, exactHits: 0, cluesUsed: 0, cluesAvailable: 0 });
+  });
+});
+
+describe('buildSessionResult', () => {
+  it('builds the saved record, with a score equal to the sum of the rounds', () => {
+    const saved = buildSessionResult(results, '2026-11-21T18:04:00.000Z');
+    expect(saved).toMatchObject({
+      score: 1653,
+      playedAt: '2026-11-21T18:04:00.000Z',
+      rounds: 3,
+      avgYearsOff: 13.3,
+      exactHits: 1,
+      cluesUsed: 7,
+      configVersion: CONFIG_VERSION,
+    });
+    expect(saved.roundDetails[1]).toEqual({ year: 1900, guess: 1910, clues: 2, points: 503 });
+  });
+});
+
+describe('ordinal', () => {
+  it('adds the right ending', () => {
+    expect([1, 2, 3, 4, 10, 11, 12, 13, 21, 22, 23].map(ordinal)).toEqual([
+      '1st', '2nd', '3rd', '4th', '10th', '11th', '12th', '13th', '21st', '22nd', '23rd',
+    ]);
+  });
+});
+
+describe('formatDate', () => {
+  it('formats an ISO date, and copes with junk', () => {
+    expect(formatDate('2026-11-21T18:04:00.000Z')).toMatch(/21 Nov 2026/);
+    expect(formatDate('not a date')).toBe('');
+  });
+});
