@@ -39,12 +39,20 @@ Or, without Git: run `npm run build`, then drag the `dist` folder onto the Netli
 
 ## Option 3: GitHub Pages
 
-The build uses relative asset paths, so it works from a sub-folder such as `https://name.github.io/chronoguessr/`.
+This repository already contains the workflow, `.github/workflows/deploy.yml`. It runs the lint, the unit tests and the build, then publishes `dist/` to GitHub Pages. Nothing is deployed if a check fails.
 
-1. Push the project to a GitHub repository.
-2. Build locally with `npm run build`.
-3. Publish the contents of `dist/` to a `gh-pages` branch, or add a GitHub Actions workflow that builds and uploads `dist/` as a Pages artefact.
-4. In the repository settings, turn on Pages and choose that branch or the Actions source.
+1. In the repository on GitHub, open **Settings, Pages**.
+2. Under **Build and deployment, Source**, choose **GitHub Actions**.
+3. Push to `main`, or open the **Actions** tab, choose **Deploy to GitHub Pages** and press **Run workflow**.
+4. When the run turns green, the site is at `https://jonathanlux360.github.io/ChronoGuessr/`. The address also appears on the run's deploy step and under Settings, Pages.
+
+Every later push to `main` redeploys the site automatically.
+
+Things to check:
+
+- **Public repositories only on the free plan.** GitHub Pages on a free personal account needs the repository to be public. A private repository needs a paid plan.
+- **The build uses relative asset paths**, so it works from the `/ChronoGuessr/` sub-folder without any extra setting.
+- **The Playwright test is not run in the workflow.** It needs a browser. Run `npm run test:e2e` on your own machine before pushing a big change.
 
 ## Things to know
 
