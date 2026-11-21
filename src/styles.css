@@ -1,0 +1,76 @@
+:root {
+  --bg: #faf9f6;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --muted: #5e5e5e;
+  --gold: #cbb98a;
+  --gold-soft: #ddd3b8;
+
+  --politics: #b33a33;
+  --politics-dark: #8c2a25;
+  --politics-tint: #f8e8e6;
+  --politics-border: #d9a19d;
+  --society: #3f7d4e;
+  --society-dark: #2c5e39;
+  --society-tint: #e5f0e7;
+  --society-border: #9cc3a5;
+  --technology: #2f6db0;
+  --technology-dark: #1f4e88;
+  --technology-tint: #e4eef8;
+  --technology-border: #9dbee0;
+  --arts: #9b4f96;
+  --arts-dark: #7a3a76;
+  --arts-tint: #f4e6f2;
+  --arts-border: #cfa3cb;
+
+  font-family: Lora, Georgia, serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+h1,
+h2,
+h3 {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--technology);
+  outline-offset: 2px;
+}
+
+/* The footer sits at the bottom of the window on short screens, and after the content on long ones. */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.app > main {
+  flex: 1;
+  width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
