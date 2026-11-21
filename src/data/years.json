@@ -63,7 +63,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -229,7 +229,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Japanese_invasions_of_Korea_(1592%E2%80%931598)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -239,7 +239,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Elizabethan_theatre",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -249,7 +249,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Hansando",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -259,7 +259,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Robert_Greene_(dramatist)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -425,7 +425,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Assassination_of_Henry_IV_of_France",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -435,7 +435,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -445,7 +445,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Sidereus_Nuncius",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -455,7 +455,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Caravaggio",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -470,7 +470,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_L%C3%BCtzen_(1632)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -480,7 +480,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/University_of_Tartu",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -490,7 +490,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -500,7 +500,7 @@
           "region": "South Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Taj_Mahal",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -651,7 +651,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mie_royale_de_peinture_et_de_sculpture",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -704,7 +704,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Frans_Hals",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -772,7 +772,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Moh%C3%A1cs_(1687)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -782,7 +782,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Parthenon",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -792,7 +792,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -802,7 +802,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lully",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -870,7 +870,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Peace_of_Utrecht",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -880,7 +880,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Jane_Wenham",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -890,7 +890,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Thomas_Newcomen",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -900,7 +900,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Rape_of_the_Lock",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -915,7 +915,7 @@
           "region": "South Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Nader_Shah",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -925,7 +925,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Stono_Rebellion",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -935,7 +935,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Digesting_Duck",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -945,7 +945,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Israel_in_Egypt",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -960,7 +960,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_the_Monongahela",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -970,7 +970,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -980,7 +980,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Immanuel_Kant",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -990,7 +990,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/A_Dictionary_of_the_English_Language",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1058,7 +1058,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1068,7 +1068,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Joseph_II,_Holy_Roman_Emperor",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1078,7 +1078,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Uranus",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1088,7 +1088,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Idomeneo",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1156,7 +1156,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Valmy",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1166,7 +1166,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1176,7 +1176,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/William_Murdoch",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1186,7 +1186,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/La_Marseillaise",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1201,7 +1201,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Louis_XVI",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1211,7 +1211,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Reign_of_Terror",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1221,7 +1221,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Cotton_gin",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1231,7 +1231,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Death_of_Marat",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1307,7 +1307,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Napoleon",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1548,7 +1548,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/War_of_1812",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1558,7 +1558,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1568,7 +1568,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/PS_Comet",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1578,7 +1578,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1609,7 +1609,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Congress_of_Vienna",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1707,7 +1707,7 @@
           "region": "Latin America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Thirty-Three_Orientals",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1717,7 +1717,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Erie_Canal",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1727,7 +1727,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1737,7 +1737,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Jean_Anthelme_Brillat-Savarin",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1805,7 +1805,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Queen_Victoria",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1815,7 +1815,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Panic_of_1837",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1825,7 +1825,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Cooke_and_Wheatstone_telegraph",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1835,7 +1835,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(Andersen_fairy_tale)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1878,7 +1878,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Charles_Goodyear",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1956,7 +1956,7 @@
           "region": "East Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Treaty_of_Nanking",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1966,7 +1966,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/The_Illustrated_London_News",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1976,7 +1976,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Crawford_Long",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1986,7 +1986,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Dead_Souls",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2001,7 +2001,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Revolutions_of_1848",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2011,7 +2011,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Seneca_Falls_Convention",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2021,7 +2021,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Kelvin",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2031,7 +2031,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2091,7 +2091,7 @@
           "region": "East Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Matthew_C._Perry",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2101,7 +2101,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Georges-Eug%C3%A8ne_Haussmann",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2111,7 +2111,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/George_Cayley",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2121,7 +2121,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/La_traviata",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2164,7 +2164,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Louis_Pasteur",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2251,7 +2251,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Un_ballo_in_maschera",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2266,7 +2266,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Emancipation_Proclamation",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2276,7 +2276,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Football_Association",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2286,7 +2286,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Metropolitan_Railway",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2296,7 +2296,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Le_D%C3%A9jeuner_sur_l%27herbe",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2364,7 +2364,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2374,7 +2374,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Das_Kapital",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2384,7 +2384,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Dynamite",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2394,7 +2394,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Blue_Danube",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2515,7 +2515,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2525,7 +2525,7 @@
           "region": "Africa",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Henry_Morton_Stanley",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2535,7 +2535,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Joseph_Glidden",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2545,7 +2545,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Impressionism",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2613,7 +2613,7 @@
           "region": "South Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Delhi_Durbar",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2623,7 +2623,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Great_Railroad_Strike_of_1877",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2633,7 +2633,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Phonograph",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2643,7 +2643,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Swan_Lake",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2703,7 +2703,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Alexander_II_of_Russia",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2713,7 +2713,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Gunfight_at_the_O.K._Corral",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2723,7 +2723,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Werner_von_Siemens",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2733,7 +2733,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Luncheon_of_the_Boating_Party",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2854,7 +2854,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Geronimo",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2864,7 +2864,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2874,7 +2874,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2884,7 +2884,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2907,7 +2907,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Wilhelm_II,_German_Emperor",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2960,7 +2960,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Meiji_Constitution",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2970,7 +2970,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Johnstown_Flood",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2980,7 +2980,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Eiffel_Tower",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2990,7 +2990,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/The_Starry_Night",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3005,7 +3005,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Franco-Russian_Alliance",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3015,7 +3015,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/James_Naismith",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3025,7 +3025,7 @@
           "region": "Northern Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Trans-Siberian_Railway",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3035,7 +3035,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3050,7 +3050,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/First_Sino-Japanese_War",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3060,7 +3060,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/International_Olympic_Committee",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3070,7 +3070,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Tower_Bridge",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3080,7 +3080,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Pr%C3%A9lude_%C3%A0_l%27apr%C3%A8s-midi_d%27un_faune",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3095,7 +3095,7 @@
           "region": "East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3105,7 +3105,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Alfred_Nobel",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3115,7 +3115,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3125,7 +3125,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3201,7 +3201,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/First_Zionist_Congress",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3211,7 +3211,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Klondike_Gold_Rush",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3221,7 +3221,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/J._J._Thomson",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3231,7 +3231,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Dracula",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3352,7 +3352,7 @@
           "region": "Oceania",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Federation_of_Australia",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3362,7 +3362,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Nobel_Prize",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3372,7 +3372,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3382,7 +3382,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Buddenbrooks",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3654,7 +3654,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Wuchang_Uprising",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3664,7 +3664,7 @@
           "region": "Global",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Roald_Amundsen",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3674,7 +3674,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3684,7 +3684,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Mona_Lisa",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3752,7 +3752,7 @@
           "region": "Latin America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/United_States_occupation_of_Veracruz",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3762,7 +3762,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Christmas_truce",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3772,7 +3772,7 @@
           "region": "Latin America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Panama_Canal",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3782,7 +3782,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Kid_Auto_Races_at_Venice",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3797,7 +3797,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Balfour_Declaration",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3807,7 +3807,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Halifax_Explosion",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3817,7 +3817,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Cambrai_(1917)",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3827,7 +3827,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Fountain_(Duchamp)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -3895,7 +3895,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/League_of_Nations",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3905,7 +3905,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -3915,7 +3915,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/KDKA_(AM)",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -3925,7 +3925,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Cabinet_of_Dr._Caligari",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -4046,7 +4046,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Vladimir_Lenin",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -4056,7 +4056,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/1924_Winter_Olympics",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -4066,7 +4066,7 @@
           "region": "Global",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Douglas_World_Cruiser",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -4076,7 +4076,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Rhapsody_in_Blue",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -4144,7 +4144,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/April_12_Incident",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -4154,7 +4154,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Charles_Lindbergh",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -4164,7 +4164,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Philo_Farnsworth",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -4174,7 +4174,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -4242,7 +4242,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Lateran_Treaty",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -4252,7 +4252,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -4262,7 +4262,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Graf_Zeppelin",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -4272,7 +4272,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Tintin_(character)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -4287,7 +4287,7 @@
           "region": "South Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Salt_March",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -4297,7 +4297,7 @@
           "region": "Latin America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -4307,7 +4307,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Pluto",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -4317,7 +4317,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/American_Gothic",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -4446,7 +4446,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -4456,7 +4456,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Hindenburg_disaster",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -4466,7 +4466,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Frank_Whittle",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -4476,7 +4476,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -4801,7 +4801,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_1952",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -4811,7 +4811,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Great_Smog_of_London",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -4821,7 +4821,7 @@
           "region": "Oceania",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Ivy_Mike",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -4831,7 +4831,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -4907,7 +4907,7 @@
           "region": "Southeast Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -4917,7 +4917,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Roger_Bannister",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -4927,7 +4927,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -4937,7 +4937,7 @@
           "region": "East Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Godzilla_(1954_film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5119,7 +5119,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Great_Leap_Forward",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5129,7 +5129,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Expo_58",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5139,7 +5139,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Jack_Kilby",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5149,7 +5149,7 @@
           "region": "Africa",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5164,7 +5164,7 @@
           "region": "Latin America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Cuban_Revolution",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5174,7 +5174,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1959_Tibetan_uprising",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5184,7 +5184,7 @@
           "region": "Central Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Luna_2",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5194,7 +5194,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Kind_of_Blue",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5217,7 +5217,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/John_F._Kennedy",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5288,7 +5288,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Freedom_Riders",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5323,7 +5323,7 @@
           "region": "Africa",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Algerian_War",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5333,7 +5333,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Silent_Spring",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5343,7 +5343,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Telstar",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5353,7 +5353,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Dr._No_(film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5421,7 +5421,7 @@
           "region": "Southeast Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Singapore",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5431,7 +5431,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5441,7 +5441,7 @@
           "region": "Central Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Alexei_Leonov",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5451,7 +5451,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Bob_Dylan",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5582,7 +5582,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr.",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5617,7 +5617,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Golda_Meir",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5627,7 +5627,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Woodstock",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5637,7 +5637,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/ARPANET",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5647,7 +5647,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Abbey_Road",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5964,7 +5964,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Anwar_Sadat",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5974,7 +5974,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/New_York_City_blackout_of_1977",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5984,7 +5984,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Voyager_program",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5994,7 +5994,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -6088,7 +6088,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/John_Lennon",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -6123,7 +6123,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -6133,7 +6133,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_Charles_and_Lady_Diana_Spencer",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -6143,7 +6143,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -6153,7 +6153,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/MTV",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -6266,7 +6266,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -6276,7 +6276,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Live_Aid",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -6286,7 +6286,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Robert_Ballard",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -6296,7 +6296,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Back_to_the_Future",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -6523,7 +6523,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -6533,7 +6533,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/1992_Summer_Olympics",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -6543,7 +6543,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/SMS",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -6553,7 +6553,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -6711,7 +6711,7 @@
           "region": "Central Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Taliban",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -6721,7 +6721,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Centennial_Olympic_Park_bombing",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -6731,7 +6731,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Mars_Pathfinder",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -6741,7 +6741,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Trainspotting_(film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -6862,7 +6862,7 @@
           "region": "Central Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -6872,7 +6872,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Enron",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -6882,7 +6882,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/IPod",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -6892,7 +6892,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Am%C3%A9lie",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -7156,7 +7156,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2009_Iranian_presidential_election_protests",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7166,7 +7166,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/US_Airways_Flight_1549",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7176,7 +7176,7 @@
           "region": "Global",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Bitcoin",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7186,7 +7186,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -7290,7 +7290,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Siri",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7343,7 +7343,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Higgs_boson",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7421,7 +7421,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7431,7 +7431,7 @@
           "region": "Southeast Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7441,7 +7441,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Philae_(spacecraft)",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7451,7 +7451,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Boyhood_(film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -7519,7 +7519,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Panmunjom_Declaration",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7529,7 +7529,7 @@
           "region": "Southeast Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7539,7 +7539,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Falcon_Heavy",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7549,7 +7549,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -7609,7 +7609,7 @@
           "region": "Central Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7619,7 +7619,7 @@
           "region": "Africa",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Ever_Given",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7629,7 +7629,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Ingenuity_(helicopter)",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7639,7 +7639,7 @@
           "region": "East Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Squid_Game",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -7707,7 +7707,7 @@
           "region": "Middle East",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7717,7 +7717,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/2024_Summer_Olympics",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7727,7 +7727,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/SpaceX_Starship",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7737,7 +7737,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Wicked_(2024_film)",
-          "verified": false
+          "verified": true
         }
       ]
     }
