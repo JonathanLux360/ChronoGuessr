@@ -1,6 +1,6 @@
 # ChronoGuessr
 
-A single-player web game. The player sees clues about a mystery year and guesses it. Four clues per year (Politics, Society, Technology, Arts & Culture). One is free; each extra clue costs more points. Closer guesses score more, on a log scale. A session is 10 rounds, and results go to a personal leaderboard.
+A single-player web game. The player sees clues about a mystery year and guesses it. Four clues per year (Politics, Society, Technology, Arts & Culture). One is free; each extra clue costs more points. Closer guesses score more, on a log scale. Tolerance scales with how long ago the year was: recent years are scored strictly, ancient years kindly. Consecutive accurate rounds build a streak bonus. A session is 10 rounds, and results go to a personal leaderboard.
 
 
 ## Source of truth
@@ -37,28 +37,50 @@ Config values for v1:
 | REVEAL_COSTS | [100, 200, 300] |
 | SCALE_S | 0.5 |
 | MAX_DISTANCE | 500 |
+| ERA_REFERENCE_YEAR | 2026 |
+| ERA_REFERENCE_AGE | 500 |
+| ERA_EXPONENT | 0.5 |
+| ERA_MIN_TOLERANCE | 0.1 |
+| STREAK_BONUS_STEP | 0.10 (0 switches streaks off) |
+| STREAK_BONUS_CAP | 0.30 |
+| STREAK_HIT_ACCURACY | 0.55 |
+| STREAK_HOLD_ACCURACY | 0.30 |
 | YEAR_MIN / YEAR_MAX | -3000 / 2026 |
 | MAX_BCE_GUESS | 9999 |
 | LEADERBOARD_SIZE | 10 |
-| CONFIG_VERSION | 1 |
+| CONFIG_VERSION | 2 (scoring changed in v1.1) |
 
 ## Scoring (do not change without asking)
 
 ```
-accuracy(d) = max(0, 1 - ln(1 + d / s) / ln(1 + D / s))     s = 0.5, D = 500
-roundScore  = round(potential × accuracy(d))
-potential   = 1000, 900, 700, 400 after 1, 2, 3, 4 clues
+T(y)          = max(ERA_MIN_TOLERANCE, ((ERA_REFERENCE_YEAR - y) / ERA_REFERENCE_AGE) ^ ERA_EXPONENT)
+accuracy(d,y) = max(0, 1 - ln(1 + d / (s * T(y))) / ln(1 + D / s))     s = 0.5, D = 500
+roundScore    = round(potential × accuracy(d,y) × streakMultiplier)
+potential     = 1000, 900, 700, 400 after 1, 2, 3, 4 clues
 ```
 
-`d` is the absolute number of years off. A session is the sum of 10 rounds (max 10,000). No bonuses in v1.
+`d` is the absolute number of years off. `y` is the answer year (never the guess), so the guess cannot change `T`. `T` changes smoothly with the answer's age: T = 1 at 1526, about 0.39 at 1950, 0.11 at 2020 (floor 0.1), about 2.1 at 180 BCE. The zero-score distance is D × T. `ERA_REFERENCE_YEAR` is a fixed constant, never today's date. An exact guess always scores the full potential.
 
-Unit-test these values:
+Streak:
 
-- Exact guess, 1 clue: 1000
-- 10 years off, 1 clue: 559
-- 100 years off, 1 clue: 232
-- 10 years off, 4 clues: 224
-- 500 or more years off: 0
+- Hit: accuracy of `STREAK_HIT_ACCURACY` (0.55) or more extends the streak by 1. Near miss: accuracy from `STREAK_HOLD_ACCURACY` (0.30) up to 0.55 holds it. Below 0.30 resets it to 0. Judged on accuracy, not clues used.
+- `streakMultiplier = 1 + min(n × STREAK_BONUS_STEP, STREAK_BONUS_CAP)`, where n is the streak entering the round. Round 1 is always ×1.0. A streak never carries between sessions.
+- Show the multiplier before the player guesses. The summary shows base score, streak bonus and longest streak separately. Save `streakBonus` and `longestStreak` with each result.
+- Round the final round score once, after the multiplier. Max session score is 10,000 base, 12,400 with a full streak.
+- Header chip: a line flame icon (no emoji) plus "Streak 2 · +20%". Three states: none (grey outline), building (gold tint), capped (dark gold fill, white text). The result screen says what happened: "Streak extended to 4. Next round: +30%.", "Near miss. Streak held at 3.", "Streak lost. Next round: no bonus."
+
+Unit-test these values (1 clue, no streak unless stated):
+
+- Exact guess, any year: 1000 (check 2020, 1526 and 480 BCE)
+- Answer 1526 (T = 1): 10 years off = 559, 100 = 232, 500 or more = 0; 4 clues, 10 years off = 224
+- Answer 2020: 1 year off = 572, 10 = 246, 50 = 13, 55 or more = 0
+- Answer 1950: 10 years off = 427. Answer 1650: 10 years off = 540
+- Answer 180 BCE (-179, T about 2.10): 10 years off = 659, 50 = 438, 100 = 339, 1,050 or more = 0
+- Answer 1000 CE: 100 years off = 284. Answer 480 BCE (-479): 100 years off = 348
+- Streak on an exact 1526 guess: streak 0 = 1000, 1 = 1100, 2 = 1200, 3 or more = 1300. 10 years off at streak 3 = 727
+- Streak transitions: accuracy 0.55 extends, 0.30 holds, 0.29 resets. Ten exact one-clue rounds = 12,400
+
+The round result screen states the tolerance when it is not 1 (for example "Recent year: tolerance ×0.11", "Ancient year: tolerance ×2.1").
 
 ## Content rules
 
@@ -86,6 +108,7 @@ Calm, professional and slightly classical, inspired by the Civilization games. N
 | Text | `#1A1A1A` |
 | Muted text | `#5E5E5E` |
 | Gold rules | `#CBB98A`, `#DDD3B8` |
+| Streak gold | base `#B07D1A`, text `#6E4F0E`, tint `#F7EBCB`, border `#DDC48A`, capped fill `#7A560F` |
 | Font | Lora (Google Fonts), then Georgia, serif |
 
 | Category | Base (icons, fills) | Dark (text) | Tint (header) | Border |
@@ -109,6 +132,6 @@ Calm, professional and slightly classical, inspired by the Civilization games. N
 ## How to work
 
 1. Build in the five milestones from the spec. Make a plan first, and stop after each milestone for review.
-2. Write tests alongside the code. Run lint, type checks and tests before saying a milestone is done.
-3. Do not add features beyond the spec. Out of scope for v1: multiplayer, global leaderboard, daily challenge, accounts, timers, themed packs. Ask first.
+2. Write tests alongside the code, including the tolerance and streak values above. Run lint, type checks and tests before saying a milestone is done.
+3. Do not add features beyond the spec. Out of scope for v1: streak carry-over between sessions, multiplayer, global leaderboard, daily challenge, accounts, timers, themed packs. Ask first.
 4. Keep commits small, with clear messages.
