@@ -55,7 +55,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 
 **Category note.** Zheng He's fleet (1405) is filed under Technology as a feat of shipbuilding. Move it to Politics if you prefer, but then that year needs a new Technology clue.
 
-## [ ] 458 BCE (stored as -457)
+## [x] 458 BCE (stored as -457)
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -116,7 +116,7 @@ Arts & Culture has no exact-year clue yet. **Pick one option below.**
 | B | Epicurus buys a house with a garden in Athens and founds his school there, which becomes known simply as the Garden. | The school taught that the aim of life is calm pleasure. It admitted women and slaves, which was unusual. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Epicurus) | Six years later (306 BCE). |
 | C | Zeno of Citium begins teaching in the painted colonnade of Athens, and his followers become known as Stoics. | The Stoics took their name from the colonnade, the Stoa. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Zeno_of_Citium) | About eleven years later (about 301 BCE). |
 
-## [ ] 280 BCE (stored as -279)
+## [x] 280 BCE (stored as -279)
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -162,7 +162,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | A | After a bloody war in Kalinga, the Mauryan emperor Ashoka turns to Buddhism and begins to rule by his Dhamma. | Ashoka's rock edicts describe his remorse over the deaths in Kalinga. He later sent missions to spread Buddhism abroad. | South Asia | 2 | [link](https://en.wikipedia.org/wiki/Ashoka) | About one year earlier (about 261 BCE); the dating varies. |
 | B | After the battle of Changping, the winning Qin general has huge numbers of surrendered Zhao soldiers executed. | The page says hundreds of thousands, a figure from a single source that is probably exaggerated. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Battle_of_Changping) | Exact year, but it is the same event as the Politics clue, so you would need to change that one. |
 
-## [ ] 132 CE
+## [x] 132 CE
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -171,7 +171,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | The Chinese court astronomer Zhang Heng builds a bronze seismoscope, decorated with dragons and toads, that senses distant earthquakes. | A pendulum inside the vessel made a ball drop from a dragon's mouth into a toad's, which showed the direction of the quake. He served the Han court at Luoyang. The date is traditional. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Zhang_Heng) |
 | Arts & Culture | The Temple of Olympian Zeus in Athens, begun more than six centuries earlier, is finished at last under the emperor Hadrian. | Work began under the Athenian tyrant Peisistratos and then stopped for centuries. Hadrian dedicated the finished temple. Some sources give the year before. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens) |
 
-## [ ] 678
+## [x] 678
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -180,7 +180,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | Byzantine ships burn an Arab fleet off Sillyon with Greek fire, a flammable liquid sprayed at the enemy through tubes. | The victory helped end the Arab siege of Constantinople. The recipe was a closely guarded state secret and is now lost. Its first use may fall a few years earlier, and the dating of Sillyon is uncertain. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Greek_fire) |
 | Arts & Culture | The monk Uisang is traditionally said to found Beomeosa, a Buddhist temple, under King Munmu of the Korean kingdom of Silla. | The temple stands on Geumjeong mountain, in the modern city of Busan, and is still active. The founding date is traditional. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Beomeosa) |
 
-## [ ] 1088
+## [x] 1088
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -189,7 +189,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | In Kaifeng, Su Song builds a model of his water-driven astronomical clock tower, with an escapement and a chain drive. | The chain drive is the oldest known way of transmitting power. The finished tower, built a few years later, turned an armillary sphere and had mechanical figures that showed the hours on plaques. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Su_Song) |
 | Arts & Culture | The Chinese scholar Shen Kuo writes the Dream Pool Essays, notes that record the magnetic compass and movable type. | The book also covers astronomy, geology and optics. The date of the finished text is approximate. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Dream_Pool_Essays) |
 
-## [ ] 1161
+## [x] 1161
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -198,7 +198,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | At Caishi on the Yangtze, Song paddle-wheel warships and gunpowder bombs smash a larger Jin fleet. | Chinese accounts say the bombs were thrown by trebuchets and burst with a loud noise and a cloud of lime. The defeat helped end the Jin emperor's invasion, and his own officers killed him weeks later. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Battle_of_Caishi) |
 | Arts & Culture | The jeweller Lazar Bohsha makes a jewelled cross for Euphrosyne of Polotsk, later one of Belarus's great lost treasures. | The cross held relics and was kept for centuries. It disappeared during the Second World War and has never been found. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Euphrosyne_of_Polotsk) |
 
-## [ ] 1232
+## [x] 1232
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -207,7 +207,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | Defenders of Kaifeng hurl iron bombs packed with gunpowder, the thunder-crash bombs, at the besieging Mongols. | The Jin History records blasts that killed attackers, and the defenders also used fire lances. The Mongols broke off the siege after several weeks but took the city the next year. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Siege_of_Kaifeng) |
 | Arts & Culture | Mongol invaders burn the wooden printing blocks of the Tripitaka Koreana, Korea's first great set of Buddhist scriptures. | The blocks were kept at Buin Temple near Daegu. Korea carved a second set in the following decades. It survives at Haeinsa temple and is a World Heritage site. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Tripitaka_Koreana) |
 
-## [ ] 1274
+## [x] 1274
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -216,7 +216,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | Mongol-led invaders land at Hakata Bay in Japan and hurl exploding bombs at the samurai before a storm wrecks their fleet. | The fleet had first taken Tsushima and Iki. A later scroll painting shows samurai under the blasts. Sources say about thirteen thousand of thirty thousand men did not return. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan) |
 | Arts & Culture | In Florence, nine-year-old Dante Alighieri first sees Beatrice Portinari, who later guides him through Paradise. | Dante wrote that he saw her in the spring and loved her for life, though they hardly spoke. He made her his guide in the Divine Comedy. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Beatrice_Portinari) |
 
-## [ ] 1288
+## [x] 1288
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -225,7 +225,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | Yuan soldiers use a small bronze hand cannon, the oldest known, to put down the rebellion of the Mongol prince Nayan in Manchuria. | The gun was found at Acheng, in Heilongjiang province. Its date comes from the fighting it is linked to, so it is approximate. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Heilongjiang_hand_cannon) |
 | Arts & Culture | Work begins on Mob Quad at Merton College, Oxford, which becomes the oldest quadrangle in the university. | Work went on for decades, and the quadrangle is still part of the college today. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Mob_Quad) |
 
-## [ ] 1324
+## [x] 1324
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -234,7 +234,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | During the siege of Metz, in Lorraine, the attackers fire cannon at the city walls, a weapon described at the time as new. | The siege began in September and the attackers withdrew by the end of the month. Whether this was really the first use of cannon in Europe is debated. | Europe | 3 | [link](https://en.wikipedia.org/wiki/1324) |
 | Arts & Culture | The Consistori del Gay Saber, a society of troubadour poets in Toulouse, holds its first poetry contest and awards a golden violet. | The first prize went to the poet Arnaut Vidal. The contest became the Jeux floraux, which is still held today. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Consistori_del_Gay_Saber) |
 
-## [ ] 1346
+## [x] 1346
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -243,7 +243,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | At Crécy the English reportedly fire cannon at the French, said to be Europe's first gunpowder battle, but longbows win it. | Historians dispute how many guns were used and whether they mattered. The French lost many nobles, including the blind King John of Bohemia, who fought as their ally. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Battle_of_Cr%C3%A9cy) |
 | Arts & Culture | Part of the great dome of Hagia Sophia in Constantinople collapses, and the Byzantines begin a long repair. | Earthquakes had weakened the structure. The repair took years, and the church had already stood for over seven centuries. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Hagia_Sophia) |
 
-## [ ] 1405
+## [x] 1405
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -252,7 +252,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | Admiral Zheng He sets sail from Suzhou with more than three hundred ships, the first Ming treasure fleet to cross the Indian Ocean. | The fleet left in July with about twenty-seven thousand men. It went as far as India, and later voyages reached East Africa. The size of the ships is debated. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Zheng_He) |
 | Arts & Culture | Christine de Pizan, an Italian-born writer at the French court, finishes The Book of the City of Ladies, defending women against insults. | She was one of the first women in Europe to earn her living as a writer. She imagined an allegorical city built and ruled by famous women. | Europe | 3 | [link](https://en.wikipedia.org/wiki/The_Book_of_the_City_of_Ladies) |
 
-## [ ] 1423
+## [x] 1423
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -261,7 +261,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | Venice sets up the first permanent plague hospital on an island in its lagoon, to keep the sick apart from the city. | It stood on the island of Santa Maria di Nazareth, which gave the word lazaretto its name. Other cities copied the idea of isolating the sick and quarantining ships. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Lazzaretto_Vecchio) |
 | Arts & Culture | Giovanni Aurispa arrives in Venice from Byzantium with over two hundred Greek manuscripts, the largest collection yet. | He had spent about two years collecting them. Scholars in Italy were eager for ancient Greek texts. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Giovanni_Aurispa) |
 
-## [ ] 1436
+## [x] 1436
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -270,7 +270,7 @@ Society has no exact-year clue yet. **Pick one option below.**
 | Technology | Johannes Gutenberg, working in Strasbourg, begins the experiments with metal type that lead to the printing press. | The date is approximate. Gutenberg's workshop in Mainz printed his famous Bible about twenty years later. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Johannes_Gutenberg) |
 | Arts & Culture | Pope Eugene IV consecrates Florence Cathedral, topped by Brunelleschi's finished dome, the largest brick dome ever built. | It happened on the twenty-fifth of March. The dome was built without wooden supports, and the lantern on top came later. Guillaume Dufay's motet for the occasion was sung at the ceremony. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Florence_Cathedral) |
 
-## [ ] 1469
+## [x] 1469
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |

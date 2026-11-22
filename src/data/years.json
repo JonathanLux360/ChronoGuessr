@@ -45,6 +45,96 @@
     }
   },
   {
+    "year": -457,
+    "clues": {
+      "politics": [
+        {
+          "text": "Cincinnatus, called from his farm to be dictator of Rome, beats the Aequi at Mount Algidus and then resigns his office.",
+          "context": "Livy says he gave up power sixteen days after the battle and went back to his plough. The story is partly legend, and he became a Roman model of civic duty.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Cincinnatus",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Athens opens its top office, the archonship, to poorer citizens, extending the democratic reforms of Ephialtes.",
+          "context": "The archonship had been limited to the wealthy. The year page credits Pericles, but the reform is often dated a year later.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Pericles",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "Athenians begin building the Long Walls, which link their city to its port of Piraeus to protect its food supply.",
+          "context": "The walls let Athens hold out against a siege as long as its navy kept the sea route open. Construction took several years.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Long_Walls",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Aeschylus presents the Oresteia, the only complete Greek tragic trilogy to survive, at the Athenian festival of Dionysus.",
+          "context": "The three plays are Agamemnon, The Libation Bearers and The Eumenides, which end with the founding of a court in Athens. Aeschylus died a few years later in Sicily.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Oresteia",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": -279,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Qin general Sima Cuo marches through Bashu and conquers part of the state of Chu in western Qianzhong.",
+          "context": "Qin kept gaining ground on its rivals and went on to unify China within two generations.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/280_BC",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "The Roman envoy Fabricius refuses a bribe from Pyrrhus, and Pyrrhus frees Roman prisoners without ransom.",
+          "context": "Later writers made Fabricius a model of Roman honesty. The exchange followed the battle of Heraclea.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Gaius_Fabricius_Luscinus",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "At Heraclea, Pyrrhus's war elephants terrify the Roman horses and help him win, the first time Romans faced them.",
+          "context": "Pyrrhus won but lost many men. The Romans later learned to defeat elephants with fire and javelins.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Heraclea",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Colossus of Rhodes, a bronze statue of the sun god Helios over thirty metres tall, is finished after about twelve years.",
+          "context": "The sculptor was Chares of Lindos. The statue stood for only about half a century before an earthquake brought it down.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
     "year": -220,
     "clues": {
       "politics": [
@@ -180,6 +270,456 @@
     }
   },
   {
+    "year": 132,
+    "clues": {
+      "politics": [
+        {
+          "text": "Simon bar Kokhba leads a Jewish revolt against Emperor Hadrian and Roman rule in Judea, and briefly sets up an independent state.",
+          "context": "The revolt lasted about three years. Hadrian's legions crushed it, and Rome then renamed the province Syria Palaestina.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Bar_Kokhba_revolt",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Merchants, innkeepers and craftsmen build villages outside the forts of Hadrian's Wall to serve the Roman soldiers.",
+          "context": "Such civilian settlements, called vici, grew beside the forts. The source dates this only to the year, so check it.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Hadrian%27s_Wall",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Chinese court astronomer Zhang Heng builds a bronze seismoscope, decorated with dragons and toads, that senses distant earthquakes.",
+          "context": "A pendulum inside the vessel made a ball drop from a dragon's mouth into a toad's, which showed the direction of the quake. He served the Han court at Luoyang. The date is traditional.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Zhang_Heng",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Temple of Olympian Zeus in Athens, begun more than six centuries earlier, is finished at last under the emperor Hadrian.",
+          "context": "Work began under the Athenian tyrant Peisistratos and then stopped for centuries. Hadrian dedicated the finished temple. Some sources give the year before.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 678,
+    "clues": {
+      "politics": [
+        {
+          "text": "Pope Agatho is the first pope to stop paying a tribute to the Byzantine emperor Constantine IV on being elected.",
+          "context": "Agatho succeeded Donus in the spring. The payment had long reflected the emperor's hold over Rome, so stopping it was a sign of the papacy's growing independence.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Pope_Agatho",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Emperor Tenmu's daughter Princess Tōchi, chosen as priestess to the gods, dies days before a planned sacrifice.",
+          "context": "Tenmu had planned a national ritual to honour the gods of heaven and earth, and had to cancel the sacrifice. She was buried about a week later, possibly at Akō.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Princess_T%C5%8Dchi",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "Byzantine ships burn an Arab fleet off Sillyon with Greek fire, a flammable liquid sprayed at the enemy through tubes.",
+          "context": "The victory helped end the Arab siege of Constantinople. The recipe was a closely guarded state secret and is now lost. Its first use may fall a few years earlier.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Greek_fire",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The monk Uisang is traditionally said to found Beomeosa, a Buddhist temple, under King Munmu of the Korean kingdom of Silla.",
+          "context": "The temple stands on Geumjeong mountain, in the modern city of Busan, and is still active. The founding date is traditional.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Beomeosa",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1088,
+    "clues": {
+      "politics": [
+        {
+          "text": "William Rufus crushes a revolt led by his uncle, Bishop Odo of Bayeux, after sieges at Pevensey and Rochester castles.",
+          "context": "Odo was the Conqueror's half-brother. Rufus took his lands and sent him into exile in Normandy. Nobles across England had joined the revolt.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Odo_of_Bayeux",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "The University of Bologna is founded, by later tradition, and goes on to be the oldest university still teaching today.",
+          "context": "The date was fixed centuries afterwards, when scholars marked the university's anniversary. Bologna began as a centre for teaching law.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/University_of_Bologna",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "In Kaifeng, Su Song builds a model of his water-driven astronomical clock tower, with an escapement and a chain drive.",
+          "context": "The chain drive is the oldest known way of transmitting power. The finished tower, built a few years later, turned an armillary sphere and had mechanical figures that showed the hours on plaques.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Su_Song",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Chinese scholar Shen Kuo writes the Dream Pool Essays, notes that record the magnetic compass and movable type.",
+          "context": "The book also covers astronomy, geology and optics. The date of the finished text is approximate.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Dream_Pool_Essays",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1161,
+    "clues": {
+      "politics": [
+        {
+          "text": "Emperor Manuel Komnenos marries sixteen-year-old Maria of Antioch in the church of Hagia Sophia in Constantinople.",
+          "context": "Maria was a princess from the Crusader state of Antioch. Their son, Alexios the Second, became emperor as a boy and was murdered as a young teenager.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Maria_of_Antioch",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Edward the Confessor, who rebuilt Westminster Abbey, is declared a saint by Pope Alexander the Third.",
+          "context": "The canonisation was in January, nearly a century after his death. His body was later moved to a new shrine in the abbey.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Edward_the_Confessor",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "At Caishi on the Yangtze, Song paddle-wheel warships and gunpowder bombs smash a larger Jin fleet.",
+          "context": "Chinese accounts say the bombs were thrown by trebuchets and burst with a loud noise and a cloud of lime. The defeat helped end the Jin emperor's invasion, and his own officers killed him weeks later.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Caishi",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The jeweller Lazar Bohsha makes a jewelled cross for Euphrosyne of Polotsk, later one of Belarus's great lost treasures.",
+          "context": "The cross held relics and was kept for centuries. It disappeared during the Second World War and has never been found.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Euphrosyne_of_Polotsk",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1232,
+    "clues": {
+      "politics": [
+        {
+          "text": "Muhammad I is elected ruler of Arjona in Spain and founds the Nasrid dynasty, the last Muslim rulers of Iberia.",
+          "context": "He had rebelled against Ibn Hud. He later took Granada and began building the Alhambra. His dynasty lasted until the end of the fifteenth century.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Muhammad_I_of_Granada",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Troyes issues the first recorded life annuities, a way for a town to raise money by borrowing from its citizens.",
+          "context": "A buyer paid a lump sum and received payments for life. Reims had started the trend of public borrowing some years earlier.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1232",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "Defenders of Kaifeng hurl iron bombs packed with gunpowder, the thunder-crash bombs, at the besieging Mongols.",
+          "context": "The Jin History records blasts that killed attackers, and the defenders also used fire lances. The Mongols broke off the siege after several weeks but took the city the next year.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Siege_of_Kaifeng",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Mongol invaders burn the wooden printing blocks of the Tripitaka Koreana, Korea's first great set of Buddhist scriptures.",
+          "context": "The blocks were kept at Buin Temple near Daegu. Korea carved a second set in the following decades. It survives at Haeinsa temple and is a World Heritage site.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Tripitaka_Koreana",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1274,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Marinid sultan Abu Yusuf Yaqub enters Ceuta peacefully, ending about four decades of local independence.",
+          "context": "Ceuta lies on the North African coast across the strait from Spain. The source gives no date within the year.",
+          "region": "Africa",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Ceuta",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Edward I orders a great survey of land and landholders in England, later known as the Hundred Rolls.",
+          "context": "Royal commissioners asked each hundred who held land and what rights the crown had lost. It is often compared with the Domesday survey.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Hundred_Rolls",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "Mongol-led invaders land at Hakata Bay in Japan and hurl exploding bombs at the samurai before a storm wrecks their fleet.",
+          "context": "The fleet had first taken Tsushima and Iki. A later scroll painting shows samurai under the blasts. Sources say about thirteen thousand of thirty thousand men did not return.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "In Florence, nine-year-old Dante Alighieri first sees Beatrice Portinari, who later guides him through Paradise.",
+          "context": "Dante wrote that he saw her in the spring and loved her for life, though they hardly spoke. He made her his guide in the Divine Comedy.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Beatrice_Portinari",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1288,
+    "clues": {
+      "politics": [
+        {
+          "text": "Trần Hưng Đạo's Vietnamese army sinks the Mongol-led fleet on the Bạch Đằng River, using iron-tipped stakes hidden in the riverbed.",
+          "context": "It was fought in April. The falling tide trapped the Yuan ships on the stakes. The defeat ended Kublai Khan's attempts to conquer Vietnam.",
+          "region": "Southeast Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(1288",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Bishop Petrus of Västerås buys an eighth of the Stora Kopparberg copper mine in Sweden, perhaps the oldest recorded company share.",
+          "context": "The deal was made in June. The mine's owners later formed the company now called Stora Enso. Historians debate whether it was a true share.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Stora_Enso",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "Yuan soldiers use a small bronze hand cannon, the oldest known, to put down the rebellion of the Mongol prince Nayan in Manchuria.",
+          "context": "The gun was found at Acheng, in Heilongjiang province. Its date comes from the fighting it is linked to, so it is approximate.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Heilongjiang_hand_cannon",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Work begins on Mob Quad at Merton College, Oxford, which becomes the oldest quadrangle in the university.",
+          "context": "Work went on for decades, and the quadrangle is still part of the college today.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Mob_Quad",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1324,
+    "clues": {
+      "politics": [
+        {
+          "text": "A plot by Emperor Go-Daigo's supporters to overthrow the Kamakura shogunate is uncovered in Kyoto, in the Shōchū Incident.",
+          "context": "Go-Daigo wanted to restore direct imperial rule. He escaped punishment this time, but his next attempt led to his exile and, in the end, to the fall of the shogunate.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Emperor_Go-Daigo",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Mansa Musa, emperor of Mali, reaches Cairo on his pilgrimage to Mecca, bringing so much gold that its value drops for years.",
+          "context": "He arrived in July. Writers in Cairo said he gave away so much gold that its price stayed low for over a decade. Accounts of the amounts vary.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Mansa_Musa",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "During the siege of Metz, in Lorraine, the attackers fire cannon at the city walls, a weapon described at the time as new.",
+          "context": "The siege began in September and the attackers withdrew by the end of the month. Whether this was really the first use of cannon in Europe is debated.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1324",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Consistori del Gay Saber, a society of troubadour poets in Toulouse, holds its first poetry contest and awards a golden violet.",
+          "context": "The first prize went to the poet Arnaut Vidal. The contest became the Jeux floraux, which is still held today.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Consistori_del_Gay_Saber",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1346,
+    "clues": {
+      "politics": [
+        {
+          "text": "Qazaghan, a Turkic amir, kills Kazan Khan, and the Chagatai Khanate stops being a single state in Central Asia.",
+          "context": "Afterwards amirs ruled the lands and khans were puppets. The source gives no date within the year.",
+          "region": "Central Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Amir_Qazaghan",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Ibn Battuta, a traveller from Morocco, reaches the Mongol-ruled Chinese capital in the middle of a civil war and riots.",
+          "context": "He had left home on a pilgrimage to Mecca about two decades earlier and kept travelling. His dictated book describes the Yuan court. The date of his arrival varies between sources.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Ibn_Battuta",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "At Crécy the English reportedly fire cannon at the French, said to be Europe's first gunpowder battle, but longbows win it.",
+          "context": "Historians dispute how many guns were used and whether they mattered. The French lost many nobles, including the blind King John of Bohemia, who fought as their ally.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Cr%C3%A9cy",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Part of the great dome of Hagia Sophia in Constantinople collapses, and the Byzantines begin a long repair.",
+          "context": "Earthquakes had weakened the structure. The repair took years, and the church had already stood for over seven centuries.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1405,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Central Asian conqueror Timur, known in the West as Tamerlane, dies at Otrar while leading his army to invade Ming China.",
+          "context": "He died in February, and sources differ on the exact day. His empire soon split between his son Shah Rukh and his grandson Khalil Sultan.",
+          "region": "Central Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Timur",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "The Annals of Clonmacnoise record a chieftain dying from too much aqua vitae, the earliest known written mention of whiskey.",
+          "context": "The chieftain was Richard Magranell. Aqua vitae means \"water of life\", and monks are thought to have distilled it in Ireland at that time. The record survives in a later translation.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Irish_whiskey",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "Admiral Zheng He sets sail from Suzhou with more than three hundred ships, the first Ming treasure fleet to cross the Indian Ocean.",
+          "context": "The fleet left in July with about twenty-seven thousand men. It went as far as India, and later voyages reached East Africa. The size of the ships is debated.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Zheng_He",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Christine de Pizan, an Italian-born writer at the French court, finishes The Book of the City of Ladies, defending women against insults.",
+          "context": "She was one of the first women in Europe to earn her living as a writer. She imagined an allegorical city built and ruled by famous women.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/The_Book_of_the_City_of_Ladies",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
     "year": 1420,
     "clues": {
       "politics": [
@@ -225,6 +765,51 @@
     }
   },
   {
+    "year": 1423,
+    "clues": {
+      "politics": [
+        {
+          "text": "Ashikaga Yoshimochi, the fourth shogun of Japan, steps down in favour of his son Yoshikazu.",
+          "context": "Yoshikazu was still a teenager. He died within two years, and Yoshimochi took control again.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Ashikaga_Yoshimochi",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Admiral Hong Bao, a deputy of Zheng He, returns to China after a voyage to the waters of Indonesia and the Philippines.",
+          "context": "Hong Bao was one of the eunuch admirals of the Ming treasure fleets. He returned in the autumn. Accounts of his route are debated.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Hong_Bao",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "Venice sets up the first permanent plague hospital on an island in its lagoon, to keep the sick apart from the city.",
+          "context": "It stood on the island of Santa Maria di Nazareth, which gave the word lazaretto its name. Other cities copied the idea of isolating the sick and quarantining ships.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Lazzaretto_Vecchio",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Giovanni Aurispa arrives in Venice from Byzantium with over two hundred Greek manuscripts, the largest collection yet.",
+          "context": "He had spent about two years collecting them. Scholars in Italy were eager for ancient Greek texts.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Giovanni_Aurispa",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
     "year": 1434,
     "clues": {
       "politics": [
@@ -264,6 +849,51 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1436,
+    "clues": {
+      "politics": [
+        {
+          "text": "Plague kills Imam al-Mansur Ali, ruler of the Zaidi state in Yemen, and his son and successor dies four weeks later.",
+          "context": "He died in February. The source gives plague as the cause.",
+          "region": "Middle East",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1436",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Under the child Zhengtong Emperor, Ming China lets farmers in the south pay much of their grain tax in silver instead of grain.",
+          "context": "The change is known as Gold Floral Silver. It helped make silver the main money of Ming China. The source dates it only to the year.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1436",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "Johannes Gutenberg, working in Strasbourg, begins the experiments with metal type that lead to the printing press.",
+          "context": "The date is approximate. Gutenberg's workshop in Mainz printed his famous Bible about twenty years later.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Pope Eugene IV consecrates Florence Cathedral, topped by Brunelleschi's finished dome, the largest brick dome ever built.",
+          "context": "It happened on the twenty-fifth of March. The dome was built without wooden supports, and the lantern on top came later. Guillaume Dufay's motet for the occasion was sung at the ceremony.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Florence_Cathedral",
           "verified": true
         }
       ]
@@ -362,6 +992,51 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Fra_Angelico",
+          "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1469,
+    "clues": {
+      "politics": [
+        {
+          "text": "Sultan Husayn Bayqara captures Herat, and under his rule the city becomes a centre of Persian painting and poetry.",
+          "context": "He took the city in March and ruled for nearly four decades. The painter Bihzad and the poet Jami worked at his court.",
+          "region": "Central Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Husayn_Bayqara",
+          "verified": true
+        }
+      ],
+      "society": [
+        {
+          "text": "Guru Nanak, the founder of Sikhism, is born in the village of Talwandi, in the Punjab.",
+          "context": "Talwandi is now Nankana Sahib, in Pakistan. Most Sikhs celebrate his birthday in November, but some old accounts give a spring date, so the day is traditional.",
+          "region": "South Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Guru_Nanak",
+          "verified": true
+        }
+      ],
+      "technology": [
+        {
+          "text": "The German printer Johann of Speyer sets up the first printing press in Venice, and is granted a five-year monopoly on printing there.",
+          "context": "He printed Cicero's letters and Pliny's Natural History. He died the next year, and the monopoly ended.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Johannes_de_Spira",
+          "verified": true
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Florentine scholar Marsilio Ficino finishes translating the complete works of Plato from Greek into Latin for the Medici.",
+          "context": "Cosimo de' Medici had commissioned the work, and the family gave Ficino a villa to do it in. Sources put the finish at about this year.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Marsilio_Ficino",
           "verified": true
         }
       ]
