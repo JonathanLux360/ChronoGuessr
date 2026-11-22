@@ -180,6 +180,141 @@
     }
   },
   {
+    "year": -211,
+    "clues": {
+      "politics": [
+        {
+          "text": "Conspirators in the southern Italian city of Tarentum let Hannibal's army in, and the Carthaginian general takes the city.",
+          "context": "Tarentum had been a Roman ally. Rome kept hold of the citadel and won the city back a few years later.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Tarentum_(212_BC)",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Rome elects Publius Licinius Crassus as its chief priest, the pontifex maximus, an office he will hold for nearly thirty years.",
+          "context": "The pontifex maximus led Rome's state religion and kept its calendar. Crassus was a rich noble and held the post until his death.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Publius_Licinius_Crassus_Dives",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Romans under Marcellus take Syracuse, which had held them off with Archimedes' catapults, cranes and ship-lifting claws.",
+          "context": "The claw was a crane-like arm that lifted ships and dropped them. The siege began the year before. Archimedes was killed in the sack, on a date that is uncertain.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Siege_of_Syracuse_(213%E2%80%93212_BC)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Qin Shi Huang, the first emperor of China, begins work on the vast Epang Palace near his capital.",
+          "context": "The palace was never finished. A later tradition says the rebel Xiang Yu burned it down, but historians doubt the story.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Epang_Palace",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": -51,
+    "clues": {
+      "politics": [
+        {
+          "text": "Julius Caesar storms the Gallic town of Avaricum after a hard siege, and his legionaries slaughter its people.",
+          "context": "Avaricum is now Bourges in France. It fell in March, during the Gallic revolt led by Vercingetorix. Caesar's own account says almost no one inside escaped.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Avaricum",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Publius Clodius Pulcher, a popular Roman politician, is murdered on the Appian Way by the followers of his rival Milo.",
+          "context": "It happened in January. His death set off riots in Rome, and Milo was later put on trial for it.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Publius_Clodius_Pulcher",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Caesar's army digs two huge rings of siege works around Alesia, trapping Vercingetorix inside and holding off a Gallic relief army.",
+          "context": "One ring faced the town and the other faced outwards, with trenches, towers and forts. It was fought in the autumn. Archaeologists doubt the lines were unbroken.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Alesia",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Roman orator Cicero rises to defend Milo on a murder charge, but the crowd and soldiers rattle him and the defence fails.",
+          "context": "Cicero later wrote out the speech he wished he had given. It became a model of Latin oratory. Milo went into exile.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Pro_Milone",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": -30,
+    "clues": {
+      "politics": [
+        {
+          "text": "Octavian ferries his legions across the sea to Greece to fight Mark Antony, while his friend Agrippa takes command of the fleet.",
+          "context": "It opened the last war of the Roman civil wars. Antony had Cleopatra of Egypt as his ally.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/31_BC",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A violent earthquake strikes Judea, killing many people and wrecking buildings in the lands ruled by King Herod.",
+          "context": "The Jewish historian Josephus describes it, and geologists have found traces of it around the Dead Sea.",
+          "region": "Middle East",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/31_BC_Judea_earthquake",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "In a great sea battle off Greece, Octavian's admiral Agrippa uses a catapult-fired grapnel, the harpax, to snare and board Antony's ships.",
+          "context": "The battle was Actium, fought in September. Antony's ships were bigger, but Octavian's smaller ships were quicker. Antony and Cleopatra fled.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Actium",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "In southern India, the poet Tiruvalluvar is born, by Tamil tradition. He will write the Tirukkural, a famous book of couplets on ethics.",
+          "context": "This date is traditional, and historians place him much later. The Tamil Thiruvalluvar calendar still counts its years from it.",
+          "region": "South Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Tiruvalluvar",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": -18,
     "clues": {
       "politics": [
