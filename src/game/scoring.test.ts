@@ -131,3 +131,16 @@ describe('yearsOff', () => {
     expect(yearsOff(-43, 0)).toBe(43);
   });
 });
+
+describe('streak bands in whole years off (hit at accuracy 0.65, near miss from 0.45)', () => {
+  /** The most years off that still reaches the given accuracy. */
+  function reach(answer: number, minAccuracy: number): number {
+    let best = -1;
+    for (let d = 0; d < 3000; d++) if (accuracy(d, answer) >= minAccuracy) best = d;
+    return best;
+  }
+  it('keeps recent years tight and older years only a little wider', () => {
+    expect([2020, 1990, 1950, 1884, 1526, -179].map((y) => reach(y, 0.65))).toEqual([0, 2, 3, 5, 7, 9]);
+    expect([2020, 1990, 1950, 1884, 1526, -179].map((y) => reach(y, 0.45))).toEqual([2, 9, 15, 21, 33, 39]);
+  });
+});

@@ -20,7 +20,7 @@ function expectedRound(yearsOff: number, cluesShown: number, answer: number, str
   const tolerance = Math.max(0.1, (1.9 * age) / (age + 128));
   const accuracy = Math.max(0, 1 - Math.log(1 + yearsOff / (0.5 * tolerance)) / Math.log(1 + 500 / 0.5));
   const multiplier = 1 + Math.min(streak * 0.1, 0.3);
-  const nextStreak = accuracy >= 0.55 ? streak + 1 : accuracy >= 0.3 ? streak : 0;
+  const nextStreak = accuracy >= 0.65 ? streak + 1 : accuracy >= 0.45 ? streak : 0;
   return { score: Math.round(potential * accuracy * multiplier), multiplier, nextStreak };
 }
 

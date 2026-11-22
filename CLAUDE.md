@@ -44,12 +44,12 @@ Config values for v1:
 | ERA_NAMES | ancient, medieval, early modern, modern (only for the result-screen note) |
 | STREAK_BONUS_STEP | 0.10 (0 switches streaks off) |
 | STREAK_BONUS_CAP | 0.30 |
-| STREAK_HIT_ACCURACY | 0.55 |
-| STREAK_HOLD_ACCURACY | 0.30 |
+| STREAK_HIT_ACCURACY | 0.65 |
+| STREAK_HOLD_ACCURACY | 0.45 |
 | YEAR_MIN / YEAR_MAX | -3000 / 2026 |
 | MAX_BCE_GUESS | 9999 |
 | LEADERBOARD_SIZE | 10 |
-| CONFIG_VERSION | 3 (scoring changed in v1.1 and again with the tolerance curve) |
+| CONFIG_VERSION | 4 (scoring changed in v1.1, with the tolerance curve, and with the streak bands) |
 
 ## Scoring (do not change without asking)
 
@@ -65,7 +65,8 @@ potential     = 1000, 900, 700, 400 after 1, 2, 3, 4 clues
 
 Streak:
 
-- Hit: accuracy of `STREAK_HIT_ACCURACY` (0.55) or more extends the streak by 1. Near miss: accuracy from `STREAK_HOLD_ACCURACY` (0.30) up to 0.55 holds it. Below 0.30 resets it to 0. Judged on accuracy, not clues used.
+- Hit: accuracy of `STREAK_HIT_ACCURACY` (0.65) or more extends the streak by 1. Near miss: accuracy from `STREAK_HOLD_ACCURACY` (0.45) up to 0.65 holds it. Below 0.45 resets it to 0. Judged on accuracy, not clues used.
+- In whole years off, a hit is within 0 years for 2020 (exact only), 3 for 1950, 5 for 1884, 7 for 1526 and 9 for 180 BCE. A near miss reaches 2, 15, 21, 33 and 39 years for the same answers.
 - `streakMultiplier = 1 + min(n × STREAK_BONUS_STEP, STREAK_BONUS_CAP)`, where n is the streak entering the round. Round 1 is always ×1.0. A streak never carries between sessions.
 - Show the multiplier before the player guesses. The summary shows base score, streak bonus and longest streak separately. Save `streakBonus` and `longestStreak` with each result.
 - Round the final round score once, after the multiplier. Max session score is 10,000 base, 12,400 with a full streak.
@@ -80,7 +81,7 @@ Unit-test these values (1 clue, no streak unless stated):
 - Answer 1650: 10 years off = 607. Answer 1526: 616. Answer 1000 CE: 10 years off = 631, 100 = 308
 - Answer 180 BCE (-179, T about 1.80): 10 years off = 639, 50 = 416, 100 = 317, 895 or more = 0. Answer 480 BCE (-479): 10 years off = 640, 100 = 317
 - Streak on an exact guess: streak 0 = 1000, 1 = 1100, 2 = 1200, 3 or more = 1300. 10 years off at streak 3 (answer 1884) = 727
-- Streak transitions: accuracy 0.55 extends, 0.30 holds, 0.29 resets. Ten exact one-clue rounds = 12,400
+- Streak transitions: accuracy 0.65 extends, 0.45 holds, 0.44 resets. Ten exact one-clue rounds = 12,400
 
 When the tolerance is not about 1, the round result screen says how strictly the round was graded, as a percentage against a tolerance of 1 (|T - 1|), for example "This is a modern year, so it was graded 58% more harshly than average." ("leniently" for old years; the era name is ancient, medieval, early modern or modern.)
 

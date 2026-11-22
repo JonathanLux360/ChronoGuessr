@@ -28,9 +28,9 @@ export const STREAK_BONUS_STEP = 0.1;
 /** Largest streak bonus (0.3 is +30%). */
 export const STREAK_BONUS_CAP = 0.3;
 /** Accuracy at or above this extends the streak by one. */
-export const STREAK_HIT_ACCURACY = 0.55;
+export const STREAK_HIT_ACCURACY = 0.65;
 /** Accuracy from here up to the hit line holds the streak. Lower resets it to 0. */
-export const STREAK_HOLD_ACCURACY = 0.3;
+export const STREAK_HOLD_ACCURACY = 0.45;
 /** Earliest year the content pool may cover (BCE years are negative: 1 BCE is 0, so 3001 BCE is -3000). */
 export const YEAR_MIN = -3000;
 /** Latest year the player can guess (CE). */
@@ -41,7 +41,7 @@ export const MAX_BCE_GUESS = 9999;
 export const GUESS_YEAR_MIN = 1 - MAX_BCE_GUESS;
 export const LEADERBOARD_SIZE = 10;
 /** Bump when scoring rules change. */
-export const CONFIG_VERSION = 3;
+export const CONFIG_VERSION = 4;
 
 export const CLUE_CATEGORIES = ['politics', 'society', 'technology', 'arts_culture'] as const;
 export const MAX_CLUE_LENGTH = 140;

@@ -138,21 +138,36 @@ Scores in the table are for one clue (1,000 potential points) and no streak. The
 
 | Round result | Accuracy A | Streak after the round |
 | --- | --- | --- |
-| Hit | 0.55 or more | Up by 1 |
-| Near miss | 0.30 to 0.55 | Held (unchanged) |
-| Miss | below 0.30 | Reset to 0 |
+| Hit | 0.65 or more | Up by 1 |
+| Near miss | 0.45 to 0.65 | Held (unchanged) |
+| Miss | below 0.45 | Reset to 0 |
 
 ```latex
 m = 1 + \min(n \times 0.10,\; 0.30)
 ```
 
 - n is the number of hits in a row entering the round. m multiplies the round score, and round 1 is always ×1.0. A streak never carries from one session to the next.
-- A hit is judged on accuracy, not on clues used, so a hit after four reveals still counts. Accuracy includes the era tolerance, so a hit means within about 1 year for 2020, 8 for 1950, 11 for 1884, 16 for 1526 and 19 for 180 BCE.
+- A hit is judged on accuracy, not on clues used, so a hit after four reveals still counts. Accuracy includes the era tolerance, so the bands grow with the answer's age (table below). A hit is within about 5.1 × T years and a near miss within about 21.8 × T.
 - The multiplier is shown before the player guesses, so it works as a stake.
 - The bonus is capped at +30% (a streak of three or more). Ten exact one-clue guesses reach 12,400.
 - Why a cap: without one, a single miss on a long streak would cost more than all four reveals, so every player would buy every clue. At +30% a miss costs roughly the price of one to three reveals, which keeps buying a clue a real decision.
 - Display: a flame line icon (no emoji) in a gold chip in the round header, for example "Streak 2 · +20%". Three states: no streak (grey outline), building (gold tint), capped (dark gold fill, white text). The summary shows base score, streak bonus and longest streak separately.
 - Colours: streak gold `#B07D1A`, dark text `#6E4F0E`, tint `#F7EBCB`, border `#DDC48A`, capped fill `#7A560F`.
+
+Streak bands in whole years off (the most years off that still counts):
+
+| Answer year | T | Hit (streak +1) | Near miss (streak held) | Miss (streak resets) |
+| --- | --- | --- | --- | --- |
+| 2020 | 0.10 | exact only | 1 to 2 | 3 and over |
+| 1990 | 0.42 | up to 2 | 3 to 9 | 10 and over |
+| 1950 | 0.71 | up to 3 | 4 to 15 | 16 and over |
+| 1900 | 0.94 | up to 4 | 5 to 20 | 21 and over |
+| 1884 | 1.00 | up to 5 | 6 to 21 | 22 and over |
+| 1800 | 1.21 | up to 6 | 7 to 26 | 27 and over |
+| 1526 | 1.51 | up to 7 | 8 to 33 | 34 and over |
+| 1000 | 1.69 | up to 8 | 9 to 36 | 37 and over |
+| 180 BCE | 1.80 | up to 9 | 10 to 39 | 40 and over |
+
 
 ## Content and data model
 
@@ -323,12 +338,12 @@ Keep game logic pure and separate from React. Scoring and session state should b
 | ERA\_NAMES | ancient, medieval, early modern, modern | Era names for the result-screen note (cut-offs at 500, 1500 and 1900) |
 | STREAK\_BONUS\_STEP | 0.10 | Bonus per hit in a row (0 switches streaks off) |
 | STREAK\_BONUS\_CAP | 0.30 | Largest streak bonus |
-| STREAK\_HIT\_ACCURACY | 0.55 | Accuracy that extends the streak |
-| STREAK\_HOLD\_ACCURACY | 0.30 | Accuracy that holds the streak; lower resets it |
+| STREAK\_HIT\_ACCURACY | 0.65 | Accuracy that extends the streak |
+| STREAK\_HOLD\_ACCURACY | 0.45 | Accuracy that holds the streak; lower resets it |
 | YEAR\_MIN / YEAR\_MAX | -3000 / 2026 | Earliest and latest year the content pool may hold (BCE years are negative), and the latest year the player can guess |
 | MAX\_BCE\_GUESS | 9999 | Furthest back the player can guess, in years BCE |
 | LEADERBOARD\_SIZE | 10 | Sessions kept |
-| CONFIG\_VERSION | 3 | Bump when scoring rules change (v1.1 moved it from 1 to 2, and the new tolerance curve to 3) |
+| CONFIG\_VERSION | 4 | Bump when scoring rules change (v1.1 moved it from 1 to 2, the tolerance curve to 3, and the streak bands to 4) |
 
 ## Build plan, acceptance criteria and open questions
 
@@ -354,7 +369,7 @@ Build in five steps. Each one ends with something playable, so you can test and 
   - Answer 1990: 10 years off = 437. Answer 1950: 10 years off = 511; 100 = 183.
   - Answer 1650: 10 years off = 607. Answer 1526: 10 years off = 616. Answer 1000 CE: 10 years off = 631; 100 = 308.
   - Answer 180 BCE (−179): 10 years off = 639; 50 = 416; 100 = 317; 895 or more = 0. Answer 480 BCE (−479): 10 years off = 640; 100 = 317.
-- [ ] Streak unit tests pass: an exact guess scores 1,000 / 1,100 / 1,200 / 1,300 at streak 0 / 1 / 2 / 3 or more; 10 years off at streak 3 = 727 (answer 1884); accuracy 0.55 extends, 0.30 holds and 0.29 resets; ten exact one-clue rounds = 12,400.
+- [ ] Streak unit tests pass: an exact guess scores 1,000 / 1,100 / 1,200 / 1,300 at streak 0 / 1 / 2 / 3 or more; 10 years off at streak 3 = 727 (answer 1884); accuracy 0.65 extends, 0.45 holds and 0.44 resets; ten exact one-clue rounds = 12,400.
 - [ ] The streak resets at the start of every session, and the multiplier is shown before the player guesses.
 - [ ] The result screen states the streak outcome and, when it is not 1, the tolerance.
 - [ ] No year repeats within a session.
@@ -425,3 +440,5 @@ Config: `ERA_REFERENCE_YEAR` 2026, `ERA_MAX_TOLERANCE` 1.9, `ERA_HALF_AGE` 128, 
 | 1526 | 1.51 | up to 16 | 17 to 94 | 95 and over | 756 |
 | 1000 | 1.69 | up to 18 | 19 to 105 | 106 and over | 844 |
 | 180 BCE | 1.80 | up to 19 | 20 to 112 | 113 and over | 897 |
+
+This version was replaced by hit 0.65 and hold 0.45 (same tolerance curve, `CONFIG_VERSION` 4), because its bands were too generous, especially for older years.
