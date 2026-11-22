@@ -85,6 +85,10 @@ Unit-test these values (1 clue, no streak unless stated):
 
 When the tolerance is not about 1, the round result screen says how strictly the round was graded, as a percentage against a tolerance of 1 (|T - 1|), for example "This is a modern year, so it was graded 58% more harshly than average." ("leniently" for old years; the era name is ancient, medieval, early modern or modern.)
 
+## Analytics
+
+GoatCounter (anonymous, cookieless) counts visits and a few events. All tracking sits in `src/analytics.ts`, called from `src/App.tsx`; `src/game/` never touches it. Events: `session-start`, `session-complete`, `reveal-politics`, `reveal-society`, `reveal-technology`, `reveal-arts`, and `reveal-first-<category>` for the first clue chosen in a round. Send events only, never guesses, years or scores. Use `window.goatcounter?.count(...)` inside a try/catch: ad blockers stop the script, and the game must never break. Every screen shows the footer note "This site uses GoatCounter for anonymous, cookieless analytics." under the copyright line. Ask before adding any other tracking.
+
 ## Content rules
 
 Years live in `src/data/years.json`, checked against a Zod schema. Each year has four categories: `politics`, `society`, `technology`, `arts_culture`. Each category holds one or more clues, and the game draws one at random per category.

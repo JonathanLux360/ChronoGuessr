@@ -2,6 +2,8 @@
 
 Nov 21, 2026 · @Jonathan
 
+v1.1 adds three things to v1: era-tolerance scoring, a streak bonus, and anonymous analytics (see the Analytics section).
+
 ## Overview
 
 ChronoGuessr is a single-player web game: the player sees clues about one year and guesses which year it is. Each year has four clues, one per category: Politics, Society, Technology, and Arts & Culture. One clue is shown for free. Each extra clue lowers the points available for that round, and each reveal costs more than the last. Points depend on how close the guess is, on a log scale, so precision near the answer matters most. How strict that is depends on the year: recent years are scored strictly and ancient years kindly. Consecutive accurate rounds build a streak that raises the next round's score. A session is 10 rounds. The total is saved to a personal leaderboard so the player can try to beat it.
@@ -19,6 +21,7 @@ ChronoGuessr is a single-player web game: the player sees clues about one year a
 - Four-clue reveal system with escalating costs.
 - Log-scaled accuracy scoring, with tolerance that scales with the age of the answer year.
 - A streak bonus for consecutive accurate rounds.
+- Anonymous, cookieless analytics (GoatCounter): page views and a few game events.
 - Round results and an end-of-session summary.
 - Personal leaderboard stored in the browser.
 - A curated pool of at least 100 years.
@@ -255,6 +258,26 @@ v1 keeps a personal top 10 in the browser's localStorage, with no accounts and n
 
 **Path to v2.** Keep storage behind a small interface (`saveResult`, `getTopResults`). A server-backed version (for a global board or daily challenge) can then replace the localStorage one without touching game code.
 
+## Analytics
+
+v1.1 counts visits and a few game events with GoatCounter, a privacy-friendly analytics service. It sets no cookies and stores no personal data, so the game needs no consent banner. It is for learning how often the game is opened and finished, and which clues players reach for first.
+
+- **Page views.** The GoatCounter script in `index.html` counts visits. The account is `chronoguessr.goatcounter.com`.
+- **Events.** The game sends these named events with `window.goatcounter?.count({ path, title, event: true })`:
+
+| Event | When it is sent |
+| --- | --- |
+| `session-start` | A new session starts (Start game, Play again, or from the leaderboard) |
+| `session-complete` | A session finishes and the summary screen appears (once per session) |
+| `reveal-politics`, `reveal-society`, `reveal-technology`, `reveal-arts` | The player reveals a clue in that category (the free clue does not count) |
+| `reveal-first-politics`, `reveal-first-society`, `reveal-first-technology`, `reveal-first-arts` | The first clue the player chooses in a round, sent as well as the plain reveal event |
+
+- **Never sent:** guesses, years, scores, clue text or anything about the player. Events say only what happened.
+- **Must never break the game.** Ad blockers stop the script from loading, so every call uses optional chaining and a try/catch, and does nothing when GoatCounter is missing.
+- **Disclosure.** Every screen shows, under the copyright line and in the same small font: "This site uses GoatCounter for anonymous, cookieless analytics."
+- **Code.** All tracking sits in `src/analytics.ts`, and `src/App.tsx` calls it. Game logic in `src/game/` stays pure and never calls analytics.
+- **Out of scope:** user identifiers, per-player history, A/B tests, and any other analytics service.
+
 ## UI/UX
 
 Five screens, one primary action each, so the player always knows what to do next.
@@ -282,6 +305,8 @@ Five screens, one primary action each, so the player always knows what to do nex
 - When the answer year's tolerance is not 1, say how strictly the round was graded, as a percentage against a tolerance of 1 (|T − 1|), with the era name (ancient, medieval, early modern or modern): "This is a modern year, so it was graded 58% more harshly than average." ("more leniently" for old years.)
 - A simple timeline bar marks the guess and the correct year, so the size of the miss is visible.
 - Each clue the player saw links to its source for players who want to read more.
+
+**Footer.** Every screen ends with the same small centred footer: "© 2026 ChronoGuessr. Created by Jonathan Topaz. All rights reserved." and, on the line below, "This site uses GoatCounter for anonymous, cookieless analytics."
 
 **Design principles**
 
@@ -311,6 +336,7 @@ src/
   data/schema.ts       Zod schema for year records
   game/scoring.ts      pure functions: tolerance, accuracy, potential, round score
   game/streak.ts       pure functions: streak update, multiplier
+  analytics.ts         GoatCounter events (never throws; does nothing when blocked)
   game/session.ts      session state as a reducer (see the game loop)
   game/selection.ts    picks years for a session, seeded random
   storage/leaderboard.ts  saveResult, getTopResults (and resetLeaderboard)
@@ -379,6 +405,8 @@ Build in five steps. Each one ends with something playable, so you can test and 
 - [ ] Corrupt or missing localStorage data does not crash the app.
 - [ ] The validation script fails the build if any clue contains a digit, exceeds 140 characters, or a category is missing.
 - [ ] Layout works at 360 px and 1440 px wide.
+- [ ] The analytics events in the Analytics section are sent (session start and complete, each reveal, and first reveals), and the game plays normally when GoatCounter is blocked or missing.
+- [ ] Every screen shows the copyright line and the GoatCounter note.
 
 **Open questions**
 
