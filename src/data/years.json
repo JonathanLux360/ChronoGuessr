@@ -1859,59 +1859,6 @@
     }
   },
   {
-    "year": 1623,
-    "clues": {
-      "politics": [
-        {
-          "text": "The cardinals elect Maffeo Barberini as Pope Urban VIII, a lavish patron of the arts who will later put Galileo on trial.",
-          "context": "He ruled the Church for more than twenty years. Before he became pope he had been a friend and admirer of Galileo.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/1623_papal_conclave",
-          "verified": false
-        }
-      ],
-      "society": [
-        {
-          "text": "The colony of Virginia passes the first temperance law in what will become the United States, to punish drunkenness.",
-          "context": "The colony's assembly passed it to keep order in the young settlement.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/American_temperance_law",
-          "verified": false
-        }
-      ],
-      "technology": [
-        {
-          "text": "Wilhelm Schickard, a German professor, designs a \"calculating clock\", a geared machine that can add and subtract.",
-          "context": "He described it in letters to the astronomer Johannes Kepler. It is often called the first mechanical calculator, though the dating and the claim are debated.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Wilhelm_Schickard",
-          "verified": false
-        }
-      ],
-      "arts_culture": [
-        {
-          "text": "In Madrid, the young Pedro Calderón de la Barca sees his first play performed at the royal palace.",
-          "context": "It was staged at the Royal Alcázar during the visit of Prince Charles of England, who hoped to marry the Spanish king's sister. Calderón became one of Spain's greatest dramatists.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Pedro_Calder%C3%B3n_de_la_Barca",
-          "verified": false
-        },
-        {
-          "text": "Shakespeare's plays are collected and printed together for the first time, in a large book that saves many of them from being lost.",
-          "context": "The book is known as the First Folio. Two of his fellow actors put it together seven years after his death.",
-          "region": "Europe",
-          "difficulty": 1,
-          "source": "https://en.wikipedia.org/wiki/First_Folio",
-          "verified": false
-        }
-      ]
-    }
-  },
-  {
     "year": 1632,
     "clues": {
       "politics": [
@@ -2047,59 +1994,6 @@
     }
   },
   {
-    "year": 1643,
-    "clues": {
-      "politics": [
-        {
-          "text": "King Louis the Thirteenth of France dies, and his four-year-old son becomes King Louis the Fourteenth.",
-          "context": "Louis XIV would reign for more than seventy years. His mother and Cardinal Mazarin ruled for him at first.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Louis_XIV",
-          "verified": false
-        },
-        {
-          "text": "At Rocroi, a French army under the young Duke of Enghien crushes the Spanish infantry in a turning point of the Thirty Years' War.",
-          "context": "The Spanish foot soldiers had been seen as nearly unbeatable. The battle was fought in May.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Battle_of_Rocroi",
-          "verified": false
-        }
-      ],
-      "society": [
-        {
-          "text": "Church and Parliament leaders meet at Westminster Abbey in the Westminster Assembly, to remake the Church of England.",
-          "context": "It met during the English Civil War. It aimed to reshape the church along the lines of the Scottish Presbyterian church.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Westminster_Assembly",
-          "verified": false
-        }
-      ],
-      "technology": [
-        {
-          "text": "The Italian scientist Evangelista Torricelli fills a long glass tube with mercury, in the experiment behind the barometer.",
-          "context": "The mercury sinks a little and leaves an empty space at the top. Torricelli saw that the weight of the air was holding it up. He had been a pupil of Galileo.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Evangelista_Torricelli",
-          "verified": false
-        }
-      ],
-      "arts_culture": [
-        {
-          "text": "At Agra in India, Shah Jahan marks the anniversary of his wife Mumtaz Mahal's death with the first ceremony at her tomb, the Taj Mahal.",
-          "context": "He built it as her mausoleum. Work on the wider complex of gardens and buildings went on for about ten more years.",
-          "region": "South Asia",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Taj_Mahal",
-          "verified": false
-        }
-      ]
-    }
-  },
-  {
     "year": 1648,
     "clues": {
       "politics": [
@@ -2216,67 +2110,6 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Black_Madonna_of_Cz%C4%99stochowa",
-          "verified": false
-        }
-      ]
-    }
-  },
-  {
-    "year": 1665,
-    "clues": {
-      "politics": [
-        {
-          "text": "The Second Anglo-Dutch War begins, as England and the Dutch Republic fight over sea trade and colonies.",
-          "context": "The war was fought at sea and in far-off colonies. It ended two years later with the Treaty of Breda.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Second_Anglo-Dutch_War",
-          "verified": false
-        },
-        {
-          "text": "King Charles II and his court leave London for the countryside to escape the plague.",
-          "context": "Many rich Londoners fled too, and the poor were left behind. Charles left in July.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Great_Plague_of_London",
-          "verified": false
-        }
-      ],
-      "society": [
-        {
-          "text": "Plague closes the University of Cambridge, and the young Isaac Newton goes home to Lincolnshire to study alone.",
-          "context": "Newton did much of his early work on light, mathematics and gravity there. The university closed in August.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/University_of_Cambridge",
-          "verified": false
-        }
-      ],
-      "technology": [
-        {
-          "text": "The English physician Richard Lower performs the first blood transfusion between animals, from one dog to another.",
-          "context": "He did it at Oxford in February, joining an artery of one dog to a vein of the other. Attempts on humans followed within two years.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Richard_Lower_(physician)",
-          "verified": false
-        }
-      ],
-      "arts_culture": [
-        {
-          "text": "Molière's play Dom Juan, about a wicked nobleman who defies heaven, opens at the Palais-Royal theatre in Paris.",
-          "context": "It was taken off after a few weeks, after religious critics complained. It opened in February.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Don_Juan_(Moli%C3%A8re_play)",
-          "verified": false
-        },
-        {
-          "text": "Molière's comedy about quack doctors is first presented before King Louis XIV at Versailles, with music by Lully.",
-          "context": "The play is called L'Amour médecin. It was first shown in the autumn, in the king's presence.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/L%27Amour_m%C3%A9decin",
           "verified": false
         }
       ]
@@ -2461,6 +2294,14 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Beard_tax",
+          "verified": false
+        },
+        {
+          "text": "Scottish settlers sail from Leith to found a colony at Darien in Panama, in a scheme backed by much of Scotland's wealth.",
+          "context": "The Darien scheme collapsed within two years, through disease, hunger and Spanish hostility. Its failure helped push Scotland towards union with England.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Darien_scheme",
           "verified": false
         }
       ],
