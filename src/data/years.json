@@ -2315,8 +2315,8 @@
           "verified": false
         },
         {
-          "text": "The first lighthouse on the Eddystone Rocks off Plymouth is lit, built on a reef where ships had been wrecked for centuries.",
-          "context": "It was the world's first open-sea lighthouse. Its builder, Henry Winstanley, made it of wood and stone. A great storm swept it away a few years later.",
+          "text": "The world's first open-sea lighthouse is lit on the Eddystone Rocks off Plymouth, a reef where ships had been wrecked for centuries.",
+          "context": "Its builder, Henry Winstanley, made it of wood and stone. A great storm swept it away a few years later.",
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Eddystone_Lighthouse",
