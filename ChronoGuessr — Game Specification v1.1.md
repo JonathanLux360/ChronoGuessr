@@ -374,3 +374,54 @@ Build in five steps. Each one ends with something playable, so you can test and 
 - ~~Should the first clue be the hardest one of the four?~~ Decided: no. The free clue is always random.
 - Optional per-round timer for a later "hard mode"?
 - Playtest the tolerance curve (maximum, half age, floor) and the streak numbers (step, cap, hit and hold thresholds). Are recent years too strict, and does the streak make buying a clue feel like a real decision? All are config values.
+
+## Appendix: archived grading mechanisms
+
+Two earlier versions of the era tolerance and the streak bands are kept here so either can be restored. Each is also a git tag, so `git checkout <tag> -- src/config.ts src/game` brings back the code. All other rules (potential points, streak multiplier, accuracy formula) are the same in every version.
+
+### Version A: square-root tolerance (published first)
+
+Git tag `grading-v1.1-sqrt` (commit `4b10c31`). `CONFIG_VERSION` was 2.
+
+```text
+a    = 2026 - y
+T(y) = max(0.1, (a / 500) ^ 0.5)        T = 1 at 1526
+```
+
+Config: `ERA_REFERENCE_YEAR` 2026, `ERA_REFERENCE_AGE` 500, `ERA_EXPONENT` 0.5, `ERA_MIN_TOLERANCE` 0.1. Streak: hit at accuracy 0.55 or more, near miss from 0.30, below that a reset. Result screen: "Recent year: tolerance ×0.11" / "Ancient year: tolerance ×2.1".
+
+| Answer year | T | 1 year off | 10 years off | 50 years off | 100 years off | Zero at (years off) |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2020 | 0.11 | 572 | 246 | 13 | 0 | 55 |
+| 1990 | 0.27 | 691 | 374 | 143 | 42 | 134 |
+| 1950 | 0.39 | 738 | 427 | 197 | 96 | 195 |
+| 1850 | 0.59 | 787 | 487 | 257 | 157 | 297 |
+| 1650 | 0.87 | 827 | 540 | 312 | 212 | 434 |
+| 1526 | 1.00 | 841 | 559 | 332 | 232 | 500 |
+| 1000 | 1.43 | 874 | 608 | 383 | 284 | 716 |
+| 180 BCE | 2.10 | 903 | 659 | 438 | 339 | 1,050 |
+| 480 BCE | 2.24 | 908 | 668 | 447 | 348 | 1,119 |
+
+Spot values for tests: answer 1526, 10 years off = 559, 100 = 232, 4 clues 10 years off = 224; answer 2020, 1 / 10 / 50 off = 572 / 246 / 13; answer 1950, 10 off = 427; answer 180 BCE, 10 / 50 / 100 off = 659 / 438 / 339.
+
+### Version B: saturating tolerance, hit 0.55 and hold 0.30
+
+Git tag `grading-v1.1-saturating` (commit `879ae60`). `CONFIG_VERSION` was 3.
+
+```text
+a    = 2026 - y
+T(y) = max(0.1, 1.9 * a / (a + 128))    T is about 1 at 1884
+```
+
+Config: `ERA_REFERENCE_YEAR` 2026, `ERA_MAX_TOLERANCE` 1.9, `ERA_HALF_AGE` 128, `ERA_MIN_TOLERANCE` 0.1, `STREAK_HIT_ACCURACY` 0.55, `STREAK_HOLD_ACCURACY` 0.30. Result screen: "This is a modern year, so it was graded 58% more harshly than average." The tolerance table and spot values for this version are in the Scoring model section above (as they stood when this version was current). Streak bands, in whole years off:
+
+| Answer year | T | Hit (streak +1) | Near miss (streak held) | Miss (streak resets) | Zero after |
+| --- | --- | --- | --- | --- | --- |
+| 2020 | 0.10 | up to 1 | 2 to 6 | 7 and over | 49 |
+| 1990 | 0.42 | up to 4 | 5 to 26 | 27 and over | 208 |
+| 1950 | 0.71 | up to 7 | 8 to 44 | 45 and over | 353 |
+| 1900 | 0.94 | up to 10 | 11 to 58 | 59 and over | 471 |
+| 1800 | 1.21 | up to 12 | 13 to 75 | 76 and over | 606 |
+| 1526 | 1.51 | up to 16 | 17 to 94 | 95 and over | 756 |
+| 1000 | 1.69 | up to 18 | 19 to 105 | 106 and over | 844 |
+| 180 BCE | 1.80 | up to 19 | 20 to 112 | 113 and over | 897 |
