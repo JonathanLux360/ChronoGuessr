@@ -1859,6 +1859,59 @@
     }
   },
   {
+    "year": 1623,
+    "clues": {
+      "politics": [
+        {
+          "text": "The cardinals elect Maffeo Barberini as Pope Urban VIII, a lavish patron of the arts who will later put Galileo on trial.",
+          "context": "He ruled the Church for more than twenty years. Before he became pope he had been a friend and admirer of Galileo.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1623_papal_conclave",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The colony of Virginia passes the first temperance law in what will become the United States, to punish drunkenness.",
+          "context": "The colony's assembly passed it to keep order in the young settlement.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/American_temperance_law",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Wilhelm Schickard, a German professor, designs a \"calculating clock\", a geared machine that can add and subtract.",
+          "context": "He described it in letters to the astronomer Johannes Kepler. It is often called the first mechanical calculator, though the dating and the claim are debated.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Wilhelm_Schickard",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "In Madrid, the young Pedro Calderón de la Barca sees his first play performed at the royal palace.",
+          "context": "It was staged at the Royal Alcázar during the visit of Prince Charles of England, who hoped to marry the Spanish king's sister. Calderón became one of Spain's greatest dramatists.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Pedro_Calder%C3%B3n_de_la_Barca",
+          "verified": false
+        },
+        {
+          "text": "Shakespeare's plays are collected and printed together for the first time, in a large book that saves many of them from being lost.",
+          "context": "The book is known as the First Folio. Two of his fellow actors put it together seven years after his death.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/First_Folio",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1632,
     "clues": {
       "politics": [
@@ -1994,6 +2047,59 @@
     }
   },
   {
+    "year": 1643,
+    "clues": {
+      "politics": [
+        {
+          "text": "King Louis the Thirteenth of France dies, and his four-year-old son becomes King Louis the Fourteenth.",
+          "context": "Louis XIV would reign for more than seventy years. His mother and Cardinal Mazarin ruled for him at first.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Louis_XIV",
+          "verified": false
+        },
+        {
+          "text": "At Rocroi, a French army under the young Duke of Enghien crushes the Spanish infantry in a turning point of the Thirty Years' War.",
+          "context": "The Spanish foot soldiers had been seen as nearly unbeatable. The battle was fought in May.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Rocroi",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Church and Parliament leaders meet at Westminster Abbey in the Westminster Assembly, to remake the Church of England.",
+          "context": "It met during the English Civil War. It aimed to reshape the church along the lines of the Scottish Presbyterian church.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Westminster_Assembly",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Italian scientist Evangelista Torricelli fills a long glass tube with mercury, in the experiment behind the barometer.",
+          "context": "The mercury sinks a little and leaves an empty space at the top. Torricelli saw that the weight of the air was holding it up. He had been a pupil of Galileo.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Evangelista_Torricelli",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "At Agra in India, Shah Jahan marks the anniversary of his wife Mumtaz Mahal's death with the first ceremony at her tomb, the Taj Mahal.",
+          "context": "He built it as her mausoleum. Work on the wider complex of gardens and buildings went on for about ten more years.",
+          "region": "South Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Taj_Mahal",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1648,
     "clues": {
       "politics": [
@@ -2050,6 +2156,128 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Acad%C3%A9mie_royale_de_peinture_et_de_sculpture",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1656,
+    "clues": {
+      "politics": [
+        {
+          "text": "At the Battle of Warsaw, a Swedish and Brandenburg army beats the Polish-Lithuanian forces in a three-day fight.",
+          "context": "It was part of a war that Poles call the Deluge. King Charles X Gustav of Sweden led the allied army.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Warsaw_(1656)",
+          "verified": false
+        },
+        {
+          "text": "London's Lord Mayor suggests that Oliver Cromwell take the crown, but Cromwell turns it down.",
+          "context": "Cromwell ruled England as Lord Protector. He was offered the crown again the next year, and he refused again.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Oliver_Cromwell",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The English Parliament convicts the Quaker James Nayler of blasphemy but spares his life, after his followers greeted him like Christ.",
+          "context": "Nayler had ridden into Bristol while his followers sang his praises. He was flogged and branded instead. The case showed how afraid many were of radical sects.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/James_Nayler",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Dutch scientist Christiaan Huygens invents the pendulum clock, which keeps far better time than any clock before it.",
+          "context": "He invented it on Christmas Day and patented it the following year. Pendulum clocks stayed the most accurate timekeepers for almost three hundred years.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Pendulum_clock",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Diego Velázquez paints Las Meninas, a royal portrait of the Spanish court in which the painter himself stands at his easel.",
+          "context": "It shows the young Infanta Margarita with her maids and attendants in the palace. It is one of the most studied paintings in Western art.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Las_Meninas",
+          "verified": false
+        },
+        {
+          "text": "King John Casimir of Poland crowns the Black Madonna of Częstochowa as Queen and Protector of Poland.",
+          "context": "The crowning took place in Lwów, in April. The icon is still Poland's most revered holy image.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Black_Madonna_of_Cz%C4%99stochowa",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1665,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Second Anglo-Dutch War begins, as England and the Dutch Republic fight over sea trade and colonies.",
+          "context": "The war was fought at sea and in far-off colonies. It ended two years later with the Treaty of Breda.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Second_Anglo-Dutch_War",
+          "verified": false
+        },
+        {
+          "text": "King Charles II and his court leave London for the countryside to escape the plague.",
+          "context": "Many rich Londoners fled too, and the poor were left behind. Charles left in July.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Great_Plague_of_London",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Plague closes the University of Cambridge, and the young Isaac Newton goes home to Lincolnshire to study alone.",
+          "context": "Newton did much of his early work on light, mathematics and gravity there. The university closed in August.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/University_of_Cambridge",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The English physician Richard Lower performs the first blood transfusion between animals, from one dog to another.",
+          "context": "He did it at Oxford in February, joining an artery of one dog to a vein of the other. Attempts on humans followed within two years.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Richard_Lower_(physician)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Molière's play Dom Juan, about a wicked nobleman who defies heaven, opens at the Palais-Royal theatre in Paris.",
+          "context": "It was taken off after a few weeks, after religious critics complained. It opened in February.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Don_Juan_(Moli%C3%A8re_play)",
+          "verified": false
+        },
+        {
+          "text": "Molière's comedy about quack doctors is first presented before King Louis XIV at Versailles, with music by Lully.",
+          "context": "The play is called L'Amour médecin. It was first shown in the autumn, in the king's presence.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/L%27Amour_m%C3%A9decin",
+          "verified": false
         }
       ]
     }
@@ -2201,6 +2429,67 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lully",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1698,
+    "clues": {
+      "politics": [
+        {
+          "text": "George Louis succeeds his father as Elector of Hanover. He will later become King George the First of Great Britain.",
+          "context": "He became king in 1714, the first of the House of Hanover. He was elector from January.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/George_I_of_Great_Britain",
+          "verified": false
+        },
+        {
+          "text": "The Russian Streltsy, a corps of rebel musketeers, face mass executions after a failed uprising against Peter the Great.",
+          "context": "Peter was abroad on his tour of Europe when the revolt began. He hurried home and had the leaders put to death, many in public.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Streltsy_uprising_(1698)",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Tsar Peter the Great imposes a tax on beards, to push Russian nobles to look more like Western Europeans.",
+          "context": "Peter had just come back from touring Western Europe. People who paid the tax got a token to show it. Many Russians saw beards as a sign of faith.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Beard_tax",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The English engineer Thomas Savery patents a steam-powered pump to drain flooded mines.",
+          "context": "It had no piston and could be dangerous, but it used the power of steam. Thomas Newcomen later improved on it.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Thomas_Savery",
+          "verified": false
+        },
+        {
+          "text": "The first lighthouse on the Eddystone Rocks off Plymouth is lit, built on a reef where ships had been wrecked for centuries.",
+          "context": "Its builder, Henry Winstanley, made it of wood and stone. A great storm swept it away a few years later.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Eddystone_Lighthouse",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The English clergyman Jeremy Collier publishes a fierce attack on the immorality of the English stage.",
+          "context": "His pamphlet, A Short View, hit playwrights such as Congreve and Vanbrugh. It helped push the theatre towards milder comedy.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/A_Short_View_of_the_Immorality_and_Profaneness_of_the_English_Stage",
+          "verified": false
         }
       ]
     }
