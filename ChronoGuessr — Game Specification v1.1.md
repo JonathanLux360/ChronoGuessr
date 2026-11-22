@@ -343,7 +343,7 @@ Keep game logic pure and separate from React. Scoring and session state should b
 | YEAR\_MIN / YEAR\_MAX | -3000 / 2026 | Earliest and latest year the content pool may hold (BCE years are negative), and the latest year the player can guess |
 | MAX\_BCE\_GUESS | 9999 | Furthest back the player can guess, in years BCE |
 | LEADERBOARD\_SIZE | 10 | Sessions kept |
-| CONFIG\_VERSION | 4 | Bump when scoring rules change (v1.1 moved it from 1 to 2, the tolerance curve to 3, and the streak bands to 4) |
+| CONFIG_VERSION | 3 | Bump when scoring rules change (1 was the original scoring, 2 the first published v1.1 with the square-root tolerance, 3 the saturating tolerance and tighter streak bands) |
 
 ## Build plan, acceptance criteria and open questions
 
