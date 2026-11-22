@@ -144,7 +144,7 @@ describe('validatePool: breaches that must fail the build', () => {
     ['a missing year', { year: undefined }],
     ['a non-integer year', { year: 1900.5 }],
     ['a string year', { year: '1900' }],
-    ['a year before the range', { year: 1499 }],
+    ['a year before the earliest allowed', { year: -3001 }],
     ['a year after the range', { year: 3000 }],
     ['an extra field', { note: 'checked' }],
     ['the old year-level verified flag', { verified: true }],

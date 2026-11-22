@@ -1,7 +1,8 @@
 import { useEffect, useRef, type Dispatch } from 'react';
-import { REVEAL_COSTS, YEAR_MAX, YEAR_MIN } from '../../config';
+import { REVEAL_COSTS } from '../../config';
 import { describeDistance, formatPoints, formatYear } from '../../game/format';
 import { potential } from '../../game/scoring';
+import { timelineRange } from '../../game/timeline';
 import { totalScore, type SessionAction, type SessionState } from '../../game/session';
 import { RevealedClueCard } from '../shared/ClueCard';
 import styles from './RoundResult.module.css';
@@ -24,9 +25,8 @@ export function RoundResult({ state, dispatch }: { state: ResultState; dispatch:
     nextRef.current?.focus();
   }, []);
 
-  // The bar always covers the content range, and stretches to include a guess outside it (for example a BCE guess).
-  const lo = Math.min(YEAR_MIN, result.year, result.guess);
-  const hi = Math.max(YEAR_MAX, result.year, result.guess);
+  // The bar zooms in on the answer and the guess, whatever the era.
+  const { lo, hi } = timelineRange(result.year, result.guess);
   const answerAt = position(result.year, lo, hi);
   const guessAt = position(result.guess, lo, hi);
   const left = Math.min(answerAt, guessAt);

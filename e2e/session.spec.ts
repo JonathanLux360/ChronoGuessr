@@ -118,7 +118,9 @@ test('plays a full session with the keyboard and saves the result', async ({ pag
       // Result screen: the answer is shown, the score follows the formula, and only seen clues appear.
       await expect(page).toHaveTitle(new RegExp(`Round ${round} result`));
       const result = await page.getByRole('region', { name: 'Result' }).innerText();
-      const answer = Number(/the year was\s*(\d+)/i.exec(result)![1]);
+      // BCE answers read like "480 BCE" and are stored as negative numbers (1 BCE is 0).
+      const shown = /the year was\s*(\d+)( BCE)?/i.exec(result)!;
+      const answer = shown[2] ? 1 - Number(shown[1]) : Number(shown[1]);
       const scored = Number(/\+([\d,]+)\s*points/i.exec(result)![1].replace(/,/g, ''));
       const guessed = round === 6 ? -2540 : round === 5 ? 1850 : round % 2 === 0 ? 1900 : 1969;
       expect(scored).toBe(expectedScore(Math.abs(guessed - answer), cluesShown));

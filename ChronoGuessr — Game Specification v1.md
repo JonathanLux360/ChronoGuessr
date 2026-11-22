@@ -112,7 +112,7 @@ Content lives in one JSON file of year records, validated against a schema on ev
 
 **More than one clue per category.** A category can hold several clues. The game picks the year first, then draws one clue at random from each category, using the seeded generator. The same year can therefore be a different puzzle each time it comes up. Years do not need the same number of clues, and the clues in a category should be about different events that year. Every clue must pass the content rules on its own.
 
-**Year range.** v1 covers 1500 to 2026. Before 1500, finding four well-dated events per category gets hard, and players' knowledge thins out. The schema still supports earlier years so the range can grow later.
+**Year range.** The pool may hold any year from 3001 BCE to the current year. The first 155 years run from 1500 to 2024, and a growing number of earlier years, including BCE, are being added. Before 1500, well-dated events in all four categories are rarer, so some clues use the traditional or approximate date, and the `context` line says so.
 
 **BCE years.** Store them as negative integers using astronomical numbering (1 BCE = 0, 2 BCE = −1). Distance is then simple subtraction. Display converts back, so −43 shows as "44 BCE".
 

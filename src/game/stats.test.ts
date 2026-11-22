@@ -61,3 +61,33 @@ describe('formatDate', () => {
     expect(formatDate('not a date')).toBe('');
   });
 });
+
+describe('timelineRange', () => {
+  it('zooms in on the answer and the guess, and never gets narrower than the minimum span', async () => {
+    const { timelineRange, MIN_TIMELINE_SPAN } = await import('./timeline');
+    const near = timelineRange(1969, 1972);
+    expect(near.lo).toBeLessThanOrEqual(1969);
+    expect(near.hi).toBeGreaterThanOrEqual(1972);
+    expect(near.hi - near.lo).toBeGreaterThanOrEqual(MIN_TIMELINE_SPAN);
+  });
+  it('rounds the ends outwards to whole tens', async () => {
+    const { timelineRange } = await import('./timeline');
+    const { lo, hi } = timelineRange(1869, 1912);
+    expect(lo % 10).toBe(0);
+    expect(hi % 10).toBe(0);
+    expect(lo).toBeLessThanOrEqual(1869);
+    expect(hi).toBeGreaterThanOrEqual(1912);
+  });
+  it('contains both years when they are far apart, including BCE', async () => {
+    const { timelineRange } = await import('./timeline');
+    const { lo, hi } = timelineRange(-479, 1900);
+    expect(lo).toBeLessThan(-479);
+    expect(hi).toBeGreaterThan(1900);
+  });
+  it('handles an exact guess', async () => {
+    const { timelineRange } = await import('./timeline');
+    const { lo, hi } = timelineRange(1500, 1500);
+    expect(lo).toBeLessThan(1500);
+    expect(hi).toBeGreaterThan(1500);
+  });
+});

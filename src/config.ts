@@ -8,8 +8,8 @@ export const REVEAL_COSTS = [100, 200, 300] as const;
 export const SCALE_S = 0.5;
 /** Years off at which a guess scores zero. */
 export const MAX_DISTANCE = 500;
-/** Range of years the content pool covers. Used by the content validation. */
-export const YEAR_MIN = 1500;
+/** Earliest year the content pool may cover (BCE years are negative: 1 BCE is 0, so 3001 BCE is -3000). */
+export const YEAR_MIN = -3000;
 /** Latest year the player can guess (CE). */
 export const YEAR_MAX = 2026;
 /** Furthest back the player can guess, in years BCE. */

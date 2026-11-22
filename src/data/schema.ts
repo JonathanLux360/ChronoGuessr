@@ -38,15 +38,15 @@ const cluesSchema = z
   .strict();
 
 /**
- * One year record: one or more clues per category. BCE years are negative integers (astronomical numbering),
- * so the schema accepts them as soon as `YEAR_MIN` is lowered.
+ * One year record: one or more clues per category. BCE years are negative integers (astronomical numbering:
+ * 1 BCE is 0, so 44 BCE is -43).
  */
 export const yearRecordSchema = z
   .object({
     year: z
       .number()
       .int('year must be a whole number')
-      .min(YEAR_MIN, `year is before ${YEAR_MIN}`)
+      .min(YEAR_MIN, `year is before the earliest allowed (${YEAR_MIN})`)
       .max(YEAR_MAX, `year is after ${YEAR_MAX}`),
     clues: cluesSchema,
   })

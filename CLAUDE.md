@@ -37,7 +37,7 @@ Config values for v1:
 | REVEAL_COSTS | [100, 200, 300] |
 | SCALE_S | 0.5 |
 | MAX_DISTANCE | 500 |
-| YEAR_MIN / YEAR_MAX | 1500 / 2026 |
+| YEAR_MIN / YEAR_MAX | -3000 / 2026 |
 | MAX_BCE_GUESS | 9999 |
 | LEADERBOARD_SIZE | 10 |
 | CONFIG_VERSION | 1 |
@@ -73,7 +73,7 @@ Years live in `src/data/years.json`, checked against a Zod schema. Each year has
 - `scripts/validate-content.ts` must fail the build on any breach.
 - Each session picks 10 live years at random (no era quotas, no exclusion of recently played years, no repeats within a session), then one clue per category at random, using the seeded generator. The free first clue is also picked at random, never by difficulty.
 - `region` is informational only. There is no regional balance rule.
-- BCE years are negative integers (astronomical numbering). The content pool starts at `YEAR_MIN`, but the guess field already accepts any CE year from 1 to `YEAR_MAX` and any BCE year up to `MAX_BCE_GUESS`.
+- BCE years are negative integers (astronomical numbering: 1 BCE is 0, so 480 BCE is -479). The content pool may hold any year from `YEAR_MIN` (3001 BCE) to `YEAR_MAX`, and the guess field accepts any CE year from 1 to `YEAR_MAX` and any BCE year up to `MAX_BCE_GUESS`. Dates before 1500 are often approximate: use the traditional date and say so in the `context` line.
 
 ## Design
 
