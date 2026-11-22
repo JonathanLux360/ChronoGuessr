@@ -22,6 +22,11 @@
   --arts-dark: #7a3a76;
   --arts-tint: #f4e6f2;
   --arts-border: #cfa3cb;
+  --streak: #b07d1a;
+  --streak-dark: #6e4f0e;
+  --streak-tint: #f7ebcb;
+  --streak-border: #ddc48a;
+  --streak-capped: #7a560f;
 
   font-family: Lora, Georgia, serif;
   color: var(--text);

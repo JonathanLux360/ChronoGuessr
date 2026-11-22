@@ -14,10 +14,13 @@ const ROUNDS = 10;
 test.use({ reducedMotion: 'reduce' });
 
 /** The scoring formula, written out again here so the test does not just trust the app. */
-function expectedScore(yearsOff: number, cluesShown: number): number {
+function expectedRound(yearsOff: number, cluesShown: number, answer: number, streak: number) {
   const potential = [1000, 900, 700, 400][cluesShown - 1];
-  const accuracy = Math.max(0, 1 - Math.log(1 + yearsOff / 0.5) / Math.log(1 + 500 / 0.5));
-  return Math.round(potential * accuracy);
+  const tolerance = Math.max(0.1, Math.sqrt((2026 - answer) / 500));
+  const accuracy = Math.max(0, 1 - Math.log(1 + yearsOff / (0.5 * tolerance)) / Math.log(1 + 500 / 0.5));
+  const multiplier = 1 + Math.min(streak * 0.1, 0.3);
+  const nextStreak = accuracy >= 0.55 ? streak + 1 : accuracy >= 0.3 ? streak : 0;
+  return { score: Math.round(potential * accuracy * multiplier), multiplier, nextStreak };
 }
 
 async function scan(page: Page, name: string) {
@@ -48,6 +51,8 @@ async function guess(page: Page, text: string) {
 
 test('plays a full session with the keyboard and saves the result', async ({ page }) => {
   const points: number[] = [];
+  let longest = 0;
+  let streak = 0; // hits in a row, tracked here from the formula
 
   await test.step('home screen', async () => {
     await page.goto('/');
@@ -68,6 +73,9 @@ test('plays a full session with the keyboard and saves the result', async ({ pag
       await expect(page.locator('article[aria-label$="clue"]')).toHaveCount(1);
       await expect(page.locator('article[aria-label$="clue, hidden"]')).toHaveCount(3);
       expect(await potentialPoints(page)).toBe(1000);
+      // The streak chip shows this round's bonus before the guess.
+      const chip = page.locator('[data-streak-state]');
+      await expect(chip).toContainText(streak === 0 ? 'No streak' : `Streak ${streak} · +${Math.min(streak * 10, 30)}%`);
 
       let cluesShown = 1;
       // Reveal a clue with the number keys in some rounds, to check 1,000 -> 900 -> 700 -> 400.
@@ -123,7 +131,11 @@ test('plays a full session with the keyboard and saves the result', async ({ pag
       const answer = shown[2] ? 1 - Number(shown[1]) : Number(shown[1]);
       const scored = Number(/\+([\d,]+)\s*points/i.exec(result)![1].replace(/,/g, ''));
       const guessed = round === 6 ? -2540 : round === 5 ? 1850 : round % 2 === 0 ? 1900 : 1969;
-      expect(scored).toBe(expectedScore(Math.abs(guessed - answer), cluesShown));
+      const expected = expectedRound(Math.abs(guessed - answer), cluesShown, answer, streak);
+      expect(scored).toBe(expected.score);
+      streak = expected.nextStreak;
+      longest = Math.max(longest, streak);
+      await expect(page.getByText(/Streak extended|Near miss|Streak lost|No streak yet/)).toBeVisible();
       await expect(page.locator('article')).toHaveCount(cluesShown);
       if (round === 1) {
         await expectFooter(page);
@@ -142,6 +154,8 @@ test('plays a full session with the keyboard and saves the result', async ({ pag
     await expect(page).toHaveTitle(/Your result/);
     await expect(page.getByRole('region', { name: 'Your result' })).toContainText(total.toLocaleString('en-GB'));
     await expect(page.getByText('New personal best!')).toBeVisible();
+    await expect(page.getByText('Longest streak').locator('xpath=..')).toContainText(String(longest));
+    await expect(page.getByText(/Base score .* streak bonus/)).toBeVisible();
     await expect(page.locator('tbody tr')).toHaveCount(ROUNDS);
     // The total in the table footer is the sum of the ten round scores.
     await expect(page.locator('tfoot')).toContainText(total.toLocaleString('en-GB'));

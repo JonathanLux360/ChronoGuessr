@@ -3,7 +3,9 @@ import { CLUE_CATEGORIES, REVEAL_COSTS, ROUNDS_PER_SESSION } from '../../config'
 import { formatPoints } from '../../game/format';
 import { INVALID_GUESS_MESSAGE, isTypeableGuess, MAX_GUESS_LENGTH, parseGuess, type Era } from '../../game/guess';
 import { nextRevealCost, potential } from '../../game/scoring';
-import { totalScore, type SessionAction, type SessionState } from '../../game/session';
+import { currentStreak, totalScore, type SessionAction, type SessionState } from '../../game/session';
+import { streakMultiplier } from '../../game/streak';
+import { StreakChip } from '../shared/StreakChip';
 import { HiddenClueCard, RevealedClueCard } from '../shared/ClueCard';
 import styles from './Round.module.css';
 
@@ -15,6 +17,8 @@ export function Round({ state, dispatch }: { state: InRound; dispatch: Dispatch<
   const cluesShown = revealed.length;
   const currentPotential = potential(cluesShown);
   const cost = nextRevealCost(cluesShown);
+  const streak = currentStreak(results);
+  const bestPossible = Math.round(currentPotential * streakMultiplier(streak));
   const potentialAfter = cost === null ? null : potential(cluesShown + 1);
 
   const [text, setText] = useState('');
@@ -116,6 +120,7 @@ export function Round({ state, dispatch }: { state: InRound; dispatch: Dispatch<
           <p className={styles.note}>
             after {results.length} {results.length === 1 ? 'round' : 'rounds'}
           </p>
+          <StreakChip streak={streak} />
         </div>
       </section>
 
@@ -196,7 +201,7 @@ export function Round({ state, dispatch }: { state: InRound; dispatch: Dispatch<
         <p id="guess-error" className={styles.error} role="alert">
           {error}
         </p>
-        <p className={styles.guessNow}>Guess now for up to {formatPoints(currentPotential)} points.</p>
+        <p className={styles.guessNow}>Guess now for up to {formatPoints(bestPossible)} points{streak > 0 ? ', streak bonus included' : ''}.</p>
         <p id="guess-hint" className={styles.hint}>
           Enter to guess · keys 1–4 reveal a clue
         </p>

@@ -63,7 +63,7 @@
 }
 
 .points {
-  margin: 0 0 24px;
+  margin: 0 0 8px;
   font-size: 1.125rem;
 }
 
@@ -189,4 +189,21 @@
   .answer {
     font-size: 3.5rem;
   }
+}
+
+.breakdown {
+  margin: 0 0 8px;
+  color: var(--muted);
+}
+
+.streakMessage {
+  margin: 0 0 8px;
+  font-weight: 700;
+  color: var(--streak-dark);
+}
+
+.tolerance {
+  margin: 0 0 24px;
+  font-size: 0.9375rem;
+  color: var(--muted);
 }

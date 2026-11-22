@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { describeDistance, formatPoints, formatYear, ordinal } from '../../game/format';
-import type { RoundResult } from '../../game/session';
+import { longestStreak, streakBonusTotal, type RoundResult } from '../../game/session';
+import { bonusPercent } from '../../game/streak';
 import { sessionStats } from '../../game/stats';
 import type { SaveOutcome } from '../../storage/leaderboard';
 import buttons from '../shared/buttons.module.css';
@@ -32,6 +33,8 @@ export function Summary({
 }) {
   const againRef = useRef<HTMLButtonElement>(null);
   const stats = sessionStats(results);
+  const bonus = streakBonusTotal(results);
+  const longest = longestStreak(results);
 
   useEffect(() => {
     againRef.current?.focus();
@@ -46,6 +49,9 @@ export function Summary({
         <p className={styles.rank} aria-live="polite">
           {rankMessage(outcome)}
         </p>
+        <p className={styles.split}>
+          Base score {formatPoints(total - bonus)} + streak bonus {formatPoints(bonus)}
+        </p>
         {outcome?.previousBest != null && !outcome.isNewBest && (
           <p className={styles.sub}>Your best is {formatPoints(outcome.previousBest)}.</p>
         )}
@@ -59,6 +65,10 @@ export function Summary({
         <div>
           <dt>Exact guesses</dt>
           <dd>{stats.exactHits}</dd>
+        </div>
+        <div>
+          <dt>Longest streak</dt>
+          <dd>{longest}</dd>
         </div>
         <div>
           <dt>Clues used</dt>
@@ -78,6 +88,7 @@ export function Summary({
               <th scope="col">Your guess</th>
               <th scope="col">Off by</th>
               <th scope="col">Clues</th>
+              <th scope="col">Streak</th>
               <th scope="col">Points</th>
             </tr>
           </thead>
@@ -89,13 +100,14 @@ export function Summary({
                 <td>{formatYear(r.guess)}</td>
                 <td>{r.yearsOff === 0 ? describeDistance(0) : r.yearsOff}</td>
                 <td>{r.cluesShown}</td>
+                <td>{r.multiplier > 1 ? `+${bonusPercent(r.streakBefore)}%` : '–'}</td>
                 <td>{formatPoints(r.score)}</td>
               </tr>
             ))}
           </tbody>
           <tfoot>
             <tr>
-              <th scope="row" colSpan={5}>
+              <th scope="row" colSpan={6}>
                 Total
               </th>
               <td>{formatPoints(total)}</td>
