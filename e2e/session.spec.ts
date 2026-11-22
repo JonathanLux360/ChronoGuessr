@@ -31,10 +31,12 @@ async function scan(page: Page, name: string) {
 }
 
 const FOOTER = '© 2026 ChronoGuessr. Created by Jonathan Topaz. All rights reserved.';
+const ANALYTICS_NOTE = 'This site uses GoatCounter for anonymous, cookieless analytics.';
 
-/** Every screen ends with the same small copyright line. */
+/** Every screen ends with the same small copyright line and analytics note. */
 async function expectFooter(page: Page) {
-  await expect(page.getByRole('contentinfo')).toHaveText(FOOTER);
+  await expect(page.getByRole('contentinfo')).toContainText(FOOTER);
+  await expect(page.getByRole('contentinfo')).toContainText(ANALYTICS_NOTE);
 }
 
 async function potentialPoints(page: Page): Promise<number> {
@@ -52,6 +54,14 @@ async function guess(page: Page, text: string) {
 
 test('plays a full session with the keyboard and saves the result', async ({ page }) => {
   const points: number[] = [];
+
+  // Keep the real GoatCounter script out of the test, and record the events the game sends instead.
+  await page.route('**/gc.zgo.at/**', (route) => route.abort());
+  await page.addInitScript(() => {
+    const events: string[] = [];
+    (window as unknown as { __events: string[] }).__events = events;
+    (window as unknown as { goatcounter: unknown }).goatcounter = { count: (vars: { path: string }) => events.push(vars.path) };
+  });
   let longest = 0;
   let streak = 0; // hits in a row, tracked here from the formula
 
@@ -165,6 +175,15 @@ test('plays a full session with the keyboard and saves the result', async ({ pag
     await expectFooter(page);
     await expect(page.getByRole('button', { name: 'Home' })).toBeVisible();
     await scan(page, 'summary');
+  });
+
+  await test.step('analytics events', async () => {
+    // Rounds 2, 3 and 4 reveal one, two and three clues, so six reveals, and three of them are first reveals.
+    const events = await page.evaluate(() => (window as unknown as { __events: string[] }).__events);
+    expect(events.filter((name) => name === 'session-start')).toHaveLength(1);
+    expect(events.filter((name) => name === 'session-complete')).toHaveLength(1);
+    expect(events.filter((name) => /^reveal-(politics|society|technology|arts)$/.test(name))).toHaveLength(6);
+    expect(events.filter((name) => name.startsWith('reveal-first-'))).toHaveLength(3);
   });
 
   await test.step('leaderboard', async () => {

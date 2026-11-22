@@ -5,6 +5,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <p>© 2026 ChronoGuessr. Created by Jonathan Topaz. All rights reserved.</p>
+      <p>This site uses GoatCounter for anonymous, cookieless analytics.</p>
     </footer>
   );
 }

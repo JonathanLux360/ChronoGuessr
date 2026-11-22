@@ -1,7 +1,8 @@
 import { useEffect, useReducer, useRef, useState } from 'react';
+import { trackReveal, trackSessionComplete, trackSessionStart } from './analytics';
 import { livePool } from './data/pool';
 import { planSession } from './game/selection';
-import { initialSession, sessionReducer, type SessionState } from './game/session';
+import { initialSession, sessionReducer, type SessionAction, type SessionState } from './game/session';
 import { buildSessionResult } from './game/stats';
 import { saveResult, type SaveOutcome } from './storage/leaderboard';
 import { Home } from './ui/Home/Home';
@@ -36,6 +37,7 @@ export default function App() {
   useEffect(() => {
     if (state.status !== 'summary' || savedFor.current === state.results) return;
     savedFor.current = state.results;
+    trackSessionComplete();
     setOutcome(null);
     saveResult(buildSessionResult(state.results, new Date().toISOString()))
       .then(setOutcome)
@@ -48,8 +50,18 @@ export default function App() {
   }, [title]);
 
   function start() {
+    trackSessionStart();
     dispatch({ type: 'start', plan: planSession(livePool, Date.now() >>> 0) });
     setShowLeaderboard(false);
+  }
+
+  /** Passes actions on to the reducer, and counts each real clue reveal. */
+  function play(action: SessionAction) {
+    if (action.type === 'reveal' && state.status === 'inRound' && !state.revealed.includes(action.category)) {
+      // The free clue is already showing, so a round with one clue shown is about to get its first reveal.
+      trackReveal(action.category, state.revealed.length === 1);
+    }
+    dispatch(action);
   }
 
   function goHome() {
@@ -73,7 +85,7 @@ export default function App() {
       case 'idle':
         return <Home onStart={start} onLeaderboard={() => setShowLeaderboard(true)} />;
       case 'inRound':
-        return <Round key={state.roundIndex} state={state} dispatch={dispatch} />;
+        return <Round key={state.roundIndex} state={state} dispatch={play} />;
       case 'roundResult':
         return <RoundResult key={state.roundIndex} state={state} dispatch={dispatch} />;
       case 'summary':
