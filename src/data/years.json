@@ -7561,11 +7561,11 @@
     "clues": {
       "politics": [
         {
-          "text": "Chinese troops crush student-led demonstrations in Tiananmen Square in Beijing.",
-          "context": "The protests were crushed in June. The number of dead is still disputed, and the event is censored in China.",
-          "region": "East Asia",
-          "difficulty": 1,
-          "source": "https://en.wikipedia.org/wiki/Tiananmen_Square_protests_of_1989",
+          "text": "Mass protests in Prague, led by Václav Havel and his Civic Forum, bring down the Communist government of Czechoslovakia.",
+          "context": "It began in November when police beat students in Prague. Havel, a dissident playwright, became president in December. It is called the Velvet Revolution because almost no blood was shed.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Velvet_Revolution",
           "verified": true
         }
       ],
