@@ -41,7 +41,7 @@ export const MAX_BCE_GUESS = 9999;
 export const GUESS_YEAR_MIN = 1 - MAX_BCE_GUESS;
 export const LEADERBOARD_SIZE = 10;
 /** Bump when scoring rules change. */
-export const CONFIG_VERSION = 4;
+export const CONFIG_VERSION = 3;
 
 export const CLUE_CATEGORIES = ['politics', 'society', 'technology', 'arts_culture'] as const;
 export const MAX_CLUE_LENGTH = 140;

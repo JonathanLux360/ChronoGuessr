@@ -49,7 +49,7 @@ Config values for v1:
 | YEAR_MIN / YEAR_MAX | -3000 / 2026 |
 | MAX_BCE_GUESS | 9999 |
 | LEADERBOARD_SIZE | 10 |
-| CONFIG_VERSION | 4 (scoring changed in v1.1, with the tolerance curve, and with the streak bands) |
+| CONFIG_VERSION | 3 (v1.1 scoring: tolerance curve and streak bands; 2 was the published square-root version) |
 
 ## Scoring (do not change without asking)
 

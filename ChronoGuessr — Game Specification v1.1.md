@@ -421,7 +421,7 @@ Spot values for tests: answer 1526, 10 years off = 559, 100 = 232, 4 clues 10 ye
 
 ### Version B: saturating tolerance, hit 0.55 and hold 0.30
 
-Git tag `grading-v1.1-saturating` (commit `879ae60`). `CONFIG_VERSION` was 3.
+Git tag `grading-v1.1-saturating` (commit `879ae60`). Never published, and it also used `CONFIG_VERSION` 3, which now belongs to the current version.
 
 ```text
 a    = 2026 - y
@@ -441,4 +441,4 @@ Config: `ERA_REFERENCE_YEAR` 2026, `ERA_MAX_TOLERANCE` 1.9, `ERA_HALF_AGE` 128, 
 | 1000 | 1.69 | up to 18 | 19 to 105 | 106 and over | 844 |
 | 180 BCE | 1.80 | up to 19 | 20 to 112 | 113 and over | 897 |
 
-This version was replaced by hit 0.65 and hold 0.45 (same tolerance curve, `CONFIG_VERSION` 4), because its bands were too generous, especially for older years.
+This version was replaced by hit 0.65 and hold 0.45 (same tolerance curve, still `CONFIG_VERSION` 3 because Version B was never published), because its bands were too generous, especially for older years.
