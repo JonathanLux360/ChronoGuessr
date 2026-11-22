@@ -36,7 +36,8 @@ export function RoundResult({ state, dispatch }: { state: ResultState; dispatch:
   const nextRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    nextRef.current?.focus();
+    window.scrollTo(0, 0); // Open at the top, so the answer is in view on a phone.
+    nextRef.current?.focus({ preventScroll: true }); // Focusing the button must not scroll the page down to it.
   }, []);
 
   // The bar zooms in on the answer and the guess, whatever the era.

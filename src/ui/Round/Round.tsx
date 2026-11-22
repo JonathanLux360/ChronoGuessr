@@ -29,7 +29,8 @@ export function Round({ state, dispatch }: { state: InRound; dispatch: Dispatch<
 
   // Move focus to the page, not the field, so the keys 1 to 4 work straight away.
   useEffect(() => {
-    headingRef.current?.focus();
+    window.scrollTo(0, 0); // A new round starts at the top, not where the last result was scrolled to.
+    headingRef.current?.focus({ preventScroll: true });
   }, [roundIndex]);
 
   // Keys 1 to 4 reveal a clue. Enter jumps to the guess field. Digits typed in the field are left alone.
