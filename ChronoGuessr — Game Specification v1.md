@@ -262,7 +262,7 @@ Keep game logic pure and separate from React. Scoring and session state should b
 | REVEAL\_COSTS | \[100, 200, 300\] | Cost of the 2nd, 3rd and 4th clue |
 | SCALE\_S | 0.5 | Steepness of the scoring curve (lower = harsher on small misses) |
 | MAX\_DISTANCE | 500 | Years off at which a guess scores zero |
-| YEAR\_MIN / YEAR\_MAX | 1500 / 2026 | Range the content pool covers, and the latest year the player can guess |
+| YEAR\_MIN / YEAR\_MAX | -3000 / 2026 | Earliest and latest year the content pool may hold (BCE years are negative), and the latest year the player can guess |
 | MAX\_BCE\_GUESS | 9999 | Furthest back the player can guess, in years BCE |
 | LEADERBOARD\_SIZE | 10 | Sessions kept |
 | CONFIG\_VERSION | 1 | Bump when scoring rules change |
