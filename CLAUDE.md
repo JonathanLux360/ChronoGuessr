@@ -80,7 +80,7 @@ Unit-test these values (1 clue, no streak unless stated):
 - Streak on an exact 1526 guess: streak 0 = 1000, 1 = 1100, 2 = 1200, 3 or more = 1300. 10 years off at streak 3 = 727
 - Streak transitions: accuracy 0.55 extends, 0.30 holds, 0.29 resets. Ten exact one-clue rounds = 12,400
 
-The round result screen states the tolerance when it is not 1 (for example "Recent year: tolerance ×0.11", "Ancient year: tolerance ×2.1").
+When the tolerance is not 1, the round result screen explains it in plain words with this round's numbers, for example "Recent years are scored strictly. Here, 10 years off is worth 246 points. For a year around 1526 it would be worth 559." ("kindly" for ancient years.)
 
 ## Content rules
 

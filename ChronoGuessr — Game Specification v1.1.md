@@ -129,7 +129,7 @@ T(y) = \max\left(T_{\min},\; \left(\frac{Y_{\text{ref}} - y}{R}\right)^{p}\right
 | 180 BCE | 2.10 | 903 | 659 | 438 | 339 | 1,050 |
 | 480 BCE | 2.24 | 908 | 668 | 447 | 348 | 1,119 |
 
-Scores in the table are for one clue (1,000 potential points) and no streak. The round result screen states the tolerance when it is not 1 (for example "Recent year: tolerance ×0.11" or "Ancient year: tolerance ×2.1"), so the stricter or kinder scoring never looks like a bug. A linear factor (age / R) would make 480 BCE five times as forgiving as 1526 and push every year after about 1976 to the floor; the square root keeps the spread moderate. R, the exponent and the floor are config values to tune in playtesting.
+Scores in the table are for one clue (1,000 potential points) and no streak. The round result screen explains the tolerance in plain words when it is not 1 (for example "Recent years are scored strictly. Here, 10 years off is worth 246 points. For a year around 1526 it would be worth 559."), so the stricter or kinder scoring never looks like a bug. A linear factor (age / R) would make 480 BCE five times as forgiving as 1526 and push every year after about 1976 to the floor; the square root keeps the spread moderate. R, the exponent and the floor are config values to tune in playtesting.
 
 **Session score.** The sum of the 10 round scores, including any streak bonus. The base maximum is 10,000; ten exact one-clue guesses with a full streak reach 12,400.
 
@@ -263,7 +263,7 @@ Five screens, one primary action each, so the player always knows what to do nex
 
 - Show the distance in words: "Exact!", "3 years off", "112 years off".
 - Show the streak outcome in plain words: "Streak extended to 4. Next round: +30%.", "Near miss. Streak held at 3." or "Streak lost. Next round: no bonus."
-- When the answer year's tolerance is not 1, say so: "Recent year: tolerance ×0.11" or "Ancient year: tolerance ×2.1".
+- When the answer year's tolerance is not 1, explain it in plain words with this round's own numbers: "Recent years are scored strictly. Here, 10 years off is worth 246 points. For a year around 1526 it would be worth 559." ("kindly" for ancient years.)
 - A simple timeline bar marks the guess and the correct year, so the size of the miss is visible.
 - Each clue the player saw links to its source for players who want to read more.
 

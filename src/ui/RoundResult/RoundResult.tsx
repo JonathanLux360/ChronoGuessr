@@ -1,12 +1,15 @@
 import { useEffect, useRef, type Dispatch } from 'react';
-import { REVEAL_COSTS } from '../../config';
+import { ERA_REFERENCE_AGE, ERA_REFERENCE_YEAR, REVEAL_COSTS } from '../../config';
 import { describeDistance, formatPoints, formatYear } from '../../game/format';
-import { potential } from '../../game/scoring';
+import { potential, roundScore } from '../../game/scoring';
 import { timelineRange } from '../../game/timeline';
 import { totalScore, type RoundResult as Result, type SessionAction, type SessionState } from '../../game/session';
 import { bonusPercent } from '../../game/streak';
 import { RevealedClueCard } from '../shared/ClueCard';
 import styles from './RoundResult.module.css';
+
+/** The miss used in the tolerance example. */
+const TOLERANCE_EXAMPLE_YEARS = 10;
 
 type ResultState = Extract<SessionState, { status: 'roundResult' }>;
 
@@ -22,10 +25,17 @@ function streakMessage(result: Result): string {
   return result.streakBefore === 0 ? 'No streak yet. Next round: no bonus.' : 'Streak lost. Next round: no bonus.';
 }
 
-/** States the tolerance when it is not 1, so strict or kind scoring never looks like a bug. */
-function toleranceMessage(value: number): string | null {
-  if (Math.abs(value - 1) < 0.005) return null;
-  return value < 1 ? `Recent year: tolerance ×${value.toFixed(2)}` : `Ancient year: tolerance ×${value.toFixed(1)}`;
+/**
+ * Explains strict or kind scoring in plain words, with this round's own numbers, when the tolerance is not 1.
+ * It compares 10 years off here with 10 years off for a year of tolerance 1, at the same number of clues.
+ */
+function toleranceMessage(result: Result): string | null {
+  if (Math.abs(result.tolerance - 1) < 0.005) return null;
+  const here = roundScore(TOLERANCE_EXAMPLE_YEARS, result.cluesShown, result.year);
+  const typical = roundScore(TOLERANCE_EXAMPLE_YEARS, result.cluesShown, ERA_REFERENCE_YEAR - ERA_REFERENCE_AGE);
+  const how = result.tolerance < 1 ? 'Recent years are scored strictly.' : 'Ancient years are scored kindly.';
+  const reference = ERA_REFERENCE_YEAR - ERA_REFERENCE_AGE;
+  return `${how} Here, ${TOLERANCE_EXAMPLE_YEARS} years off is worth ${formatPoints(here)} points. For a year around ${reference} it would be worth ${formatPoints(typical)}.`;
 }
 
 /** Where a year sits on the timeline bar, as a percentage from the left. */
@@ -37,6 +47,7 @@ export function RoundResult({ state, dispatch }: { state: ResultState; dispatch:
   const { plan, roundIndex, results } = state;
   const result = results[results.length - 1];
   const round = plan[roundIndex];
+  const toleranceText = toleranceMessage(result);
   const isLast = roundIndex === plan.length - 1;
   const nextRef = useRef<HTMLButtonElement>(null);
 
@@ -75,7 +86,7 @@ export function RoundResult({ state, dispatch }: { state: ResultState; dispatch:
           </p>
         )}
         <p className={styles.streakMessage}>{streakMessage(result)}</p>
-        {toleranceMessage(result.tolerance) && <p className={styles.tolerance}>{toleranceMessage(result.tolerance)}</p>}
+        {toleranceText && <p className={styles.tolerance}>{toleranceText}</p>}
 
         <div className={styles.timeline} role="img" aria-label={`Timeline from ${formatYear(lo)} to ${formatYear(hi)}. The answer is ${formatYear(result.year)} and your guess is ${formatYear(result.guess)}.`}>
           <div className={styles.track}>
