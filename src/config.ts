@@ -16,8 +16,13 @@ export const ERA_MAX_TOLERANCE = 1.9;
 export const ERA_HALF_AGE = 128;
 /** Floor for the tolerance, reached at 2020. */
 export const ERA_MIN_TOLERANCE = 0.1;
-/** The year where the tolerance is 1 (about 1884). Only used to explain the scoring on the result screen. */
-export const ERA_NEUTRAL_YEAR = 1884;
+/** Names for the result-screen note about scoring. A year belongs to the first entry whose `before` is above it. */
+export const ERA_NAMES = [
+  { before: 500, name: 'ancient' },
+  { before: 1500, name: 'medieval' },
+  { before: 1900, name: 'early modern' },
+  { before: Infinity, name: 'modern' },
+] as const;
 /** Streak bonus per hit in a row. 0 switches streaks off. */
 export const STREAK_BONUS_STEP = 0.1;
 /** Largest streak bonus (0.3 is +30%). */

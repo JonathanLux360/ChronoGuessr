@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { CONFIG_VERSION } from '../config';
-import { formatDate, ordinal } from './format';
+import { eraName, formatDate, ordinal, toleranceNote } from './format';
 import type { RoundResult } from './session';
 import { buildSessionResult, sessionStats } from './stats';
 
@@ -111,5 +111,27 @@ describe('timelineRange', () => {
     const { lo, hi } = timelineRange(1500, 1500);
     expect(lo).toBeLessThan(1500);
     expect(hi).toBeGreaterThan(1500);
+  });
+});
+
+describe('eraName', () => {
+  it('names the era of a year', () => {
+    expect([-479, 1, 499, 500, 1499, 1526, 1899, 1900, 2020].map(eraName)).toEqual([
+      'ancient', 'ancient', 'ancient', 'medieval', 'medieval', 'early modern', 'early modern', 'modern', 'modern',
+    ]);
+  });
+});
+
+describe('toleranceNote', () => {
+  it('says how much more harshly a modern year was graded', () => {
+    expect(toleranceNote(0.42, 1990)).toBe('This is a modern year, so it was graded 58% more harshly than average.');
+  });
+  it('says how much more leniently an old year was graded', () => {
+    expect(toleranceNote(1.8, -179)).toBe('This is an ancient year, so it was graded 80% more leniently than average.');
+    expect(toleranceNote(1.51, 1526)).toBe('This is an early modern year, so it was graded 51% more leniently than average.');
+  });
+  it('says nothing when the tolerance is about 1', () => {
+    expect(toleranceNote(1, 1884)).toBeNull();
+    expect(toleranceNote(0.996, 1883)).toBeNull();
   });
 });

@@ -130,7 +130,7 @@ T(y) = \max\left(T_{\min},\; T_{\max} \cdot \frac{a}{a + h}\right), \qquad a = Y
 | 180 BCE | 1.80 | 892 | 639 | 416 | 317 | 895 |
 | 480 BCE | 1.81 | 892 | 640 | 417 | 317 | 901 |
 
-Scores in the table are for one clue (1,000 potential points) and no streak. The round result screen explains the tolerance in plain words when it is not 1 (for example "Recent years are scored strictly. Here, 10 years off is worth 232 points. For a year around 1884 it would be worth 559."), so the stricter or kinder scoring never looks like a bug. This curve replaced a square-root version that kept falling smoothly all the way back, which made 1500 and 1800 differ a lot. The tolerance values (T\_max, h, the floor) are config values to tune in playtesting.
+Scores in the table are for one clue (1,000 potential points) and no streak. The round result screen says how strictly the round was graded, as a percentage against a tolerance of 1, when the tolerance is not about 1 (for example "This is a modern year, so it was graded 58% more harshly than average."), so the stricter or kinder scoring never looks like a bug. This curve replaced a square-root version that kept falling smoothly all the way back, which made 1500 and 1800 differ a lot. The tolerance values (T\_max, h, the floor) are config values to tune in playtesting.
 
 **Session score.** The sum of the 10 round scores, including any streak bonus. The base maximum is 10,000; ten exact one-clue guesses with a full streak reach 12,400.
 
@@ -264,7 +264,7 @@ Five screens, one primary action each, so the player always knows what to do nex
 
 - Show the distance in words: "Exact!", "3 years off", "112 years off".
 - Show the streak outcome in plain words: "Streak extended to 4. Next round: +30%.", "Near miss. Streak held at 3." or "Streak lost. Next round: no bonus."
-- When the answer year's tolerance is not 1, explain it in plain words with this round's own numbers: "Recent years are scored strictly. Here, 10 years off is worth 232 points. For a year around 1884 it would be worth 559." ("kindly" for ancient years.)
+- When the answer year's tolerance is not 1, say how strictly the round was graded, as a percentage against a tolerance of 1 (|T − 1|), with the era name (ancient, medieval, early modern or modern): "This is a modern year, so it was graded 58% more harshly than average." ("more leniently" for old years.)
 - A simple timeline bar marks the guess and the correct year, so the size of the miss is visible.
 - Each clue the player saw links to its source for players who want to read more.
 
@@ -320,7 +320,7 @@ Keep game logic pure and separate from React. Scoring and session state should b
 | ERA\_MAX\_TOLERANCE | 1.9 | Most lenient tolerance, for the oldest years |
 | ERA\_HALF\_AGE | 128 | Age at which the tolerance is half of its maximum |
 | ERA\_MIN\_TOLERANCE | 0.1 | Floor for the tolerance, reached at 2020 |
-| ERA\_NEUTRAL\_YEAR | 1884 | Year where the tolerance is about 1; used only in the result-screen explanation |
+| ERA\_NAMES | ancient, medieval, early modern, modern | Era names for the result-screen note (cut-offs at 500, 1500 and 1900) |
 | STREAK\_BONUS\_STEP | 0.10 | Bonus per hit in a row (0 switches streaks off) |
 | STREAK\_BONUS\_CAP | 0.30 | Largest streak bonus |
 | STREAK\_HIT\_ACCURACY | 0.55 | Accuracy that extends the streak |

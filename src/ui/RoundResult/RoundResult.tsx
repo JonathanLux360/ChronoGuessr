@@ -1,15 +1,12 @@
 import { useEffect, useRef, type Dispatch } from 'react';
-import { ERA_NEUTRAL_YEAR, REVEAL_COSTS } from '../../config';
-import { describeDistance, formatPoints, formatYear } from '../../game/format';
-import { potential, roundScore } from '../../game/scoring';
+import { REVEAL_COSTS } from '../../config';
+import { describeDistance, formatPoints, formatYear, toleranceNote } from '../../game/format';
+import { potential } from '../../game/scoring';
 import { timelineRange } from '../../game/timeline';
 import { totalScore, type RoundResult as Result, type SessionAction, type SessionState } from '../../game/session';
 import { bonusPercent } from '../../game/streak';
 import { RevealedClueCard } from '../shared/ClueCard';
 import styles from './RoundResult.module.css';
-
-/** The miss used in the tolerance example. */
-const TOLERANCE_EXAMPLE_YEARS = 10;
 
 type ResultState = Extract<SessionState, { status: 'roundResult' }>;
 
@@ -25,18 +22,6 @@ function streakMessage(result: Result): string {
   return result.streakBefore === 0 ? 'No streak yet. Next round: no bonus.' : 'Streak lost. Next round: no bonus.';
 }
 
-/**
- * Explains strict or kind scoring in plain words, with this round's own numbers, when the tolerance is not 1.
- * It compares 10 years off here with 10 years off for a year of tolerance 1, at the same number of clues.
- */
-function toleranceMessage(result: Result): string | null {
-  if (Math.abs(result.tolerance - 1) < 0.005) return null;
-  const here = roundScore(TOLERANCE_EXAMPLE_YEARS, result.cluesShown, result.year);
-  const typical = roundScore(TOLERANCE_EXAMPLE_YEARS, result.cluesShown, ERA_NEUTRAL_YEAR);
-  const how = result.tolerance < 1 ? 'Recent years are scored strictly.' : 'Ancient years are scored kindly.';
-  return `${how} Here, ${TOLERANCE_EXAMPLE_YEARS} years off is worth ${formatPoints(here)} points. For a year around ${ERA_NEUTRAL_YEAR} it would be worth ${formatPoints(typical)}.`;
-}
-
 /** Where a year sits on the timeline bar, as a percentage from the left. */
 function position(year: number, lo: number, hi: number): number {
   return ((year - lo) / (hi - lo)) * 100;
@@ -46,7 +31,7 @@ export function RoundResult({ state, dispatch }: { state: ResultState; dispatch:
   const { plan, roundIndex, results } = state;
   const result = results[results.length - 1];
   const round = plan[roundIndex];
-  const toleranceText = toleranceMessage(result);
+  const toleranceText = toleranceNote(result.tolerance, result.year);
   const isLast = roundIndex === plan.length - 1;
   const nextRef = useRef<HTMLButtonElement>(null);
 

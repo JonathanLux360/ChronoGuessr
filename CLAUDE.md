@@ -41,7 +41,7 @@ Config values for v1:
 | ERA_MAX_TOLERANCE | 1.9 |
 | ERA_HALF_AGE | 128 |
 | ERA_MIN_TOLERANCE | 0.1 |
-| ERA_NEUTRAL_YEAR | 1884 (only for the result-screen explanation) |
+| ERA_NAMES | ancient, medieval, early modern, modern (only for the result-screen note) |
 | STREAK_BONUS_STEP | 0.10 (0 switches streaks off) |
 | STREAK_BONUS_CAP | 0.30 |
 | STREAK_HIT_ACCURACY | 0.55 |
@@ -82,7 +82,7 @@ Unit-test these values (1 clue, no streak unless stated):
 - Streak on an exact guess: streak 0 = 1000, 1 = 1100, 2 = 1200, 3 or more = 1300. 10 years off at streak 3 (answer 1884) = 727
 - Streak transitions: accuracy 0.55 extends, 0.30 holds, 0.29 resets. Ten exact one-clue rounds = 12,400
 
-When the tolerance is not 1, the round result screen explains it in plain words with this round's numbers, for example "Recent years are scored strictly. Here, 10 years off is worth 232 points. For a year around 1884 it would be worth 559." ("kindly" for ancient years.)
+When the tolerance is not about 1, the round result screen says how strictly the round was graded, as a percentage against a tolerance of 1 (|T - 1|), for example "This is a modern year, so it was graded 58% more harshly than average." ("leniently" for old years; the era name is ancient, medieval, early modern or modern.)
 
 ## Content rules
 

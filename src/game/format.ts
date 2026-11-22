@@ -1,3 +1,5 @@
+import { ERA_NAMES } from '../config';
+
 /** BCE years are stored as negative integers: 0 is 1 BCE, so -43 is 44 BCE. */
 export function formatYear(year: number): string {
   return year <= 0 ? `${1 - year} BCE` : String(year);
@@ -27,4 +29,22 @@ export function formatDate(iso: string): string {
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return '';
   return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+/** The era a year belongs to, for example "ancient" or "modern". */
+export function eraName(year: number): string {
+  return (ERA_NAMES.find((era) => year < era.before) ?? ERA_NAMES[ERA_NAMES.length - 1]).name;
+}
+
+/**
+ * Plain-words note on how strictly the round was graded, compared with a tolerance of 1.
+ * Returns null when the difference is too small to mention.
+ */
+export function toleranceNote(tolerance: number, year: number): string | null {
+  const percent = Math.round(Math.abs(tolerance - 1) * 100);
+  if (percent < 1) return null;
+  const era = eraName(year);
+  const article = /^[aeiou]/.test(era) ? 'an' : 'a';
+  const how = tolerance < 1 ? 'harshly' : 'leniently';
+  return `This is ${article} ${era} year, so it was graded ${percent}% more ${how} than average.`;
 }
