@@ -1,4 +1,4 @@
-# Content review — batch 7 (before 1500, and BCE)
+# Content review — batch 7 (before 1500, and BCE) (marked verified by Jonathan)
 
 **11 new years** from before 1500, including three BCE years. Every clue is AI-drafted and **unverified** (`"verified": false`), so the game never shows it until you check it. For each clue, open the source and check:
 
@@ -13,7 +13,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 
 **Dates before 1500 are less exact.** Where a date is traditional or approximate (the Pantheon-era years, Herod's Temple, the Aqua Virgo, the Baihu Tong, Aldus Manutius, the Last Supper), the context line says so. Please check those first.
 
-## [ ] 480 BCE (stored as -479)
+## [x] 480 BCE (stored as -479)
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | Persian engineers lash hundreds of ships together to bridge the Hellespont, so that Xerxes' huge army can cross from Asia into Europe. | Herodotus describes the bridges, and says that an earlier pair was destroyed by a storm. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Xerxes_I) |
 | Arts & Culture | The playwright Aeschylus fights in the Greek fleet at the Battle of Salamis, an experience he later turns into his play The Persians. | The Persians was staged in 472 BCE and is the oldest Greek tragedy that survives. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Aeschylus) |
 
-## [ ] 221 BCE (stored as -220)
+## [x] 221 BCE (stored as -220)
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | Qin orders all carts to have the same axle width, so that they fit the ruts on the empire's roads. | The rule helped traffic move quickly along the new network of imperial roads. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Qin_dynasty) |
 | Arts & Culture | The chief minister Li Si introduces a standard form of writing, the small seal script, to replace the many regional scripts. | It meant that people who spoke different dialects could read the same texts. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Li_Si) |
 
-## [ ] 19 BCE (stored as -18)
+## [x] 19 BCE (stored as -18)
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -40,7 +40,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | The Romans complete the Aqua Virgo, an aqueduct that carries clear spring water to the baths and fountains of Rome. | Agrippa built it. Parts of it still supply the Trevi Fountain today. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Aqua_Virgo) |
 | Arts & Culture | The Roman poet Virgil dies, leaving his epic poem the Aeneid unfinished. | He asked for it to be burned, but Emperor Augustus ordered it published. It became Rome's national epic. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Virgil) |
 
-## [ ] 79
+## [x] 79
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -49,7 +49,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | The Roman writer and naturalist Pliny the Elder dies while sailing across the bay to rescue people and study the eruption of Vesuvius. | His nephew, Pliny the Younger, described the eruption in two famous letters. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Pliny_the_Elder) |
 | Arts & Culture | Han scholars gather at the White Tiger Hall, in Luoyang, to debate the Confucian classics, and the record becomes a famous book. | Emperor Zhang called the conference to settle disputes over how to read the classics. The book is called the Baihu Tong. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Baihu_Tong) |
 
-## [ ] 1420
+## [x] 1420
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -58,7 +58,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | Filippo Brunelleschi begins building the huge dome of Florence Cathedral, without the usual wooden frame to support it. | The dome took sixteen years and about four million bricks. It is still the largest brick dome in the world. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Brunelleschi%27s_Dome) |
 | Arts & Culture | China's Yongle Emperor completes the Forbidden City, in Beijing, a palace of nearly a thousand buildings. | The capital moved from Nanjing the next year. Emperors lived in the palace for almost five centuries. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Forbidden_City) |
 
-## [ ] 1434
+## [x] 1434
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -67,7 +67,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | The Portuguese navigator Gil Eanes sails past Cape Bojador, off West Africa, which sailors had long feared to pass. | He made the voyage for Prince Henry the Navigator. It opened the way for the long Portuguese voyages down the African coast. | Africa | 3 | [link](https://en.wikipedia.org/wiki/Gil_Eanes) |
 | Arts & Culture | The Flemish painter Jan van Eyck paints the Arnolfini Portrait, a couple in a richly detailed room, with a mirror at the back. | The mirror reflects two more figures and the painter himself. The picture is now in the National Gallery in London. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Arnolfini_Portrait) |
 
-## [ ] 1453
+## [x] 1453
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -77,7 +77,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | Giant Ottoman cannon, cast by the Hungarian engineer Orban, batter the great walls of Constantinople. | The biggest gun fired heavy stone balls and was slow to reload, but the walls had never faced anything like it. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Fall_of_Constantinople) |
 | Arts & Culture | The Florentine sculptor Donatello completes the bronze statue of the mercenary general Gattamelata, in Padua. | It was the first large bronze statue of a horseman since ancient Rome, and it became a model for later monuments. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Equestrian_Statue_of_Gattamelata) |
 
-## [ ] 1455
+## [x] 1455
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -86,7 +86,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | Johannes Gutenberg's workshop in Mainz produces the first Bible printed with movable metal type. | The Gutenberg Bible was ready around this year. It helped start the printing revolution in Europe. | Europe | 1 | [link](https://en.wikipedia.org/wiki/Gutenberg_Bible) |
 | Arts & Culture | The Italian painter and friar Fra Angelico dies in Rome. | He painted glowing frescoes in the San Marco convent in Florence. The Church declared him blessed in 1982. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Fra_Angelico) |
 
-## [ ] 1492
+## [x] 1492
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -97,7 +97,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Arts & Culture | The Italian painter Piero della Francesca, a master of perspective and geometry, dies in Borgo San Sepolcro. | He died on the twelfth of October, the same day that Columbus first sighted land. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Piero_della_Francesca) |
 | Arts & Culture | The Spanish scholar Antonio de Nebrija publishes the first grammar of the Spanish language. | It was presented to Queen Isabella. Nebrija is said to have told her that language is the companion of empire. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Antonio_de_Nebrija) |
 
-## [ ] 1494
+## [x] 1494
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -106,7 +106,7 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Technology | The Italian mathematician Luca Pacioli publishes a textbook describing double-entry bookkeeping, the basis of modern accounting. | The book, Summa de arithmetica, was printed in Venice. Merchants had used the method for a long time, but this was the first full printed account. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Luca_Pacioli) |
 | Arts & Culture | The Venetian printer Aldus Manutius sets up his press in Venice, and soon produces elegant, pocket-sized editions of the classics. | He started around this time. He later introduced italic type. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Aldus_Manutius) |
 
-## [ ] 1498
+## [x] 1498
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |

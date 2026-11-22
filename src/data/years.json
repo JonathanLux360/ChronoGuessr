@@ -9,7 +9,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -19,7 +19,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Second_Persian_invasion_of_Greece",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -29,7 +29,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Xerxes_I",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -39,7 +39,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Aeschylus",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -54,7 +54,7 @@
           "region": "East Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -64,7 +64,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Qin_dynasty",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -74,7 +74,7 @@
           "region": "East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Qin_dynasty",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -84,7 +84,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Li_Si",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -168,7 +168,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Cantabrian_Wars",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -178,7 +178,7 @@
           "region": "Middle East",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Herod%27s_Temple",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -188,7 +188,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Aqua_Virgo",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -198,7 +198,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Virgil",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -213,7 +213,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Titus",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -223,7 +223,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -233,7 +233,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Pliny_the_Elder",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -243,7 +243,7 @@
           "region": "East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Baihu_Tong",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -258,7 +258,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Treaty_of_Troyes",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -268,7 +268,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_V%C3%ADtkov_Mountain",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -278,7 +278,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Brunelleschi%27s_Dome",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -288,7 +288,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Forbidden_City",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -303,7 +303,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Cosimo_de%27_Medici",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -313,7 +313,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Lipany",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -323,7 +323,7 @@
           "region": "Africa",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Gil_Eanes",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -333,7 +333,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -348,7 +348,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Castillon",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The Ottoman sultan Mehmed II captures Constantinople after a siege of about seven weeks, ending the Byzantine Empire.",
@@ -356,7 +356,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -366,7 +366,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Hagia_Sophia",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -376,7 +376,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -386,7 +386,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Equestrian_Statue_of_Gattamelata",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -401,7 +401,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/First_Battle_of_St_Albans",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -411,7 +411,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Joan_of_Arc",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -421,7 +421,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -431,7 +431,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Fra_Angelico",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -446,7 +446,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Granada_War",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The Genoese navigator Christopher Columbus, sailing for Spain, makes landfall in the Caribbean, in what he believes is Asia.",
@@ -454,7 +454,7 @@
           "region": "Latin America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/First_voyage_of_Christopher_Columbus",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -464,7 +464,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Alhambra_Decree",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -474,7 +474,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Erdapfel",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -484,7 +484,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Piero_della_Francesca",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The Spanish scholar Antonio de Nebrija publishes the first grammar of the Spanish language.",
@@ -492,7 +492,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Antonio_de_Nebrija",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -507,7 +507,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Treaty_of_Tordesillas",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -517,7 +517,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Girolamo_Savonarola",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -527,7 +527,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Luca_Pacioli",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -537,7 +537,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Aldus_Manutius",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -552,7 +552,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Louis_XII",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -562,7 +562,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Girolamo_Savonarola",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -572,7 +572,7 @@
           "region": "South Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Vasco_da_Gama",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -582,7 +582,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo_da_Vinci)",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The German artist Albrecht Dürer publishes The Apocalypse, a series of woodcuts showing scenes from the Book of Revelation.",
@@ -590,7 +590,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
-          "verified": false
+          "verified": true
         }
       ]
     }
