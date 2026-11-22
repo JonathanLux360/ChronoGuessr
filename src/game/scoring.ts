@@ -1,7 +1,7 @@
 import {
-  ERA_EXPONENT,
+  ERA_HALF_AGE,
+  ERA_MAX_TOLERANCE,
   ERA_MIN_TOLERANCE,
-  ERA_REFERENCE_AGE,
   ERA_REFERENCE_YEAR,
   MAX_DISTANCE,
   MAX_ROUND_POINTS,
@@ -14,12 +14,13 @@ import { streakMultiplier } from './streak';
 export const MAX_CLUES = REVEAL_COSTS.length + 1;
 
 /**
- * Tolerance for an answer year: how forgiving the score is. 1 at 1526, below 1 for recent years,
- * above 1 for ancient ones. Depends only on the answer, so a guess cannot change it.
+ * Tolerance for an answer year: how forgiving the score is. Low for recent years, and rising towards
+ * ERA_MAX_TOLERANCE for old ones (a saturating curve: it is about 1 at 1884 and flattens out before 1800).
+ * Depends only on the answer, so a guess cannot change it.
  */
 export function tolerance(answerYear: number): number {
   const age = Math.max(0, ERA_REFERENCE_YEAR - answerYear);
-  return Math.max(ERA_MIN_TOLERANCE, Math.pow(age / ERA_REFERENCE_AGE, ERA_EXPONENT));
+  return Math.max(ERA_MIN_TOLERANCE, (ERA_MAX_TOLERANCE * age) / (age + ERA_HALF_AGE));
 }
 
 /**

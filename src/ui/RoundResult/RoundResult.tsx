@@ -1,5 +1,5 @@
 import { useEffect, useRef, type Dispatch } from 'react';
-import { ERA_REFERENCE_AGE, ERA_REFERENCE_YEAR, REVEAL_COSTS } from '../../config';
+import { ERA_NEUTRAL_YEAR, REVEAL_COSTS } from '../../config';
 import { describeDistance, formatPoints, formatYear } from '../../game/format';
 import { potential, roundScore } from '../../game/scoring';
 import { timelineRange } from '../../game/timeline';
@@ -32,10 +32,9 @@ function streakMessage(result: Result): string {
 function toleranceMessage(result: Result): string | null {
   if (Math.abs(result.tolerance - 1) < 0.005) return null;
   const here = roundScore(TOLERANCE_EXAMPLE_YEARS, result.cluesShown, result.year);
-  const typical = roundScore(TOLERANCE_EXAMPLE_YEARS, result.cluesShown, ERA_REFERENCE_YEAR - ERA_REFERENCE_AGE);
+  const typical = roundScore(TOLERANCE_EXAMPLE_YEARS, result.cluesShown, ERA_NEUTRAL_YEAR);
   const how = result.tolerance < 1 ? 'Recent years are scored strictly.' : 'Ancient years are scored kindly.';
-  const reference = ERA_REFERENCE_YEAR - ERA_REFERENCE_AGE;
-  return `${how} Here, ${TOLERANCE_EXAMPLE_YEARS} years off is worth ${formatPoints(here)} points. For a year around ${reference} it would be worth ${formatPoints(typical)}.`;
+  return `${how} Here, ${TOLERANCE_EXAMPLE_YEARS} years off is worth ${formatPoints(here)} points. For a year around ${ERA_NEUTRAL_YEAR} it would be worth ${formatPoints(typical)}.`;
 }
 
 /** Where a year sits on the timeline bar, as a percentage from the left. */

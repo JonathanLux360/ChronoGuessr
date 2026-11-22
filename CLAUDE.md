@@ -38,9 +38,10 @@ Config values for v1:
 | SCALE_S | 0.5 |
 | MAX_DISTANCE | 500 |
 | ERA_REFERENCE_YEAR | 2026 |
-| ERA_REFERENCE_AGE | 500 |
-| ERA_EXPONENT | 0.5 |
+| ERA_MAX_TOLERANCE | 1.9 |
+| ERA_HALF_AGE | 128 |
 | ERA_MIN_TOLERANCE | 0.1 |
+| ERA_NEUTRAL_YEAR | 1884 (only for the result-screen explanation) |
 | STREAK_BONUS_STEP | 0.10 (0 switches streaks off) |
 | STREAK_BONUS_CAP | 0.30 |
 | STREAK_HIT_ACCURACY | 0.55 |
@@ -48,18 +49,19 @@ Config values for v1:
 | YEAR_MIN / YEAR_MAX | -3000 / 2026 |
 | MAX_BCE_GUESS | 9999 |
 | LEADERBOARD_SIZE | 10 |
-| CONFIG_VERSION | 2 (scoring changed in v1.1) |
+| CONFIG_VERSION | 3 (scoring changed in v1.1 and again with the tolerance curve) |
 
 ## Scoring (do not change without asking)
 
 ```
-T(y)          = max(ERA_MIN_TOLERANCE, ((ERA_REFERENCE_YEAR - y) / ERA_REFERENCE_AGE) ^ ERA_EXPONENT)
+a             = ERA_REFERENCE_YEAR - y
+T(y)          = max(ERA_MIN_TOLERANCE, ERA_MAX_TOLERANCE × a / (a + ERA_HALF_AGE))
 accuracy(d,y) = max(0, 1 - ln(1 + d / (s * T(y))) / ln(1 + D / s))     s = 0.5, D = 500
 roundScore    = round(potential × accuracy(d,y) × streakMultiplier)
 potential     = 1000, 900, 700, 400 after 1, 2, 3, 4 clues
 ```
 
-`d` is the absolute number of years off. `y` is the answer year (never the guess), so the guess cannot change `T`. `T` changes smoothly with the answer's age: T = 1 at 1526, about 0.39 at 1950, 0.11 at 2020 (floor 0.1), about 2.1 at 180 BCE. The zero-score distance is D × T. `ERA_REFERENCE_YEAR` is a fixed constant, never today's date. An exact guess always scores the full potential.
+`d` is the absolute number of years off. `y` is the answer year (never the guess), so the guess cannot change `T`. `T` is low for recent years and flattens out before about 1800: T is about 1 at 1884, 0.71 at 1950, 0.1 at 2020 (the floor), 1.51 at 1526, 1.8 at 180 BCE. The zero-score distance is D × T. `ERA_REFERENCE_YEAR` is a fixed constant, never today's date. An exact guess always scores the full potential.
 
 Streak:
 
@@ -71,16 +73,16 @@ Streak:
 
 Unit-test these values (1 clue, no streak unless stated):
 
-- Exact guess, any year: 1000 (check 2020, 1526 and 480 BCE)
-- Answer 1526 (T = 1): 10 years off = 559, 100 = 232, 500 or more = 0; 4 clues, 10 years off = 224
-- Answer 2020: 1 year off = 572, 10 = 246, 50 = 13, 55 or more = 0
-- Answer 1950: 10 years off = 427. Answer 1650: 10 years off = 540
-- Answer 180 BCE (-179, T about 2.10): 10 years off = 659, 50 = 438, 100 = 339, 1,050 or more = 0
-- Answer 1000 CE: 100 years off = 284. Answer 480 BCE (-479): 100 years off = 348
-- Streak on an exact 1526 guess: streak 0 = 1000, 1 = 1100, 2 = 1200, 3 or more = 1300. 10 years off at streak 3 = 727
+- Exact guess, any year: 1000 (check 2020, 1884 and 480 BCE)
+- Answer 1884 (T about 1): 10 years off = 559, 100 = 232, 500 or more = 0; 4 clues, 10 years off = 224
+- Answer 2020: 1 year off = 559, 10 = 232, 50 or more = 0
+- Answer 1990: 10 years off = 437. Answer 1950: 10 years off = 511, 100 = 183
+- Answer 1650: 10 years off = 607. Answer 1526: 616. Answer 1000 CE: 10 years off = 631, 100 = 308
+- Answer 180 BCE (-179, T about 1.80): 10 years off = 639, 50 = 416, 100 = 317, 895 or more = 0. Answer 480 BCE (-479): 10 years off = 640, 100 = 317
+- Streak on an exact guess: streak 0 = 1000, 1 = 1100, 2 = 1200, 3 or more = 1300. 10 years off at streak 3 (answer 1884) = 727
 - Streak transitions: accuracy 0.55 extends, 0.30 holds, 0.29 resets. Ten exact one-clue rounds = 12,400
 
-When the tolerance is not 1, the round result screen explains it in plain words with this round's numbers, for example "Recent years are scored strictly. Here, 10 years off is worth 246 points. For a year around 1526 it would be worth 559." ("kindly" for ancient years.)
+When the tolerance is not 1, the round result screen explains it in plain words with this round's numbers, for example "Recent years are scored strictly. Here, 10 years off is worth 232 points. For a year around 1884 it would be worth 559." ("kindly" for ancient years.)
 
 ## Content rules
 

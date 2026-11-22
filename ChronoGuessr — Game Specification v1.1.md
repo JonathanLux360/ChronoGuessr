@@ -88,11 +88,11 @@ A(d, y) = \max\left(0,\; 1 - \frac{\ln\left(1 + \frac{d}{s\,T(y)}\right)}{\ln(1 
 ```
 
 - d = years off (absolute difference between guess and answer).
-- y = the answer year, and T(y) = its tolerance. T changes smoothly with how long ago y was: below 1 for recent years, 1 at 1526, above 1 for older years (see Era tolerance below).
+- y = the answer year, and T(y) = its tolerance. T changes smoothly with how long ago y was: below 1 for recent years, about 1 at 1884, and rising towards 1.9 for the oldest years (see Era tolerance below).
 - D = 500, the distance at which a guess scores zero when T = 1. In general the zero point is D × T(y).
 - s = 0.5, a steepness setting. Lower values punish small misses harder.
 
-Because the curve is logarithmic, the first years of error cost the most. Going from exact to 10 years off loses 44% of the points. Going from 10 to 100 years off loses a further 33%. This meets the brief: the first 10 years cost more than the next 90. These figures, and the chart below, are for T = 1 (an answer around 1526). Recent years are scored more strictly and older years more forgivingly (see Era tolerance).
+Because the curve is logarithmic, the first years of error cost the most. Going from exact to 10 years off loses 44% of the points. Going from 10 to 100 years off loses a further 33%. This meets the brief: the first 10 years cost more than the next 90. These figures, and the chart below, are for T = 1 (an answer around 1884). Recent years are scored more strictly and older years more forgivingly (see Era tolerance).
 
 **Round score**
 
@@ -104,32 +104,33 @@ P is the potential points after k clues: 1,000, 900, 700 or 400. m is the streak
 
 &#91;embedded content: computed from the formula above · s = 0.5, D = 500, T = 1\]
 
-The trade-off this creates, for an answer around 1526: a guess 10 years off with one clue (559) beats an exact guess after revealing all four (400). For a 2020 answer, 10 years off is worth only 246, so precision matters more. Players are rewarded for committing early when they are fairly sure.
+The trade-off this creates, for an answer around 1884: a guess 10 years off with one clue (559) beats an exact guess after revealing all four (400). For a 2020 answer, 10 years off is worth only 232, so precision matters more. Players are rewarded for committing early when they are fairly sure.
 
-**Era tolerance.** Ten years off is a fine guess for 1526 but a poor one for 2020. The more recent the year, the more precisely players are expected to know it, and ancient dates can be uncertain by a year or two even among historians. So the distance is divided by a tolerance factor that changes smoothly with how long ago the answer year was, before it enters the curve.
+**Era tolerance.** Ten years off is a fine guess for 1526 but a poor one for 2020. The more recent the year, the more precisely players are expected to know it, and ancient dates can be uncertain by a year or two even among historians. So the distance is divided by a tolerance factor that depends on how long ago the answer year was, before it enters the curve. The factor is low for recent years, rises quickly through the twentieth century, and then flattens out: before about 1800 every year is scored almost equally kindly.
 
 ```latex
-T(y) = \max\left(T_{\min},\; \left(\frac{Y_{\text{ref}} - y}{R}\right)^{p}\right)
+T(y) = \max\left(T_{\min},\; T_{\max} \cdot \frac{a}{a + h}\right), \qquad a = Y_{\text{ref}} - y
 ```
 
-- y is the answer year in astronomical numbering (180 BCE = −179). Y\_ref = 2026 is a fixed constant, not today's date, so scores never drift over time. R = 500 is the reference age, so T = 1 at 1526. p = 0.5 is the exponent (a square root).
-- T falls smoothly for recent years and rises for older ones, so no two decades share a tolerance: 1950 has T = 0.39 and 1650 has T = 0.87. T\_min = 0.1 is a floor, reached at 2021, so the newest years are not scored impossibly strictly.
+- y is the answer year in astronomical numbering (180 BCE = −179), and a is its age. Y\_ref = 2026 is a fixed constant, not today's date, so scores never drift over time.
+- T\_max = 1.9 is the most lenient the factor can get (the oldest years approach it). h = 128 is the age at which T is half of T\_max. T = 1 at about 1884.
+- T\_min = 0.1 is a floor, reached at 2020, so the newest years are not scored impossibly strictly.
 - Only the answer year sets T. The player's guess cannot change it, so it cannot be gamed.
-- An exact guess is always worth the full potential. The zero-score distance is D × T: about 55 years for 2020, 500 for 1526, and over 1,000 for 180 BCE.
+- An exact guess is always worth the full potential. The zero-score distance is D × T: about 50 years for 2020, 500 for 1884, and about 900 for 180 BCE.
 
 | Answer year | T | 1 year off | 10 years off | 50 years off | 100 years off | Zero at (years off) |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2020 | 0.11 | 572 | 246 | 13 | 0 | 55 |
-| 1990 | 0.27 | 691 | 374 | 143 | 42 | 134 |
-| 1950 | 0.39 | 738 | 427 | 197 | 96 | 195 |
-| 1850 | 0.59 | 787 | 487 | 257 | 157 | 297 |
-| 1650 | 0.87 | 827 | 540 | 312 | 212 | 434 |
-| 1526 | 1.00 | 841 | 559 | 332 | 232 | 500 |
-| 1000 | 1.43 | 874 | 608 | 383 | 284 | 716 |
-| 180 BCE | 2.10 | 903 | 659 | 438 | 339 | 1,050 |
-| 480 BCE | 2.24 | 908 | 668 | 447 | 348 | 1,119 |
+| 2020 | 0.10 | 559 | 232 | 0 | 0 | 50 |
+| 1990 | 0.42 | 746 | 437 | 206 | 106 | 208 |
+| 1950 | 0.71 | 806 | 511 | 282 | 183 | 353 |
+| 1850 | 1.10 | 850 | 572 | 346 | 246 | 549 |
+| 1650 | 1.42 | 873 | 607 | 382 | 283 | 707 |
+| 1526 | 1.51 | 878 | 616 | 391 | 292 | 754 |
+| 1000 | 1.69 | 887 | 631 | 407 | 308 | 842 |
+| 180 BCE | 1.80 | 892 | 639 | 416 | 317 | 895 |
+| 480 BCE | 1.81 | 892 | 640 | 417 | 317 | 901 |
 
-Scores in the table are for one clue (1,000 potential points) and no streak. The round result screen explains the tolerance in plain words when it is not 1 (for example "Recent years are scored strictly. Here, 10 years off is worth 246 points. For a year around 1526 it would be worth 559."), so the stricter or kinder scoring never looks like a bug. A linear factor (age / R) would make 480 BCE five times as forgiving as 1526 and push every year after about 1976 to the floor; the square root keeps the spread moderate. R, the exponent and the floor are config values to tune in playtesting.
+Scores in the table are for one clue (1,000 potential points) and no streak. The round result screen explains the tolerance in plain words when it is not 1 (for example "Recent years are scored strictly. Here, 10 years off is worth 232 points. For a year around 1884 it would be worth 559."), so the stricter or kinder scoring never looks like a bug. This curve replaced a square-root version that kept falling smoothly all the way back, which made 1500 and 1800 differ a lot. The tolerance values (T\_max, h, the floor) are config values to tune in playtesting.
 
 **Session score.** The sum of the 10 round scores, including any streak bonus. The base maximum is 10,000; ten exact one-clue guesses with a full streak reach 12,400.
 
@@ -146,7 +147,7 @@ m = 1 + \min(n \times 0.10,\; 0.30)
 ```
 
 - n is the number of hits in a row entering the round. m multiplies the round score, and round 1 is always ×1.0. A streak never carries from one session to the next.
-- A hit is judged on accuracy, not on clues used, so a hit after four reveals still counts. Accuracy includes the era tolerance, so a hit means within about 1 year for 2020, 4 for 1950, 11 for 1526 and 22 for 180 BCE.
+- A hit is judged on accuracy, not on clues used, so a hit after four reveals still counts. Accuracy includes the era tolerance, so a hit means within about 1 year for 2020, 8 for 1950, 11 for 1884, 16 for 1526 and 19 for 180 BCE.
 - The multiplier is shown before the player guesses, so it works as a stake.
 - The bonus is capped at +30% (a streak of three or more). Ten exact one-clue guesses reach 12,400.
 - Why a cap: without one, a single miss on a long streak would cost more than all four reveals, so every player would buy every clue. At +30% a miss costs roughly the price of one to three reveals, which keeps buying a clue a real decision.
@@ -263,7 +264,7 @@ Five screens, one primary action each, so the player always knows what to do nex
 
 - Show the distance in words: "Exact!", "3 years off", "112 years off".
 - Show the streak outcome in plain words: "Streak extended to 4. Next round: +30%.", "Near miss. Streak held at 3." or "Streak lost. Next round: no bonus."
-- When the answer year's tolerance is not 1, explain it in plain words with this round's own numbers: "Recent years are scored strictly. Here, 10 years off is worth 246 points. For a year around 1526 it would be worth 559." ("kindly" for ancient years.)
+- When the answer year's tolerance is not 1, explain it in plain words with this round's own numbers: "Recent years are scored strictly. Here, 10 years off is worth 232 points. For a year around 1884 it would be worth 559." ("kindly" for ancient years.)
 - A simple timeline bar marks the guess and the correct year, so the size of the miss is visible.
 - Each clue the player saw links to its source for players who want to read more.
 
@@ -316,9 +317,10 @@ Keep game logic pure and separate from React. Scoring and session state should b
 | SCALE\_S | 0.5 | Steepness of the scoring curve (lower = harsher on small misses) |
 | MAX\_DISTANCE | 500 | Years off at which a guess scores zero when the tolerance is 1 |
 | ERA\_REFERENCE\_YEAR | 2026 | Fixed reference for the tolerance curve (never today's date) |
-| ERA\_REFERENCE\_AGE | 500 | Age at which the tolerance is 1 (so 1526) |
-| ERA\_EXPONENT | 0.5 | Shape of the tolerance curve (square root) |
-| ERA\_MIN\_TOLERANCE | 0.1 | Floor for the tolerance, reached at 2021 |
+| ERA\_MAX\_TOLERANCE | 1.9 | Most lenient tolerance, for the oldest years |
+| ERA\_HALF\_AGE | 128 | Age at which the tolerance is half of its maximum |
+| ERA\_MIN\_TOLERANCE | 0.1 | Floor for the tolerance, reached at 2020 |
+| ERA\_NEUTRAL\_YEAR | 1884 | Year where the tolerance is about 1; used only in the result-screen explanation |
 | STREAK\_BONUS\_STEP | 0.10 | Bonus per hit in a row (0 switches streaks off) |
 | STREAK\_BONUS\_CAP | 0.30 | Largest streak bonus |
 | STREAK\_HIT\_ACCURACY | 0.55 | Accuracy that extends the streak |
@@ -326,7 +328,7 @@ Keep game logic pure and separate from React. Scoring and session state should b
 | YEAR\_MIN / YEAR\_MAX | -3000 / 2026 | Earliest and latest year the content pool may hold (BCE years are negative), and the latest year the player can guess |
 | MAX\_BCE\_GUESS | 9999 | Furthest back the player can guess, in years BCE |
 | LEADERBOARD\_SIZE | 10 | Sessions kept |
-| CONFIG\_VERSION | 2 | Bump when scoring rules change (v1.1 changed them, so it moved from 1 to 2) |
+| CONFIG\_VERSION | 3 | Bump when scoring rules change (v1.1 moved it from 1 to 2, and the new tolerance curve to 3) |
 
 ## Build plan, acceptance criteria and open questions
 
@@ -346,13 +348,13 @@ Build in five steps. Each one ends with something playable, so you can test and 
 - [ ] Round 1 shows exactly one clue; the other three show category and reveal cost.
 - [ ] Potential points read 1,000 → 900 → 700 → 400 as clues are revealed.
 - [ ] Scoring unit tests pass (1 clue, no streak unless stated):
-  - Exact guess in any year = 1,000 (check 2020, 1526 and 480 BCE).
-  - Answer 1526: 10 years off = 559; 100 = 232; 500 or more = 0; with 4 clues, 10 years off = 224.
-  - Answer 2020: 1 year off = 572; 10 = 246; 50 = 13; 55 or more = 0.
-  - Answer 1950: 10 years off = 427. Answer 1650: 10 years off = 540.
-  - Answer 180 BCE (−179): 10 years off = 659; 50 = 438; 100 = 339; 1,050 or more = 0.
-  - Answer 1000 CE: 100 years off = 284. Answer 480 BCE (−479): 100 years off = 348.
-- [ ] Streak unit tests pass: an exact 1526 guess scores 1,000 / 1,100 / 1,200 / 1,300 at streak 0 / 1 / 2 / 3 or more; 10 years off at streak 3 = 727; accuracy 0.55 extends, 0.30 holds and 0.29 resets; ten exact one-clue rounds = 12,400.
+  - Exact guess in any year = 1,000 (check 2020, 1884 and 480 BCE).
+  - Answer 1884 (T about 1): 10 years off = 559; 100 = 232; 500 or more = 0; with 4 clues, 10 years off = 224.
+  - Answer 2020: 1 year off = 559; 10 = 232; 50 or more = 0.
+  - Answer 1990: 10 years off = 437. Answer 1950: 10 years off = 511; 100 = 183.
+  - Answer 1650: 10 years off = 607. Answer 1526: 10 years off = 616. Answer 1000 CE: 10 years off = 631; 100 = 308.
+  - Answer 180 BCE (−179): 10 years off = 639; 50 = 416; 100 = 317; 895 or more = 0. Answer 480 BCE (−479): 10 years off = 640; 100 = 317.
+- [ ] Streak unit tests pass: an exact guess scores 1,000 / 1,100 / 1,200 / 1,300 at streak 0 / 1 / 2 / 3 or more; 10 years off at streak 3 = 727 (answer 1884); accuracy 0.55 extends, 0.30 holds and 0.29 resets; ten exact one-clue rounds = 12,400.
 - [ ] The streak resets at the start of every session, and the multiplier is shown before the player guesses.
 - [ ] The result screen states the streak outcome and, when it is not 1, the tolerance.
 - [ ] No year repeats within a session.
@@ -371,4 +373,4 @@ Build in five steps. Each one ends with something playable, so you can test and 
 - Exact-guess bonus (for example +100), or is 1,000 for a perfect guess enough?
 - ~~Should the first clue be the hardest one of the four?~~ Decided: no. The free clue is always random.
 - Optional per-round timer for a later "hard mode"?
-- Playtest the tolerance curve (reference age, exponent, floor) and the streak numbers (step, cap, hit and hold thresholds). Are recent years too strict, and does the streak make buying a clue feel like a real decision? All are config values.
+- Playtest the tolerance curve (maximum, half age, floor) and the streak numbers (step, cap, hit and hold thresholds). Are recent years too strict, and does the streak make buying a clue feel like a real decision? All are config values.

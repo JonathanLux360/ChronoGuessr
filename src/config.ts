@@ -10,12 +10,14 @@ export const SCALE_S = 0.5;
 export const MAX_DISTANCE = 500;
 /** Fixed reference for the era tolerance. Never today's date, so scores do not drift over time. */
 export const ERA_REFERENCE_YEAR = 2026;
-/** Age (in years before the reference year) at which the tolerance is 1, so 1526. */
-export const ERA_REFERENCE_AGE = 500;
-/** Shape of the tolerance curve (0.5 is a square root). */
-export const ERA_EXPONENT = 0.5;
-/** Floor for the tolerance, reached at 2021. */
+/** Most lenient tolerance, approached by the very oldest years. */
+export const ERA_MAX_TOLERANCE = 1.9;
+/** Age (years before the reference year) at which the tolerance is half of its maximum. */
+export const ERA_HALF_AGE = 128;
+/** Floor for the tolerance, reached at 2020. */
 export const ERA_MIN_TOLERANCE = 0.1;
+/** The year where the tolerance is 1 (about 1884). Only used to explain the scoring on the result screen. */
+export const ERA_NEUTRAL_YEAR = 1884;
 /** Streak bonus per hit in a row. 0 switches streaks off. */
 export const STREAK_BONUS_STEP = 0.1;
 /** Largest streak bonus (0.3 is +30%). */
@@ -34,7 +36,7 @@ export const MAX_BCE_GUESS = 9999;
 export const GUESS_YEAR_MIN = 1 - MAX_BCE_GUESS;
 export const LEADERBOARD_SIZE = 10;
 /** Bump when scoring rules change. */
-export const CONFIG_VERSION = 2;
+export const CONFIG_VERSION = 3;
 
 export const CLUE_CATEGORIES = ['politics', 'society', 'technology', 'arts_culture'] as const;
 export const MAX_CLUE_LENGTH = 140;

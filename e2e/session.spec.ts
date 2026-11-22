@@ -16,7 +16,8 @@ test.use({ reducedMotion: 'reduce' });
 /** The scoring formula, written out again here so the test does not just trust the app. */
 function expectedRound(yearsOff: number, cluesShown: number, answer: number, streak: number) {
   const potential = [1000, 900, 700, 400][cluesShown - 1];
-  const tolerance = Math.max(0.1, Math.sqrt((2026 - answer) / 500));
+  const age = 2026 - answer;
+  const tolerance = Math.max(0.1, (1.9 * age) / (age + 128));
   const accuracy = Math.max(0, 1 - Math.log(1 + yearsOff / (0.5 * tolerance)) / Math.log(1 + 500 / 0.5));
   const multiplier = 1 + Math.min(streak * 0.1, 0.3);
   const nextStreak = accuracy >= 0.55 ? streak + 1 : accuracy >= 0.3 ? streak : 0;
