@@ -630,6 +630,51 @@
     }
   },
   {
+    "year": 1258,
+    "clues": {
+      "politics": [
+        {
+          "text": "English barons, angry at the costly foreign schemes of King Henry III, force him to accept a council to share in ruling the kingdom.",
+          "context": "The reforms are known as the Provisions of Oxford. They were an early limit on royal power. The barons were led by nobles such as Simon de Montfort.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Provisions_of_Oxford",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Venetian and Genoese fleets fight a fierce sea battle off Acre in their long war over trade in the Crusader ports of the Holy Land.",
+          "context": "It is called the Battle of Acre. Venice won it, but the war between the two merchant cities went on for years.",
+          "region": "Middle East",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Acre_(1258)",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Mongol siege engines under Hulagu Khan batter the walls of Baghdad until the capital of the Abbasid caliph surrenders.",
+          "context": "The engines breached the walls within a couple of days. The siege ran from late January to early February, and the Mongols entered the city days later.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Salisbury Cathedral, a graceful Gothic church in southern England, is consecrated.",
+          "context": "It was built quickly and in one style. Its famous tall spire was added later. The consecration took place at the end of September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Salisbury_Cathedral",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1274,
     "clues": {
       "politics": [
@@ -675,6 +720,51 @@
     }
   },
   {
+    "year": 1279,
+    "clues": {
+      "politics": [
+        {
+          "text": "Lithuanian forces crush the Livonian Order at Aizkraukle, a heavy blow to the German crusaders in the Baltic.",
+          "context": "The Lithuanian leader Traidenis won the battle in March. The Livonian Order lost its master and many of its knights.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Aizkraukle",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "King Edward I of England bans gifts of land to the Church without his licence, in the First Statute of Mortmain.",
+          "context": "Land held by the Church paid no feudal dues, so the king and his lords were losing income. The law was issued in November.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Statutes_of_Mortmain",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "At Yamen, the last Song fleet chains its ships together and coats them with fire-resistant mud to defend against Mongol fireships.",
+          "context": "The Yuan Mongol fleet overwhelmed them anyway, and the defeat ended the Song dynasty. No cannons were used in the battle. It was fought in March.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Faraj ben Salim, a Sicilian Jewish physician, translates the great medical encyclopedia of al-Razi into Latin for Charles of Anjou.",
+          "context": "The book, called the Al-Hawi, helped pass Arab medical knowledge to European scholars.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Faraj_ben_Salim",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1288,
     "clues": {
       "politics": [
@@ -715,6 +805,51 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Mob_Quad",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1291,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Mamluks under Sultan al-Ashraf Khalil capture Acre, the last great Crusader stronghold in the Holy Land.",
+          "context": "The city fell in May after a siege of about six weeks. The other Crusader towns on the coast fell within months.",
+          "region": "Middle East",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Siege_of_Acre_(1291)",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Two Genoese brothers, Ugolino and Vandino Vivaldi, sail west from Genoa to reach India by sea, and are never heard of again.",
+          "context": "They set out in spring with two galleys. Their fate is unknown, and some historians doubt the whole story.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Vandino_and_Ugolino_Vivaldi",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Chinese engineer Guo Shoujing turns Kunming Lake into a reservoir to supply the Mongol capital, Dadu.",
+          "context": "Guo was also a famous astronomer. The lake lies in what is now the Summer Palace grounds in Beijing.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Kunming_Lake",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The retired Emperor Kameyama founds the Zen temple Nanzen-ji in Kyoto.",
+          "context": "Kameyama had become a Buddhist monk, and he turned his palace into the temple. It later headed Kyoto's official Zen temples.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Nanzen-ji",
+          "verified": false
         }
       ]
     }
