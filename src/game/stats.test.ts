@@ -12,6 +12,13 @@ function round(year: number, guess: number, cluesShown: number, score: number): 
     cluesShown,
     revealed: ['politics', 'society', 'technology', 'arts_culture'].slice(0, cluesShown) as RoundResult['revealed'],
     score,
+    baseScore: score,
+    accuracy: 1,
+    tolerance: 1,
+    streakBefore: 0,
+    streakAfter: 0,
+    multiplier: 1,
+    streakOutcome: 'extended',
   };
 }
 
@@ -41,9 +48,24 @@ describe('buildSessionResult', () => {
       avgYearsOff: 13.3,
       exactHits: 1,
       cluesUsed: 7,
+      streakBonus: 0,
+      longestStreak: 0,
       configVersion: CONFIG_VERSION,
     });
-    expect(saved.roundDetails[1]).toEqual({ year: 1900, guess: 1910, clues: 2, points: 503 });
+    expect(saved.roundDetails[1]).toEqual({ year: 1900, guess: 1910, clues: 2, points: 503, multiplier: 1 });
+  });
+});
+
+describe('streak fields', () => {
+  it('splits the streak bonus from the base score and finds the longest streak', () => {
+    const a = { ...round(1526, 1526, 1, 1000), streakBefore: 0, streakAfter: 1 };
+    const b = { ...round(1526, 1526, 1, 1100), baseScore: 1000, streakBefore: 1, streakAfter: 2, multiplier: 1.1 };
+    const c = { ...round(1526, 1526, 1, 1200), baseScore: 1000, streakBefore: 2, streakAfter: 3, multiplier: 1.2 };
+    const d = { ...round(1526, 1000, 1, 0), baseScore: 0, streakBefore: 3, streakAfter: 0, multiplier: 1.3 };
+    const saved = buildSessionResult([a, b, c, d], '2026-11-21T18:04:00.000Z');
+    expect(saved.score).toBe(3300);
+    expect(saved.streakBonus).toBe(300);
+    expect(saved.longestStreak).toBe(3);
   });
 });
 

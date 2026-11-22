@@ -6,8 +6,24 @@ export const MAX_ROUND_POINTS = 1000;
 export const REVEAL_COSTS = [100, 200, 300] as const;
 /** Steepness of the scoring curve. Lower is harsher on small misses. */
 export const SCALE_S = 0.5;
-/** Years off at which a guess scores zero. */
+/** Years off at which a guess scores zero, when the tolerance is 1. */
 export const MAX_DISTANCE = 500;
+/** Fixed reference for the era tolerance. Never today's date, so scores do not drift over time. */
+export const ERA_REFERENCE_YEAR = 2026;
+/** Age (in years before the reference year) at which the tolerance is 1, so 1526. */
+export const ERA_REFERENCE_AGE = 500;
+/** Shape of the tolerance curve (0.5 is a square root). */
+export const ERA_EXPONENT = 0.5;
+/** Floor for the tolerance, reached at 2021. */
+export const ERA_MIN_TOLERANCE = 0.1;
+/** Streak bonus per hit in a row. 0 switches streaks off. */
+export const STREAK_BONUS_STEP = 0.1;
+/** Largest streak bonus (0.3 is +30%). */
+export const STREAK_BONUS_CAP = 0.3;
+/** Accuracy at or above this extends the streak by one. */
+export const STREAK_HIT_ACCURACY = 0.55;
+/** Accuracy from here up to the hit line holds the streak. Lower resets it to 0. */
+export const STREAK_HOLD_ACCURACY = 0.3;
 /** Earliest year the content pool may cover (BCE years are negative: 1 BCE is 0, so 3001 BCE is -3000). */
 export const YEAR_MIN = -3000;
 /** Latest year the player can guess (CE). */
@@ -18,7 +34,7 @@ export const MAX_BCE_GUESS = 9999;
 export const GUESS_YEAR_MIN = 1 - MAX_BCE_GUESS;
 export const LEADERBOARD_SIZE = 10;
 /** Bump when scoring rules change. */
-export const CONFIG_VERSION = 1;
+export const CONFIG_VERSION = 2;
 
 export const CLUE_CATEGORIES = ['politics', 'society', 'technology', 'arts_culture'] as const;
 export const MAX_CLUE_LENGTH = 140;

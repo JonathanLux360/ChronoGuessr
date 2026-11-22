@@ -1,5 +1,6 @@
 import { GUESS_YEAR_MIN, YEAR_MAX } from '../config';
-import { nextRevealCost, potential, roundScore, yearsOff } from './scoring';
+import { accuracy, baseRoundScore, nextRevealCost, potential, roundScore, tolerance, yearsOff } from './scoring';
+import { nextStreak, streakMultiplier, streakOutcome, type StreakOutcome } from './streak';
 import type { Category, RoundPlan } from './types';
 
 export interface RoundResult {
@@ -9,7 +10,20 @@ export interface RoundResult {
   cluesShown: number;
   /** Categories in the order they were shown, the free clue first. */
   revealed: Category[];
+  /** Final points for the round, streak bonus included. */
   score: number;
+  /** Points before the streak bonus. */
+  baseScore: number;
+  /** 0 to 1, after the era tolerance. */
+  accuracy: number;
+  /** Era tolerance of the answer year. 1 at 1526. */
+  tolerance: number;
+  /** Hits in a row entering the round, and after it. */
+  streakBefore: number;
+  streakAfter: number;
+  /** Score multiplier for the round (1 with no streak). */
+  multiplier: number;
+  streakOutcome: StreakOutcome;
 }
 
 export type SessionState =
@@ -38,6 +52,20 @@ export type SessionAction =
   | { type: 'reset' };
 
 export const initialSession: SessionState = { status: 'idle' };
+
+/** The streak entering the next round. It never carries between sessions: a new session starts at 0. */
+export function currentStreak(results: readonly RoundResult[]): number {
+  return results.length === 0 ? 0 : results[results.length - 1].streakAfter;
+}
+
+export function longestStreak(results: readonly RoundResult[]): number {
+  return results.reduce((best, r) => Math.max(best, r.streakAfter), 0);
+}
+
+/** Points the streak added across the session. */
+export function streakBonusTotal(results: readonly RoundResult[]): number {
+  return results.reduce((sum, r) => sum + (r.score - r.baseScore), 0);
+}
 
 export function totalScore(results: readonly RoundResult[]): number {
   return results.reduce((sum, r) => sum + r.score, 0);
@@ -71,13 +99,22 @@ export function sessionReducer(state: SessionState, action: SessionAction): Sess
       const answer = state.plan[state.roundIndex].year;
       const off = yearsOff(action.guess, answer);
       const cluesShown = state.revealed.length;
+      const acc = accuracy(off, answer);
+      const streakBefore = currentStreak(state.results);
       const result: RoundResult = {
         year: answer,
         guess: action.guess,
         yearsOff: off,
         cluesShown,
         revealed: state.revealed,
-        score: roundScore(off, cluesShown),
+        score: roundScore(off, cluesShown, answer, streakBefore),
+        baseScore: baseRoundScore(off, cluesShown, answer),
+        accuracy: acc,
+        tolerance: tolerance(answer),
+        streakBefore,
+        streakAfter: nextStreak(streakBefore, acc),
+        multiplier: streakMultiplier(streakBefore),
+        streakOutcome: streakOutcome(acc),
       };
       return {
         status: 'roundResult',

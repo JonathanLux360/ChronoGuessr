@@ -1,7 +1,7 @@
 import { CONFIG_VERSION } from '../config';
 import { MAX_CLUES } from './scoring';
 import type { RoundResult } from './session';
-import { totalScore } from './session';
+import { longestStreak, streakBonusTotal, totalScore } from './session';
 
 export interface RoundDetail {
   year: number;
@@ -9,6 +9,8 @@ export interface RoundDetail {
   /** How many clues were showing when the guess was made. */
   clues: number;
   points: number;
+  /** Streak multiplier for the round. */
+  multiplier: number;
 }
 
 /** One finished session, as saved to the leaderboard. */
@@ -21,6 +23,9 @@ export interface SessionResult {
   exactHits: number;
   /** Clues shown across the whole session, the free ones included. */
   cluesUsed: number;
+  /** Points the streak added to the score. */
+  streakBonus: number;
+  longestStreak: number;
   roundDetails: RoundDetail[];
   configVersion: number;
 }
@@ -54,7 +59,9 @@ export function buildSessionResult(results: readonly RoundResult[], playedAt: st
     avgYearsOff: stats.avgYearsOff,
     exactHits: stats.exactHits,
     cluesUsed: stats.cluesUsed,
-    roundDetails: results.map((r) => ({ year: r.year, guess: r.guess, clues: r.cluesShown, points: r.score })),
+    streakBonus: streakBonusTotal(results),
+    longestStreak: longestStreak(results),
+    roundDetails: results.map((r) => ({ year: r.year, guess: r.guess, clues: r.cluesShown, points: r.score, multiplier: r.multiplier })),
     configVersion: CONFIG_VERSION,
   };
 }

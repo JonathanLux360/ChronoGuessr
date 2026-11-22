@@ -23,7 +23,9 @@ function makeResult(score: number, extra: Partial<SessionResult> = {}): SessionR
     avgYearsOff: 14.2,
     exactHits: 2,
     cluesUsed: 19,
-    roundDetails: Array.from({ length: 10 }, (_, i) => ({ year: 1900 + i, guess: 1900 + i, clues: 1, points: 1000 })),
+    streakBonus: 0,
+    longestStreak: 0,
+    roundDetails: Array.from({ length: 10 }, (_, i) => ({ year: 1900 + i, guess: 1900 + i, clues: 1, points: 1000, multiplier: 1 })),
     configVersion: CONFIG_VERSION,
     ...extra,
   };
@@ -129,6 +131,23 @@ describe('boards saved by an earlier version', () => {
     await saveResult(makeResult(800));
     expect(JSON.parse(storage.data.get(STORAGE_KEY)!)).not.toHaveProperty('recentYears');
     expect((await getTopResults()).map((r) => r.score)).toEqual([800, 700]);
+  });
+});
+
+describe('results saved before streaks existed', () => {
+  it('still loads, reading the streak fields as 0 and the round multiplier as 1', async () => {
+    const legacy: Record<string, unknown> = { ...makeResult(700), configVersion: 1 };
+    delete legacy.streakBonus;
+    delete legacy.longestStreak;
+    legacy.roundDetails = [{ year: 1900, guess: 1900, clues: 1, points: 1000 }];
+    storage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, results: [legacy] }));
+    const { saveResult, getTopResults } = await loadModule();
+    // It is kept, but a version 1 score never shows on the current board.
+    expect(await getTopResults()).toEqual([]);
+    await saveResult(makeResult(500));
+    const stored = JSON.parse(storage.data.get(STORAGE_KEY)!);
+    expect(stored.results).toHaveLength(2);
+    expect(stored.results.find((r: SessionResult) => r.configVersion === 1)).toMatchObject({ streakBonus: 0, longestStreak: 0 });
   });
 });
 

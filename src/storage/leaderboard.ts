@@ -15,6 +15,7 @@ const roundDetailSchema = z.object({
   guess: z.number().int(),
   clues: z.number().int().min(1),
   points: z.number().int().min(0),
+  multiplier: z.number().min(1).default(1),
 });
 
 const resultSchema = z.object({
@@ -24,6 +25,9 @@ const resultSchema = z.object({
   avgYearsOff: z.number().min(0),
   exactHits: z.number().int().min(0),
   cluesUsed: z.number().int().min(0),
+  /** Older saved results have no streak fields, so they read as 0. */
+  streakBonus: z.number().int().min(0).default(0),
+  longestStreak: z.number().int().min(0).default(0),
   roundDetails: z.array(roundDetailSchema),
   configVersion: z.number().int(),
 });

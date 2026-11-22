@@ -4,7 +4,7 @@ import { describeDistance, formatYear } from './format';
 import { isTypeableGuess, parseGuess } from './guess';
 import { createRng, shuffle } from './random';
 import { buildLivePool, planSession, selectYears } from './selection';
-import { initialSession, sessionReducer, totalScore, type SessionState } from './session';
+import { currentStreak, initialSession, longestStreak, sessionReducer, streakBonusTotal, totalScore, type SessionState } from './session';
 import type { Category, Clue, YearRecord } from './types';
 
 function makeClue(text: string, verified = true): Clue {
@@ -198,6 +198,34 @@ describe('sessionReducer', () => {
     expect(inRound(s).revealed).toHaveLength(4);
     s = sessionReducer(s, { type: 'guess', guess: answer });
     if (s.status === 'roundResult') expect(s.results[0].score).toBe(400);
+  });
+
+  it('builds a streak across rounds, holds it on a near miss, and resets it on a miss', () => {
+    const plan3 = planSession(pool, 3);
+    let s = sessionReducer(initialSession, { type: 'start', plan: plan3 });
+    // Round 1 is always x1.0, and an exact guess extends the streak.
+    s = sessionReducer(s, { type: 'guess', guess: plan3[0].year });
+    expect(s.status === 'roundResult' && s.results[0]).toMatchObject({ multiplier: 1, streakBefore: 0, streakAfter: 1, streakOutcome: 'extended', score: 1000 });
+    s = sessionReducer(s, { type: 'next' });
+    // Round 2: x1.1 with a streak of 1.
+    s = sessionReducer(s, { type: 'guess', guess: plan3[1].year });
+    expect(s.status === 'roundResult' && s.results[1]).toMatchObject({ multiplier: 1.1, streakAfter: 2, score: 1100, baseScore: 1000 });
+    s = sessionReducer(s, { type: 'next' });
+    // Round 3: a wild guess resets it.
+    s = sessionReducer(s, { type: 'guess', guess: plan3[2].year - 400 });
+    if (s.status !== 'roundResult') throw new Error('expected a result');
+    expect(s.results[2]).toMatchObject({ multiplier: 1.2, streakAfter: 0, streakOutcome: 'lost' });
+    expect(currentStreak(s.results)).toBe(0);
+    expect(longestStreak(s.results)).toBe(2);
+    expect(streakBonusTotal(s.results)).toBe(100 + (s.results[2].score - s.results[2].baseScore));
+  });
+
+  it('starts every session with no streak', () => {
+    const first = sessionReducer(started, { type: 'guess', guess: plan[0].year });
+    expect(first.status === 'roundResult' && currentStreak(first.results)).toBe(1);
+    const again = sessionReducer(sessionReducer(initialSession, { type: 'reset' }), { type: 'start', plan });
+    expect(inRound(again).results).toEqual([]);
+    expect(currentStreak(inRound(again).results)).toBe(0);
   });
 
   it('accepts early CE and BCE guesses', () => {
