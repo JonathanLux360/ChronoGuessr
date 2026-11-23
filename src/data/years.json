@@ -871,6 +871,83 @@
     }
   },
   {
+    "year": 1348,
+    "clues": {
+      "politics": [
+        {
+          "text": "King Edward III of England creates the Order of the Garter, a band of knights, with a motto meaning shame on him who thinks evil of it.",
+          "context": "The year is traditionally given as 1348, but some sources say 1344. The motto is Honi soit qui mal y pense. It is still Britain's highest order of chivalry.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Order_of_the_Garter",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Charles IV, king of Bohemia, signs the charter founding a university in Prague, today called Charles University.",
+          "context": "The pope approved a university for Prague in a bull of 1347, and teaching began in 1349, so some sources give other years. It is among the oldest universities in Europe still running.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Charles_University",
+          "verified": false
+        },
+        {
+          "text": "The Black Death reaches England, probably arriving by ship at the port of Melcombe in Dorset, and spreads quickly.",
+          "context": "The plague killed perhaps a third to a half of England's people over the next year or so.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+          "verified": false
+        },
+        {
+          "text": "Pope Clement the Sixth issues a bull protecting Jews, who were being blamed and attacked because of the Black Death.",
+          "context": "Jews were falsely accused of poisoning wells. Many were killed in the Rhineland and elsewhere, in spite of the pope's order.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Pope_Clement_VI",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Venice sets up a board of three officials to protect the city's health from the plague, an early step towards quarantine.",
+          "context": "The board was set up in the spring. Later, Italian ports held arriving ships for forty days, which gave us the word quarantine.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Quarantine",
+          "verified": false
+        },
+        {
+          "text": "The medical faculty of Paris writes a report for the French king on the Black Death, blaming the stars and bad air.",
+          "context": "The doctors said a conjunction of planets had corrupted the air. The report was written in the autumn.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Black_Death",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Charles IV founds Karlštejn Castle on a hill near Prague, a fortress to keep the crown jewels of the Holy Roman Empire safe.",
+          "context": "Its Chapel of the Holy Cross was decorated with paintings by Master Theodoric and consecrated in 1365. The castle still stands.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Karl%C5%A1tejn",
+          "verified": false
+        },
+        {
+          "text": "The Sienese painter Ambrogio Lorenzetti, who painted the Allegory of Good and Bad Government, dies in the Black Death.",
+          "context": "He worked in the city hall of Siena. His brother Pietro, also a painter, is thought to have died in the same plague.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Ambrogio_Lorenzetti",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1405,
     "clues": {
       "politics": [
