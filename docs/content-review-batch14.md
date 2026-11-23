@@ -9,7 +9,7 @@
 
 **What was checked.** The dates come from the Wikipedia year pages and from the linked articles I could open. For 1902, 1904, 1907 and 1909 most Politics and Society items came only from a page summary, so those are the least checked. Articles that agreed with the date: Aswan Low Dam, Carnegie Institution, A Trip to the Moon, CQD, Madama Butterfly's premiere, City of Truro (disputed claim), the London Electrobus, Lusitania's maiden voyage, Les Demoiselles d'Avignon (month only), Bakelite, Blériot's Channel flight, Rachmaninoff's Third Concerto, Windows 2000, Charles Schulz, AKS, Tribute in Light, Eurovision 2006 and 2017, Dawn, Les Femmes d'Alger, Nintendo Switch, the Boston smallpox outbreak, the Brandenburg Concertos, the Leyden jar, the Turtle, Enceladus.
 
-**Day-level disagreements to be aware of:** the AKS paper (6 or 7 August 2002), the Yogyakarta earthquake (26 or 27 May 2006), the Les Femmes d'Alger price (179.3 or 179.4 million dollars), the Nepal death toll (8,964 or 9,018), the Manchester death toll (22 or 23, so the clue says "more than twenty"), the Boston outbreak start (21 or 22 April), the RMS Republic collision (23 or 24 January), and the Declaration of Independence signing date (left out for that reason, and because it gives 1776 away).
+**Day-level disagreements to be aware of:** the AKS paper (6 or 7 August 2002), the Yogyakarta earthquake (26 or 27 May 2006), the Les Femmes d'Alger price (179.3 or 179.4 million dollars), the Nepal death toll (8,964 or 9,018), the Manchester death toll (22 or 23, so the clue says "more than twenty"), the Boston outbreak start (21 or 22 April), and the Declaration of Independence signing date (left out for that reason, and because it gives 1776 away).
 
 **Details from memory, not from a source I read. Please check these first:**
 
@@ -20,7 +20,7 @@
 - 1902: Edward VII's appendicitis delay; Mount Pelée's survivors; the Aswan dam being raised twice; Méliès's tricks.
 - 1904: the Baltimore fire's hose couplings; the General Slocum passengers; FIFA's seven founding associations and the first World Cup; Chekhov's death date; the Entente Cordiale's terms.
 - 1907: the Anglo-Russian Entente's terms; Finnish women's vote in the year before; Quebec Bridge being the worst engineering disaster of its time and the later collapse and opening; Marconi's service between Clifden and Glace Bay; Lusitania winning the Blue Riband.
-- 1909: Abdul Hamid's reign length; An Jung-geun and Korea's annexation; the Republic rescue; Cherry Mine's toll and safety laws; Baekeland's 1907 work; Blériot's landing and the Daily Mail prize; Diaghilev's 1909 season.
+- 1909: Abdul Hamid's reign length; An Jung-geun and Korea's annexation; the NAACP's founding date (12 February, Lincoln's centenary) and its other founders; Baekeland's 1907 work; Blériot's landing and the Daily Mail prize; Diaghilev's 1909 season.
 - 2000: Putin's career; Fox's career; Milošević's trial; the Kursk's toll; Concorde's later withdrawal; Clinton at the genome announcement; Expedition 1's crew.
 - 2002: East Timor's UN mission and claim of the first new country of the century; the axis of evil speech and the later invasion; the Globe's team and Cardinal Law's resignation; the Olympic flag; Envisat's instruments and end; the AKS authors; Shuttleworth and Ubuntu; Tribute in Light's anniversary and later runs.
 - 2006: the Dujail killings; the Lebanon war toll and ceasefire; Yogyakarta's death toll and Prambanan; the Zidane head-butt details; the IAU meeting in Prague; Twitter's first message; Lordi's first win for Finland.
@@ -33,7 +33,6 @@
 - 1907 Arts & Culture: Les Demoiselles d'Avignon is dated to March (some sources say July), so the day is uncertain. The year is firm.
 - 1776 Technology: the Turtle attack is documented only by American sources, and the clue's context says so.
 - 2006 Technology: Twitter's founding is dated to March (the public launch was July).
-- 1909 Society: the Republic's collision date is disputed by a day.
 - 1904 Technology: the City of Truro's speed is a disputed claim, as the context says.
 - Some alternatives for 2000 and later (Schulz, Eurovision, and so on) may feel too recent or too well known; judge them by whether they give the year away.
 
@@ -133,8 +132,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Politics (main) | The Ottoman sultan Abdul Hamid the Second is overthrown by the army and replaced by his brother Mehmed the Fifth. | Abdul Hamid had ruled for more than thirty years. The army acted after the Young Turk revolution of the year before. | Middle East | 3 | [link](https://en.wikipedia.org/wiki/Abdul_Hamid_II) |
 | Politics (alt 1) | Japan's elder statesman Itō Hirobumi is shot dead by a Korean nationalist at a railway station in Manchuria. | Itō had been Japan's first prime minister. His killer, An Jung-geun, is honoured as a hero in Korea. Japan annexed Korea the next year. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/It%C5%8D_Hirobumi) |
-| Society (main) | The liner Republic collides with another ship off Nantucket and sinks, but wireless distress calls save almost everyone aboard. | The calls included CQD, the distress signal of the time. Only a few people died. The rescue showed the value of radio at sea. | North America | 3 | [link](https://en.wikipedia.org/wiki/RMS_Republic_(1903)) |
-| Society (alt 1) | A fire in the Cherry coal mine in Illinois traps and kills about two hundred and fifty miners. | It was one of the worst mining disasters in American history. It led to new safety laws. | North America | 3 | [link](https://en.wikipedia.org/wiki/Cherry_Mine_disaster) |
+| Society | The National Association for the Advancement of Colored People is founded in New York by W. E. B. Du Bois, Ida B. Wells and others. | It was founded on the hundredth anniversary of Abraham Lincoln's birth. Other founders included Mary White Ovington, William English Walling and Oswald Garrison Villard. | North America | 2 | [link](https://en.wikipedia.org/wiki/NAACP) |
 | Technology (main) | The Belgian-born chemist Leo Baekeland announces Bakelite, the first fully synthetic plastic, to the American Chemical Society. | Bakelite was hard, cheap and did not conduct electricity, so it was used for radios, telephones and many other goods. He had developed it in 1907. | North America | 2 | [link](https://en.wikipedia.org/wiki/Bakelite) |
 | Technology (alt 1) | Louis Blériot flies across the English Channel from France to Dover, in under forty minutes, and wins a newspaper prize. | The prize was offered by the Daily Mail. He landed in a field near Dover Castle. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Louis_Bl%C3%A9riot) |
 | Arts & Culture (main) | The Russian composer Sergei Rachmaninoff plays the first performance of his Third Piano Concerto, in New York. | It is famous as one of the hardest piano concertos. Rachmaninoff wrote it for his first American tour. | North America | 3 | [link](https://en.wikipedia.org/wiki/Piano_Concerto_No._3_(Rachmaninoff)) |
@@ -204,3 +202,52 @@
 | Technology (alt 2) | NASA's Cassini spacecraft plunges into Saturn on purpose, ending a thirteen-year mission at the planet. | The dive stopped Cassini from contaminating Saturn's moons. It sent back data until its final moments. | North America | 2 | [link](https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens) |
 | Arts & Culture (main) | Portugal wins the Eurovision Song Contest for the first time, in Kyiv, with a quiet ballad sung by Salvador Sobral. | The song was called Amar pelos dois and was written by his sister Luísa. Sobral had a heart condition and later had a heart transplant. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2017) |
 | Arts & Culture (alt 1) | A painting attributed to Leonardo da Vinci, Salvator Mundi, sells at auction for a record price of more than four hundred million dollars. | It was the highest price ever paid for a painting. The buyer was later reported to be a Saudi prince. | North America | 2 | [link](https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)) |
+
+## Probably too obscure
+
+A check on how well known each clue's event is, because a clue that most players cannot place at all is a poor clue. "Likely too obscure" means I would drop it. "Borderline" means it is fine as one of several clues but weak on its own. Nothing here has been removed yet.
+
+**Likely too obscure**
+
+| Year | Category | Clue (short) | Why |
+| --- | --- | --- | --- |
+| 1721 | Society | South Sea Bubble committee report | The Bubble is known, the report is not |
+| 1721 | Society (alt) | Smallpox arrives in Boston | A local epidemic |
+| 1721 | Technology | Boylston's smallpox inoculation | Few know it; the only Technology clue |
+| 1721 | Arts & Culture (alt) | Watteau dies | A death of a little-known painter |
+| 1745 | Politics (alt) | Battle of Fontenoy | Known to military historians |
+| 1745 | Society | Vix pervenit on interest | A papal letter |
+| 1745 | Society (alt) | First women's cricket match | A curiosity |
+| 1776 | Society (alt) | Great Fire of New York | Overshadowed by the Revolution |
+| 1776 | Technology | The Turtle submarine | Disputed, and little known |
+| 1776 | Arts & Culture (alt) | Mozart's Haffner Serenade | A minor work |
+| 1789 | Politics (alt) | Quang Trung beats a Chinese army | Little known outside Vietnam |
+| 1789 | Society (alt) | Judiciary Act | A dry law |
+| 1789 | Technology | Herschel discovers Enceladus | A minor discovery |
+| 1789 | Arts & Culture | The Power of Sympathy | A novel few have heard of |
+| 1789 | Technology (alt) | Georg Ohm born | A birth, and a vague one |
+| 1902 | Technology | Aswan Low Dam | The High Dam is the famous one |
+| 1902 | Technology (alt) | Carnegie Institution founded | A research body |
+| 1904 | Technology | CQD distress call | SOS is the famous one |
+| 1904 | Technology (alt) | City of Truro speed claim | A disputed railway record |
+| 1904 | Society (alt) | General Slocum steamboat fire | A New York disaster few know |
+| 1907 | Society | Kingston, Jamaica earthquake | A regional disaster |
+| 1907 | Society (alt) | Quebec Bridge collapse | An engineering disaster |
+| 1907 | Technology | Marconi's transatlantic radio service | The famous Marconi date is 1901 |
+| 1907 | Politics | Anglo-Russian Entente | Known to diplomatic historians |
+| 1909 | Politics | Abdul Hamid II overthrown | Little known outside Ottoman history |
+| 1909 | Politics (alt) | Itō Hirobumi assassinated | Little known outside Japan and Korea |
+| 1909 | Technology (alt) | Blériot flies the English Channel | Flagged by you. It is a famous event, but the clue's detail (the time and the prize) reads as trivia |
+| 1909 | Arts & Culture | Rachmaninoff's Third Piano Concerto | A famous work, but few could place its year |
+| 2002 | Technology | Envisat launched | A satellite few have heard of |
+| 2002 | Technology (alt) | The AKS primality test | A maths result |
+| 2015 | Technology | Dawn reaches Ceres | A space probe few have heard of |
+| 2017 | Politics | Jammeh leaves The Gambia | Little known outside Africa |
+
+**Borderline** (fine as an alternative, weak as the only clue)
+
+1721 Walpole as first prime minister, Peter the Great made emperor; 1745 the Leyden jar, Volta's birth; 1776 Watt's engines, Cook's third voyage, Gibbon; 1789 Jefferson as Secretary of State, Lavoisier, Equiano; 1904 FIFA founded, the Baltimore fire; 1907 Finnish women elected, Lusitania's first voyage; 1909 Bakelite, the Ballets Russes; 2000 Vicente Fox, Milošević, Expedition 1; 2002 East Timor, Mark Shuttleworth; 2006 the Yogyakarta earthquake; 2015 Syriza, the Picasso sale; 2017 Kim Jong-nam, SpaceX's reused rocket, Cassini, Portugal's Eurovision win, Salvator Mundi.
+
+**Categories where every clue is flagged** (so dropping the flagged ones would leave nothing): 1721 Society and Technology; 1745 Society; 1789 Arts & Culture; 1902 Technology; 1904 Technology; 1907 Society; 1909 Politics; 2002 Technology; 2015 Technology; 2017 Politics. These need a more famous replacement clue, or the year should be reconsidered.
+
+**Ideas for replacements I am fairly sure of:** 1902 Technology, Willis Carrier invents modern air conditioning; 1904 Technology, the New York subway opens (27 October) or Fleming patents the vacuum tube; 1907 Society, Baden-Powell holds the first Scout camp on Brownsea Island (August). The 1700s Society clues and 1909 Politics need research.

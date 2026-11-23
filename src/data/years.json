@@ -5657,19 +5657,11 @@
       ],
       "society": [
         {
-          "text": "The liner Republic collides with another ship off Nantucket and sinks, but wireless distress calls save almost everyone aboard.",
-          "context": "The calls included CQD, the distress signal of the time. Only a few people died. The rescue showed the value of radio at sea.",
+          "text": "The National Association for the Advancement of Colored People is founded in New York by W. E. B. Du Bois, Ida B. Wells and others.",
+          "context": "It was founded on the hundredth anniversary of Abraham Lincoln's birth. Other founders included Mary White Ovington, William English Walling and Oswald Garrison Villard.",
           "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/RMS_Republic_(1903)",
-          "verified": false
-        },
-        {
-          "text": "A fire in the Cherry coal mine in Illinois traps and kills about two hundred and fifty miners.",
-          "context": "It was one of the worst mining disasters in American history. It led to new safety laws.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Cherry_Mine_disaster",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/NAACP",
           "verified": false
         }
       ],
