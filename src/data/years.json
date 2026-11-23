@@ -1596,7 +1596,7 @@
       "society": [
         {
           "text": "King Henry VIII of England marries his sixth and last wife, Catherine Parr, at Hampton Court.",
-          "context": "The wedding was in July. She outlived him.",
+          "context": "She had been widowed twice before, and she wrote books under her own name. Henry died in 1547, and she outlived him.",
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Catherine_Parr",
@@ -1763,7 +1763,7 @@
       "society": [
         {
           "text": "Plague closes London's theatres, leaving actors and playwrights without work.",
-          "context": "The theatres were shut for much of the year and the next.",
+          "context": "Thousands of Londoners died, and the theatres stayed shut for much of the next two years. Shakespeare wrote the poem Venus and Adonis in this time.",
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Elizabethan_theatre",
@@ -2114,7 +2114,7 @@
       "arts_culture": [
         {
           "text": "The Dutch painter Rembrandt completes The Night Watch, a huge group portrait of an Amsterdam militia company.",
-          "context": "It was completed in the middle of the year.",
+          "context": "The nickname came later, because dark varnish made the scene look like night. The real title is The Militia Company of District II. It now hangs in the Rijksmuseum.",
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Night_Watch",
@@ -2489,7 +2489,7 @@
       "society": [
         {
           "text": "A huge earthquake shakes Japan, and weeks later Mount Fuji erupts for the last time in recorded history.",
-          "context": "The Hōei earthquake struck in October. Fuji erupted in December.",
+          "context": "The Hōei earthquake in October, and its tsunami, killed thousands. Fuji erupted in December, and ash fell on Edo (now Tokyo), about a hundred kilometres away.",
           "region": "East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/1707_H%C5%8Dei_earthquake",
@@ -2803,7 +2803,7 @@
       "arts_culture": [
         {
           "text": "The Royal Academy of Arts, with Joshua Reynolds as its first president, holds its first exhibition in London.",
-          "context": "The exhibition opened in April. The Academy had been founded the previous December.",
+          "context": "King George III backed the Academy, to train artists and show their work. Its yearly Summer Exhibition began this year and is still held today.",
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Royal_Academy",
@@ -2999,7 +2999,7 @@
       "arts_culture": [
         {
           "text": "Austrian composer Wolfgang Amadeus Mozart's fairy-tale opera The Magic Flute premieres in a suburban theatre in Vienna.",
-          "context": "It opened in September. Mozart died in December.",
+          "context": "The librettist, Emanuel Schikaneder, ran the theatre and played the bird-catcher Papageno. Mozart died just over two months after the opening.",
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Magic_Flute",
@@ -3275,7 +3275,7 @@
           "region": "North Africa",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Burning_of_the_USS_Philadelphia",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3487,7 +3487,7 @@
           "region": "North Africa",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Second_Barbary_War",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -3513,7 +3513,7 @@
       "arts_culture": [
         {
           "text": "The English novelist Jane Austen publishes Emma, a comedy about a matchmaking young woman in a country village.",
-          "context": "It came out in December. The title page is dated the following year.",
+          "context": "Austen dedicated it to the Prince Regent, who admired her books. The title page says 1816. She died in 1817, aged 41.",
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Emma_(novel)",
@@ -3546,7 +3546,7 @@
       "society": [
         {
           "text": "Free Black Americans, backed by the American Colonization Society, acquire land at Cape Mesurado to found the colony of Liberia.",
-          "context": "The land was acquired in December. The first settlers arrived early the next year.",
+          "context": "The Society wanted to settle free Black Americans in Africa. Liberia's capital, Monrovia, was later named after the US president James Monroe, who supported it.",
           "region": "Africa",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/History_of_Liberia",
@@ -3664,7 +3664,7 @@
       "arts_culture": [
         {
           "text": "The French painter Eugène Delacroix paints Liberty Leading the People, celebrating the July Revolution in Paris.",
-          "context": "He painted it in the autumn. It was first shown the following year.",
+          "context": "The woman is Liberty in person, holding the French tricolour flag. The painting was first shown in 1831, and it now hangs in the Louvre.",
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
@@ -4223,7 +4223,7 @@
       "arts_culture": [
         {
           "text": "The English author Lewis Carroll publishes Alice's Adventures in Wonderland, with drawings by John Tenniel.",
-          "context": "It first appeared in November. The first printing was withdrawn and reissued.",
+          "context": "Lewis Carroll was the pen name of Charles Dodgson, an Oxford maths lecturer. He first told the story on a boat trip, to a girl called Alice Liddell.",
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
@@ -5042,7 +5042,7 @@
         },
         {
           "text": "The Italian inventor Guglielmo Marconi applies in Britain for the first patent on a wireless telegraph system.",
-          "context": "He filed the application in June. The patent was granted the following year.",
+          "context": "Marconi was 22. Italy had shown no interest, so he moved to Britain to develop the idea. The patent was granted in 1897.",
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
@@ -6142,7 +6142,7 @@
         },
         {
           "text": "Britain creates the Royal Air Force, the world's first independent air force, by merging its army and navy flying services.",
-          "context": "It was formed on the first of April, in the last year of the war.",
+          "context": "It was formed on 1 April, by joining the Royal Flying Corps and the Royal Naval Air Service. By the end of the war it was the largest air force in the world.",
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Royal_Air_Force",
@@ -8961,7 +8961,7 @@
       "technology": [
         {
           "text": "A Soviet space probe makes the first soft landing on the Moon and sends back photographs from the surface.",
-          "context": "The probe was Luna 9. It landed in February.",
+          "context": "Luna 9 landed in the Ocean of Storms in February. Its pictures showed the ground was firm, which settled a fear that a lander would sink into deep dust.",
           "region": "Central Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Luna_9",
@@ -9189,7 +9189,7 @@
       "technology": [
         {
           "text": "The American company Intel releases the first microprocessor, a fingernail-sized chip holding a whole computer processor.",
-          "context": "The chip was the 4004. It was released in November.",
+          "context": "The chip was the 4004, designed for a Japanese calculator company, Busicom. It held about 2,300 transistors and came out in November.",
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Intel_4004",
@@ -9627,7 +9627,7 @@
       "society": [
         {
           "text": "A volcano erupts in the state of Washington, killing dozens and blasting the top off the mountain.",
-          "context": "Mount St. Helens erupted in May.",
+          "context": "It erupted on 18 May. Fifty-seven people died, and the blast flattened forests across about six hundred square kilometres.",
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens",
@@ -10440,7 +10440,7 @@
         },
         {
           "text": "Scientists at the Roslin Institute, in Scotland, announce Dolly, the first mammal cloned from an adult cell.",
-          "context": "The announcement was in February. Dolly was born the previous July.",
+          "context": "Dolly was cloned from a mammary gland cell, so she was named after the singer Dolly Parton. She was born in July 1996 and died in 2003.",
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Dolly_(sheep)",
@@ -10958,7 +10958,7 @@
       "politics": [
         {
           "text": "Barack Obama is elected the first Black president of the United States.",
-          "context": "The election was in November. He took office in January 2009.",
+          "context": "Obama beat the Republican John McCain, as the global financial crisis deepened. He took office in January 2009.",
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/2008_United_States_presidential_election",
@@ -11155,7 +11155,7 @@
       "arts_culture": [
         {
           "text": "The British singer Adele releases her second album, which tops the sales charts in many countries.",
-          "context": "The album is titled 21. It was released in January.",
+          "context": "The album is titled 21. Its hits included Rolling in the Deep and Someone Like You, and it was the best-selling album of the year in the world.",
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/21_(Adele_album)",

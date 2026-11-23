@@ -1,6 +1,6 @@
 # Content review: batch 19 (the Barbary Wars)
 
-Two extra Politics clues in years that are already live. Both are AI-drafted and **unverified**, so the game never shows them until you check them.
+Two extra Politics clues in years that are already live. Both have now been verified, so the game shows them.
 
 | Year | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- | --- |
