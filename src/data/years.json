@@ -6168,14 +6168,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Chanel_No._5",
           "verified": false
-        },
-        {
-          "text": "Radio station KDKA in Pittsburgh broadcasts a baseball game live for the first time, between the Pirates and the Phillies.",
-          "context": "The announcer described the game into a telephone. It was one of the first radio sports broadcasts.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/KDKA_(AM)",
-          "verified": false
         }
       ],
       "arts_culture": [
@@ -6185,14 +6177,6 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Kid_(1921_film)",
-          "verified": false
-        },
-        {
-          "text": "The magician P. T. Selbit performs the first public \"sawing a woman in half\" illusion, in London.",
-          "context": "The trick became a classic of stage magic, and many magicians have copied it since.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/P._T._Selbit",
           "verified": false
         }
       ]
@@ -6396,14 +6380,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/John_Logie_Baird",
           "verified": false
-        },
-        {
-          "text": "Werner Heisenberg publishes the paper that starts modern quantum mechanics, setting out a new way to describe atoms.",
-          "context": "He worked it out on the island of Heligoland while recovering from hay fever. Max Born and Pascual Jordan helped develop it.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Matrix_mechanics",
-          "verified": false
         }
       ],
       "arts_culture": [
@@ -6413,14 +6389,6 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
-          "verified": false
-        },
-        {
-          "text": "A radio show called the WSM Barn Dance, later renamed the Grand Ole Opry, is first broadcast from Nashville.",
-          "context": "It became the centre of country music, and is still on the air today.",
-          "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Grand_Ole_Opry",
           "verified": false
         }
       ]
@@ -6696,14 +6664,6 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Al_Capone",
           "verified": false
-        },
-        {
-          "text": "Huge floods along China's Yangtze and other rivers kill hundreds of thousands of people, in one of the deadliest natural disasters ever.",
-          "context": "The floods lasted from summer into autumn. Estimates of the dead range from hundreds of thousands to several million.",
-          "region": "East Asia",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/1931_China_floods",
-          "verified": false
         }
       ],
       "technology": [
@@ -6713,22 +6673,6 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Empire_State_Building",
-          "verified": false
-        },
-        {
-          "text": "Ernest Lawrence builds a working cyclotron at Berkeley, a machine that speeds up atomic particles.",
-          "context": "The first one was only a few inches across. Lawrence won the Nobel Prize for it in 1939.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Cyclotron",
-          "verified": false
-        },
-        {
-          "text": "The George Washington Bridge opens over the Hudson River, linking New York and New Jersey, as the longest suspension bridge in the world.",
-          "context": "Its main span was twice as long as that of any bridge before it.",
-          "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/George_Washington_Bridge",
           "verified": false
         }
       ],
@@ -6844,22 +6788,6 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Houston%E2%80%93Mount_Everest_flight_expedition",
           "verified": false
-        },
-        {
-          "text": "The American pilot Wiley Post lands in New York after flying around the world alone for the first time, in under eight days.",
-          "context": "His plane was called Winnie Mae. He used an autopilot and a radio compass to help him.",
-          "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Wiley_Post",
-          "verified": false
-        },
-        {
-          "text": "Karl Jansky, an engineer at Bell Labs, reports radio waves coming from the Milky Way, the birth of radio astronomy.",
-          "context": "He was trying to find the cause of static on radio calls. The radio waves came from the centre of our galaxy.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Karl_Jansky",
-          "verified": false
         }
       ],
       "arts_culture": [
@@ -6903,14 +6831,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1934_FIFA_World_Cup",
           "verified": false
-        },
-        {
-          "text": "The luxury liner Morro Castle burns off the coast of New Jersey, killing more than a hundred passengers and crew.",
-          "context": "The fire began on a cruise from Havana to New York. Many passengers jumped into the sea. The captain had died the day before.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/SS_Morro_Castle_(1930)",
-          "verified": false
         }
       ],
       "technology": [
@@ -6920,14 +6840,6 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie",
-          "verified": false
-        },
-        {
-          "text": "A long-distance air race from England to Australia, the MacRobertson Air Race, is won by a de Havilland Comet racer in under three days.",
-          "context": "It was held to mark the centenary of the state of Victoria. Pilots had to fly more than ten thousand miles.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/MacRobertson_Air_Race",
           "verified": false
         }
       ],
@@ -6946,14 +6858,6 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Wise_Little_Hen",
-          "verified": false
-        },
-        {
-          "text": "Hollywood begins strictly enforcing the Hays Code, a set of rules that bans films from showing many things.",
-          "context": "Films needed a seal of approval to be shown in most cinemas. The code lasted until the nineteen-sixties.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Hays_Code",
           "verified": false
         }
       ]
@@ -6988,14 +6892,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/James_J._Braddock",
           "verified": false
-        },
-        {
-          "text": "The Labor Day hurricane, the strongest ever to hit the United States, strikes the Florida Keys and kills hundreds, many of them veterans.",
-          "context": "The veterans were working on a road project in the Keys. A rescue train was swept away by the storm surge.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/1935_Labor_Day_hurricane",
-          "verified": false
         }
       ],
       "technology": [
@@ -7005,14 +6901,6 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Hoover_Dam",
-          "verified": false
-        },
-        {
-          "text": "Robert Watson-Watt shows that radio waves bounced off an aircraft can be used to detect it, in a test at Daventry.",
-          "context": "The test led to radar, which helped Britain win the Battle of Britain.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Robert_Watson-Watt",
           "verified": false
         },
         {
@@ -7240,14 +7128,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Marian_Anderson",
           "verified": false
-        },
-        {
-          "text": "Cardinal Eugenio Pacelli is elected pope and takes the name Pius the Twelfth, on his birthday.",
-          "context": "He led the Catholic Church through the Second World War. His record on the Holocaust is still debated.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Pope_Pius_XII",
-          "verified": false
         }
       ],
       "technology": [
@@ -7260,27 +7140,11 @@
           "verified": false
         },
         {
-          "text": "A German aircraft built by Heinkel makes the first flight in history powered by a jet engine.",
-          "context": "The engine was designed by Hans von Ohain. Britain's Frank Whittle had been working on jets at the same time.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Heinkel_He_178",
-          "verified": false
-        },
-        {
           "text": "Two Stanford friends, Bill Hewlett and Dave Packard, start a company in a garage in Palo Alto, California.",
           "context": "Their first product was an audio oscillator, which Walt Disney bought for Fantasia. The garage is called the birthplace of Silicon Valley.",
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Hewlett-Packard",
-          "verified": false
-        },
-        {
-          "text": "Pan American Airways starts passenger flights across the North Atlantic, using huge Boeing flying boats.",
-          "context": "The flying boats were called Clippers. The trip from New York to Europe took about a day.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Boeing_314_Clipper",
           "verified": false
         }
       ],
@@ -7333,14 +7197,6 @@
           "verified": false
         },
         {
-          "text": "Finland signs a peace treaty with the Soviet Union, ending the Winter War, after holding out against a far bigger army.",
-          "context": "Finland lost land but kept its independence. The Soviet Union lost many men in the cold.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Moscow_Peace_Treaty",
-          "verified": false
-        },
-        {
           "text": "Leon Trotsky, exiled Soviet revolutionary, is attacked with an ice axe in Mexico and dies the next day.",
           "context": "The attacker was an agent of Stalin's secret police. Trotsky had been Lenin's partner in the revolution.",
           "region": "North America",
@@ -7382,14 +7238,6 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Howard_Florey",
-          "verified": false
-        },
-        {
-          "text": "Scientists at Berkeley discover carbon-fourteen, the radioactive form of carbon later used to date ancient objects.",
-          "context": "Martin Kamen and Sam Ruben made it in a cyclotron. Willard Libby later used it to invent radiocarbon dating.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Carbon-14",
           "verified": false
         },
         {
@@ -7484,14 +7332,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Penicillin",
           "verified": false
-        },
-        {
-          "text": "Britain's first jet-powered aircraft, built by Gloster, makes its first flight, using an engine designed by Frank Whittle.",
-          "context": "Whittle had patented the jet engine years earlier. The flight was made in secret.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Gloster_E.28/39",
-          "verified": false
         }
       ],
       "arts_culture": [
@@ -7541,14 +7381,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein",
           "verified": false
-        },
-        {
-          "text": "Twenty-six nations sign the Declaration by United Nations, promising to fight together and not to make separate peace with the Axis.",
-          "context": "The name \"United Nations\" was suggested by President Roosevelt. It was later used for the world organisation.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Declaration_by_United_Nations",
-          "verified": false
         }
       ],
       "society": [
@@ -7576,14 +7408,6 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Chicago_Pile-1",
-          "verified": false
-        },
-        {
-          "text": "A German test rocket, the forerunner of the V-weapons, reaches the edge of space on a flight from Peenemünde.",
-          "context": "The rocket was the A-4, later called the V-2. It is often called the first human-made object to reach space. It was developed at Peenemünde by Wernher von Braun's team.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/V-2_rocket",
           "verified": false
         },
         {
@@ -7668,14 +7492,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Warsaw_Ghetto_Uprising",
           "verified": false
-        },
-        {
-          "text": "A crush at the entrance of an air raid shelter at Bethnal Green tube station in London kills more than a hundred and seventy people.",
-          "context": "No bomb fell. People panicked at the sound of a new rocket and fell on the stairs. It was the worst civilian disaster of the war in Britain.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Bethnal_Green_tube_station_disaster",
-          "verified": false
         }
       ],
       "technology": [
@@ -7702,14 +7518,6 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Albert_Hofmann",
           "verified": false
-        },
-        {
-          "text": "Jacques Cousteau and Émile Gagnan test the Aqua-Lung, the breathing device that lets people dive freely underwater.",
-          "context": "It let divers breathe from a tank on their back. It opened up the sea to ordinary people.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Aqua-lung",
-          "verified": false
         }
       ],
       "arts_culture": [
@@ -7727,14 +7535,6 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Oklahoma!",
-          "verified": false
-        },
-        {
-          "text": "Aaron Copland's Fanfare for the Common Man premieres in Cincinnati.",
-          "context": "It was written to honour ordinary Americans during the war. The music is still played at ceremonies.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Fanfare_for_the_Common_Man",
           "verified": false
         }
       ]
@@ -7785,14 +7585,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
           "verified": false
-        },
-        {
-          "text": "A ship carrying explosives and cotton burns and blows up in Bombay harbour, killing about thirteen hundred people.",
-          "context": "The ship was the Fort Stikine. The blast scattered gold bars across the city.",
-          "region": "South Asia",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Bombay_Explosion_(1944)",
-          "verified": false
         }
       ],
       "technology": [
@@ -7802,14 +7594,6 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/V-2_rocket",
-          "verified": false
-        },
-        {
-          "text": "IBM and Harvard unveil the Harvard Mark One, a giant electromechanical computer that fills a long room.",
-          "context": "It was designed by Howard Aiken. It could do long sums automatically, and was used to help with calculations for the war.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Harvard_Mark_I",
           "verified": false
         }
       ],
@@ -7828,14 +7612,6 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/16th_Academy_Awards",
-          "verified": false
-        },
-        {
-          "text": "Martha Graham's dance Appalachian Spring, with music by Aaron Copland, premieres at the Library of Congress.",
-          "context": "It is a story of newly married settlers on the American frontier. Copland won a Pulitzer Prize for the music.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Appalachian_Spring",
           "verified": false
         },
         {
@@ -8656,6 +8432,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
           "verified": true
+        },
+        {
+          "text": "Harper Lee publishes To Kill a Mockingbird, a novel about racial injustice in a small Alabama town, seen through the eyes of a young girl.",
+          "context": "It came out in July and won the Pulitzer Prize the next year. Lee based the lawyer Atticus Finch partly on her own father, who was also a lawyer.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird",
+          "verified": false
         }
       ]
     }
@@ -8811,6 +8595,14 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/1963_Skopje_earthquake",
           "verified": true
+        },
+        {
+          "text": "Martin Luther King Jr. tells a vast crowd at the Lincoln Memorial of his dream that his children will be judged by their character.",
+          "context": "The speech closed the March on Washington for Jobs and Freedom, in August. About a quarter of a million people took part. It helped win support for the Civil Rights Act.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/I_Have_a_Dream",
+          "verified": false
         }
       ],
       "technology": [
