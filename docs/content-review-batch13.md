@@ -1,6 +1,6 @@
 # Content review: batch 13 (from your timelines)
 
-Built from your four timelines (Cold War, WW1, Britain from 1918, and the British Isles 1042 to 1330), using them as starting points. It has **5 new years** (1915, 1916, 1945, 1963 and 1983) and **23 alternative clues** for years that are already in the pool. Following your note, Technology also includes science milestones (the first atomic test, the Strategic Defense Initiative, Einstein's relativity and his death, NASA) and Arts & Culture includes famous songs, albums and television.
+Built from your four timelines (Cold War, WW1, Britain from 1918, and the British Isles 1042 to 1330), using them as starting points. It has **6 new years** (1915, 1916, 1918, 1945, 1963 and 1983) and **23 alternative clues** for years that are already in the pool. Following your note, Technology also includes science milestones (the first atomic test, the Strategic Defense Initiative, Einstein's relativity and his death, NASA) and Arts & Culture includes famous songs, albums and television.
 
 Every clue is AI-drafted and **unverified** (`"verified": false`), so the game never shows it until you check it. A new year goes live when every category has a verified clue. The alternatives for existing years change nothing in play until you verify them, and then the game draws one clue per category at random. For each clue, open the source and check:
 
@@ -27,7 +27,7 @@ The dates for the new years come from the Wikipedia year pages and linked articl
 - 1963 Politics: the Profumo resignation (5 June) is later than the date in your timeline (16 March), which is when he made his false statement to the Commons.
 - Several alternatives for existing years repeat a theme already in the pool, such as the Beatles or Thatcher. Check that no two clues for the same year feel like duplicates.
 
-**Left out.** 1918 has no exact-year Arts & Culture event on its page. 1066, 1086 and 1215 have no firm Technology or Arts & Culture event (1215's Magna Carta, 15 June, is a strong Society item, but the year needs all four categories). 1314 has weak Technology and Arts items. I also left out clues that give their year away on their own: the assassination of President Kennedy (1963), the Cuban Missile Crisis (1962) and the fall of the Berlin Wall (1989).
+**Left out.** 1066, 1086 and 1215 have no firm Technology or Arts & Culture event (1215's Magna Carta, 15 June, is a strong Society item, but the year needs all four categories). 1314 has weak Technology and Arts items. I also left out clues that give their year away on their own: the assassination of President Kennedy (1963), the Cuban Missile Crisis (1962) and the fall of the Berlin Wall (1989).
 
 ## [ ] 1915
 
@@ -84,6 +84,22 @@ The dates for the new years come from the Wikipedia year pages and linked articl
 | Technology (alternative) | The ARPANET switches to TCP/IP, the common language that the modern internet still uses. | Every computer on the network had to change over on the same day. This switch is often called the birth of the internet. | North America | 3 | [link](https://en.wikipedia.org/wiki/ARPANET) |
 | Arts & Culture (main) | Michael Jackson performs Billie Jean on television and shows off the moonwalk, a gliding backwards dance step, for the first time. | The show, Motown 25, was taped in March and broadcast on NBC in May. Millions of people watched. | North America | 2 | [link](https://en.wikipedia.org/wiki/Motown_25:_Yesterday,_Today,_Forever) |
 | Arts & Culture (alternative) | The final episode of the war comedy M*A*S*H draws a huge American television audience, a record at the time. | More than a hundred million people are said to have watched it. The show was set in a medical unit during the Korean War. | North America | 2 | [link](https://en.wikipedia.org/wiki/Goodbye,_Farewell_and_Amen) |
+
+## [ ] 1918
+
+Added at your request: the death of Wilfred Owen is the Arts & Culture clue. The other three categories were found to match it.
+
+| Category | Clue | Context shown after the guess | Region | Diff | Source |
+| --- | --- | --- | --- | --- | --- |
+| Politics (main) | President Woodrow Wilson sets out his Fourteen Points, a plan for a fair peace and a new league of nations, in a speech to Congress. | The speech was made in January. The points called for open diplomacy, free seas and self-rule for many peoples. Germany later asked for an armistice on that basis. | North America | 2 | [link](https://en.wikipedia.org/wiki/Fourteen_Points) |
+| Politics (alternative) | Russia's new Bolshevik government signs the Treaty of Brest-Litovsk with Germany, ending its part in the war and giving up huge lands. | Lenin accepted harsh terms to end the fighting. Germany could then move many troops to the Western Front. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk) |
+| Society (main) | Parliament passes a law giving the vote to women over thirty and to all men over twenty-one, a huge change for Britain's voters. | Women had to be over thirty, and meet property rules. Women won the vote on equal terms with men in 1928. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Representation_of_the_People_Act_1918) |
+| Society (alternative) | A new and deadly strain of flu starts to spread around the world, and will later be called the Spanish flu. | It killed tens of millions of people. It was called Spanish because Spain's newspapers, free from wartime censorship, reported it openly. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Spanish_flu_pandemic) |
+| Technology (main) | Germany's Paris Gun, a giant long-range cannon, begins shelling Paris from more than a hundred kilometres away. | Its shells climbed so high that they reached the stratosphere. It was the longest-range gun ever used, but it did little military damage. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Paris_Gun) |
+| Technology (alternative) | Britain creates the Royal Air Force, the world's first independent air force, by merging its army and navy flying services. | It was formed on the first of April, in the last year of the war. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Royal_Air_Force) |
+| Arts & Culture | The English war poet Wilfred Owen is killed in action while leading his men across the Sambre-Oise Canal in France. | Owen died on 4 November, one week before the Armistice ended the war. Only a few of his poems appeared in his lifetime, but Dulce et Decorum Est and others made him the best-known poet of the war. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Wilfred_Owen) |
+
+1918 details to check from memory: Owen's death at the Sambre-Oise Canal on 4 November, a week before the Armistice, and how few of his poems were published in his lifetime; the Fourteen Points speech date (8 January) and what it asked for; the terms and date of Brest-Litovsk (3 March); the 1918 Act's votes for women over thirty and all men over twenty-one, and equal terms in 1928; the Spanish flu's start (the first known cases are dated to spring 1918, and the start date is approximate); the Paris Gun's range and first shelling (23 March); the RAF's formation on 1 April.
 
 ## Alternative clues for years already in the pool
 

@@ -5507,6 +5507,75 @@
     }
   },
   {
+    "year": 1918,
+    "clues": {
+      "politics": [
+        {
+          "text": "President Woodrow Wilson sets out his Fourteen Points, a plan for a fair peace and a new league of nations, in a speech to Congress.",
+          "context": "The speech was made in January. The points called for open diplomacy, free seas and self-rule for many peoples. Germany later asked for an armistice on that basis.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Fourteen_Points",
+          "verified": false
+        },
+        {
+          "text": "Russia's new Bolshevik government signs the Treaty of Brest-Litovsk with Germany, ending its part in the war and giving up huge lands.",
+          "context": "Lenin accepted harsh terms to end the fighting. Germany could then move many troops to the Western Front.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Parliament passes a law giving the vote to women over thirty and to all men over twenty-one, a huge change for Britain's voters.",
+          "context": "Women had to be over thirty, and meet property rules. Women won the vote on equal terms with men in 1928.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Representation_of_the_People_Act_1918",
+          "verified": false
+        },
+        {
+          "text": "A new and deadly strain of flu starts to spread around the world, and will later be called the Spanish flu.",
+          "context": "It killed tens of millions of people. It was called Spanish because Spain's newspapers, free from wartime censorship, reported it openly.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Spanish_flu_pandemic",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Germany's Paris Gun, a giant long-range cannon, begins shelling Paris from more than a hundred kilometres away.",
+          "context": "Its shells climbed so high that they reached the stratosphere. It was the longest-range gun ever used, but it did little military damage.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Paris_Gun",
+          "verified": false
+        },
+        {
+          "text": "Britain creates the Royal Air Force, the world's first independent air force, by merging its army and navy flying services.",
+          "context": "It was formed on the first of April, in the last year of the war.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Royal_Air_Force",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The English war poet Wilfred Owen is killed in action while leading his men across the Sambre-Oise Canal in France.",
+          "context": "Owen died on 4 November, one week before the Armistice ended the war. Only a few of his poems appeared in his lifetime, but Dulce et Decorum Est and others made him the best-known poet of the war.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Wilfred_Owen",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1919,
     "clues": {
       "politics": [
