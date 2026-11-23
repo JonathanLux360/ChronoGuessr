@@ -1,6 +1,6 @@
 # Content review — batch 7 (before 1500, and BCE) (marked verified by Jonathan)
 
-**11 new years** from before 1500, including three BCE years. Every clue is AI-drafted and **unverified** (`"verified": false`), so the game never shows it until you check it. For each clue, open the source and check:
+**11 new years** from before 1500, including three BCE years. (221 BCE was later retired: its Society and Arts clues only said "the emperor", which cannot be placed without the Politics clue, and all four clues were about the Qin emperor. It is no longer in the game or in this list.) Every clue is AI-drafted and **unverified** (`"verified": false`), so the game never shows it until you check it. For each clue, open the source and check:
 
 1. The event happened **in that year** (not across a span).
 2. The text and the context line are accurate and neutral.
@@ -21,15 +21,6 @@ Tick a year only when all its clues pass. A year goes live when every category h
 | Society | The Athenians abandon their city and flee to the island of Salamis, and the Persians burn the Acropolis. | It happened in the late summer, shortly before the Greek naval victory at Salamis. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Second_Persian_invasion_of_Greece) |
 | Technology | Persian engineers lash hundreds of ships together to bridge the Hellespont, so that Xerxes' huge army can cross from Asia into Europe. | Herodotus describes the bridges, and says that an earlier pair was destroyed by a storm. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Xerxes_I) |
 | Arts & Culture | The playwright Aeschylus fights in the Greek fleet at the Battle of Salamis, an experience he later turns into his play The Persians. | The Persians was staged in 472 BCE and is the oldest Greek tragedy that survives. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Aeschylus) |
-
-## [x] 221 BCE (stored as -220)
-
-| Category | Clue | Context shown after the guess | Region | Diff | Source |
-| --- | --- | --- | --- | --- | --- |
-| Politics | King Zheng of Qin finishes conquering the rival Chinese states and declares himself the first emperor of a united China. | He took the title Qin Shi Huang. His dynasty was short-lived, but the idea of a united empire lasted for two thousand years. | East Asia | 1 | [link](https://en.wikipedia.org/wiki/Qin_Shi_Huang) |
-| Society | The new emperor standardises weights, measures and coins across the empire, to make trade and tax collection simpler. | The reforms were introduced over the following years, beginning in this one. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Qin_dynasty) |
-| Technology | Qin orders all carts to have the same axle width, so that they fit the ruts on the empire's roads. | The rule helped traffic move quickly along the new network of imperial roads. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Qin_dynasty) |
-| Arts & Culture | The chief minister Li Si introduces a standard form of writing, the small seal script, to replace the many regional scripts. | It meant that people who spoke different dialects could read the same texts. | East Asia | 2 | [link](https://en.wikipedia.org/wiki/Li_Si) |
 
 ## [x] 19 BCE (stored as -18)
 

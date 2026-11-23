@@ -135,51 +135,6 @@
     }
   },
   {
-    "year": -220,
-    "clues": {
-      "politics": [
-        {
-          "text": "King Zheng of Qin finishes conquering the rival Chinese states and declares himself the first emperor of a united China.",
-          "context": "He took the title Qin Shi Huang. His dynasty was short-lived, but the idea of a united empire lasted for two thousand years.",
-          "region": "East Asia",
-          "difficulty": 1,
-          "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
-          "verified": true
-        }
-      ],
-      "society": [
-        {
-          "text": "The new emperor standardises weights, measures and coins across the empire, to make trade and tax collection simpler.",
-          "context": "The reforms were introduced over the following years, beginning in this one.",
-          "region": "East Asia",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Qin_dynasty",
-          "verified": true
-        }
-      ],
-      "technology": [
-        {
-          "text": "Qin orders all carts to have the same axle width, so that they fit the ruts on the empire's roads.",
-          "context": "The rule helped traffic move quickly along the new network of imperial roads.",
-          "region": "East Asia",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Qin_dynasty",
-          "verified": true
-        }
-      ],
-      "arts_culture": [
-        {
-          "text": "The chief minister Li Si introduces a standard form of writing, the small seal script, to replace the many regional scripts.",
-          "context": "It meant that people who spoke different dialects could read the same texts.",
-          "region": "East Asia",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Li_Si",
-          "verified": true
-        }
-      ]
-    }
-  },
-  {
     "year": -211,
     "clues": {
       "politics": [
