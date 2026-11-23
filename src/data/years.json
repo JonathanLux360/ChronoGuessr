@@ -5416,6 +5416,14 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/FIFA",
           "verified": true
+        },
+        {
+          "text": "St. Louis hosts a huge World's Fair, the Louisiana Purchase Exposition, which draws visitors from across the United States and the world.",
+          "context": "It is remembered for its racist ethnographic displays, which showed Filipino, Native American, African and other people as living exhibits. The Olympic Games were held there too.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Louisiana_Purchase_Exposition",
+          "verified": false
         }
       ],
       "technology": [
