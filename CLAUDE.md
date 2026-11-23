@@ -49,6 +49,9 @@ Config values for v1:
 | YEAR_MIN / YEAR_MAX | -3000 / 2026 |
 | MAX_BCE_GUESS | 9999 |
 | LEADERBOARD_SIZE | 10 |
+| SHINE_DELAY_MS / SHINE_DURATION_MS | 450 / 1300 (result celebrations, see Design) |
+| CONFETTI_PIECES_PER_SIDE / CONFETTI_DURATION_MS | 22 / 1900 |
+| HAPTIC_TAP_MS / HAPTIC_PULSE_CYCLE_MS | 25 / 60 |
 | CONFIG_VERSION | 3 (v1.1 scoring: tolerance curve and streak bands; 2 was the published square-root version) |
 
 ## Scoring (do not change without asking)
@@ -70,7 +73,7 @@ Streak:
 - `streakMultiplier = 1 + min(n × STREAK_BONUS_STEP, STREAK_BONUS_CAP)`, where n is the streak entering the round. Round 1 is always ×1.0. A streak never carries between sessions.
 - Show the multiplier before the player guesses. The summary shows base score, streak bonus and longest streak separately. Save `streakBonus` and `longestStreak` with each result.
 - Round the final round score once, after the multiplier. Max session score is 10,000 base, 12,400 with a full streak.
-- Header chip: a line flame icon (no emoji) plus "Streak 2 · +20%". Three states: none (grey outline), building (gold tint), capped (dark gold fill, white text). The result screen says what happened: "Streak extended to 4. Next round: +30%.", "Near miss. Streak held at 3.", "Streak lost. Next round: no bonus."
+- Header chip: a line flame icon (no emoji) plus "Streak 2 · +20%". Three states: none (grey outline), building (gold tint), capped (dark gold fill, white text). The result screen says what happened: "Streak extended to 4. Next round: +30%.", "Close. Streak held at 3.", "Streak lost. Next round: no bonus."
 
 Unit-test these values (1 clue, no streak unless stated):
 
@@ -106,7 +109,25 @@ Years live in `src/data/years.json`, checked against a Zod schema. Each year has
 
 ## Design
 
-Calm, professional and slightly classical, inspired by the Civilization games. No confetti, flashing, sound, emoji or gradients. Motion is limited to short fades.
+Calm, professional and slightly classical, inspired by the Civilization games. No flashing, sound or emoji, and no gradients or confetti except the celebration effects below. Motion is limited to short fades, apart from those effects.
+
+### Result celebrations (the only exception to the rules above)
+
+Cosmetic only: they never change a score or a streak. The tier comes from `resultTier` in `src/game/tier.ts`. In the scoring text above, "hit" and "near miss" are the internal names. Players see the display names below.
+
+| Tier | When | Headline | Inner border | Effects | Vibration |
+| --- | --- | --- | --- | --- | --- |
+| Exact | 0 years off | Exact! | Gold | Gold shine across the year, gold confetti | Fades in and out over the shine |
+| Extremely close | Hit (accuracy 0.65 or more), not exact | Extremely close! | Gold | None | One quick tap |
+| Close | Near miss (0.45 up to 0.65) | Close! | Silver (`--silver`) | None | None |
+| Miss | Below 0.45 | "N years off" | None | None | None |
+
+- The inner border is a second thin line just inside the box edge. The shine is a one-off sweep of gold light across the year (the only gradient allowed). The confetti is light gold, launched from the empty space just above and beside the year, rising a little and falling outwards in two low arches before fading.
+- A new personal best on the summary screen gets the gold border, the shine on the total score and the confetti. No vibration.
+- Visitors who prefer reduced motion get the border only: no shine, no confetti, no vibration.
+- Vibration uses `navigator.vibrate`, which works in Chrome and Firefox on Android only. iPhones and desktop browsers ignore it, so nothing may depend on it. All of it sits in `src/haptics.ts` and never throws.
+- Timings and sizes are in `src/config.ts` (`SHINE_DELAY_MS`, `SHINE_DURATION_MS`, `CONFETTI_*`, `HAPTIC_*`). The shine, the confetti and the vibration share them so they stay in step.
+- The shine's brightest point is lighter than AA contrast allows for about a fifth of a second. The settled text is always the normal dark colour.
 
 | Token | Value |
 | --- | --- |

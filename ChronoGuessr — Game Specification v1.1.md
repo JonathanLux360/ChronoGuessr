@@ -250,7 +250,7 @@ v1 keeps a personal top 10 in the browser's localStorage, with no accounts and n
 **Behaviour**
 
 - After each session, insert the result and keep the top 10 by score.
-- If the session is a new personal best, say so on the summary screen.
+- If the session is a new personal best, say so on the summary screen, with the gold celebration described under Result celebrations.
 - If it makes the top 10 but is not a best, show its rank ("3rd best").
 - Store one key, `chronoguessr:v1:leaderboard`, as a versioned JSON object. If the data is missing or corrupt, start a fresh board and do not crash.
 - Only compare scores with the same `configVersion`. If scoring rules change, start a new board and keep the old one readable.
@@ -302,18 +302,37 @@ Five screens, one primary action each, so the player always knows what to do nex
 
 **Round result details**
 
-- Show the distance in words: "Exact!", "3 years off", "112 years off".
-- Show the streak outcome in plain words: "Streak extended to 4. Next round: +30%.", "Near miss. Streak held at 3." or "Streak lost. Next round: no bonus."
+- Show how close the guess was as a headline: "Exact!", "Extremely close!", "Close!", or, for a miss, the distance in words ("112 years off"). See Result celebrations below. For "Extremely close!" and "Close!" the number of years off is stated in the line beneath ("You guessed 1984, 2 years off, with 2 clues showing...").
+- Show the streak outcome in plain words: "Streak extended to 4. Next round: +30%.", "Close. Streak held at 3." or "Streak lost. Next round: no bonus."
 - When the answer year's tolerance is not 1, say how strictly the round was graded, as a percentage against a tolerance of 1 (|T − 1|), with the era name (ancient, medieval, early modern or modern): "This is a modern year, so it was graded 58% more harshly than average." ("more leniently" for old years.)
 - A simple timeline bar marks the guess and the correct year, so the size of the miss is visible.
 - Each clue the player saw links to its source for players who want to read more.
+
+**Result celebrations (v1.1).** The round result screen looks and feels different for a very good guess. This is cosmetic: it never changes a score or a streak, and the scoring rules do not move. The tier comes from the same accuracy bands as the streak. In the scoring tables, "hit" and "near miss" are the internal names. Players see the display names below.
+
+| Tier | When | Headline | Inner border | Effects | Vibration |
+| --- | --- | --- | --- | --- | --- |
+| Exact | 0 years off | Exact! | Gold | Gold shine across the year, gold confetti | Fades in and out, timed with the shine |
+| Extremely close | Hit: accuracy 0.65 or more, not exact | Extremely close! | Gold | None | One quick tap |
+| Close | Near miss: accuracy 0.45 up to 0.65 | Close! | Silver | None | None |
+| Miss | Accuracy below 0.45 | "N years off" | None | None | None |
+
+- **Inner border.** A second thin line just inside the edge of the result box (gold `#B07D1A`, silver `#8A9199`), fading in over half a second. A miss has no inner border, as before.
+- **Gold shine.** One sweep of gold light crosses the digits of the year, starting 450 ms after the screen opens and lasting 1.3 s, then the text settles back to its normal colour.
+- **Gold confetti.** About 22 light gold pieces from each side, launched from the empty space just above and beside the year (not from the digits). They rise a little, fall outwards in two low arches and fade out over about 1.9 s. They never block a button or take focus.
+- **Vibration.** On supported phones only. An exact guess buzzes in pulses that grow longer, peak in the middle and shrink again over the same 1.3 s as the shine, starting when the shine starts, so it feels like the shine. An extremely close guess gives one 25 ms tap. Close and miss do not vibrate. Vibration works in Chrome and Firefox on Android. iPhones (in every browser) and desktop browsers do not support it, so the screen must work fully without it.
+- **New personal best.** On the summary screen, a new personal best gets the gold border, the gold shine on the total score and the gold confetti. No vibration.
+- **Reduced motion.** If the visitor's device asks for less motion, the border still appears, but there is no shine, confetti or vibration.
+- **Config.** `SHINE_DELAY_MS`, `SHINE_DURATION_MS`, `CONFETTI_PIECES_PER_SIDE`, `CONFETTI_DURATION_MS`, `HAPTIC_TAP_MS` and `HAPTIC_PULSE_CYCLE_MS` in `src/config.ts`. The tier rule is `resultTier` in `src/game/tier.ts`, the vibration code is in `src/haptics.ts`, and the effects are in `src/ui/shared`.
+- **Contrast.** The shine's brightest point is lighter than AA contrast allows, for about a fifth of a second. The settled year is always the normal dark colour.
+- **Out of scope:** sound, effects on the Home or Leaderboard screens, a setting to switch the effects off, and any change to how the streak works.
 
 **Footer.** Every screen ends with the same small centred footer: "© 2026 ChronoGuessr. Created by Jonathan Topaz. All rights reserved." and, on the line below, "This site uses GoatCounter for anonymous, cookieless analytics."
 
 **Design principles**
 
 - Clean and professional: neutral palette, one accent colour (plus a gold used only for the streak), generous white space, a readable serif or humanist sans for clue text.
-- No confetti, flashing, or sound by default. Motion is limited to short fades on reveal.
+- No flashing, sound or emoji. Motion is limited to short fades on reveal, with one exception: the result celebrations (gold shine, gold confetti, gradient on the shine only), described under Round result details.
 - Clear, plain copy that sounds like a smart friend, not a game show.
 - Accessible: WCAG AA contrast, full keyboard play, screen-reader labels on clue cards and scores.
 - Responsive from 360 px wide upward.

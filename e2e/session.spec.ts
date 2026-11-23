@@ -168,7 +168,7 @@ test('plays a full session with the keyboard and saves the result', async ({ pag
       expect(scored).toBe(expected.score);
       streak = expected.nextStreak;
       longest = Math.max(longest, streak);
-      await expect(page.getByText(/Streak extended|Near miss|Streak lost|No streak yet/)).toBeVisible();
+      await expect(page.getByText(/Streak extended|Close\.|Streak lost|No streak yet/)).toBeVisible();
       await expect(page.locator('article')).toHaveCount(cluesShown);
       if (round === 1) {
         await expectFooter(page);

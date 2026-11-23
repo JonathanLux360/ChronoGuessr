@@ -1,4 +1,5 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, type CSSProperties } from 'react';
+import { SHINE_DELAY_MS, SHINE_DURATION_MS } from '../../config';
 import { describeDistance, formatPoints, formatYear, ordinal } from '../../game/format';
 import { longestStreak, streakBonusTotal, type RoundResult } from '../../game/session';
 import { bonusPercent } from '../../game/streak';
@@ -6,6 +7,8 @@ import { sessionStats } from '../../game/stats';
 import type { SaveOutcome } from '../../storage/leaderboard';
 import buttons from '../shared/buttons.module.css';
 import { Brand } from '../shared/Brand';
+import celebration from '../shared/Celebration.module.css';
+import { Confetti } from '../shared/Confetti';
 import styles from './Summary.module.css';
 
 function rankMessage(outcome: SaveOutcome | null): string {
@@ -32,6 +35,8 @@ export function Summary({
   onHome: () => void;
 }) {
   const againRef = useRef<HTMLButtonElement>(null);
+  const totalRef = useRef<HTMLSpanElement>(null);
+  const isNewBest = outcome?.isNewBest === true; // Celebrated with the gold border, shine and confetti.
   const stats = sessionStats(results);
   const bonus = streakBonusTotal(results);
   const longest = longestStreak(results);
@@ -43,9 +48,18 @@ export function Summary({
   return (
     <main className={styles.page}>
       <Brand />
-      <section className={styles.hero} aria-label="Your result">
+      <section className={`${styles.hero} ${isNewBest ? celebration.gold : ''}`} aria-label="Your result">
+        {isNewBest && <Confetti targetRef={totalRef} />}
         <p className={styles.eyebrow}>Your score</p>
-        <p className={styles.total}>{formatPoints(total)}</p>
+        <p className={styles.total}>
+          <span
+            ref={totalRef}
+            className={isNewBest ? `${celebration.shineTarget} ${celebration.shine}` : celebration.shineTarget}
+            style={{ '--shine-delay': `${SHINE_DELAY_MS}ms`, '--shine-duration': `${SHINE_DURATION_MS}ms` } as CSSProperties}
+          >
+            {formatPoints(total)}
+          </span>
+        </p>
         <p className={styles.rank} aria-live="polite">
           {rankMessage(outcome)}
         </p>

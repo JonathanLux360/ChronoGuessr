@@ -1,0 +1,99 @@
+/*
+ * Celebration effects for the result screens: an inner border (gold or silver), a gold shine across the year,
+ * and gold confetti. All cosmetic. Visitors who ask for less motion get the border but no shine or confetti.
+ */
+
+.gold,
+.silver {
+  position: relative;
+}
+
+/* A second thin line just inside the box edge. */
+.gold::before,
+.silver::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  border: 1.5px solid var(--streak);
+  border-radius: 4px;
+  pointer-events: none;
+  animation: fade-in 0.5s ease-out both;
+}
+
+.silver::before {
+  border-color: var(--silver);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* The year, as a block the shine can sweep across. */
+.shineTarget {
+  display: inline-block;
+}
+
+/* A band of gold light crosses the digits once, then the text settles back to its normal colour. */
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+  .shine {
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+      100deg,
+      var(--text) 0%,
+      var(--text) 38%,
+      var(--streak) 46%,
+      #f2d27a 50%,
+      var(--streak) 54%,
+      var(--text) 62%,
+      var(--text) 100%
+    );
+    background-size: 300% 100%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shine-sweep var(--shine-duration, 1300ms) ease-in-out var(--shine-delay, 450ms) both;
+  }
+}
+
+@keyframes shine-sweep {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce), (forced-colors: active) {
+  .shine {
+    color: var(--text);
+    -webkit-text-fill-color: currentColor;
+    background: none;
+    animation: none;
+  }
+  .gold::before,
+  .silver::before {
+    animation: none;
+  }
+}
+
+/* Holds the confetti. It covers the box, ignores clicks, and lets pieces fly past its edge. */
+.layer {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.piece {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,11 +1,15 @@
-import { useEffect, useRef, type Dispatch } from 'react';
-import { REVEAL_COSTS } from '../../config';
+import { useEffect, useRef, type CSSProperties, type Dispatch } from 'react';
+import { REVEAL_COSTS, SHINE_DELAY_MS, SHINE_DURATION_MS } from '../../config';
 import { describeDistance, formatPoints, formatYear, toleranceNote } from '../../game/format';
 import { potential } from '../../game/scoring';
 import { timelineRange } from '../../game/timeline';
 import { totalScore, type RoundResult as Result, type SessionAction, type SessionState } from '../../game/session';
 import { bonusPercent } from '../../game/streak';
+import { resultTier, tierHeadline } from '../../game/tier';
+import { vibrateForTier } from '../../haptics';
 import { RevealedClueCard } from '../shared/ClueCard';
+import { Confetti } from '../shared/Confetti';
+import celebration from '../shared/Celebration.module.css';
 import styles from './RoundResult.module.css';
 
 type ResultState = Extract<SessionState, { status: 'roundResult' }>;
@@ -17,7 +21,7 @@ function streakMessage(result: Result): string {
     return `Streak extended to ${after}. Next round: +${bonusPercent(after)}%.`;
   }
   if (result.streakOutcome === 'held') {
-    return after === 0 ? 'Near miss. No streak yet.' : `Near miss. Streak held at ${after}.`;
+    return after === 0 ? 'Close. No streak yet.' : `Close. Streak held at ${after}.`;
   }
   return result.streakBefore === 0 ? 'No streak yet. Next round: no bonus.' : 'Streak lost. Next round: no bonus.';
 }
@@ -34,11 +38,21 @@ export function RoundResult({ state, dispatch }: { state: ResultState; dispatch:
   const toleranceText = toleranceNote(result.tolerance, result.year);
   const isLast = roundIndex === plan.length - 1;
   const nextRef = useRef<HTMLButtonElement>(null);
+  const yearRef = useRef<HTMLSpanElement>(null);
+
+  // How close the guess was only changes how the screen looks and feels. It never changes the score.
+  const tier = resultTier(result.yearsOff, result.accuracy);
+  const headline = tierHeadline(tier) ?? describeDistance(result.yearsOff);
+  const showsDistance = tier === 'extremelyClose' || tier === 'close';
+  const frame = tier === 'exact' || tier === 'extremelyClose' ? celebration.gold : tier === 'close' ? celebration.silver : '';
 
   useEffect(() => {
     window.scrollTo(0, 0); // Open at the top, so the answer is in view on a phone.
     nextRef.current?.focus({ preventScroll: true }); // Focusing the button must not scroll the page down to it.
   }, []);
+
+  // A buzz on phones that support it: a fading buzz for an exact guess, timed with the shine, or a quick tap.
+  useEffect(() => vibrateForTier(tier, tier === 'exact' ? SHINE_DELAY_MS : 0), [tier]);
 
   // The bar zooms in on the answer and the guess, whatever the era.
   const { lo, hi } = timelineRange(result.year, result.guess);
@@ -54,13 +68,23 @@ export function RoundResult({ state, dispatch }: { state: ResultState; dispatch:
         Round {roundIndex + 1} of {plan.length} · Score so far {formatPoints(totalScore(results))}
       </p>
 
-      <section className={styles.summary} aria-label="Result">
+      <section className={`${styles.summary} ${frame}`} aria-label="Result">
+        {tier === 'exact' && <Confetti targetRef={yearRef} />}
         <p className={styles.eyebrow}>The year was</p>
-        <p className={styles.answer}>{formatYear(result.year)}</p>
-        <p className={styles.distance}>{describeDistance(result.yearsOff)}</p>
+        <p className={styles.answer}>
+          <span
+            ref={yearRef}
+            className={tier === 'exact' ? `${celebration.shineTarget} ${celebration.shine}` : celebration.shineTarget}
+            style={{ '--shine-delay': `${SHINE_DELAY_MS}ms`, '--shine-duration': `${SHINE_DURATION_MS}ms` } as CSSProperties}
+          >
+            {formatYear(result.year)}
+          </span>
+        </p>
+        <p className={styles.distance}>{headline}</p>
         <p className={styles.detail}>
-          You guessed {formatYear(result.guess)} with {result.cluesShown} {result.cluesShown === 1 ? 'clue' : 'clues'}
-          {' '}showing, for up to {formatPoints(potential(result.cluesShown))} points.
+          You guessed {formatYear(result.guess)}
+          {showsDistance ? `, ${describeDistance(result.yearsOff)},` : ''} with {result.cluesShown}{' '}
+          {result.cluesShown === 1 ? 'clue' : 'clues'} showing, for up to {formatPoints(potential(result.cluesShown))} points.
         </p>
         <p className={styles.points} aria-live="polite">
           <strong>+{formatPoints(result.score)}</strong> points

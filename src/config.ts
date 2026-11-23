@@ -43,7 +43,24 @@ export const LEADERBOARD_SIZE = 10;
 /** Bump when scoring rules change. */
 export const CONFIG_VERSION = 3;
 
-export const CLUE_CATEGORIES = ['politics', 'society', 'technology', 'arts_culture'] as const;
+/**
+ * Celebration effects (cosmetic only: they never change scores or streaks).
+ * The shine, the confetti and the vibration share these timings so that they stay in step.
+ */
+/** Wait before the gold shine starts sweeping across the year, in milliseconds. */
+export const SHINE_DELAY_MS = 450;
+/** How long the shine takes to cross the year. The vibration for an exact guess lasts as long. */
+export const SHINE_DURATION_MS = 1300;
+/** Confetti pieces launched from each side of the year. */
+export const CONFETTI_PIECES_PER_SIDE = 22;
+/** How long a piece of confetti lasts, from launch to gone. */
+export const CONFETTI_DURATION_MS = 1900;
+/** Length of the single quick tap for an extremely close guess. */
+export const HAPTIC_TAP_MS = 25;
+/** Length of one pulse cycle in the fading vibration for an exact guess. */
+export const HAPTIC_PULSE_CYCLE_MS = 60;
+
+export const CLUE_CATEGORIES =['politics', 'society', 'technology', 'arts_culture'] as const;
 export const MAX_CLUE_LENGTH = 140;
 
 /** The one localStorage key the game uses. */
