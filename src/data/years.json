@@ -5195,7 +5195,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5423,7 +5423,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Louisiana_Purchase_Exposition",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7024,7 +7024,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Gold_Reserve_Act",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7101,7 +7101,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/1935_Saar_status_referendum",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -9223,7 +9223,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Nixon_shock",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -9467,7 +9467,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Compulsory_sterilization",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -11036,7 +11036,7 @@
           "region": "Africa",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -11089,7 +11089,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/McDonald%27s",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [

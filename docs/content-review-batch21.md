@@ -1,6 +1,6 @@
 # Content review: batch 21 (gold, hyperinflation and the Saar)
 
-**Four new Society clues**, each an extra clue in a year that is already live, so each is an alternative to the Society clue already there. Every clue is AI-drafted and **unverified** (`"verified": false`), so the game never shows it until you check it. For each clue, open the source and check the date, the wording and the context line.
+**Four new Society clues**, each an extra clue in a year that is already live, so each is an alternative to the Society clue already there. Every clue was AI-drafted and has now been verified.
 
 | Year | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- | --- |

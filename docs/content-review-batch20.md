@@ -1,6 +1,6 @@
 # Content review: batch 20 (fuller context lines, Barbary Wars, and four new Society clues)
 
-This batch has two parts. **Part 1** is finished: 18 context lines that were made fuller, and the Barbary Wars clues, all verified. **Part 2** is four new Society clues that are **unverified** (`"verified": false`), so the game never shows them until you check them.
+This batch has two parts. **Part 1** is finished: 18 context lines that were made fuller, and the Barbary Wars clues, all verified. **Part 2** is four new Society clues, now verified too.
 
 ## Part 1: fuller context lines
 
@@ -31,7 +31,7 @@ This batch has two parts. **Part 1** is finished: 18 context lines that were mad
 | 1707 | Society | A huge earthquake shakes Japan, and weeks later Mount Fuji erupts for the last time in recorded history. | The Hōei earthquake struck in October. Fuji erupted in December. | The Hōei earthquake in October, and its tsunami, killed thousands. Fuji erupted in December, and ash fell on Edo (now Tokyo), about a hundred kilometres away. | [link](https://en.wikipedia.org/wiki/1707_H%C5%8Dei_earthquake) |
 | 1865 | Arts & Culture | The English author Lewis Carroll publishes Alice's Adventures in Wonderland, with drawings by John Tenniel. | It first appeared in November. The first printing was withdrawn and reissued. | Lewis Carroll was the pen name of Charles Dodgson, an Oxford maths lecturer. He first told the story on a boat trip, to a girl called Alice Liddell. | [link](https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland) |
 
-## Part 2: four new Society clues (unverified)
+## Part 2: four new Society clues (verified)
 
 Each is an extra clue in a year that is already live, so it is an alternative to the Society clue already there. For each, open the source and check the date, the wording and the context line.
 
