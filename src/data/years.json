@@ -4849,14 +4849,6 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Johnstown_Flood",
           "verified": true
-        },
-        {
-          "text": "Paris hosts a World's Fair whose star attraction is a new iron tower, designed by Gustave Eiffel, which opens to the public.",
-          "context": "The fair opened in May, and about thirty-two million people visited. Buffalo Bill's Wild West show was another big attraction.",
-          "region": "Europe",
-          "difficulty": 1,
-          "source": "https://en.wikipedia.org/wiki/Exposition_Universelle_(1889)",
-          "verified": false
         }
       ],
       "technology": [
@@ -5196,6 +5188,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1900_Galveston_hurricane",
           "verified": true
+        },
+        {
+          "text": "Paris hosts a World's Fair that welcomes some fifty million visitors, with a moving pavement to carry them past its giant pavilions.",
+          "context": "The Olympic Games were held alongside it, and women competed for the first time. The fair left Paris the Grand Palais and the Petit Palais, and made Art Nouveau fashionable.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)",
+          "verified": false
         }
       ],
       "technology": [
