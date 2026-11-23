@@ -7094,6 +7094,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Name_of_Iran",
           "verified": true
+        },
+        {
+          "text": "Voters in the Saar, run by the League of Nations since the First World War, overwhelmingly choose to rejoin Germany in a referendum.",
+          "context": "About nine in ten voted to return, in January. Hitler had been in power for two years, and the Nazis celebrated the result as a propaganda success.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1935_Saar_status_referendum",
+          "verified": false
         }
       ],
       "technology": [
@@ -8341,14 +8349,6 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Disneyland",
           "verified": true
-        },
-        {
-          "text": "Voters in the Saar region reject a plan to make it a European territory, in a referendum that clears the way to rejoin Germany.",
-          "context": "About two thirds voted no, in October. The Saar had been under French control since the Second World War, and it joined West Germany at the start of 1957.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/1955_Saar_status_referendum",
-          "verified": false
         }
       ],
       "technology": [
