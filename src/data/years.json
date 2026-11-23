@@ -2434,6 +2434,75 @@
     }
   },
   {
+    "year": 1721,
+    "clues": {
+      "politics": [
+        {
+          "text": "Robert Walpole becomes the chief minister of Britain's government, and is later seen as the first prime minister.",
+          "context": "Walpole held power for more than twenty years. The title \"prime minister\" was at first meant as an insult.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Robert_Walpole",
+          "verified": false
+        },
+        {
+          "text": "Peter the Great is proclaimed Emperor of All the Russias, after winning the long Great Northern War against Sweden.",
+          "context": "The peace treaty of Nystad ended the war. Peter had ruled Russia as tsar for decades.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Peter_the_Great",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A committee of Parliament reports on the South Sea Bubble, the financial crash that ruined thousands of investors.",
+          "context": "Share prices collapsed after wild speculation. Some ministers were punished. The crisis helped bring Robert Walpole to power.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/South_Sea_Company",
+          "verified": false
+        },
+        {
+          "text": "A ship brings smallpox to Boston and starts an epidemic that sickens about half the town.",
+          "context": "Almost nine hundred people died. The outbreak led to a bitter fight over inoculation, and a bomb was thrown into the house of the minister Cotton Mather.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1721_Boston_smallpox_outbreak",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "In Boston, the doctor Zabdiel Boylston inoculates his own son and others against smallpox, in the middle of an epidemic.",
+          "context": "The idea came from an enslaved man named Onesimus, who told Cotton Mather how it was done in Africa. Most inoculated patients survived, and the method spread.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1721_Boston_smallpox_outbreak",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Johann Sebastian Bach sends the Margrave of Brandenburg six concertos, now known as the Brandenburg Concertos.",
+          "context": "Bach dedicated the music in March. The Margrave may never have had them played, and the music was nearly forgotten until the nineteenth century.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Brandenburg_Concertos",
+          "verified": false
+        },
+        {
+          "text": "The French painter Jean-Antoine Watteau, who painted dreamy scenes of elegant parties in gardens, dies young.",
+          "context": "He was in his thirties and had tuberculosis. He had visited London to see a doctor not long before.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Jean-Antoine_Watteau",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1739,
     "clues": {
       "politics": [
@@ -2474,6 +2543,75 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Israel_in_Egypt",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1745,
+    "clues": {
+      "politics": [
+        {
+          "text": "Bonnie Prince Charlie raises his standard at Glenfinnan in Scotland, starting a Jacobite rising to win back the British throne.",
+          "context": "The prince was the grandson of James II. His highland army marched into England as far as Derby before turning back.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Jacobite_rising_of_1745",
+          "verified": false
+        },
+        {
+          "text": "At Fontenoy, a French army beats British, Dutch and Hanoverian troops in a great battle of the War of the Austrian Succession.",
+          "context": "It was fought in May. The British commander was the Duke of Cumberland, who later crushed the Jacobites.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Fontenoy",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Pope Benedict the Fourteenth condemns the charging of interest on loans, in a letter called Vix pervenit.",
+          "context": "The Church long taught that lending money at interest was a sin. The letter shows how long that rule was held.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Vix_pervenit",
+          "verified": false
+        },
+        {
+          "text": "Teams of women play the first recorded women's cricket match, in Surrey, in a game between two villages.",
+          "context": "The match was reported in a newspaper. It took place on Gosden Common near Guildford.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Women%27s_cricket",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "A German priest, Ewald von Kleist, discovers how to store electric charge in a glass jar, an invention later called the Leyden jar.",
+          "context": "The Dutch scientist Pieter van Musschenbroek made the same discovery in Leiden at about the same time, and the jar is named after his city.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Leyden_jar",
+          "verified": false
+        },
+        {
+          "text": "The Italian scientist Alessandro Volta, who will invent the electric battery, is born in Como.",
+          "context": "The unit of electric potential, the volt, is named after him.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Alessandro_Volta",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Irish writer Jonathan Swift, author of Gulliver's Travels, dies in Dublin.",
+          "context": "Swift was also dean of St Patrick's Cathedral. He left most of his money to found a hospital for the mentally ill.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Jonathan_Swift",
+          "verified": false
         }
       ]
     }
@@ -2577,6 +2715,83 @@
     }
   },
   {
+    "year": 1776,
+    "clues": {
+      "politics": [
+        {
+          "text": "After crossing the icy Delaware River at night, George Washington's army surprises and defeats a Hessian garrison at Trenton, New Jersey.",
+          "context": "The victory lifted American hopes during a grim winter. Hessians were German soldiers hired by Britain.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Trenton",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Scottish thinker Adam Smith publishes The Wealth of Nations, a book that argues for free markets.",
+          "context": "The book explained how the division of labour and competition could make nations richer. It became the founding work of modern economics.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Wealth_of_Nations",
+          "verified": false
+        },
+        {
+          "text": "A huge fire destroys about a quarter of New York City, just after the British army captures it from the Americans.",
+          "context": "It broke out at night in September. Nobody knows who started it, and each side blamed the other.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Great_Fire_of_New_York_(1776)",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "An American inventor's one-man submarine, the Turtle, tries to attach a bomb to a British warship in New York harbour.",
+          "context": "The attempt failed, and only American records describe it. Historians still debate whether it really happened.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Turtle_(submersible)",
+          "verified": false
+        },
+        {
+          "text": "James Watt and his partner Matthew Boulton sell their improved steam engines to customers for the first time.",
+          "context": "Watt's engine used far less coal than earlier engines. It helped power the Industrial Revolution.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Watt_steam_engine",
+          "verified": false
+        },
+        {
+          "text": "Captain James Cook sets sail from Plymouth on a third voyage of exploration, which will end with his death in Hawaii.",
+          "context": "He sailed in July. He was killed in a clash with islanders at Kealakekua Bay.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/James_Cook",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The historian Edward Gibbon publishes the first volume of his Decline and Fall of the Roman Empire, which sells out within weeks.",
+          "context": "Gibbon took more than a decade to finish all the volumes. His elegant, ironic style made the work famous.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire",
+          "verified": false
+        },
+        {
+          "text": "In Salzburg, the young Mozart's Haffner Serenade is played for the first time, at a wedding celebration.",
+          "context": "It was written for the family of a rich merchant. Mozart was twenty at the time.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Serenade_No._7_(Mozart)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1781,
     "clues": {
       "politics": [
@@ -2617,6 +2832,91 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Idomeneo",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1789,
+    "clues": {
+      "politics": [
+        {
+          "text": "Thomas Jefferson is appointed the first Secretary of State of the United States, by President George Washington.",
+          "context": "He was then the American minister in Paris. He returned home and took up the job soon afterwards.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/United_States_Secretary_of_State",
+          "verified": false
+        },
+        {
+          "text": "Vietnam's Emperor Quang Trung routs a Chinese army in a surprise attack during the Lunar New Year festival.",
+          "context": "The battle was fought at Ngọc Hồi and Đống Đa. Quang Trung is remembered as one of Vietnam's great generals.",
+          "region": "South-East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Ng%E1%BB%8Dc_H%E1%BB%93i-%C4%90%E1%BB%91ng_%C4%90a",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Thousands of Parisian women march to Versailles in the rain over the price of bread, and force the king to return to Paris.",
+          "context": "The march was in October. The royal family was then kept in Paris under the eye of the crowds.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Women%27s_March_on_Versailles",
+          "verified": false
+        },
+        {
+          "text": "Congress passes the Judiciary Act, which creates the federal courts of the United States.",
+          "context": "The Act set up the Supreme Court with six justices, and created the post of Attorney General.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Judiciary_Act_of_1789",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "William Herschel, the astronomer who discovered Uranus, spots Saturn's moon Enceladus, using a huge new telescope.",
+          "context": "It was among the first uses of his forty-foot telescope. Enceladus is now known for the water that sprays from its south pole.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Enceladus",
+          "verified": false
+        },
+        {
+          "text": "The French chemist Antoine Lavoisier publishes his Elementary Treatise on Chemistry, setting out the modern idea of chemical elements.",
+          "context": "It included the first modern list of the elements and helped overturn the old theory of phlogiston. He was guillotined five years later.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Antoine_Lavoisier",
+          "verified": false
+        },
+        {
+          "text": "The German physicist Georg Ohm, whose name is given to the unit of electrical resistance, is born in Erlangen.",
+          "context": "Ohm's law links voltage, current and resistance. His work was ignored for years before it was honoured.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Georg_Ohm",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Power of Sympathy, often called the first American novel, is printed in Boston, though its author's name does not appear.",
+          "context": "It was later credited to William Hill Brown. It was a tale of love and scandal with a warning against seduction.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/The_Power_of_Sympathy",
+          "verified": false
+        },
+        {
+          "text": "Olaudah Equiano, a former slave, publishes his life story in London, a bestseller that helps the campaign against the slave trade.",
+          "context": "He described his capture in West Africa and his life at sea. The book was reprinted many times.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Olaudah_Equiano",
+          "verified": false
         }
       ]
     }
@@ -4916,6 +5216,67 @@
     }
   },
   {
+    "year": 1902,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Treaty of Vereeniging ends the Boer War, as the Boer republics accept British rule.",
+          "context": "The fighting had lasted almost three years. The two Boer republics became British colonies, and were later joined to form the Union of South Africa.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Treaty_of_Vereeniging",
+          "verified": false
+        },
+        {
+          "text": "Edward the Seventh is crowned in Westminster Abbey, after the ceremony is put off when he needs an emergency operation.",
+          "context": "The king had appendicitis, and the coronation was delayed from June to August.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Coronation_of_Edward_VII_and_Alexandra",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Mount Pelée erupts on the island of Martinique and wipes out the town of Saint-Pierre, killing almost everyone in it.",
+          "context": "Nearly thirty thousand people died. Only a handful survived, among them a prisoner in a thick-walled cell. It was one of the worst volcanic disasters of the century.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Aswan Low Dam opens on the River Nile, then the largest masonry dam in the world.",
+          "context": "Britain built it to store water for farming in Egypt. It was raised twice, and later overshadowed by the High Dam.",
+          "region": "Africa",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Aswan_Low_Dam",
+          "verified": false
+        },
+        {
+          "text": "The steel millionaire Andrew Carnegie founds the Carnegie Institution of Washington, a major centre for scientific research.",
+          "context": "Carnegie gave it a huge sum from his fortune. It still funds research today as Carnegie Science.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Carnegie_Institution_for_Science",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Georges Méliès's film A Trip to the Moon shows a rocket landing in the eye of the Man in the Moon.",
+          "context": "Méliès was a French stage magician. The film was one of the first science fiction films, and used tricks such as double exposures.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/A_Trip_to_the_Moon",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1903,
     "clues": {
       "politics": [
@@ -4964,6 +5325,91 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Call_of_the_Wild",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1904,
+    "clues": {
+      "politics": [
+        {
+          "text": "Japan attacks the Russian fleet at Port Arthur, starting a war that will shock Europe.",
+          "context": "The attack came without a declaration of war. Japan went on to beat Russia on land and at sea.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Russo-Japanese_War",
+          "verified": false
+        },
+        {
+          "text": "Britain and France sign the Entente Cordiale, ending old colonial rivalries and settling their disputes over Egypt and Morocco.",
+          "context": "The agreement was the start of the friendship that bound the two countries together before the First World War.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Entente_Cordiale",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A huge fire sweeps through the centre of Baltimore and destroys more than fifteen hundred buildings.",
+          "context": "Fire crews from other cities could not help at first, because their hose couplings did not fit Baltimore's hydrants.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Great_Baltimore_Fire",
+          "verified": false
+        },
+        {
+          "text": "The steamboat General Slocum catches fire in New York's East River, and more than a thousand people, mostly women and children, die.",
+          "context": "The passengers were German-Americans on a church outing. It was the city's worst disaster until September the Eleventh.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/General_Slocum",
+          "verified": false
+        },
+        {
+          "text": "Seven European football associations found FIFA, the body that will organise the World Cup.",
+          "context": "The first World Cup took place in Uruguay in 1930.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/FIFA",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Marconi's company introduces the distress call CQD for ships in trouble, the forerunner of SOS.",
+          "context": "CQD was announced in January. It was never an international standard, and SOS was adopted by countries in 1906.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/CQD",
+          "verified": false
+        },
+        {
+          "text": "A steam locomotive, City of Truro, is timed at close to one hundred miles an hour in Britain, in a claimed speed record.",
+          "context": "Some believe it was the first to reach 100 mph, though the best estimate is just under that. The run was on the Great Western Railway.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/GWR_3700_Class_3440_City_of_Truro",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Puccini's opera Madama Butterfly, about a Japanese girl abandoned by an American naval officer, premieres at La Scala in Milan.",
+          "context": "The first night was a disaster and the audience jeered. Puccini revised it, and a new version was a success in Brescia a few months later.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Madama_Butterfly",
+          "verified": false
+        },
+        {
+          "text": "Anton Chekhov's last play, The Cherry Orchard, opens at the Moscow Art Theatre, and Chekhov dies a few months later.",
+          "context": "The play is a comedy about a noble family that loses its estate. Chekhov died in July of tuberculosis.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Cherry_Orchard",
+          "verified": false
         }
       ]
     }
@@ -5067,6 +5513,75 @@
     }
   },
   {
+    "year": 1907,
+    "clues": {
+      "politics": [
+        {
+          "text": "Britain and Russia sign an entente in St Petersburg, settling their rivalries in Persia, Afghanistan and Tibet.",
+          "context": "It joined Britain, France and Russia in the Triple Entente, which faced Germany and Austria-Hungary in the First World War.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Anglo-Russian_Entente",
+          "verified": false
+        },
+        {
+          "text": "In Finland, nineteen women are elected to parliament, in the first election in Europe open to women candidates.",
+          "context": "Finland was then a grand duchy under the Russian empire. It had given women the vote the year before.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1907_Finnish_parliamentary_election",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A violent earthquake and fire destroy much of Kingston, the capital of Jamaica, killing hundreds of people.",
+          "context": "More than eight hundred people died. Kingston was rebuilt, but its old centre was lost.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1907_Kingston_earthquake",
+          "verified": false
+        },
+        {
+          "text": "The unfinished Quebec Bridge collapses into the St Lawrence River in Canada, killing seventy-six workers.",
+          "context": "It was the worst engineering disaster of its time. The bridge fell again in 1916 and was finished in 1917.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Quebec_Bridge",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Guglielmo Marconi opens the first regular commercial radio service across the Atlantic, between Ireland and Canada.",
+          "context": "Messages passed between Clifden in Ireland and Glace Bay in Nova Scotia. It cut the time and cost of sending news across the ocean.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+          "verified": false
+        },
+        {
+          "text": "The liner Lusitania sails from Liverpool on her first voyage, one of the fastest ships in the world.",
+          "context": "She soon won the Blue Riband for the fastest crossing of the Atlantic. She was sunk by a German submarine in 1915.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/RMS_Lusitania",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Pablo Picasso finishes Les Demoiselles d'Avignon, a shocking painting of five women whose faces look like African masks.",
+          "context": "The painting broke the rules of perspective. It is often seen as the start of Cubism. Picasso kept it hidden in his studio for years.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1908,
     "clues": {
       "politics": [
@@ -5115,6 +5630,83 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1909,
+    "clues": {
+      "politics": [
+        {
+          "text": "The Ottoman sultan Abdul Hamid the Second is overthrown by the army and replaced by his brother Mehmed the Fifth.",
+          "context": "Abdul Hamid had ruled for more than thirty years. The army acted after the Young Turk revolution of the year before.",
+          "region": "Middle East",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Abdul_Hamid_II",
+          "verified": false
+        },
+        {
+          "text": "Japan's elder statesman Itō Hirobumi is shot dead by a Korean nationalist at a railway station in Manchuria.",
+          "context": "Itō had been Japan's first prime minister. His killer, An Jung-geun, is honoured as a hero in Korea. Japan annexed Korea the next year.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/It%C5%8D_Hirobumi",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The liner Republic collides with another ship off Nantucket and sinks, but wireless distress calls save almost everyone aboard.",
+          "context": "The calls included CQD, the distress signal of the time. Only a few people died. The rescue showed the value of radio at sea.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/RMS_Republic_(1903)",
+          "verified": false
+        },
+        {
+          "text": "A fire in the Cherry coal mine in Illinois traps and kills about two hundred and fifty miners.",
+          "context": "It was one of the worst mining disasters in American history. It led to new safety laws.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Cherry_Mine_disaster",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Belgian-born chemist Leo Baekeland announces Bakelite, the first fully synthetic plastic, to the American Chemical Society.",
+          "context": "Bakelite was hard, cheap and did not conduct electricity, so it was used for radios, telephones and many other goods. He had developed it in 1907.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Bakelite",
+          "verified": false
+        },
+        {
+          "text": "Louis Blériot flies across the English Channel from France to Dover, in under forty minutes, and wins a newspaper prize.",
+          "context": "The prize was offered by the Daily Mail. He landed in a field near Dover Castle.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Louis_Bl%C3%A9riot",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Russian composer Sergei Rachmaninoff plays the first performance of his Third Piano Concerto, in New York.",
+          "context": "It is famous as one of the hardest piano concertos. Rachmaninoff wrote it for his first American tour.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Piano_Concerto_No._3_(Rachmaninoff)",
+          "verified": false
+        },
+        {
+          "text": "In Paris, the impresario Sergei Diaghilev opens a season of Russian ballet and opera that amazes audiences.",
+          "context": "The company was not yet called the Ballets Russes, a name it took the following year. Its star dancers included Vaslav Nijinsky.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Ballets_Russes",
+          "verified": false
         }
       ]
     }
@@ -8947,6 +9539,83 @@
     }
   },
   {
+    "year": 2000,
+    "clues": {
+      "politics": [
+        {
+          "text": "Vladimir Putin is elected president of Russia, after Boris Yeltsin resigns and names him acting leader.",
+          "context": "Putin was a former KGB officer and had been Yeltsin's last prime minister.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2000_Russian_presidential_election",
+          "verified": false
+        },
+        {
+          "text": "Vicente Fox wins Mexico's presidential election, ending more than seventy years of rule by one party.",
+          "context": "Fox, a former Coca-Cola executive, led the National Action Party. The old ruling party was the PRI.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+          "verified": false
+        },
+        {
+          "text": "After mass protests in Belgrade, Yugoslav president Slobodan Milošević is forced to give up power.",
+          "context": "Protesters stormed the parliament building. Milošević was later put on trial for war crimes in The Hague.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Overthrow_of_Slobodan_Milo%C5%A1evi%C4%87",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Russian nuclear submarine Kursk sinks in the Barents Sea, killing all the crew despite a long rescue effort.",
+          "context": "One hundred and eighteen men died. President Putin was criticised for being slow to respond and for refusing foreign help at first.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Kursk_submarine_disaster",
+          "verified": false
+        },
+        {
+          "text": "A Concorde supersonic airliner crashes after taking off from Paris, killing everyone aboard and some people on the ground.",
+          "context": "It was the first fatal crash of a Concorde. The plane was withdrawn from service three years later.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Air_France_Flight_4590",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Scientists announce the first draft of the human genome, a map of all the genes in a human being, at the White House.",
+          "context": "The announcement was made by President Clinton, with the leaders of two rival research teams. A finished version followed in 2003.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Human_Genome_Project",
+          "verified": false
+        },
+        {
+          "text": "The first crew arrives at the International Space Station, beginning a continuous human presence in space.",
+          "context": "The crew were two Russians and an American. People have lived on the station without a break ever since.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Expedition_1",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Charles M. Schulz, creator of the comic strip Peanuts and its Charlie Brown and Snoopy, dies the night before his last strip appears.",
+          "context": "Peanuts had run for almost fifty years, and Schulz drew every strip himself. He died at home in California.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Charles_M._Schulz",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 2001,
     "clues": {
       "politics": [
@@ -8987,6 +9656,83 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Am%C3%A9lie",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 2002,
+    "clues": {
+      "politics": [
+        {
+          "text": "East Timor becomes the first new country of the century, as it celebrates full independence after years of Indonesian rule.",
+          "context": "A United Nations mission had run the territory since a vote for independence. The country took the name Timor-Leste.",
+          "region": "South-East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/East_Timor",
+          "verified": false
+        },
+        {
+          "text": "In his State of the Union speech, President George W. Bush names Iran, Iraq and North Korea as an axis of evil.",
+          "context": "The phrase was used to justify tougher policies. The invasion of Iraq followed the next year.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Axis_of_evil",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Boston Globe begins publishing its investigation into the sexual abuse of children by Catholic priests and its cover-up by the Church.",
+          "context": "The reports, by the Globe's Spotlight team, led to hundreds of cases and the resignation of Cardinal Bernard Law. They were later made into the film Spotlight.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_the_United_States",
+          "verified": false
+        },
+        {
+          "text": "The Winter Olympic Games open in Salt Lake City, Utah, under tight security.",
+          "context": "They were the first Olympics after the attacks of September the Eleventh. The opening ceremony included a flag recovered from the World Trade Center.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/2002_Winter_Olympics",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Europe launches Envisat, the largest Earth-observation satellite ever built, to watch the planet's land, seas and air.",
+          "context": "It carried ten instruments and monitored climate and pollution until contact was lost in 2012.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Envisat",
+          "verified": false
+        },
+        {
+          "text": "Three Indian computer scientists publish a method that proves whether a number is prime in a reasonable time, called the AKS test.",
+          "context": "Manindra Agrawal and his two students Neeraj Kayal and Nitin Saxena found it. It solved a problem that mathematicians had worked on for centuries.",
+          "region": "South Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/AKS_primality_test",
+          "verified": false
+        },
+        {
+          "text": "Mark Shuttleworth, a South African internet entrepreneur, becomes the first African in space, as a paying space tourist.",
+          "context": "He flew on a Russian Soyuz to the International Space Station. He later founded the company behind the Ubuntu computer system.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Tribute in Light begins, two columns of blue light rising over Manhattan where the Twin Towers stood.",
+          "context": "It was first lit on the six-month anniversary of the attacks of September the Eleventh. It proved so popular that it returned every year.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Tribute_in_Light",
+          "verified": false
         }
       ]
     }
@@ -9138,6 +9884,75 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Brokeback_Mountain_(film)",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 2006,
+    "clues": {
+      "politics": [
+        {
+          "text": "Saddam Hussein, Iraq's former dictator, is hanged in Baghdad after being convicted of crimes against humanity.",
+          "context": "He was convicted of the killing of 148 Shia men in the town of Dujail. The execution was filmed and caused controversy.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Execution_of_Saddam_Hussein",
+          "verified": false
+        },
+        {
+          "text": "Hezbollah fighters capture two Israeli soldiers in a cross-border raid, and Israel responds with a month-long war in Lebanon.",
+          "context": "The war killed more than a thousand Lebanese civilians. A United Nations ceasefire ended it in August.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2006_Lebanon_War",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A strong earthquake strikes the Indonesian city of Yogyakarta and the area around it, killing thousands of people.",
+          "context": "More than five thousand people died. The quake struck early in the morning, and the ancient temple of Prambanan was damaged.",
+          "region": "South-East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/2006_Yogyakarta_earthquake",
+          "verified": false
+        },
+        {
+          "text": "Italy win the football World Cup in Germany, beating France on penalties after the French captain is sent off for a head-butt.",
+          "context": "Zinedine Zidane's head-butt on Marco Materazzi came in extra time of the final in Berlin.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Astronomers vote to strip Pluto of its status as a planet and class it as a dwarf planet.",
+          "context": "The International Astronomical Union voted at a meeting in Prague. Its new rules said that a planet must clear the space around its orbit.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/IAU_definition_of_planet",
+          "verified": false
+        },
+        {
+          "text": "The social network Twitter is founded in San Francisco, with messages limited to a few characters.",
+          "context": "The first message was sent in March by Jack Dorsey. The service opened to the public in July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Twitter",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Finnish monster rock band Lordi win the Eurovision Song Contest in Athens with Hard Rock Hallelujah.",
+          "context": "The band wore monster masks on stage. It was Finland's first win in the contest.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2006",
+          "verified": false
         }
       ]
     }
@@ -9551,6 +10366,83 @@
     }
   },
   {
+    "year": 2015,
+    "clues": {
+      "politics": [
+        {
+          "text": "David Cameron's Conservatives win a surprise majority in Britain's election, ending five years of coalition with the Liberal Democrats.",
+          "context": "Polls had predicted a hung parliament. Ed Miliband resigned as Labour leader. The SNP won almost every seat in Scotland.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2015_United_Kingdom_general_election",
+          "verified": false
+        },
+        {
+          "text": "Greece elects the left-wing Syriza party, led by Alexis Tsipras, on a promise to end austerity.",
+          "context": "Syriza was the first radical left party to win power in a euro country. Months of tense talks with Greece's creditors followed.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/January_2015_Greek_legislative_election",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Gunmen attack the Paris office of the satirical magazine Charlie Hebdo and kill twelve people.",
+          "context": "The attackers said they were avenging cartoons of the Prophet. Millions marched in France in the days afterwards.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting",
+          "verified": false
+        },
+        {
+          "text": "A powerful earthquake strikes Nepal, killing about nine thousand people and damaging historic buildings in Kathmandu.",
+          "context": "It struck in April, and caused an avalanche on Mount Everest. Many of the old temples in Kathmandu's Durbar Square were wrecked.",
+          "region": "South Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "NASA's Dawn becomes the first spacecraft to orbit a dwarf planet, when it reaches Ceres in the asteroid belt.",
+          "context": "Dawn had earlier orbited the asteroid Vesta. It found bright spots on Ceres that scientists later explained as salt deposits.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Dawn_(spacecraft)",
+          "verified": false
+        },
+        {
+          "text": "The New Horizons spacecraft flies past Pluto after a nine-year journey, sending back the first close-up pictures of the dwarf planet.",
+          "context": "The pictures showed a huge heart-shaped plain of nitrogen ice. The flyby took place in July.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/New_Horizons",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "A Picasso painting, Les Femmes d'Alger, sells at auction in New York for a record price of about one hundred and eighty million dollars.",
+          "context": "It was then the highest price ever paid for a painting at auction. Picasso painted a series of works inspired by Delacroix.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Les_Femmes_d%27Alger",
+          "verified": false
+        },
+        {
+          "text": "The BBC announces that it will not renew Jeremy Clarkson's contract as presenter of Top Gear, after a fight with a producer.",
+          "context": "The row followed a long day of filming. Clarkson, Richard Hammond and James May later made a similar show for Amazon.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Top_Gear_(2002_TV_series)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 2016,
     "clues": {
       "politics": [
@@ -9599,6 +10491,91 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Bob_Dylan",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 2017,
+    "clues": {
+      "politics": [
+        {
+          "text": "Yahya Jammeh, who had ruled The Gambia for more than twenty years, leaves the country after losing an election and refusing to go.",
+          "context": "Troops from neighbouring countries entered The Gambia to make him step down. Adama Barrow took office as president.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2016%E2%80%932017_Gambian_constitutional_crisis",
+          "verified": false
+        },
+        {
+          "text": "Britain formally starts the process of leaving the European Union, with a letter from Prime Minister Theresa May.",
+          "context": "The letter triggered Article 50, which gave two years for talks. Britain had voted to leave in a referendum the year before.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Withdrawal_of_the_United_Kingdom_from_the_European_Union",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A suicide bomber attacks a pop concert by Ariana Grande at an arena in Manchester, killing more than twenty people, many of them young.",
+          "context": "The attack happened as the audience was leaving. Many of the victims were children and teenagers.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2017_Manchester_Arena_bombing",
+          "verified": false
+        },
+        {
+          "text": "At Kuala Lumpur airport, Kim Jong-nam, half-brother of North Korea's leader, is poisoned with a nerve agent and dies.",
+          "context": "The poison was VX, one of the deadliest nerve agents. Two women were charged with the killing.",
+          "region": "South-East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Assassination_of_Kim_Jong-nam",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Nintendo releases the Switch, a games console that can be used at home on a television or carried as a handheld.",
+          "context": "The Switch was an unexpected success and became one of the best-selling consoles ever.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+          "verified": false
+        },
+        {
+          "text": "SpaceX launches a rocket booster that has already flown to space once, the first reuse of an orbital-class rocket.",
+          "context": "Landing and reusing boosters cut the cost of launches. The booster had flown a mission the year before.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/SpaceX_reusable_launch_system_development_program",
+          "verified": false
+        },
+        {
+          "text": "NASA's Cassini spacecraft plunges into Saturn on purpose, ending a thirteen-year mission at the planet.",
+          "context": "The dive stopped Cassini from contaminating Saturn's moons. It sent back data until its final moments.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Portugal wins the Eurovision Song Contest for the first time, in Kyiv, with a quiet ballad sung by Salvador Sobral.",
+          "context": "The song was called Amar pelos dois and was written by his sister Luísa. Sobral had a heart condition and later had a heart transplant.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2017",
+          "verified": false
+        },
+        {
+          "text": "A painting attributed to Leonardo da Vinci, Salvator Mundi, sells at auction for a record price of more than four hundred million dollars.",
+          "context": "It was the highest price ever paid for a painting. The buyer was later reported to be a Saudi prince.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)",
+          "verified": false
         }
       ]
     }
