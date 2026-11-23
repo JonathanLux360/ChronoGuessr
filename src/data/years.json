@@ -4849,6 +4849,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Johnstown_Flood",
           "verified": true
+        },
+        {
+          "text": "Paris hosts a World's Fair whose star attraction is a new iron tower, designed by Gustave Eiffel, which opens to the public.",
+          "context": "The fair opened in May, and about thirty-two million people visited. Buffalo Bill's Wild West show was another big attraction.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Exposition_Universelle_(1889)",
+          "verified": false
         }
       ],
       "technology": [
