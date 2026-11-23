@@ -26,7 +26,7 @@
 
 **Added to years already in the pool** (these are in the table at the end): Martin Luther King's "I Have a Dream" speech (1963) and To Kill a Mockingbird (1960). The founding of the People's Republic of China was already the main Politics clue for 1949 ("Mao Zedong proclaims the People's Republic of China from the Gate of Heavenly Peace in Beijing"), so nothing was added there.
 
-## [ ] 1921
+## [x] 1921
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -39,7 +39,7 @@
 | Arts & Culture (main) | Charlie Chaplin's film The Kid, about the Tramp and an abandoned child, premieres and makes Jackie Coogan a child star. | It was Chaplin's first full-length film. It mixed comedy with sadness. The premiere was in January. | North America | 2 | [link](https://en.wikipedia.org/wiki/The_Kid_(1921_film)) |
 | Arts & Culture (alt 1) | Jaroslav Hašek begins publishing The Good Soldier Švejk, a comic Czech novel about a simple soldier who bumbles through the First World War. | The book came out in parts from 1921 until Hašek's death in 1923, and was never finished. It is one of the most translated Czech novels. | Europe | 2 | [link](https://en.wikipedia.org/wiki/The_Good_Soldier_%C5%A0vejk) |
 
-## [ ] 1925
+## [x] 1925
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -50,7 +50,7 @@
 | Technology | In London, John Logie Baird transmits the first television pictures with shades of grey, of a ventriloquist's dummy. | He had earlier sent only black-and-white outlines. A dummy called Stooky Bill was the subject. Public demonstrations followed the next year. | Europe | 2 | [link](https://en.wikipedia.org/wiki/John_Logie_Baird) |
 | Arts & Culture | F. Scott Fitzgerald publishes The Great Gatsby, a novel of wealth, parties and lost love on Long Island. | It sold poorly at first, and Fitzgerald died believing it a failure. It later became one of the most famous American novels. | North America | 1 | [link](https://en.wikipedia.org/wiki/The_Great_Gatsby) |
 
-## [ ] 1931
+## [x] 1931
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -61,7 +61,7 @@
 | Arts & Culture (main) | Charlie Chaplin's silent film City Lights, in which the Tramp loves a blind flower seller, premieres as talking films take over. | Chaplin refused to make a talking picture, and added only music and sound effects. It ends with one of the most famous scenes in cinema. | North America | 2 | [link](https://en.wikipedia.org/wiki/City_Lights) |
 | Arts & Culture (alt 1) | Universal's film Frankenstein, with Boris Karloff as the monster, is released and sets off a craze for horror films. | Dracula, starring Bela Lugosi, had come out earlier in the year. Both made huge profits for Universal. | North America | 1 | [link](https://en.wikipedia.org/wiki/Frankenstein_(1931_film)) |
 
-## [ ] 1933
+## [x] 1933
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -71,7 +71,7 @@
 | Technology | Two British aircraft fly over Mount Everest for the first time, carrying cameras to photograph the summit. | The expedition was led by Lord Clydesdale, an RAF pilot and later a duke. The flight showed the summit could be seen from the air. | South Asia | 3 | [link](https://en.wikipedia.org/wiki/Houston%E2%80%93Mount_Everest_flight_expedition) |
 | Arts & Culture | The film King Kong premieres in New York, with a giant ape climbing the Empire State Building. | The ape was a model brought to life by stop-motion animation. Fay Wray starred as the woman he carries. It was a huge hit in the Depression. | North America | 1 | [link](https://en.wikipedia.org/wiki/King_Kong_(1933_film)) |
 
-## [ ] 1934
+## [x] 1934
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -82,7 +82,7 @@
 | Arts & Culture (main) | Agatha Christie publishes Murder on the Orient Express, in which Hercule Poirot solves a killing on a snowbound train. | It was published in Britain at the start of the year. The story was partly inspired by a real train stuck in snow. | Europe | 1 | [link](https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express) |
 | Arts & Culture (alt 1) | Donald Duck makes his first screen appearance, in the Disney cartoon The Wise Little Hen. | Donald was a bad-tempered duck who pretended to have a stomach ache to avoid work. He became one of Disney's biggest stars. | North America | 2 | [link](https://en.wikipedia.org/wiki/The_Wise_Little_Hen) |
 
-## [ ] 1935
+## [x] 1935
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -96,7 +96,7 @@
 | Arts & Culture (main) | George Gershwin's opera Porgy and Bess opens, with an all-Black cast of classically trained singers and the song Summertime. | It had tryouts in Boston before opening in New York. Some critics were unsure at first, but it became a classic. | North America | 2 | [link](https://en.wikipedia.org/wiki/Porgy_and_Bess) |
 | Arts & Culture (alt 1) | Alfred Hitchcock's spy thriller about an innocent man on the run across Scotland, with a mysterious ring of spies, is released. | The film is called The 39 Steps and was based on a novel by John Buchan. It made Hitchcock Britain's top director. | Europe | 2 | [link](https://en.wikipedia.org/wiki/The_39_Steps_(1935_film)) |
 
-## [ ] 1939
+## [x] 1939
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -109,7 +109,7 @@
 | Arts & Culture (alt 1) | The Wizard of Oz, with Judy Garland as Dorothy, is released, using new Technicolor to show Oz in vivid colour. | It was not a big hit at first. It became a classic through television repeats. | North America | 1 | [link](https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)) |
 | Arts & Culture (alt 2) | Batman makes his first appearance in Detective Comics, created by Bob Kane and Bill Finger. | The comic was published in the spring. Batman became one of the most famous superheroes ever. | North America | 1 | [link](https://en.wikipedia.org/wiki/Batman) |
 
-## [ ] 1940
+## [x] 1940
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -124,7 +124,7 @@
 | Arts & Culture (main) | Charlie Chaplin's film The Great Dictator mocks Hitler, with Chaplin playing both a Jewish barber and a dictator. | It was Chaplin's first full talking picture. It ends with a long speech calling for peace and humanity. | North America | 1 | [link](https://en.wikipedia.org/wiki/The_Great_Dictator) |
 | Arts & Culture (alt 1) | Disney's Fantasia sets animation to classical music, with Mickey Mouse as the sorcerer's apprentice. | The film used a new sound system with several speakers. It lost money at first but is now a classic. | North America | 1 | [link](https://en.wikipedia.org/wiki/Fantasia_(1940_film)) |
 
-## [ ] 1941
+## [x] 1941
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -138,7 +138,7 @@
 | Arts & Culture (main) | Orson Welles's Citizen Kane, about a newspaper tycoon whose last word is Rosebud, premieres in New York. | Welles was twenty-five when he made it. It is often named the greatest film ever made, though it did not make money at first. | North America | 1 | [link](https://en.wikipedia.org/wiki/Citizen_Kane) |
 | Arts & Culture (alt 1) | John Huston's film The Maltese Falcon, with Humphrey Bogart as the detective Sam Spade, is released. | It was Huston's first film as director. Many call it the first great film noir. | North America | 2 | [link](https://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)) |
 
-## [ ] 1942
+## [x] 1942
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -153,7 +153,7 @@
 | Arts & Culture (alt 1) | Bing Crosby records White Christmas, which becomes the best-selling single of all time. | Irving Berlin wrote the song for the film Holiday Inn. It reminded soldiers far from home of Christmas. | North America | 1 | [link](https://en.wikipedia.org/wiki/White_Christmas_(song)) |
 | Arts & Culture (alt 2) | At the Oscars, How Green Was My Valley beats Citizen Kane for best picture. | Citizen Kane won only for its screenplay. The Oscars were held in February. | North America | 2 | [link](https://en.wikipedia.org/wiki/14th_Academy_Awards) |
 
-## [ ] 1943
+## [x] 1943
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -168,7 +168,7 @@
 | Arts & Culture (main) | Antoine de Saint-Exupéry's story The Little Prince is published in New York, while the author is in exile from occupied France. | Saint-Exupéry was an airman and wrote and drew it himself. He disappeared on a flight the next year. It became one of the most translated books ever. | North America | 1 | [link](https://en.wikipedia.org/wiki/The_Little_Prince) |
 | Arts & Culture (alt 1) | Rodgers and Hammerstein's Oklahoma! opens on Broadway, reshaping the musical. | Its songs and dances moved the story forward instead of just entertaining. It ran for more than two thousand performances. | North America | 2 | [link](https://en.wikipedia.org/wiki/Oklahoma!) |
 
-## [ ] 1944
+## [x] 1944
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
