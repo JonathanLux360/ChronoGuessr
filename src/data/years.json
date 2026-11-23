@@ -7017,6 +7017,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1934_FIFA_World_Cup",
           "verified": true
+        },
+        {
+          "text": "President Franklin Roosevelt signs a law that takes gold out of American money and puts the nation's gold in government hands.",
+          "context": "It was signed in January. In 1933, Americans had been ordered to hand in their gold coins. The law also raised the official price of gold from about twenty dollars to thirty-five an ounce.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Gold_Reserve_Act",
+          "verified": false
         }
       ],
       "technology": [
@@ -8333,6 +8341,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Disneyland",
           "verified": true
+        },
+        {
+          "text": "Voters in the Saar region reject a plan to make it a European territory, in a referendum that clears the way to rejoin Germany.",
+          "context": "About two thirds voted no, in October. The Saar had been under French control since the Second World War, and it joined West Germany at the start of 1957.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1955_Saar_status_referendum",
+          "verified": false
         }
       ],
       "technology": [
@@ -9200,6 +9216,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_Switzerland",
           "verified": true
+        },
+        {
+          "text": "President Richard Nixon takes the United States off the gold standard, ending the fixed exchange rates set up after the Second World War.",
+          "context": "He announced it on television in August, along with a freeze on wages and prices. It became known as the Nixon shock, and the dollar has floated freely ever since.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Nixon_shock",
+          "verified": false
         }
       ],
       "technology": [
@@ -11005,6 +11029,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers",
           "verified": true
+        },
+        {
+          "text": "Zimbabwe's hyperinflation peaks, as prices double almost every day and shoppers carry banknotes in bundles to buy basic goods.",
+          "context": "In mid-November, monthly inflation reached about 79.6 billion per cent, by one economist's estimate. Notes worth 100 billion Zimbabwe dollars were printed, and the currency was dropped soon after.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe",
+          "verified": false
         }
       ],
       "technology": [
