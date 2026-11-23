@@ -9436,6 +9436,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Thrilla_in_Manila",
           "verified": true
+        },
+        {
+          "text": "Sweden passes a law ending its state programme of eugenic sterilisation, which had sterilised thousands without free consent.",
+          "context": "The new law took effect in 1976. About sixty-three thousand people were sterilised under the old laws, mostly women, many under pressure or by force. Sweden later paid compensation.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Compulsory_sterilization",
+          "verified": false
         }
       ],
       "technology": [
