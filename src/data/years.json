@@ -10332,11 +10332,35 @@
     "clues": {
       "politics": [
         {
-          "text": "Britain formally starts the process of leaving the European Union, with a letter from Prime Minister Theresa May.",
-          "context": "The letter triggered Article 50, which gave two years for talks. Britain had voted to leave in a referendum the year before.",
+          "text": "Theresa May calls a snap general election to win a bigger majority, but loses her majority and has to rely on the Democratic Unionists.",
+          "context": "She called it in April, expecting a landslide, but the Conservatives lost seats. Jeremy Corbyn's Labour did far better than the polls had predicted. The result was a hung parliament.",
           "region": "Europe",
           "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Withdrawal_of_the_United_Kingdom_from_the_European_Union",
+          "source": "https://en.wikipedia.org/wiki/2017_United_Kingdom_general_election",
+          "verified": false
+        },
+        {
+          "text": "Zimbabwe's army takes control of the country, and Robert Mugabe, who had ruled for almost four decades, resigns days later.",
+          "context": "The army acted after Mugabe sacked his vice-president Emmerson Mnangagwa, who became president. Mugabe had led Zimbabwe since independence in 1980.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2017_Zimbabwean_coup_d%27%C3%A9tat",
+          "verified": false
+        },
+        {
+          "text": "Catalonia holds an independence referendum that Spain's courts have banned, and police use force to stop people voting.",
+          "context": "The Catalan government said most voters backed independence. The Catalan parliament declared independence in October, and Madrid took direct control of the region.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2017_Catalan_independence_referendum",
+          "verified": false
+        },
+        {
+          "text": "Emmanuel Macron, a former banker and economy minister with a brand-new party, is elected president of France.",
+          "context": "He beat the far-right candidate Marine Le Pen in the second round in May. At thirty-nine, he became the youngest president in French history.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/2017_French_presidential_election",
           "verified": false
         }
       ],
@@ -10360,6 +10384,22 @@
       ],
       "technology": [
         {
+          "text": "Apple releases the iPhone X, a phone with no home button that unlocks with a scan of the user's face.",
+          "context": "It went on sale in November. The X, the Roman numeral for ten, marked ten years since the first iPhone.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/IPhone_X",
+          "verified": false
+        },
+        {
+          "text": "Epic Games releases Fortnite Battle Royale, a free online game in which a hundred players fight until one is left standing.",
+          "context": "Epic had already released a different Fortnite mode earlier in the year. The free battle royale mode, added in September, became one of the most popular games in the world.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale",
+          "verified": false
+        },
+        {
           "text": "Nintendo releases the Switch, a games console that can be used at home on a television or carried as a handheld.",
           "context": "The Switch was an unexpected success and became one of the best-selling consoles ever.",
           "region": "East Asia",
@@ -10374,17 +10414,25 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/SpaceX_reusable_launch_system_development_program",
           "verified": false
-        },
-        {
-          "text": "NASA's Cassini spacecraft plunges into Saturn on purpose, ending a thirteen-year mission at the planet.",
-          "context": "The dive stopped Cassini from contaminating Saturn's moons. It sent back data until its final moments.",
-          "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens",
-          "verified": false
         }
       ],
       "arts_culture": [
+        {
+          "text": "Despacito, a Spanish-language hit by Luis Fonsi and Daddy Yankee, breaks streaming records and tops the charts around the world.",
+          "context": "A remix with Justin Bieber helped it reach number one in the United States. It was released in January.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Despacito",
+          "verified": false
+        },
+        {
+          "text": "At the Oscars, La La Land is wrongly announced as best picture, and then Moonlight is revealed as the true winner.",
+          "context": "The presenters, Warren Beatty and Faye Dunaway, were handed the wrong envelope. The cast of La La Land were already on stage making speeches when the mistake was found.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/89th_Academy_Awards",
+          "verified": false
+        },
         {
           "text": "Portugal wins the Eurovision Song Contest for the first time, in Kyiv, with a quiet ballad sung by Salvador Sobral.",
           "context": "The song was called Amar pelos dois and was written by his sister Luísa. Sobral had a heart condition and later had a heart transplant.",
