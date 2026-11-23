@@ -10432,22 +10432,6 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/89th_Academy_Awards",
           "verified": false
-        },
-        {
-          "text": "Portugal wins the Eurovision Song Contest for the first time, in Kyiv, with a quiet ballad sung by Salvador Sobral.",
-          "context": "The song was called Amar pelos dois and was written by his sister Luísa. Sobral had a heart condition and later had a heart transplant.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2017",
-          "verified": false
-        },
-        {
-          "text": "A painting attributed to Leonardo da Vinci, Salvator Mundi, sells at auction for a record price of more than four hundred million dollars.",
-          "context": "It was the highest price ever paid for a painting. The buyer was later reported to be a Saudi prince.",
-          "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)",
-          "verified": false
         }
       ]
     }
