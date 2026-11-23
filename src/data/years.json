@@ -11050,6 +11050,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/US_Airways_Flight_1549",
           "verified": true
+        },
+        {
+          "text": "Iceland's last McDonald's restaurants close, after the country's banking crash made imported ingredients too costly.",
+          "context": "It happened at the end of October. A man bought a burger and fries on the last day and kept them. They have barely rotted, and are still on display in Iceland, with a webcam.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/McDonald%27s",
+          "verified": false
         }
       ],
       "technology": [
