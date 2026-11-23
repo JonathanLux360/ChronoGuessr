@@ -3313,6 +3313,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Napoleon",
           "verified": true
+        },
+        {
+          "text": "Lieutenant Stephen Decatur leads a night raid into Tripoli harbour and burns the captured American frigate Philadelphia.",
+          "context": "It happened in February, during the First Barbary War. The Philadelphia had run aground and been taken, and Decatur burned her so that Tripoli could not use her.",
+          "region": "North Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Burning_of_the_USS_Philadelphia",
+          "verified": false
         }
       ],
       "society": [
@@ -3517,6 +3525,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Congress_of_Vienna",
           "verified": true
+        },
+        {
+          "text": "A US fleet under Stephen Decatur forces the Dey of Algiers to end tribute payments, in the Second Barbary War.",
+          "context": "For years, European states and the United States had paid the Barbary states to leave their ships alone. A treaty was signed in the summer, and the fleet then moved on to Tunis and Tripoli.",
+          "region": "North Africa",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Second_Barbary_War",
+          "verified": false
         }
       ],
       "society": [
