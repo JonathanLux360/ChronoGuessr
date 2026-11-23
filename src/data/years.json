@@ -2456,29 +2456,21 @@
       ],
       "society": [
         {
-          "text": "A committee of Parliament reports on the South Sea Bubble, the financial crash that ruined thousands of investors.",
-          "context": "Share prices collapsed after wild speculation. Some ministers were punished. The crisis helped bring Robert Walpole to power.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/South_Sea_Company",
-          "verified": false
-        },
-        {
-          "text": "A ship brings smallpox to Boston and starts an epidemic that sickens about half the town.",
-          "context": "Almost nine hundred people died. The outbreak led to a bitter fight over inoculation, and a bomb was thrown into the house of the minister Cotton Mather.",
+          "text": "James Franklin starts the New-England Courant in Boston, a paper that mocks the authorities, and his young brother Benjamin works for it.",
+          "context": "Benjamin Franklin was an apprentice in the printing shop. He later secretly wrote letters for the paper under the name Silence Dogood.",
           "region": "North America",
           "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/1721_Boston_smallpox_outbreak",
+          "source": "https://en.wikipedia.org/wiki/New-England_Courant",
           "verified": false
         }
       ],
       "technology": [
         {
-          "text": "In Boston, the doctor Zabdiel Boylston inoculates his own son and others against smallpox, in the middle of an epidemic.",
-          "context": "The idea came from an enslaved man named Onesimus, who told Cotton Mather how it was done in Africa. Most inoculated patients survived, and the method spread.",
-          "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/1721_Boston_smallpox_outbreak",
+          "text": "Lady Mary Wortley Montagu has her young daughter inoculated against smallpox in London, after seeing the method used in Turkey.",
+          "context": "She had seen the practice in Constantinople, where her husband was ambassador. Royal doctors watched the test, and the method became fashionable at court.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Mary_Wortley_Montagu",
           "verified": false
         }
       ],
@@ -2489,14 +2481,6 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Brandenburg_Concertos",
-          "verified": false
-        },
-        {
-          "text": "The French painter Jean-Antoine Watteau, who painted dreamy scenes of elegant parties in gardens, dies young.",
-          "context": "He was in his thirties and had tuberculosis. He had visited London to see a doctor not long before.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Jean-Antoine_Watteau",
           "verified": false
         }
       ]
@@ -2558,31 +2542,15 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Jacobite_rising_of_1745",
           "verified": false
-        },
-        {
-          "text": "At Fontenoy, a French army beats British, Dutch and Hanoverian troops in a great battle of the War of the Austrian Succession.",
-          "context": "It was fought in May. The British commander was the Duke of Cumberland, who later crushed the Jacobites.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Battle_of_Fontenoy",
-          "verified": false
         }
       ],
       "society": [
         {
-          "text": "Pope Benedict the Fourteenth condemns the charging of interest on loans, in a letter called Vix pervenit.",
-          "context": "The Church long taught that lending money at interest was a sin. The letter shows how long that rule was held.",
+          "text": "Madame de Pompadour is presented at the French court and soon becomes the official mistress of King Louis the Fifteenth.",
+          "context": "She was the daughter of a financier. She became a patron of artists and writers such as Voltaire, and had great influence over the king.",
           "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Vix_pervenit",
-          "verified": false
-        },
-        {
-          "text": "Teams of women play the first recorded women's cricket match, in Surrey, in a game between two villages.",
-          "context": "The match was reported in a newspaper. It took place on Gosden Common near Guildford.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Women%27s_cricket",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Madame_de_Pompadour",
           "verified": false
         }
       ],
@@ -2735,25 +2703,9 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Wealth_of_Nations",
           "verified": false
-        },
-        {
-          "text": "A huge fire destroys about a quarter of New York City, just after the British army captures it from the Americans.",
-          "context": "It broke out at night in September. Nobody knows who started it, and each side blamed the other.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Great_Fire_of_New_York_(1776)",
-          "verified": false
         }
       ],
       "technology": [
-        {
-          "text": "An American inventor's one-man submarine, the Turtle, tries to attach a bomb to a British warship in New York harbour.",
-          "context": "The attempt failed, and only American records describe it. Historians still debate whether it really happened.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Turtle_(submersible)",
-          "verified": false
-        },
         {
           "text": "James Watt and his partner Matthew Boulton sell their improved steam engines to customers for the first time.",
           "context": "Watt's engine used far less coal than earlier engines. It helped power the Industrial Revolution.",
@@ -2778,14 +2730,6 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire",
-          "verified": false
-        },
-        {
-          "text": "In Salzburg, the young Mozart's Haffner Serenade is played for the first time, at a wedding celebration.",
-          "context": "It was written for the family of a rich merchant. Mozart was twenty at the time.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Serenade_No._7_(Mozart)",
           "verified": false
         }
       ]
@@ -2847,14 +2791,6 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/United_States_Secretary_of_State",
           "verified": false
-        },
-        {
-          "text": "Vietnam's Emperor Quang Trung routs a Chinese army in a surprise attack during the Lunar New Year festival.",
-          "context": "The battle was fought at Ngọc Hồi and Đống Đa. Quang Trung is remembered as one of Vietnam's great generals.",
-          "region": "South-East Asia",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Battle_of_Ng%E1%BB%8Dc_H%E1%BB%93i-%C4%90%E1%BB%91ng_%C4%90a",
-          "verified": false
         }
       ],
       "society": [
@@ -2865,25 +2801,9 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Women%27s_March_on_Versailles",
           "verified": false
-        },
-        {
-          "text": "Congress passes the Judiciary Act, which creates the federal courts of the United States.",
-          "context": "The Act set up the Supreme Court with six justices, and created the post of Attorney General.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Judiciary_Act_of_1789",
-          "verified": false
         }
       ],
       "technology": [
-        {
-          "text": "William Herschel, the astronomer who discovered Uranus, spots Saturn's moon Enceladus, using a huge new telescope.",
-          "context": "It was among the first uses of his forty-foot telescope. Enceladus is now known for the water that sprays from its south pole.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Enceladus",
-          "verified": false
-        },
         {
           "text": "The French chemist Antoine Lavoisier publishes his Elementary Treatise on Chemistry, setting out the modern idea of chemical elements.",
           "context": "It included the first modern list of the elements and helped overturn the old theory of phlogiston. He was guillotined five years later.",
@@ -2891,25 +2811,9 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Antoine_Lavoisier",
           "verified": false
-        },
-        {
-          "text": "The German physicist Georg Ohm, whose name is given to the unit of electrical resistance, is born in Erlangen.",
-          "context": "Ohm's law links voltage, current and resistance. His work was ignored for years before it was honoured.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Georg_Ohm",
-          "verified": false
         }
       ],
       "arts_culture": [
-        {
-          "text": "The Power of Sympathy, often called the first American novel, is printed in Boston, though its author's name does not appear.",
-          "context": "It was later credited to William Hill Brown. It was a tale of love and scandal with a warning against seduction.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/The_Power_of_Sympathy",
-          "verified": false
-        },
         {
           "text": "Olaudah Equiano, a former slave, publishes his life story in London, a bestseller that helps the campaign against the slave trade.",
           "context": "He described his capture in West Africa and his life at sea. The book was reprinted many times.",
@@ -5248,19 +5152,11 @@
       ],
       "technology": [
         {
-          "text": "The Aswan Low Dam opens on the River Nile, then the largest masonry dam in the world.",
-          "context": "Britain built it to store water for farming in Egypt. It was raised twice, and later overshadowed by the High Dam.",
-          "region": "Africa",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Aswan_Low_Dam",
-          "verified": false
-        },
-        {
-          "text": "The steel millionaire Andrew Carnegie founds the Carnegie Institution of Washington, a major centre for scientific research.",
-          "context": "Carnegie gave it a huge sum from his fortune. It still funds research today as Carnegie Science.",
+          "text": "The American engineer Willis Carrier designs the first modern air conditioning system, to control humidity in a printing works in Brooklyn.",
+          "context": "The printers' paper swelled and shrank with the weather and spoiled their colour prints. Carrier's method cooled and dried the air. He later founded the Carrier Corporation.",
           "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Carnegie_Institution_for_Science",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Willis_Carrier",
           "verified": false
         }
       ],
@@ -5360,14 +5256,6 @@
           "verified": false
         },
         {
-          "text": "The steamboat General Slocum catches fire in New York's East River, and more than a thousand people, mostly women and children, die.",
-          "context": "The passengers were German-Americans on a church outing. It was the city's worst disaster until September the Eleventh.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/General_Slocum",
-          "verified": false
-        },
-        {
           "text": "Seven European football associations found FIFA, the body that will organise the World Cup.",
           "context": "The first World Cup took place in Uruguay in 1930.",
           "region": "Europe",
@@ -5378,19 +5266,19 @@
       ],
       "technology": [
         {
-          "text": "Marconi's company introduces the distress call CQD for ships in trouble, the forerunner of SOS.",
-          "context": "CQD was announced in January. It was never an international standard, and SOS was adopted by countries in 1906.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/CQD",
+          "text": "The New York City subway opens, with trains running underground from City Hall to Harlem.",
+          "context": "Thousands rode it on the first evening. Private companies built and ran the early lines, and the city took over later.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/History_of_the_New_York_City_Subway",
           "verified": false
         },
         {
-          "text": "A steam locomotive, City of Truro, is timed at close to one hundred miles an hour in Britain, in a claimed speed record.",
-          "context": "Some believe it was the first to reach 100 mph, though the best estimate is just under that. The run was on the Great Western Railway.",
+          "text": "John Ambrose Fleming, a British engineer, patents the vacuum tube diode, the first electronic valve and a step towards radio.",
+          "context": "The valve could turn alternating current into direct current. It was also called the thermionic valve, or the Fleming valve.",
           "region": "Europe",
           "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/GWR_3700_Class_3440_City_of_Truro",
+          "source": "https://en.wikipedia.org/wiki/John_Ambrose_Fleming",
           "verified": false
         }
       ],
@@ -5535,31 +5423,15 @@
       ],
       "society": [
         {
-          "text": "A violent earthquake and fire destroy much of Kingston, the capital of Jamaica, killing hundreds of people.",
-          "context": "More than eight hundred people died. Kingston was rebuilt, but its old centre was lost.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/1907_Kingston_earthquake",
-          "verified": false
-        },
-        {
-          "text": "The unfinished Quebec Bridge collapses into the St Lawrence River in Canada, killing seventy-six workers.",
-          "context": "It was the worst engineering disaster of its time. The bridge fell again in 1916 and was finished in 1917.",
-          "region": "North America",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Quebec_Bridge",
+          "text": "Robert Baden-Powell takes twenty boys to Brownsea Island in England for a camp that starts the Scout movement.",
+          "context": "The boys came from different backgrounds. Baden-Powell, a hero of the Boer War, published Scouting for Boys the following year.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Brownsea_Island_Scout_camp",
           "verified": false
         }
       ],
       "technology": [
-        {
-          "text": "Guglielmo Marconi opens the first regular commercial radio service across the Atlantic, between Ireland and Canada.",
-          "context": "Messages passed between Clifden in Ireland and Glace Bay in Nova Scotia. It cut the time and cost of sending news across the ocean.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
-          "verified": false
-        },
         {
           "text": "The liner Lusitania sails from Liverpool on her first voyage, one of the fastest ships in the world.",
           "context": "She soon won the Blue Riband for the fastest crossing of the Atlantic. She was sunk by a German submarine in 1915.",
@@ -5639,14 +5511,6 @@
     "clues": {
       "politics": [
         {
-          "text": "The Ottoman sultan Abdul Hamid the Second is overthrown by the army and replaced by his brother Mehmed the Fifth.",
-          "context": "Abdul Hamid had ruled for more than thirty years. The army acted after the Young Turk revolution of the year before.",
-          "region": "Middle East",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Abdul_Hamid_II",
-          "verified": false
-        },
-        {
           "text": "Japan's elder statesman Itō Hirobumi is shot dead by a Korean nationalist at a railway station in Manchuria.",
           "context": "Itō had been Japan's first prime minister. His killer, An Jung-geun, is honoured as a hero in Korea. Japan annexed Korea the next year.",
           "region": "East Asia",
@@ -5672,14 +5536,6 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Bakelite",
-          "verified": false
-        },
-        {
-          "text": "Louis Blériot flies across the English Channel from France to Dover, in under forty minutes, and wins a newspaper prize.",
-          "context": "The prize was offered by the Daily Mail. He landed in a field near Dover Castle.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Louis_Bl%C3%A9riot",
           "verified": false
         }
       ],
@@ -9693,22 +9549,6 @@
       ],
       "technology": [
         {
-          "text": "Europe launches Envisat, the largest Earth-observation satellite ever built, to watch the planet's land, seas and air.",
-          "context": "It carried ten instruments and monitored climate and pollution until contact was lost in 2012.",
-          "region": "Europe",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/Envisat",
-          "verified": false
-        },
-        {
-          "text": "Three Indian computer scientists publish a method that proves whether a number is prime in a reasonable time, called the AKS test.",
-          "context": "Manindra Agrawal and his two students Neeraj Kayal and Nitin Saxena found it. It solved a problem that mathematicians had worked on for centuries.",
-          "region": "South Asia",
-          "difficulty": 3,
-          "source": "https://en.wikipedia.org/wiki/AKS_primality_test",
-          "verified": false
-        },
-        {
           "text": "Mark Shuttleworth, a South African internet entrepreneur, becomes the first African in space, as a paying space tourist.",
           "context": "He flew on a Russian Soyuz to the International Space Station. He later founded the company behind the Ubuntu computer system.",
           "region": "Africa",
@@ -10398,14 +10238,6 @@
       ],
       "technology": [
         {
-          "text": "NASA's Dawn becomes the first spacecraft to orbit a dwarf planet, when it reaches Ceres in the asteroid belt.",
-          "context": "Dawn had earlier orbited the asteroid Vesta. It found bright spots on Ceres that scientists later explained as salt deposits.",
-          "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Dawn_(spacecraft)",
-          "verified": false
-        },
-        {
           "text": "The New Horizons spacecraft flies past Pluto after a nine-year journey, sending back the first close-up pictures of the dwarf planet.",
           "context": "The pictures showed a huge heart-shaped plain of nitrogen ice. The flyby took place in July.",
           "region": "North America",
@@ -10491,14 +10323,6 @@
     "year": 2017,
     "clues": {
       "politics": [
-        {
-          "text": "Yahya Jammeh, who had ruled The Gambia for more than twenty years, leaves the country after losing an election and refusing to go.",
-          "context": "Troops from neighbouring countries entered The Gambia to make him step down. Adama Barrow took office as president.",
-          "region": "Africa",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/2016%E2%80%932017_Gambian_constitutional_crisis",
-          "verified": false
-        },
         {
           "text": "Britain formally starts the process of leaving the European Union, with a letter from Prime Minister Theresa May.",
           "context": "The letter triggered Article 50, which gave two years for talks. Britain had voted to leave in a referendum the year before.",
