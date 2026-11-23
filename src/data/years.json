@@ -504,7 +504,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
-          "verified": false
+          "verified": true
         },
         {
           "text": "An Abbasid army beats a Tang Chinese army at the Battle of Talas in Central Asia, in a clash between two great empires.",
@@ -512,7 +512,7 @@
           "region": "Central Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Talas",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -522,7 +522,7 @@
           "region": "East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Bulguksa",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -532,7 +532,7 @@
           "region": "Central Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Talas",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -542,7 +542,7 @@
           "region": "East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1582,7 +1582,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Moh%C3%A1cs",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Francis I of France signs the Treaty of Madrid, after being held prisoner by Emperor Charles V.",
@@ -1590,7 +1590,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Treaty_of_Madrid_(1526)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1600,7 +1600,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Moriscos",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1610,7 +1610,7 @@
           "region": "South Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/First_Battle_of_Panipat",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1620,7 +1620,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Tyndale_Bible",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -1688,7 +1688,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Lepanto",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The Ottomans take Famagusta, ending their conquest of Cyprus from Venice.",
@@ -1696,7 +1696,7 @@
           "region": "Middle East",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Venetian_War_(1570%E2%80%931573)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -1706,7 +1706,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1571)",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Queen Elizabeth the First founds Jesus College at Oxford, which will educate many Welsh students.",
@@ -1714,7 +1714,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Jesus_College,_Oxford",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -1724,7 +1724,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Johannes_Kepler",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -1734,7 +1734,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Caravaggio",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Queen Elizabeth the First opens London's Royal Exchange, a grand centre for merchants built by Thomas Gresham.",
@@ -1742,7 +1742,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Royal_Exchange,_London",
-          "verified": false
+          "verified": true
         }
       ]
     }

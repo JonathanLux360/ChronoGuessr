@@ -20,7 +20,7 @@ If you would like one of these, say which category you can accept being thin, or
 
 **Weakest year: 751.** Its Society, Technology and Arts clues are from Korea, Central Asia and Japan and are probably too obscure for most players. The Pepin clue is the best known. You may prefer to drop 751 and keep 1526 and 1571.
 
-## [ ] 751
+## [x] 751
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -30,7 +30,7 @@ If you would like one of these, say which category you can accept being thin, or
 | Technology | Paper is said to be made for the first time in the Islamic world, in Samarkand, after Chinese papermakers are captured at Talas. | Samarkand became a famous centre of paper-making, and paper then spread west. Some historians doubt the story, and think paper reached Samarkand earlier. | Central Asia | 3 | [link](https://en.wikipedia.org/wiki/Battle_of_Talas) |
 | Arts & Culture | The huge bronze Great Buddha of Tōdai-ji in Nara, Japan, is finished. | It was cast in sections. The ceremony to open the statue's eyes was held in 752. Its hall is one of the largest wooden buildings in the world. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/T%C5%8Ddai-ji) |
 
-## [ ] 1526
+## [x] 1526
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -40,7 +40,7 @@ If you would like one of these, say which category you can accept being thin, or
 | Technology | At Panipat, Babur's cannon and matchlock guns, new to northern India, shatter the army of the Sultan of Delhi and begin the Mughal Empire. | Babur was a prince from Central Asia. His army's firepower beat a far larger force with war elephants. His family ruled India until the nineteenth century. | South Asia | 2 | [link](https://en.wikipedia.org/wiki/First_Battle_of_Panipat) |
 | Arts & Culture | William Tyndale's English translation of the New Testament, printed abroad, begins to reach England. | It was smuggled in and banned. Bishop Tunstall had copies burned in London in October. Tyndale was later executed for his work. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Tyndale_Bible) |
 
-## [ ] 1571
+## [x] 1571
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
