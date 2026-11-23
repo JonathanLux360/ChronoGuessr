@@ -10234,6 +10234,22 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake",
           "verified": false
+        },
+        {
+          "text": "The United States Supreme Court rules that same-sex couples have the right to marry in every state, in Obergefell v. Hodges.",
+          "context": "The decision was by five votes to four, and Justice Anthony Kennedy wrote the main opinion. It was handed down in June. Some states had already allowed same-sex marriage.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Obergefell_v._Hodges",
+          "verified": false
+        },
+        {
+          "text": "A photo of a dress goes viral online, as millions argue over whether it is blue and black or white and gold.",
+          "context": "The photo was posted on social media in February. Scientists later studied why people see different colours, and linked it to how the brain judges the lighting in a picture.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/The_dress",
+          "verified": false
         }
       ],
       "technology": [
@@ -10247,14 +10263,6 @@
         }
       ],
       "arts_culture": [
-        {
-          "text": "Uptown Funk, by Mark Ronson and Bruno Mars, spends months at number one and becomes the biggest hit of the year.",
-          "context": "The single came out in November the year before, but its long run at the top of the charts was in this year. It won the Grammy for Record of the Year the following February.",
-          "region": "North America",
-          "difficulty": 1,
-          "source": "https://en.wikipedia.org/wiki/Uptown_Funk",
-          "verified": false
-        },
         {
           "text": "Star Wars returns in The Force Awakens, with Daisy Ridley as the scavenger Rey, and breaks box office records within days.",
           "context": "It was the first Star Wars film made after Disney bought Lucasfilm, and the first in ten years. Harrison Ford returned as Han Solo. It opened in December.",
