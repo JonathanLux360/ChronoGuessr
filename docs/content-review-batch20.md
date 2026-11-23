@@ -1,10 +1,14 @@
-# Content review: batch 20 (fuller context lines)
+# Content review: batch 20 (fuller context lines, Barbary Wars, and four new Society clues)
+
+This batch has two parts. **Part 1** is finished: 18 context lines that were made fuller, and the Barbary Wars clues, all verified. **Part 2** is four new Society clues that are **unverified** (`"verified": false`), so the game never shows them until you check them.
+
+## Part 1: fuller context lines
 
 **18 context lines made more informative.** These clues had a context line that said little more than the month, or the order of events, so I added a real fact to each. The clue texts and dates are unchanged, and the clues stay verified. Each new line is at most 200 characters.
 
 **The facts are mostly from my own knowledge, not looked up.** Please check the new lines against the source link, starting with the ones I am least sure of: the 2,300 transistors on the Intel 4004 (1971), the size of the Mount St. Helens blast area (1980), "largest air force in the world" for the RAF (1918), the claim that Adele's 21 was the best-selling album of the year worldwide (2011), and the Summer Exhibition starting in 1769.
 
-**Also in this batch:** the two Barbary Wars clues (the Philadelphia raid in 1804 and the Second Barbary War in 1815) are now verified.
+**Also verified in this batch:** the two Barbary Wars clues (the Philadelphia raid in 1804 and the Second Barbary War in 1815).
 
 | Year | Category | Clue | Old context | New context | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -26,3 +30,27 @@
 | 1896 | Technology | The Italian inventor Guglielmo Marconi applies in Britain for the first patent on a wireless telegraph system. | He filed the application in June. The patent was granted the following year. | Marconi was 22. Italy had shown no interest, so he moved to Britain to develop the idea. The patent was granted in 1897. | [link](https://en.wikipedia.org/wiki/Guglielmo_Marconi) |
 | 1707 | Society | A huge earthquake shakes Japan, and weeks later Mount Fuji erupts for the last time in recorded history. | The Hōei earthquake struck in October. Fuji erupted in December. | The Hōei earthquake in October, and its tsunami, killed thousands. Fuji erupted in December, and ash fell on Edo (now Tokyo), about a hundred kilometres away. | [link](https://en.wikipedia.org/wiki/1707_H%C5%8Dei_earthquake) |
 | 1865 | Arts & Culture | The English author Lewis Carroll publishes Alice's Adventures in Wonderland, with drawings by John Tenniel. | It first appeared in November. The first printing was withdrawn and reissued. | Lewis Carroll was the pen name of Charles Dodgson, an Oxford maths lecturer. He first told the story on a boat trip, to a girl called Alice Liddell. | [link](https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland) |
+
+## Part 2: four new Society clues (unverified)
+
+Each is an extra clue in a year that is already live, so it is an alternative to the Society clue already there. For each, open the source and check the date, the wording and the context line.
+
+| Year | Category | Clue | Context shown after the guess | Region | Diff | Source |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1900 | Society | Paris hosts a World's Fair that welcomes some fifty million visitors, with a moving pavement to carry them past its giant pavilions. | The Olympic Games were held alongside it, and women competed for the first time. The fair left Paris the Grand Palais and the Petit Palais, and made Art Nouveau fashionable. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)) |
+| 1904 | Society | St. Louis hosts a huge World's Fair, the Louisiana Purchase Exposition, which draws visitors from across the United States and the world. | It is remembered for its racist ethnographic displays, which showed Filipino, Native American, African and other people as living exhibits. The Olympic Games were held there too. | North America | 2 | [link](https://en.wikipedia.org/wiki/Louisiana_Purchase_Exposition) |
+| 1975 | Society | Sweden passes a law ending its state programme of eugenic sterilisation, which had sterilised thousands without free consent. | The new law took effect in 1976. About sixty-three thousand people were sterilised under the old laws, mostly women, many under pressure or by force. Sweden later paid compensation. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Compulsory_sterilization) |
+| 2009 | Society | Iceland's last McDonald's restaurants close, after the country's banking crash made imported ingredients too costly. | It happened at the end of October. A man bought a burger and fries on the last day and kept them. They have barely rotted, and are still on display in Iceland, with a webcam. | Europe | 2 | [link](https://en.wikipedia.org/wiki/McDonald%27s) |
+
+**1900 Paris and 1904 St. Louis (World's Fairs).** The 1900 clue is an alternative to the Galveston hurricane. The 1904 clue is an alternative to the Baltimore fire and the founding of FIFA. The 1904 context line names the fair's ethnographic "human zoo" displays and calls them racist, which is how the fair is judged today, so check the wording is how you want it. No Paris fair clue was added for 1889 (the Eiffel Tower is already its Technology clue), and the 1851 Crystal Palace is already the Society clue for 1851.
+
+**1975 Sweden.** An alternative to the Ali-Frazier fight. Sweden's parliament passed the new sterilisation law in 1975, and it took effect on 1 January 1976, so the clue says "passes a law" and the context line gives 1976. The source is Wikipedia's general article on compulsory sterilisation, so replace it if you find a better page. Difficulty 3, as few players will place it.
+
+**2009 Iceland.** An alternative to the Hudson River landing. The context line says only "on display in Iceland, with a webcam", so it stays true if the burger moves again. The clue says "restaurants", plural, because three branches closed. The source is Wikipedia's general McDonald's article, so replace it if you find a better page.
+
+**Check first in Part 2 (from my own knowledge, not looked up):**
+
+- 1900: about fifty million visitors and the moving pavement; the Olympic Games alongside the fair, with women competing for the first time; the Grand Palais and Petit Palais being built for it; Art Nouveau becoming fashionable there.
+- 1904: the fair running from April to December, and the Olympic Games being held alongside it.
+- 1975: about sixty-three thousand people sterilised, mostly women, many under pressure or by force, and the later compensation (in 1999).
+- 2009: the three restaurants closing on 31 October; the owner blaming the cost of imported ingredients after the króna collapsed; Hjörtur Smárason buying the burger and fries on the last day and keeping them.
