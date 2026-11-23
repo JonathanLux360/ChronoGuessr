@@ -6916,6 +6916,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/James_J._Braddock",
           "verified": false
+        },
+        {
+          "text": "Persia officially becomes Iran, as Reza Shah asks other countries to use the name its own people have long used.",
+          "context": "The shah announced the change at the Persian new year, in March. Westerners had long called the country Persia, but Iran is an old name for the land.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Name_of_Iran",
+          "verified": false
         }
       ],
       "technology": [
