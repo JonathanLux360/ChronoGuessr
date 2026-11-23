@@ -1,7 +1,7 @@
 import { useEffect, useReducer, useRef, useState } from 'react';
 import { trackReveal, trackSessionComplete, trackSessionStart } from './analytics';
 import { livePool } from './data/pool';
-import { planSession } from './game/selection';
+import { planSession, poolStats } from './game/selection';
 import { initialSession, sessionReducer, type SessionAction, type SessionState } from './game/session';
 import { buildSessionResult } from './game/stats';
 import { saveResult, type SaveOutcome } from './storage/leaderboard';
@@ -11,6 +11,9 @@ import { Round } from './ui/Round/Round';
 import { RoundResult } from './ui/RoundResult/RoundResult';
 import { Footer } from './ui/shared/Footer';
 import { Summary } from './ui/Summary/Summary';
+
+/** Counted once, from the live pool, so the Home screen always matches the content that is shipped. */
+const stats = poolStats(livePool);
 
 /** A page title for each screen, so screen readers and the tab bar say where you are. */
 function screenTitle(state: SessionState, showLeaderboard: boolean): string {
@@ -83,7 +86,7 @@ export default function App() {
 
     switch (state.status) {
       case 'idle':
-        return <Home onStart={start} onLeaderboard={() => setShowLeaderboard(true)} />;
+        return <Home onStart={start} onLeaderboard={() => setShowLeaderboard(true)} stats={stats} />;
       case 'inRound':
         return <Round key={state.roundIndex} state={state} dispatch={play} />;
       case 'roundResult':

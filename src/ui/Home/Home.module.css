@@ -39,8 +39,39 @@
   gap: 12px;
 }
 
+/* The number comes first on screen, and the label under it. The markup keeps the label first for screen readers. */
+.counters {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 28px 0 0;
+}
+
+.counters div {
+  display: flex;
+  flex-direction: column-reverse;
+  min-width: 120px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--gold-soft);
+  border-radius: 10px;
+}
+
+.counters dt {
+  font-size: 0.8125rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.counters dd {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .howTo {
-  margin-top: 40px;
+  margin-top: 24px;
   padding: 12px 20px;
   text-align: left;
   background: var(--surface);

@@ -3,7 +3,7 @@ import { CLUE_CATEGORIES, ROUNDS_PER_SESSION } from '../config';
 import { describeDistance, formatYear } from './format';
 import { isTypeableGuess, parseGuess } from './guess';
 import { createRng, shuffle } from './random';
-import { buildLivePool, planSession, selectYears } from './selection';
+import { buildLivePool, planSession, poolStats, selectYears } from './selection';
 import { currentStreak, initialSession, longestStreak, sessionReducer, streakBonusTotal, totalScore, type SessionState } from './session';
 import type { Category, Clue, YearRecord } from './types';
 
@@ -347,5 +347,19 @@ describe('format', () => {
     expect(describeDistance(0)).toBe('Exact!');
     expect(describeDistance(1)).toBe('1 year off');
     expect(describeDistance(112)).toBe('112 years off');
+  });
+});
+
+describe('poolStats', () => {
+  it('counts only live years and their verified clues', () => {
+    const live = makeYear(1900, { politics: [makeClue('a'), makeClue('b')] });
+    const notLive = makeYear(1901, { technology: [makeClue('x', false)] }); // no verified technology clue
+    const extraUnverified = makeYear(1902, { society: [makeClue('y'), makeClue('z', false)] });
+    const stats = poolStats(buildLivePool([live, notLive, extraUnverified]));
+    // 1900 has 2 + 1 + 1 + 1 clues, 1902 has 1 + 1 + 1 + 1 (the unverified one is not counted), 1901 is not live.
+    expect(stats).toEqual({ years: 2, clues: 5 + 4 });
+  });
+  it('is zero for an empty pool', () => {
+    expect(poolStats([])).toEqual({ years: 0, clues: 0 });
   });
 });

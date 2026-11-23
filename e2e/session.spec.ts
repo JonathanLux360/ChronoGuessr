@@ -1,5 +1,6 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Page } from '@playwright/test';
+import { readFileSync } from 'node:fs';
 
 /**
  * Plays a whole session using the keyboard only, and checks the things a player relies on:
@@ -8,6 +9,22 @@ import { expect, test, type Page } from '@playwright/test';
  */
 
 const ROUNDS = 10;
+
+/** The live years and clues, counted straight from the content file, as the Home screen should show them. */
+function liveContent() {
+  type Clue = { verified: boolean };
+  const years = JSON.parse(readFileSync('src/data/years.json', 'utf8')) as { clues: Record<string, Clue[]> }[];
+  let liveYears = 0;
+  let liveClues = 0;
+  for (const year of years) {
+    const lists = Object.values(year.clues);
+    if (lists.every((list) => list.some((clue) => clue.verified))) {
+      liveYears++;
+      liveClues += lists.reduce((sum, list) => sum + list.filter((clue) => clue.verified).length, 0);
+    }
+  }
+  return { liveYears, liveClues };
+}
 
 // Clue cards fade in. Reduced motion turns the fade off, so the accessibility scans never catch a
 // half-faded card and report a false contrast problem. It also checks the reduced-motion path.
@@ -71,6 +88,11 @@ test('plays a full session with the keyboard and saves the result', async ({ pag
     await expect(page.getByText('No score yet')).toBeVisible();
     await expect(page.getByRole('img', { name: /Four illustrated scenes/ })).toBeVisible();
     await expect(page.getByRole('button', { name: 'Start game' })).toBeFocused();
+    // The counters show how many live years and clues there are, and match the content file.
+    const { liveYears, liveClues } = liveContent();
+    const counters = page.getByRole('group', { name: 'What is in the game' }).or(page.locator('dl[aria-label="What is in the game"]'));
+    await expect(counters).toContainText(liveYears.toLocaleString('en-GB'));
+    await expect(counters).toContainText(liveClues.toLocaleString('en-GB'));
     await expectFooter(page);
     await scan(page, 'home');
     await page.keyboard.press('Enter');

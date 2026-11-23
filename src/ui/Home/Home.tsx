@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { MAX_ROUND_POINTS, REVEAL_COSTS, ROUNDS_PER_SESSION } from '../../config';
 import { formatPoints } from '../../game/format';
+import type { PoolStats } from '../../game/selection';
 import { potential } from '../../game/scoring';
 import { getTopResults } from '../../storage/leaderboard';
 import buttons from '../shared/buttons.module.css';
@@ -8,7 +9,16 @@ import { Brand } from '../shared/Brand';
 import introImage from '../../assets/intro.webp';
 import styles from './Home.module.css';
 
-export function Home({ onStart, onLeaderboard }: { onStart: () => void; onLeaderboard: () => void }) {
+export function Home({
+  onStart,
+  onLeaderboard,
+  stats,
+}: {
+  onStart: () => void;
+  onLeaderboard: () => void;
+  /** The live years and clues, counted from the content file when the app is built. */
+  stats: PoolStats;
+}) {
   const startRef = useRef<HTMLButtonElement>(null);
   // undefined while loading, null when there is no score yet.
   const [best, setBest] = useState<number | null | undefined>(undefined);
@@ -48,6 +58,17 @@ export function Home({ onStart, onLeaderboard }: { onStart: () => void; onLeader
           Leaderboard
         </button>
       </div>
+
+      <dl className={styles.counters} aria-label="What is in the game">
+        <div>
+          <dt>Years</dt>
+          <dd>{formatPoints(stats.years)}</dd>
+        </div>
+        <div>
+          <dt>Clues</dt>
+          <dd>{formatPoints(stats.clues)}</dd>
+        </div>
+      </dl>
 
       <details className={styles.howTo}>
         <summary>How to play</summary>

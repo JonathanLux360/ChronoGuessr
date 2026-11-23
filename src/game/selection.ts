@@ -20,6 +20,19 @@ export function buildLivePool(records: readonly YearRecord[]): YearRecord[] {
   return live;
 }
 
+/** How much live content there is: the number of years, and the number of clues across them. */
+export interface PoolStats {
+  years: number;
+  clues: number;
+}
+
+/** Counts a live pool (see buildLivePool), so only live years and their verified clues are counted. */
+export function poolStats(pool: readonly YearRecord[]): PoolStats {
+  let clues = 0;
+  for (const record of pool) for (const category of CLUE_CATEGORIES) clues += record.clues[category].length;
+  return { years: pool.length, clues };
+}
+
 /**
  * Picks years for a session at random. There are no era quotas, and no year repeats
  * within a session. If the pool is smaller than `count`, every year is used once.

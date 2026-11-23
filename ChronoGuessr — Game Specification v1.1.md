@@ -284,11 +284,13 @@ Five screens, one primary action each, so the player always knows what to do nex
 
 | Screen | Shows | Primary action |
 | --- | --- | --- |
-| Home | Title, one-line pitch, personal best, "How to play" link | Start game |
+| Home | Title, one-line pitch, personal best, two counters (live years and live clues), "How to play" link | Start game |
 | Round | Round x of 10, running total, streak chip, potential points for this round, four clue cards (revealed or hidden), year input | Guess, or reveal a clue |
 | Round result | Correct year, your guess, years off, points scored, what happened to the streak, and only the clues the player saw, each with its context line. Unrevealed clues stay hidden so the year is still fresh if it comes up again | Next round |
 | Session summary | Total score split into base score and streak bonus, rank on leaderboard, per-round table, stats (average years off, exact hits, clues used, longest streak) | Play again |
 | Leaderboard | Top 10 sessions with date and stats; best highlighted | Back / play again |
+
+**Home counters.** Under the Start game and Leaderboard buttons and above "How to play", two counters show how many years and how many clues are in the game. They count only live content: a year is live when every category has a verified clue, and only verified clues in live years are counted. They are worked out from the content file when the app is built, so they change by themselves whenever content is added or removed, with no number to update by hand.
 
 **Round screen details**
 
