@@ -6114,6 +6114,91 @@
     }
   },
   {
+    "year": 1921,
+    "clues": {
+      "politics": [
+        {
+          "text": "Adolf Hitler takes over as leader of the Nazi Party in Munich, after a power struggle with its founders.",
+          "context": "He had joined the small party two years earlier. His speeches drew crowds, and he demanded absolute control.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+          "verified": false
+        },
+        {
+          "text": "A truce ends the Irish War of Independence, after more than two years of fighting between the IRA and British forces.",
+          "context": "The truce began in July. A treaty followed in December, creating the Irish Free State, but it also split Irish republicans into two sides.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Irish_War_of_Independence",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A white mob attacks the Black neighbourhood of Greenwood in Tulsa, Oklahoma, killing many people and burning homes and businesses.",
+          "context": "Greenwood was known as Black Wall Street. The official toll was thirty-six, but historians believe up to three hundred died. The massacre was long left out of history books.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Tulsa_race_massacre",
+          "verified": false
+        },
+        {
+          "text": "Two Italian immigrants and anarchists, Sacco and Vanzetti, are found guilty of murder in Massachusetts, in a trial many thought unfair.",
+          "context": "They were executed in 1927, after years of protests around the world.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Sacco_and_Vanzetti",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Frederick Banting and Charles Best in Toronto extract insulin, the hormone that will save millions of people with diabetes.",
+          "context": "They worked in a laboratory lent by John Macleod. The first patient was treated in January 1922. Banting and Macleod shared the Nobel Prize in 1923.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Frederick_Banting",
+          "verified": false
+        },
+        {
+          "text": "Coco Chanel launches a perfume in Paris, made with synthetic ingredients, that will become one of the most famous in the world.",
+          "context": "The perfume is called Chanel No. 5. It was first given to a few select clients in May.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Chanel_No._5",
+          "verified": false
+        },
+        {
+          "text": "Radio station KDKA in Pittsburgh broadcasts a baseball game live for the first time, between the Pirates and the Phillies.",
+          "context": "The announcer described the game into a telephone. It was one of the first radio sports broadcasts.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/KDKA_(AM)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Charlie Chaplin's film The Kid, about the Tramp and an abandoned child, premieres and makes Jackie Coogan a child star.",
+          "context": "It was Chaplin's first full-length film. It mixed comedy with sadness. The premiere was in January.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Kid_(1921_film)",
+          "verified": false
+        },
+        {
+          "text": "The magician P. T. Selbit performs the first public \"sawing a woman in half\" illusion, in London.",
+          "context": "The trick became a classic of stage magic, and many magicians have copied it since.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/P._T._Selbit",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1922,
     "clues": {
       "politics": [
@@ -6260,6 +6345,83 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Rhapsody_in_Blue",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1925,
+    "clues": {
+      "politics": [
+        {
+          "text": "Benito Mussolini tells parliament that he takes full responsibility for fascist violence, in a speech that starts his dictatorship.",
+          "context": "He challenged his opponents to charge him, and nobody dared. Italy soon became a one-party state.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Benito_Mussolini",
+          "verified": false
+        },
+        {
+          "text": "Winston Churchill, as Chancellor of the Exchequer, announces that Britain is returning to the gold standard.",
+          "context": "The pound became too expensive for exporters, and coal and other industries suffered. Economists such as Keynes criticised the move.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Gold_Standard_Act_1925",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A teacher, John Scopes, is put on trial in Dayton, Tennessee, for teaching evolution, in a case nicknamed the Monkey Trial.",
+          "context": "The lawyers Clarence Darrow and William Jennings Bryan faced each other. Scopes was fined one hundred dollars, and the verdict was later overturned on a technicality.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Scopes_Trial",
+          "verified": false
+        },
+        {
+          "text": "Teams of sled dogs race through a blizzard to bring medicine to Nome, Alaska, where children are dying of diphtheria.",
+          "context": "The dog Balto led the last stretch. The race inspired the Iditarod and a famous statue in New York's Central Park.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1925_serum_run_to_Nome",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "In London, John Logie Baird transmits the first television pictures with shades of grey, of a ventriloquist's dummy.",
+          "context": "He had earlier sent only black-and-white outlines. A dummy called Stooky Bill was the subject. Public demonstrations followed the next year.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/John_Logie_Baird",
+          "verified": false
+        },
+        {
+          "text": "Werner Heisenberg publishes the paper that starts modern quantum mechanics, setting out a new way to describe atoms.",
+          "context": "He worked it out on the island of Heligoland while recovering from hay fever. Max Born and Pascual Jordan helped develop it.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Matrix_mechanics",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "F. Scott Fitzgerald publishes The Great Gatsby, a novel of wealth, parties and lost love on Long Island.",
+          "context": "It sold poorly at first, and Fitzgerald died believing it a failure. It later became one of the most famous American novels.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+          "verified": false
+        },
+        {
+          "text": "A radio show called the WSM Barn Dance, later renamed the Grand Ole Opry, is first broadcast from Nashville.",
+          "context": "It became the centre of country music, and is still on the air today.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Grand_Ole_Opry",
+          "verified": false
         }
       ]
     }
@@ -6506,6 +6668,91 @@
     }
   },
   {
+    "year": 1931,
+    "clues": {
+      "politics": [
+        {
+          "text": "King Alfonso the Thirteenth of Spain leaves the country, and a republic is proclaimed.",
+          "context": "Republicans had won the big cities in local elections. The republic lasted until the Spanish Civil War ended in 1939.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Second_Spanish_Republic",
+          "verified": false
+        },
+        {
+          "text": "A bomb damages a railway line near Mukden in Manchuria, and Japan uses it as an excuse to invade the region.",
+          "context": "Japan blamed Chinese soldiers, but the blast was staged by Japanese officers. Japan then set up a puppet state called Manchukuo.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Mukden_Incident",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The gangster Al Capone is found guilty of tax evasion in Chicago, and later sentenced to eleven years in prison.",
+          "context": "Capone had been too powerful to convict of his violent crimes. He served time in Alcatraz and died in 1947.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Al_Capone",
+          "verified": false
+        },
+        {
+          "text": "Huge floods along China's Yangtze and other rivers kill hundreds of thousands of people, in one of the deadliest natural disasters ever.",
+          "context": "The floods lasted from summer into autumn. Estimates of the dead range from hundreds of thousands to several million.",
+          "region": "East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1931_China_floods",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Empire State Building opens in New York and becomes the tallest building in the world.",
+          "context": "It was built in about a year during the Great Depression. It held the height record for almost forty years.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Empire_State_Building",
+          "verified": false
+        },
+        {
+          "text": "Ernest Lawrence builds a working cyclotron at Berkeley, a machine that speeds up atomic particles.",
+          "context": "The first one was only a few inches across. Lawrence won the Nobel Prize for it in 1939.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Cyclotron",
+          "verified": false
+        },
+        {
+          "text": "The George Washington Bridge opens over the Hudson River, linking New York and New Jersey, as the longest suspension bridge in the world.",
+          "context": "Its main span was twice as long as that of any bridge before it.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/George_Washington_Bridge",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Charlie Chaplin's silent film City Lights, in which the Tramp loves a blind flower seller, premieres as talking films take over.",
+          "context": "Chaplin refused to make a talking picture, and added only music and sound effects. It ends with one of the most famous scenes in cinema.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/City_Lights",
+          "verified": false
+        },
+        {
+          "text": "Universal's film Frankenstein, with Boris Karloff as the monster, is released and sets off a craze for horror films.",
+          "context": "Dracula, starring Bela Lugosi, had come out earlier in the year. Both made huge profits for Universal.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Frankenstein_(1931_film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1932,
     "clues": {
       "politics": [
@@ -6554,6 +6801,253 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Brave_New_World",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1933,
+    "clues": {
+      "politics": [
+        {
+          "text": "Franklin D. Roosevelt takes office as president of the United States, telling Americans they have nothing to fear but fear itself.",
+          "context": "The country was deep in the Great Depression, with banks failing. Within days he closed the banks for a holiday and began the New Deal.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/First_inauguration_of_Franklin_D._Roosevelt",
+          "verified": false
+        },
+        {
+          "text": "A fire destroys the Reichstag, Germany's parliament building, and the Nazis use it as an excuse to take sweeping powers.",
+          "context": "A young Dutch communist was arrested for the fire. The Nazis blamed the communists and passed an emergency decree the next day.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Reichstag_fire",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Twenty-first Amendment ends Prohibition in the United States, and Americans can legally buy alcohol again.",
+          "context": "Prohibition had lasted for thirteen years and fuelled organised crime. Cities celebrated with open bars.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Two British aircraft fly over Mount Everest for the first time, carrying cameras to photograph the summit.",
+          "context": "The expedition was led by Lord Clydesdale, an RAF pilot and later a duke. The flight showed the summit could be seen from the air.",
+          "region": "South Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Houston%E2%80%93Mount_Everest_flight_expedition",
+          "verified": false
+        },
+        {
+          "text": "The American pilot Wiley Post lands in New York after flying around the world alone for the first time, in under eight days.",
+          "context": "His plane was called Winnie Mae. He used an autopilot and a radio compass to help him.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Wiley_Post",
+          "verified": false
+        },
+        {
+          "text": "Karl Jansky, an engineer at Bell Labs, reports radio waves coming from the Milky Way, the birth of radio astronomy.",
+          "context": "He was trying to find the cause of static on radio calls. The radio waves came from the centre of our galaxy.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Karl_Jansky",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The film King Kong premieres in New York, with a giant ape climbing the Empire State Building.",
+          "context": "The ape was a model brought to life by stop-motion animation. Fay Wray starred as the woman he carries. It was a huge hit in the Depression.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1934,
+    "clues": {
+      "politics": [
+        {
+          "text": "Adolf Hitler has rivals and enemies murdered in a purge later called the Night of the Long Knives.",
+          "context": "The victims included Ernst Röhm, leader of the SA stormtroopers. Hitler claimed they planned a revolt. The killings won him the army's support.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Night_of_the_Long_Knives",
+          "verified": false
+        },
+        {
+          "text": "President Hindenburg dies, and Hitler combines the posts of chancellor and president and takes the title Führer.",
+          "context": "The army swore an oath of loyalty to Hitler himself. A referendum later approved the change.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Paul_von_Hindenburg",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Host nation Italy beats Czechoslovakia in the final of the second football World Cup, in Rome.",
+          "context": "Mussolini used the tournament for propaganda. Italy won in extra time.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1934_FIFA_World_Cup",
+          "verified": false
+        },
+        {
+          "text": "The luxury liner Morro Castle burns off the coast of New Jersey, killing more than a hundred passengers and crew.",
+          "context": "The fire began on a cruise from Havana to New York. Many passengers jumped into the sea. The captain had died the day before.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/SS_Morro_Castle_(1930)",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Irène and Frédéric Joliot-Curie create artificial radioactivity for the first time, in Paris.",
+          "context": "They made a radioactive form of phosphorus by bombarding aluminium. They won the Nobel Prize in Chemistry the next year. Irène was Marie Curie's daughter.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie",
+          "verified": false
+        },
+        {
+          "text": "A long-distance air race from England to Australia, the MacRobertson Air Race, is won by a de Havilland Comet racer in under three days.",
+          "context": "It was held to mark the centenary of the state of Victoria. Pilots had to fly more than ten thousand miles.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/MacRobertson_Air_Race",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Agatha Christie publishes Murder on the Orient Express, in which Hercule Poirot solves a killing on a snowbound train.",
+          "context": "It was published in Britain at the start of the year. The story was partly inspired by a real train stuck in snow.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express",
+          "verified": false
+        },
+        {
+          "text": "Donald Duck makes his first screen appearance, in the Disney cartoon The Wise Little Hen.",
+          "context": "Donald was a bad-tempered duck who pretended to have a stomach ache to avoid work. He became one of Disney's biggest stars.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Wise_Little_Hen",
+          "verified": false
+        },
+        {
+          "text": "Hollywood begins strictly enforcing the Hays Code, a set of rules that bans films from showing many things.",
+          "context": "Films needed a seal of approval to be shown in most cinemas. The code lasted until the nineteen-sixties.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Hays_Code",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1935,
+    "clues": {
+      "politics": [
+        {
+          "text": "Italy invades Ethiopia, and Emperor Haile Selassie appeals to the League of Nations for help in vain.",
+          "context": "Italian forces used poison gas and modern weapons against Ethiopian troops. The League's mild sanctions did not stop Mussolini.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War",
+          "verified": false
+        },
+        {
+          "text": "Germany's Nuremberg Laws strip Jews of citizenship and ban marriages between Jews and other Germans.",
+          "context": "The laws were announced at a Nazi Party rally in Nuremberg in September.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Nuremberg_Laws",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The boxer James Braddock, a former dock worker nicknamed the Cinderella Man, wins the world heavyweight title in a huge upset.",
+          "context": "Braddock had been on relief during the Depression. He beat Max Baer over fifteen rounds in New York. Russell Crowe later played him in a film.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/James_J._Braddock",
+          "verified": false
+        },
+        {
+          "text": "The Labor Day hurricane, the strongest ever to hit the United States, strikes the Florida Keys and kills hundreds, many of them veterans.",
+          "context": "The veterans were working on a road project in the Keys. A rescue train was swept away by the storm surge.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1935_Labor_Day_hurricane",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "President Roosevelt dedicates the Hoover Dam on the Colorado River, then the largest dam and concrete structure in the world.",
+          "context": "Thousands of workers built it during the Great Depression, and more than a hundred died. It created Lake Mead.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Hoover_Dam",
+          "verified": false
+        },
+        {
+          "text": "Robert Watson-Watt shows that radio waves bounced off an aircraft can be used to detect it, in a test at Daventry.",
+          "context": "The test led to radar, which helped Britain win the Battle of Britain.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Robert_Watson-Watt",
+          "verified": false
+        },
+        {
+          "text": "DuPont chemist Wallace Carothers makes nylon, the first fully synthetic fibre.",
+          "context": "Nylon was used for stockings and parachutes. DuPont launched it to the public five years later.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Nylon",
+          "verified": false
+        },
+        {
+          "text": "Parker Brothers begins selling the board game Monopoly, which becomes a hit during the Depression.",
+          "context": "The game came from earlier games about land and rent. Charles Darrow sold his version to Parker Brothers.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "George Gershwin's opera Porgy and Bess opens, with an all-Black cast of classically trained singers and the song Summertime.",
+          "context": "It had tryouts in Boston before opening in New York. Some critics were unsure at first, but it became a classic.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Porgy_and_Bess",
+          "verified": false
+        },
+        {
+          "text": "Alfred Hitchcock's spy thriller about an innocent man on the run across Scotland, with a mysterious ring of spies, is released.",
+          "context": "The film is called The 39 Steps and was based on a novel by John Buchan. It made Hitchcock Britain's top director.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_39_Steps_(1935_film)",
+          "verified": false
         }
       ]
     }
@@ -6713,6 +7207,644 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Superman",
           "verified": true
+        }
+      ]
+    }
+  },
+  {
+    "year": 1939,
+    "clues": {
+      "politics": [
+        {
+          "text": "Germany and the Soviet Union sign a pact promising not to fight each other, and secretly agree to divide up Poland and other lands.",
+          "context": "These two bitter enemies shocked the world. Germany invaded Poland a little over a week later, and the Soviets followed.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact",
+          "verified": false
+        },
+        {
+          "text": "General Franco's forces take Madrid, and the Spanish Civil War ends in victory for his side.",
+          "context": "Franco ruled Spain as dictator until his death in 1975.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Spanish_Civil_War",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Black singer Marian Anderson gives a free concert at the Lincoln Memorial after being refused the use of a Washington hall.",
+          "context": "She was barred by the Daughters of the American Revolution. Eleanor Roosevelt resigned from the group in protest, and about seventy-five thousand people came to hear her.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Marian_Anderson",
+          "verified": false
+        },
+        {
+          "text": "Cardinal Eugenio Pacelli is elected pope and takes the name Pius the Twelfth, on his birthday.",
+          "context": "He led the Catholic Church through the Second World War. His record on the Holocaust is still debated.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Pope_Pius_XII",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Albert Einstein signs a letter to President Roosevelt warning that Germany might build an atomic bomb.",
+          "context": "The letter was written by the physicist Leo Szilard. It helped start the American effort that became the Manhattan Project.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Einstein%E2%80%93Szil%C3%A1rd_letter",
+          "verified": false
+        },
+        {
+          "text": "A German aircraft built by Heinkel makes the first flight in history powered by a jet engine.",
+          "context": "The engine was designed by Hans von Ohain. Britain's Frank Whittle had been working on jets at the same time.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Heinkel_He_178",
+          "verified": false
+        },
+        {
+          "text": "Two Stanford friends, Bill Hewlett and Dave Packard, start a company in a garage in Palo Alto, California.",
+          "context": "Their first product was an audio oscillator, which Walt Disney bought for Fantasia. The garage is called the birthplace of Silicon Valley.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Hewlett-Packard",
+          "verified": false
+        },
+        {
+          "text": "Pan American Airways starts passenger flights across the North Atlantic, using huge Boeing flying boats.",
+          "context": "The flying boats were called Clippers. The trip from New York to Europe took about a day.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Boeing_314_Clipper",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Gone with the Wind premieres in Atlanta, a lavish Civil War epic starring Vivien Leigh and Clark Gable.",
+          "context": "It became one of the most successful films ever and won ten Oscars. Its Black cast members could not attend the Atlanta premiere because of segregation.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
+          "verified": false
+        },
+        {
+          "text": "The Wizard of Oz, with Judy Garland as Dorothy, is released, using new Technicolor to show Oz in vivid colour.",
+          "context": "It was not a big hit at first. It became a classic through television repeats.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
+          "verified": false
+        },
+        {
+          "text": "Batman makes his first appearance in Detective Comics, created by Bob Kane and Bill Finger.",
+          "context": "The comic was published in the spring. Batman became one of the most famous superheroes ever.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Batman",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1940,
+    "clues": {
+      "politics": [
+        {
+          "text": "Winston Churchill becomes Britain's prime minister, on the day Germany attacks the Low Countries and France.",
+          "context": "He took over from Neville Chamberlain, who resigned. Churchill formed a government of all parties.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Winston_Churchill",
+          "verified": false
+        },
+        {
+          "text": "A fleet of warships and small civilian boats rescues about three hundred thousand Allied soldiers from the beaches of Dunkirk.",
+          "context": "The evacuation lasted more than a week. The army left its heavy equipment behind. Churchill called it a miracle of deliverance.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Dunkirk_evacuation",
+          "verified": false
+        },
+        {
+          "text": "Finland signs a peace treaty with the Soviet Union, ending the Winter War, after holding out against a far bigger army.",
+          "context": "Finland lost land but kept its independence. The Soviet Union lost many men in the cold.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Moscow_Peace_Treaty",
+          "verified": false
+        },
+        {
+          "text": "Leon Trotsky, exiled Soviet revolutionary, is attacked with an ice axe in Mexico and dies the next day.",
+          "context": "The attacker was an agent of Stalin's secret police. Trotsky had been Lenin's partner in the revolution.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Leon_Trotsky",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Chicago Bears beat the Washington Redskins seventy-three to nothing in the NFL championship game, the biggest win in its history.",
+          "context": "The Bears used the T formation. Washington had narrowly beaten them in the regular season.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1940_NFL_Championship_Game",
+          "verified": false
+        },
+        {
+          "text": "German bombers begin the Blitz, attacking London night after night.",
+          "context": "The bombing began in September and went on for months. Londoners sheltered in Underground stations.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/The_Blitz",
+          "verified": false
+        },
+        {
+          "text": "The Nazis open the Auschwitz concentration camp in occupied Poland, which will become the largest site of the Holocaust.",
+          "context": "It began as a prison camp for Polish political prisoners. Later it became the main extermination camp.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Howard Florey's team at Oxford shows that penicillin protects mice from deadly infection, proving it can work as a medicine.",
+          "context": "The test was in May. Florey and Ernst Chain had picked up work that Alexander Fleming began years earlier. They shared a Nobel Prize with him.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Howard_Florey",
+          "verified": false
+        },
+        {
+          "text": "Scientists at Berkeley discover carbon-fourteen, the radioactive form of carbon later used to date ancient objects.",
+          "context": "Martin Kamen and Sam Ruben made it in a cyclotron. Willard Libby later used it to invent radiocarbon dating.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Carbon-14",
+          "verified": false
+        },
+        {
+          "text": "The Vought-Sikorsky helicopter, designed by Igor Sikorsky, makes its first free flight in the United States.",
+          "context": "Sikorsky is called the father of the practical helicopter. His designs led to the helicopters we know today.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Vought-Sikorsky_VS-300",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Charlie Chaplin's film The Great Dictator mocks Hitler, with Chaplin playing both a Jewish barber and a dictator.",
+          "context": "It was Chaplin's first full talking picture. It ends with a long speech calling for peace and humanity.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/The_Great_Dictator",
+          "verified": false
+        },
+        {
+          "text": "Disney's Fantasia sets animation to classical music, with Mickey Mouse as the sorcerer's apprentice.",
+          "context": "The film used a new sound system with several speakers. It lost money at first but is now a classic.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Fantasia_(1940_film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1941,
+    "clues": {
+      "politics": [
+        {
+          "text": "Rudolf Hess, Hitler's deputy, parachutes into Scotland on a strange flight to try to make peace with Britain.",
+          "context": "He was arrested and spent the rest of his life in prison. Many people still wonder why he made the flight.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Rudolf_Hess",
+          "verified": false
+        },
+        {
+          "text": "President Roosevelt signs the Lend-Lease Act, letting the United States send weapons to Britain and its allies without being paid at once.",
+          "context": "The United States was not yet at war. Roosevelt called America the arsenal of democracy.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Lend-Lease",
+          "verified": false
+        },
+        {
+          "text": "In his State of the Union speech, Roosevelt names four freedoms that people everywhere should enjoy.",
+          "context": "They were freedom of speech, freedom of worship, freedom from want and freedom from fear.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Four_Freedoms",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Joe DiMaggio begins a baseball hitting streak that will run for fifty-six games, a record that has never been beaten.",
+          "context": "The streak ended in July. DiMaggio played for the New York Yankees and was married to Marilyn Monroe later.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio%27s_56-game_hitting_streak",
+          "verified": false
+        },
+        {
+          "text": "Work on Mount Rushmore ends, with the faces of four presidents carved into a mountainside in South Dakota.",
+          "context": "The presidents are Washington, Jefferson, Theodore Roosevelt and Lincoln. The sculptor Gutzon Borglum died that year.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The German engineer Konrad Zuse demonstrates the first working programmable, fully automatic computer, in Berlin.",
+          "context": "It used telephone relays, not electronics. The machine was destroyed in an air raid, and a copy was built later.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Z3_(computer)",
+          "verified": false
+        },
+        {
+          "text": "In Oxford, a policeman dying of infection becomes one of the first patients treated with penicillin.",
+          "context": "He improved, but the supply ran out and he died. It showed the drug's promise, and the need to make much more of it.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Penicillin",
+          "verified": false
+        },
+        {
+          "text": "Britain's first jet-powered aircraft, built by Gloster, makes its first flight, using an engine designed by Frank Whittle.",
+          "context": "Whittle had patented the jet engine years earlier. The flight was made in secret.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Gloster_E.28/39",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Orson Welles's Citizen Kane, about a newspaper tycoon whose last word is Rosebud, premieres in New York.",
+          "context": "Welles was twenty-five when he made it. It is often named the greatest film ever made, though it did not make money at first.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Citizen_Kane",
+          "verified": false
+        },
+        {
+          "text": "John Huston's film The Maltese Falcon, with Humphrey Bogart as the detective Sam Spade, is released.",
+          "context": "It was Huston's first film as director. Many call it the first great film noir.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1942,
+    "clues": {
+      "politics": [
+        {
+          "text": "Nazi officials meet at a villa at Wannsee near Berlin to organise the deportation and murder of Europe's Jews.",
+          "context": "Reinhard Heydrich chaired the meeting. The killings had already begun, and the meeting arranged how the whole system would work.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Wannsee_Conference",
+          "verified": false
+        },
+        {
+          "text": "About eighty thousand British and Commonwealth troops surrender at Singapore, in Britain's worst defeat of the war.",
+          "context": "Japanese forces had advanced down the Malay peninsula. Churchill called it the worst disaster in British military history.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Fall_of_Singapore",
+          "verified": false
+        },
+        {
+          "text": "The British Eighth Army under Bernard Montgomery attacks the Germans at El Alamein in Egypt, in a turning point in North Africa.",
+          "context": "Churchill said that before Alamein the British never had a victory. The battle ended German hopes of reaching the Suez Canal.",
+          "region": "Africa",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein",
+          "verified": false
+        },
+        {
+          "text": "Twenty-six nations sign the Declaration by United Nations, promising to fight together and not to make separate peace with the Axis.",
+          "context": "The name \"United Nations\" was suggested by President Roosevelt. It was later used for the world organisation.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Declaration_by_United_Nations",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A fire at the Cocoanut Grove nightclub in Boston kills almost five hundred people, one of the worst nightclub fires ever.",
+          "context": "The exits were blocked or locked. The fire led to new fire safety laws and to advances in treating burns.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Cocoanut_Grove_fire",
+          "verified": false
+        },
+        {
+          "text": "President Roosevelt signs an order that leads to Japanese Americans being forced from their homes into internment camps.",
+          "context": "More than a hundred thousand people were moved, most of them American citizens. The government apologised decades later.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Executive_Order_9066",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Enrico Fermi's team in Chicago starts the first self-sustaining nuclear chain reaction, under the stands of a university football field.",
+          "context": "The reactor was called Chicago Pile-One. The experiment was a key step towards the atomic bomb.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+          "verified": false
+        },
+        {
+          "text": "A German test rocket, the forerunner of the V-weapons, reaches the edge of space on a flight from Peenemünde.",
+          "context": "The rocket was the A-4, later called the V-2. It is often called the first human-made object to reach space. It was developed at Peenemünde by Wernher von Braun's team.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/V-2_rocket",
+          "verified": false
+        },
+        {
+          "text": "Stephen Hawking, the future physicist who will explain black holes, is born in Oxford.",
+          "context": "He was born on the three-hundredth anniversary of Galileo's death. He lived with motor neurone disease for most of his life.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Casablanca, with Humphrey Bogart and Ingrid Bergman, has its world premiere in New York, soon after Allied troops land in North Africa.",
+          "context": "The film was released more widely early the next year. It won the Oscar for Best Picture. The song As Time Goes By became famous.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Casablanca_(film)",
+          "verified": false
+        },
+        {
+          "text": "Bing Crosby records White Christmas, which becomes the best-selling single of all time.",
+          "context": "Irving Berlin wrote the song for the film Holiday Inn. It reminded soldiers far from home of Christmas.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/White_Christmas_(song)",
+          "verified": false
+        },
+        {
+          "text": "At the Oscars, How Green Was My Valley beats Citizen Kane for best picture.",
+          "context": "Citizen Kane won only for its screenplay. The Oscars were held in February.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/14th_Academy_Awards",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1943,
+    "clues": {
+      "politics": [
+        {
+          "text": "Roosevelt, Churchill and Stalin meet together for the first time, in Tehran, to plan the final defeat of Germany.",
+          "context": "They agreed that the Western Allies would invade France the next year. It was the first of the Big Three conferences.",
+          "region": "Middle East",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Tehran_Conference",
+          "verified": false
+        },
+        {
+          "text": "Italy announces its surrender to the Allies, but German troops quickly seize control of most of the country.",
+          "context": "Mussolini had been overthrown in July. The Germans rescued him and set up a puppet state in the north.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile",
+          "verified": false
+        },
+        {
+          "text": "Joseph Goebbels gives his total war speech to a Berlin crowd, asking whether they want a war more total than anything imagined.",
+          "context": "The speech was made in a Berlin sports hall. It came weeks after the German defeat at Stalingrad.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Sportpalast_speech",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A terrible famine in Bengal, in British India, kills millions of people, as wartime policies and shortages cut off food.",
+          "context": "Estimates of the dead range from about two to three million. Historians blame wartime policies and the loss of rice imports from Burma.",
+          "region": "South Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+          "verified": false
+        },
+        {
+          "text": "Jewish fighters in the Warsaw Ghetto rise up against the Nazis, in the largest Jewish revolt of the war.",
+          "context": "The Germans burned the ghetto to put the revolt down. The fighters held out for weeks against far better armed troops.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Warsaw_Ghetto_Uprising",
+          "verified": false
+        },
+        {
+          "text": "A crush at the entrance of an air raid shelter at Bethnal Green tube station in London kills more than a hundred and seventy people.",
+          "context": "No bomb fell. People panicked at the sound of a new rocket and fell on the stairs. It was the worst civilian disaster of the war in Britain.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Bethnal_Green_tube_station_disaster",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "British codebreakers test Colossus, the first electronic computer built to break German codes, at Bletchley Park.",
+          "context": "It was designed by Tommy Flowers. Its existence was kept secret for decades after the war.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Colossus_computer",
+          "verified": false
+        },
+        {
+          "text": "Lancaster bombers drop Barnes Wallis's bouncing bombs on German dams in the Ruhr, in the Dambusters raid.",
+          "context": "The bombs skipped over the water and sank next to the dam wall. Two dams were broken, and many of the planes were lost.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Operation_Chastise",
+          "verified": false
+        },
+        {
+          "text": "The Swiss chemist Albert Hofmann takes LSD on purpose for the first time and goes home on his bicycle, on what is now called Bicycle Day.",
+          "context": "He had felt strange effects a few days earlier, when a little got on his fingers. His bicycle ride became legendary.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Albert_Hofmann",
+          "verified": false
+        },
+        {
+          "text": "Jacques Cousteau and Émile Gagnan test the Aqua-Lung, the breathing device that lets people dive freely underwater.",
+          "context": "It let divers breathe from a tank on their back. It opened up the sea to ordinary people.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Aqua-lung",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Antoine de Saint-Exupéry's story The Little Prince is published in New York, while the author is in exile from occupied France.",
+          "context": "Saint-Exupéry was an airman and wrote and drew it himself. He disappeared on a flight the next year. It became one of the most translated books ever.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/The_Little_Prince",
+          "verified": false
+        },
+        {
+          "text": "Rodgers and Hammerstein's Oklahoma! opens on Broadway, reshaping the musical.",
+          "context": "Its songs and dances moved the story forward instead of just entertaining. It ran for more than two thousand performances.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Oklahoma!",
+          "verified": false
+        },
+        {
+          "text": "Aaron Copland's Fanfare for the Common Man premieres in Cincinnati.",
+          "context": "It was written to honour ordinary Americans during the war. The music is still played at ceremonies.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Fanfare_for_the_Common_Man",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1944,
+    "clues": {
+      "politics": [
+        {
+          "text": "Army officers led by Claus von Stauffenberg try to kill Hitler with a bomb in a briefcase, but he survives.",
+          "context": "The plot was in July. Hitler had thousands of suspects arrested and many executed.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/20_July_plot",
+          "verified": false
+        },
+        {
+          "text": "Franklin D. Roosevelt wins an unprecedented fourth term as US president, beating Thomas Dewey.",
+          "context": "No president had won more than two terms before him. He died a few months into the fourth term.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1944_United_States_presidential_election",
+          "verified": false
+        },
+        {
+          "text": "Delegates from forty-four countries meet at Bretton Woods in New Hampshire and agree on a new world money system.",
+          "context": "The agreement created the International Monetary Fund and the World Bank.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Bretton_Woods_Conference",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Anne Frank and the others hiding with her in an Amsterdam annexe are betrayed and arrested by the Gestapo.",
+          "context": "They had hidden for over two years. Anne died in Bergen-Belsen in early 1945. Her father Otto survived and published her diary.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Anne_Frank",
+          "verified": false
+        },
+        {
+          "text": "The future baseball star Jackie Robinson, then an army officer, is arrested for refusing to move to the back of a bus at Fort Hood.",
+          "context": "He was court-martialled but cleared. Three years later he became the first Black player in the major leagues.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+          "verified": false
+        },
+        {
+          "text": "A ship carrying explosives and cotton burns and blows up in Bombay harbour, killing about thirteen hundred people.",
+          "context": "The ship was the Fort Stikine. The blast scattered gold bars across the city.",
+          "region": "South Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Bombay_Explosion_(1944)",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "Germany fires the world's first long-range ballistic missiles, the dreaded V rockets, at targets in Paris and London.",
+          "context": "The rocket was the V-2. It travelled faster than sound, so there was no warning. After the war, the V-2's engineers helped build American and Soviet space rockets.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/V-2_rocket",
+          "verified": false
+        },
+        {
+          "text": "IBM and Harvard unveil the Harvard Mark One, a giant electromechanical computer that fills a long room.",
+          "context": "It was designed by Howard Aiken. It could do long sums automatically, and was used to help with calculations for the war.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Harvard_Mark_I",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Laurence Olivier's film of Shakespeare's Henry the Fifth, made in colour in wartime, premieres in London to boost morale.",
+          "context": "Olivier directed and starred in it. It was dedicated to the airborne troops. It opened up Shakespeare to film audiences.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Henry_V_(1944_film)",
+          "verified": false
+        },
+        {
+          "text": "At the Oscars, Casablanca wins best picture.",
+          "context": "The ceremony was held at Grauman's Chinese Theatre in Hollywood. Casablanca had premiered in New York the year before.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/16th_Academy_Awards",
+          "verified": false
+        },
+        {
+          "text": "Martha Graham's dance Appalachian Spring, with music by Aaron Copland, premieres at the Library of Congress.",
+          "context": "It is a story of newly married settlers on the American frontier. Copland won a Pulitzer Prize for the music.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Appalachian_Spring",
+          "verified": false
+        },
+        {
+          "text": "The famously out-of-tune soprano Florence Foster Jenkins sings at Carnegie Hall to a sold-out house.",
+          "context": "Her shows were a sensation because she was so bad and did not know it. A film about her was made decades later with Meryl Streep.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Florence_Foster_Jenkins",
+          "verified": false
         }
       ]
     }
