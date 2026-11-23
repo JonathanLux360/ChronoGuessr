@@ -5281,6 +5281,14 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/United_States_occupation_of_Veracruz",
           "verified": true
+        },
+        {
+          "text": "At Tannenberg, a German army under Hindenburg and Ludendorff destroys the Russian Second Army, whose commander shoots himself.",
+          "context": "The battle ended the Russian invasion of East Prussia and made Hindenburg a national hero.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Tannenberg_(1914)",
+          "verified": false
         }
       ],
       "society": [
@@ -5301,6 +5309,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Panama_Canal",
           "verified": true
+        },
+        {
+          "text": "A German U-boat sinks the British cruiser HMS Pathfinder, the first warship sunk by a submarine's self-propelled torpedo.",
+          "context": "It happened in September off the coast of Scotland. The sinking showed how dangerous submarines could be.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/HMS_Pathfinder_(1904)",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -5316,6 +5332,120 @@
     }
   },
   {
+    "year": 1915,
+    "clues": {
+      "politics": [
+        {
+          "text": "Italy abandons its old allies and joins Britain and France in the war, after a secret treaty promises it Austrian lands.",
+          "context": "Italy had been allied with Germany and Austria-Hungary before the war. It declared war on Austria-Hungary in May. Many of the promised lands were never handed over.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Italy_in_World_War_I",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A German submarine torpedoes the liner Lusitania off Ireland, and more than a thousand people die, many of them Americans.",
+          "context": "The ship carried shells and ammunition as well as passengers. The sinking turned many Americans against Germany, though the United States stayed out of the war until 1917.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "At Ypres in Belgium, German troops release chlorine gas from cylinders on a large scale for the first time, choking Allied soldiers.",
+          "context": "It was the first big gas attack on the Western Front. Gas masks soon followed. Both sides used poison gas for the rest of the war.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Second_Battle_of_Ypres",
+          "verified": false
+        },
+        {
+          "text": "In Berlin, Albert Einstein presents the final equations of his general theory of relativity, a new theory of gravity.",
+          "context": "He lectured on it to the Prussian Academy of Sciences in November. The theory explained a small oddity in the orbit of Mercury.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/History_of_general_relativity",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "In Prague, Franz Kafka's story The Metamorphosis, about a man who wakes up as a giant insect, is published.",
+          "context": "It first appeared in a German magazine in October. Kafka worked as an insurance clerk, and most of his work came out after his death.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Metamorphosis",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1916,
+    "clues": {
+      "politics": [
+        {
+          "text": "Irish rebels led by Patrick Pearse seize the General Post Office in Dublin and declare an Irish republic, in the Easter Rising.",
+          "context": "The rising lasted less than a week and was crushed by British troops. The execution of its leaders afterwards turned many Irish people towards the rebels.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Easter_Rising",
+          "verified": false
+        },
+        {
+          "text": "On the first day of a huge British offensive on the Somme, the army suffers its worst losses, with tens of thousands killed or wounded.",
+          "context": "There were about sixty thousand British casualties and about twenty thousand dead. The battle went on for months.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_the_Somme",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "Margaret Sanger opens the first birth control clinic in the United States, in the Brownsville district of Brooklyn.",
+          "context": "Police closed the clinic within days and arrested her. Her campaign helped lead to the legal spread of birth control.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Margaret_Sanger",
+          "verified": false
+        },
+        {
+          "text": "The central span of the Quebec Bridge, a giant steel bridge over the St Lawrence River in Canada, falls into the water during construction.",
+          "context": "Workers were lifting the centre span into place when it fell. The bridge had collapsed once before, while it was being built. It opened the next year.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Quebec_Bridge",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "British tanks are used in battle for the first time, lumbering across northern France at Flers-Courcelette.",
+          "context": "The first tanks were slow and often broke down, but they frightened German troops. The French were upset because they had wanted to wait and use many tanks at once.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Flers%E2%80%93Courcelette",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "In neutral Zürich, artists at the Cabaret Voltaire launch Dada, an anti-war art movement that mocks logic and tradition.",
+          "context": "Poets and artists such as Hugo Ball and Tristan Tzara performed nonsense poems and noise music. Dada began as a protest against the war.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Dada",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1917,
     "clues": {
       "politics": [
@@ -5326,6 +5456,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Balfour_Declaration",
           "verified": true
+        },
+        {
+          "text": "Under President Woodrow Wilson, the United States declares war on Germany, bringing fresh troops and money to the Allies.",
+          "context": "Wilson cited German attacks on neutral ships by submarine. The Zimmermann Telegram had turned American opinion.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/American_entry_into_World_War_I",
+          "verified": false
         }
       ],
       "society": [
@@ -5346,6 +5484,14 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Cambrai_(1917)",
           "verified": true
+        },
+        {
+          "text": "British naval codebreakers decode the Zimmermann Telegram, in which Germany proposes an alliance with Mexico against the United States.",
+          "context": "The codebreakers worked in the Admiralty's Room 40. The telegram was sent in January. Britain passed it to the Americans, and it was made public in March.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Zimmermann_Telegram",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -6063,6 +6209,67 @@
     }
   },
   {
+    "year": 1945,
+    "clues": {
+      "politics": [
+        {
+          "text": "Labour wins a landslide election, and Clement Attlee replaces Winston Churchill as Britain's prime minister, weeks after victory in Europe.",
+          "context": "Churchill had led Britain through the war, but voters wanted social reform at home. Attlee's government went on to create the National Health Service.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Clement_Attlee",
+          "verified": false
+        },
+        {
+          "text": "Delegates from fifty countries sign the United Nations Charter in San Francisco.",
+          "context": "The UN was meant to prevent another world war. Poland signed a little later, which made fifty-one founding members.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/United_Nations_Charter",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "The Nuremberg trials open, putting leading Nazis before an international court for war crimes and crimes against humanity.",
+          "context": "They began in November in a German city where the Nazis had held huge rallies. Several defendants were sentenced to death.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Nuremberg_trials",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "In the New Mexico desert, American scientists under J. Robert Oppenheimer set off the first atomic bomb, in the Trinity test.",
+          "context": "The test took place on a July morning. Within a month, atomic bombs were dropped on Japan.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)",
+          "verified": false
+        },
+        {
+          "text": "An American bomber drops the first atomic bomb ever used in war on the Japanese city of Hiroshima, and Nagasaki is hit three days later.",
+          "context": "The attacks killed well over a hundred thousand people. Japan announced its surrender within days.",
+          "region": "East Asia",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Rodgers and Hammerstein's musical Carousel opens on Broadway, with the song You'll Never Walk Alone.",
+          "context": "The show is based on a Hungarian play by Ferenc Molnár. It opened in April and ran for more than eight hundred performances.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Carousel_(musical)",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1946,
     "clues": {
       "politics": [
@@ -6330,6 +6537,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_1952",
           "verified": true
+        },
+        {
+          "text": "King George the Sixth dies in his sleep at Sandringham, and his young daughter Elizabeth becomes queen.",
+          "context": "Elizabeth was in Kenya when her father died. She was crowned the following year.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Elizabeth_II",
+          "verified": false
         }
       ],
       "society": [
@@ -6350,6 +6565,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Ivy_Mike",
           "verified": true
+        },
+        {
+          "text": "Britain tests its first atomic bomb on the Montebello Islands off Western Australia, becoming the third nuclear power.",
+          "context": "The bomb was exploded inside a ship, in a test called Operation Hurricane, in October.",
+          "region": "Oceania",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Operation_Hurricane",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -6509,6 +6732,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Jonas_Salk",
           "verified": true
+        },
+        {
+          "text": "The physicist Albert Einstein, who developed the theory of relativity, dies in Princeton, New Jersey.",
+          "context": "A few days earlier he had signed a warning against nuclear weapons, together with Bertrand Russell. The warning was published after his death.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Albert_Einstein",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -6668,6 +6899,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Jack_Kilby",
           "verified": true
+        },
+        {
+          "text": "The United States creates NASA, a civilian space agency, in answer to the Soviet lead in space.",
+          "context": "Congress passed the law and President Eisenhower signed it in July. NASA began work in October and took over from an older research body.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/NASA",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -6882,6 +7121,83 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Dr._No_(film)",
           "verified": true
+        },
+        {
+          "text": "The Rolling Stones, a new band led by Mick Jagger and Keith Richards, play their first concert at the Marquee Club in London.",
+          "context": "They played blues songs. The band had formed only weeks earlier, and went on to become one of the longest-running rock bands.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Rolling_Stones",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
+    "year": 1963,
+    "clues": {
+      "politics": [
+        {
+          "text": "French president Charles de Gaulle vetoes Britain's first attempt to join the European Economic Community.",
+          "context": "He said Britain was not ready to be a true European partner. He vetoed a second application in 1967. Britain finally joined in 1973.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
+          "verified": false
+        },
+        {
+          "text": "John Profumo, Britain's war minister, resigns after admitting he lied to Parliament about his affair with Christine Keeler.",
+          "context": "The Profumo affair mixed sex, spying and politics, and badly damaged the Conservative government of Harold Macmillan.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/Profumo_affair",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A bomb planted by white racists explodes at a Black church in Birmingham, Alabama, and kills four young girls.",
+          "context": "It happened on a Sunday in September, at the Sixteenth Street Baptist Church. The outrage helped win support for the Civil Rights Act the next year.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/16th_Street_Baptist_Church_bombing",
+          "verified": false
+        },
+        {
+          "text": "A strong earthquake destroys much of the city of Skopje in Yugoslavia and kills more than a thousand people.",
+          "context": "Skopje was later rebuilt with help from many countries, and the Japanese architect Kenzo Tange planned its new centre.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/1963_Skopje_earthquake",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "The Soviet cosmonaut Valentina Tereshkova becomes the first woman in space, orbiting the Earth in Vostok.",
+          "context": "She had worked in a textile factory and was a keen parachutist before she was chosen. She spent almost three days in orbit.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Valentina_Tereshkova",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "The Beatles release their first album, Please Please Me, in Britain, recorded in a single day.",
+          "context": "Most of it was recorded in one long session in February at Abbey Road Studios in London. The album topped the British charts for many weeks.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Please_Please_Me",
+          "verified": false
+        },
+        {
+          "text": "BBC television broadcasts the first episode of Doctor Who, about a mysterious time traveller and his granddaughter.",
+          "context": "It went out the day after the assassination of President Kennedy, and the BBC repeated it the next week because many people had missed it.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Doctor_Who",
+          "verified": false
         }
       ]
     }
@@ -6905,6 +7221,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964",
           "verified": true
+        },
+        {
+          "text": "Labour narrowly wins the British general election, and Harold Wilson becomes prime minister after thirteen years of Conservative rule.",
+          "context": "Labour's majority was only four seats. Wilson promised to modernise Britain with the \"white heat\" of technology.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election",
+          "verified": false
         }
       ],
       "society": [
@@ -6925,6 +7249,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Shinkansen",
           "verified": true
+        },
+        {
+          "text": "BBC Two begins broadcasting in Britain, after a power cut forces the first night's launch to be put off.",
+          "context": "It was Britain's third television channel. It was the first to use the sharper line system that later became standard.",
+          "region": "Europe",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/BBC_Two",
+          "verified": false
         }
       ],
       "arts_culture": [
@@ -7050,6 +7382,22 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Summer_of_Love",
           "verified": true
+        },
+        {
+          "text": "Parliament partly decriminalises homosexuality between men in England and Wales, in the Sexual Offences Act.",
+          "context": "The law applied only to adults, in private. It was one of several social reforms of the 1960s, along with the Abortion Act the same year.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Sexual_Offences_Act_1967",
+          "verified": false
+        },
+        {
+          "text": "Parliament passes the Abortion Act, allowing legal abortions in Britain under medical supervision.",
+          "context": "The bill was put forward by the Liberal MP David Steel. It came into force the next year.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Abortion_Act_1967",
+          "verified": false
         }
       ],
       "technology": [
@@ -7093,6 +7441,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Prague_Spring",
           "verified": true
+        },
+        {
+          "text": "The Conservative politician Enoch Powell gives his \"Rivers of Blood\" speech, attacking immigration to Britain.",
+          "context": "Edward Heath sacked him from the shadow cabinet the next day. The speech divided opinion across the country.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Rivers_of_Blood_speech",
+          "verified": false
         }
       ],
       "society": [
@@ -7156,6 +7512,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Woodstock",
           "verified": true
+        },
+        {
+          "text": "The Open University is founded in Britain, to offer degrees by television, radio and post to adults.",
+          "context": "It was a favourite project of Prime Minister Harold Wilson. It took no entry exams, and its first students began in 1971.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Open_University",
+          "verified": false
         }
       ],
       "technology": [
@@ -7244,6 +7608,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/1972_visit_by_Richard_Nixon_to_China",
           "verified": true
+        },
+        {
+          "text": "British paratroopers shoot dead thirteen civil rights marchers in Derry, in an event known as Bloody Sunday.",
+          "context": "The marchers were protesting against internment without trial. The killings pushed support towards the IRA and deepened the Troubles.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Bloody_Sunday_(1972)",
+          "verified": false
         }
       ],
       "society": [
@@ -7297,6 +7669,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Yom_Kippur_War",
           "verified": true
+        },
+        {
+          "text": "Britain, Ireland and Denmark join the European Economic Community, the forerunner of the European Union.",
+          "context": "Edward Heath had won Britain's entry after French vetoes in 1963 and 1967. Britain voted in a referendum to stay in two years later.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Enlargement_of_the_European_Union",
+          "verified": false
         }
       ],
       "society": [
@@ -7395,6 +7775,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Khmer_Rouge",
           "verified": true
+        },
+        {
+          "text": "Margaret Thatcher beats Edward Heath to become leader of Britain's Conservative Party, the first woman to lead a major party.",
+          "context": "Heath had lost two elections in one year. She became prime minister four years later.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
+          "verified": false
         }
       ],
       "society": [
@@ -7546,6 +7934,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War",
           "verified": true
+        },
+        {
+          "text": "Margaret Thatcher wins the British general election and becomes the first woman prime minister of the United Kingdom.",
+          "context": "The Conservatives won after the strikes of the Winter of Discontent. She stayed in office for eleven years.",
+          "region": "Europe",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
+          "verified": false
         }
       ],
       "society": [
@@ -7740,6 +8136,75 @@
     }
   },
   {
+    "year": 1983,
+    "clues": {
+      "politics": [
+        {
+          "text": "Margaret Thatcher's Conservatives win a landslide in Britain's general election, soon after the Falklands War.",
+          "context": "Labour was split and fought on a hard-left programme, which one of its own MPs called the longest suicide note in history. Thatcher's majority was over a hundred seats.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/1983_United_Kingdom_general_election",
+          "verified": false
+        },
+        {
+          "text": "American troops invade the Caribbean island of Grenada after a coup, in an operation condemned by Britain and the United Nations.",
+          "context": "President Reagan said the aim was to protect American students and restore order. Grenada was a member of the British Commonwealth.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/United_States_invasion_of_Grenada",
+          "verified": false
+        }
+      ],
+      "society": [
+        {
+          "text": "A Soviet fighter shoots down a Korean Air Lines passenger jet that has strayed into Soviet airspace, killing everyone aboard.",
+          "context": "It was flying from New York to Seoul. The attack sharply raised Cold War tension. Afterwards the United States opened its GPS system for civilian use.",
+          "region": "East Asia",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Korean_Air_Lines_Flight_007",
+          "verified": false
+        }
+      ],
+      "technology": [
+        {
+          "text": "President Ronald Reagan announces the Strategic Defense Initiative, a plan for space-based defences against nuclear missiles.",
+          "context": "Critics nicknamed it Star Wars. It was never fully built, but it alarmed the Soviet Union.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Strategic_Defense_Initiative",
+          "verified": false
+        },
+        {
+          "text": "The ARPANET switches to TCP/IP, the common language that the modern internet still uses.",
+          "context": "Every computer on the network had to change over on the same day. This switch is often called the birth of the internet.",
+          "region": "North America",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/ARPANET",
+          "verified": false
+        }
+      ],
+      "arts_culture": [
+        {
+          "text": "Michael Jackson performs Billie Jean on television and shows off the moonwalk, a gliding backwards dance step, for the first time.",
+          "context": "The show, Motown 25, was taped in March and broadcast on NBC in May. Millions of people watched.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Motown_25:_Yesterday,_Today,_Forever",
+          "verified": false
+        },
+        {
+          "text": "The final episode of the war comedy M*A*S*H draws a huge American television audience, a record at the time.",
+          "context": "More than a hundred million people are said to have watched it. The show was set in a medical unit during the Korean War.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Goodbye,_Farewell_and_Amen",
+          "verified": false
+        }
+      ]
+    }
+  },
+  {
     "year": 1984,
     "clues": {
       "politics": [
@@ -7750,6 +8215,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Assassination_of_Indira_Gandhi",
           "verified": true
+        },
+        {
+          "text": "An IRA bomb explodes at a hotel in Brighton during the Conservative Party conference, narrowly missing Margaret Thatcher.",
+          "context": "Five people were killed. Thatcher carried on with her speech the next day.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Brighton_hotel_bombing",
+          "verified": false
         }
       ],
       "society": [
@@ -7760,6 +8233,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Bhopal_disaster",
           "verified": true
+        },
+        {
+          "text": "Coal miners across Britain go on strike against pit closures, in a bitter dispute led by Arthur Scargill that lasts a year.",
+          "context": "The strike ended in defeat for the miners the next spring. It changed British industry and politics for decades.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/UK_miners%27_strike_(1984%E2%80%931985)",
+          "verified": false
         }
       ],
       "technology": [
@@ -7893,6 +8374,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Velvet_Revolution",
           "verified": true
+        },
+        {
+          "text": "Scotland becomes the first part of Britain to charge the poll tax, a flat charge on every adult that replaces local rates.",
+          "context": "It was brought in a year earlier in Scotland than in England and Wales. It caused riots and helped bring down Margaret Thatcher.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Community_Charge",
+          "verified": false
         }
       ],
       "society": [
@@ -7931,6 +8420,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Satanic_Verses_controversy",
           "verified": true
+        },
+        {
+          "text": "Billy Joel releases We Didn't Start the Fire, a song that races through headlines in a list of names and events.",
+          "context": "The song runs through news stories from the end of the forties up to the year it was written.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/We_Didn%27t_Start_the_Fire",
+          "verified": false
         }
       ]
     }
