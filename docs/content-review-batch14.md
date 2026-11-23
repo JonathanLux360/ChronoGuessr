@@ -29,7 +29,7 @@
 
 **Weak points:** 2015: the Technology and Arts & Culture clues (the Apple Watch and the Star Wars film) and the two extra Society clues (the same-sex marriage ruling and the viral dress) were chosen by you. The Apple Watch details, the Obergefell vote and justice, and where and when the dress photo was posted are from my own knowledge. Uptown Funk was dropped because it was released in November 2014. 1745 Arts & Culture is the death of Jonathan Swift (a death rather than a work). Les Demoiselles d'Avignon (1907) is dated to March, but some sources say July. Twitter's founding (2006) is dated to March, and its public launch was in July.
 
-## [ ] 1721
+## [x] 1721
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -39,7 +39,7 @@
 | Technology | Lady Mary Wortley Montagu has her young daughter inoculated against smallpox in London, after seeing the method used in Turkey. | She had seen the practice in Constantinople, where her husband was ambassador. Royal doctors watched the test, and the method became fashionable at court. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Mary_Wortley_Montagu) |
 | Arts & Culture | Johann Sebastian Bach sends the Margrave of Brandenburg six concertos, now known as the Brandenburg Concertos. | Bach dedicated the music in March. The Margrave may never have had them played, and the music was nearly forgotten until the nineteenth century. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Brandenburg_Concertos) |
 
-## [ ] 1745
+## [x] 1745
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -49,7 +49,7 @@
 | Technology (alt 1) | The Italian scientist Alessandro Volta, who will invent the electric battery, is born in Como. | The unit of electric potential, the volt, is named after him. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Alessandro_Volta) |
 | Arts & Culture | The Irish writer Jonathan Swift, author of Gulliver's Travels, dies in Dublin. | Swift was also dean of St Patrick's Cathedral. He left most of his money to found a hospital for the mentally ill. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Jonathan_Swift) |
 
-## [ ] 1776
+## [x] 1776
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -59,7 +59,7 @@
 | Technology (alt 1) | Captain James Cook sets sail from Plymouth on a third voyage of exploration, which will end with his death in Hawaii. | He sailed in July. He was killed in a clash with islanders at Kealakekua Bay. | Europe | 2 | [link](https://en.wikipedia.org/wiki/James_Cook) |
 | Arts & Culture | The historian Edward Gibbon publishes the first volume of his Decline and Fall of the Roman Empire, which sells out within weeks. | Gibbon took more than a decade to finish all the volumes. His elegant, ironic style made the work famous. | Europe | 2 | [link](https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire) |
 
-## [ ] 1789
+## [x] 1789
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -68,7 +68,7 @@
 | Technology | The French chemist Antoine Lavoisier publishes his Elementary Treatise on Chemistry, setting out the modern idea of chemical elements. | It included the first modern list of the elements and helped overturn the old theory of phlogiston. He was guillotined five years later. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Antoine_Lavoisier) |
 | Arts & Culture | Olaudah Equiano, a former slave, publishes his life story in London, a bestseller that helps the campaign against the slave trade. | He described his capture in West Africa and his life at sea. The book was reprinted many times. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Olaudah_Equiano) |
 
-## [ ] 1902
+## [x] 1902
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -78,7 +78,7 @@
 | Technology | The American engineer Willis Carrier designs the first modern air conditioning system, to control humidity in a printing works in Brooklyn. | The printers' paper swelled and shrank with the weather and spoiled their colour prints. Carrier's method cooled and dried the air. He later founded the Carrier Corporation. | North America | 2 | [link](https://en.wikipedia.org/wiki/Willis_Carrier) |
 | Arts & Culture | Georges Méliès's film A Trip to the Moon shows a rocket landing in the eye of the Man in the Moon. | Méliès was a French stage magician. The film was one of the first science fiction films, and used tricks such as double exposures. | Europe | 2 | [link](https://en.wikipedia.org/wiki/A_Trip_to_the_Moon) |
 
-## [ ] 1904
+## [x] 1904
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -91,7 +91,7 @@
 | Arts & Culture (main) | Puccini's opera Madama Butterfly, about a Japanese girl abandoned by an American naval officer, premieres at La Scala in Milan. | The first night was a disaster and the audience jeered. Puccini revised it, and a new version was a success in Brescia a few months later. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Madama_Butterfly) |
 | Arts & Culture (alt 1) | Anton Chekhov's last play, The Cherry Orchard, opens at the Moscow Art Theatre, and Chekhov dies a few months later. | The play is a comedy about a noble family that loses its estate. Chekhov died in July of tuberculosis. | Europe | 2 | [link](https://en.wikipedia.org/wiki/The_Cherry_Orchard) |
 
-## [ ] 1907
+## [x] 1907
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -101,7 +101,7 @@
 | Technology | The liner Lusitania sails from Liverpool on her first voyage, one of the fastest ships in the world. | She soon won the Blue Riband for the fastest crossing of the Atlantic. She was sunk by a German submarine in 1915. | Europe | 2 | [link](https://en.wikipedia.org/wiki/RMS_Lusitania) |
 | Arts & Culture | Pablo Picasso finishes Les Demoiselles d'Avignon, a shocking painting of five women whose faces look like African masks. | The painting broke the rules of perspective. It is often seen as the start of Cubism. Picasso kept it hidden in his studio for years. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon) |
 
-## [ ] 1909
+## [x] 1909
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -111,7 +111,7 @@
 | Arts & Culture (main) | The Russian composer Sergei Rachmaninoff plays the first performance of his Third Piano Concerto, in New York. | It is famous as one of the hardest piano concertos. Rachmaninoff wrote it for his first American tour. | North America | 3 | [link](https://en.wikipedia.org/wiki/Piano_Concerto_No._3_(Rachmaninoff)) |
 | Arts & Culture (alt 1) | In Paris, the impresario Sergei Diaghilev opens a season of Russian ballet and opera that amazes audiences. | The company was not yet called the Ballets Russes, a name it took the following year. Its star dancers included Vaslav Nijinsky. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Ballets_Russes) |
 
-## [ ] 2000
+## [x] 2000
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -124,7 +124,7 @@
 | Technology (alt 1) | The first crew arrives at the International Space Station, beginning a continuous human presence in space. | The crew were two Russians and an American. People have lived on the station without a break ever since. | North America | 2 | [link](https://en.wikipedia.org/wiki/Expedition_1) |
 | Arts & Culture | Charles M. Schulz, creator of the comic strip Peanuts and its Charlie Brown and Snoopy, dies the night before his last strip appears. | Peanuts had run for almost fifty years, and Schulz drew every strip himself. He died at home in California. | North America | 2 | [link](https://en.wikipedia.org/wiki/Charles_M._Schulz) |
 
-## [ ] 2002
+## [x] 2002
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -135,7 +135,7 @@
 | Technology | Mark Shuttleworth, a South African internet entrepreneur, becomes the first African in space, as a paying space tourist. | He flew on a Russian Soyuz to the International Space Station. He later founded the company behind the Ubuntu computer system. | Africa | 2 | [link](https://en.wikipedia.org/wiki/Mark_Shuttleworth) |
 | Arts & Culture | The Tribute in Light begins, two columns of blue light rising over Manhattan where the Twin Towers stood. | It was first lit on the six-month anniversary of the attacks of September the Eleventh. It proved so popular that it returned every year. | North America | 2 | [link](https://en.wikipedia.org/wiki/Tribute_in_Light) |
 
-## [ ] 2006
+## [x] 2006
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -147,7 +147,7 @@
 | Technology (alt 1) | The social network Twitter is founded in San Francisco, with messages limited to a few characters. | The first message was sent in March by Jack Dorsey. The service opened to the public in July. | North America | 2 | [link](https://en.wikipedia.org/wiki/Twitter) |
 | Arts & Culture | The Finnish monster rock band Lordi win the Eurovision Song Contest in Athens with Hard Rock Hallelujah. | The band wore monster masks on stage. It was Finland's first win in the contest. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2006) |
 
-## [ ] 2015
+## [x] 2015
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -160,7 +160,7 @@
 | Technology | Apple releases the Apple Watch, its first smartwatch, which tracks fitness and shows messages on a small screen on the wrist. | It went on sale in April, after being announced the previous September. It soon became one of the best-selling watches in the world. | North America | 1 | [link](https://en.wikipedia.org/wiki/Apple_Watch) |
 | Arts & Culture | Star Wars returns in The Force Awakens, with Daisy Ridley as the scavenger Rey, and breaks box office records within days. | It was the first Star Wars film made after Disney bought Lucasfilm, and the first in ten years. Harrison Ford returned as Han Solo. It opened in December. | North America | 1 | [link](https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens) |
 
-## [ ] 2017
+## [x] 2017
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |

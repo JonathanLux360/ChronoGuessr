@@ -2443,7 +2443,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Robert_Walpole",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Peter the Great is proclaimed Emperor of All the Russias, after winning the long Great Northern War against Sweden.",
@@ -2451,7 +2451,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Peter_the_Great",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2461,7 +2461,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/New-England_Courant",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2471,7 +2471,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Mary_Wortley_Montagu",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2481,7 +2481,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Brandenburg_Concertos",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2541,7 +2541,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Jacobite_rising_of_1745",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2551,7 +2551,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Madame_de_Pompadour",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2561,7 +2561,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Leyden_jar",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The Italian scientist Alessandro Volta, who will invent the electric battery, is born in Como.",
@@ -2569,7 +2569,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Alessandro_Volta",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2579,7 +2579,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Jonathan_Swift",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2692,7 +2692,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Trenton",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2702,7 +2702,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Wealth_of_Nations",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2712,7 +2712,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Watt_steam_engine",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Captain James Cook sets sail from Plymouth on a third voyage of exploration, which will end with his death in Hawaii.",
@@ -2720,7 +2720,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/James_Cook",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2730,7 +2730,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2790,7 +2790,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/United_States_Secretary_of_State",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2800,7 +2800,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Women%27s_March_on_Versailles",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2810,7 +2810,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Antoine_Lavoisier",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2820,7 +2820,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Olaudah_Equiano",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5129,7 +5129,7 @@
           "region": "Africa",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Treaty_of_Vereeniging",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Edward the Seventh is crowned in Westminster Abbey, after the ceremony is put off when he needs an emergency operation.",
@@ -5137,7 +5137,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Coronation_of_Edward_VII_and_Alexandra",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5147,7 +5147,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5157,7 +5157,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Willis_Carrier",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5167,7 +5167,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/A_Trip_to_the_Moon",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5235,7 +5235,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Russo-Japanese_War",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Britain and France sign the Entente Cordiale, ending old colonial rivalries and settling their disputes over Egypt and Morocco.",
@@ -5243,7 +5243,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Entente_Cordiale",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5253,7 +5253,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Great_Baltimore_Fire",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Seven European football associations found FIFA, the body that will organise the World Cup.",
@@ -5261,7 +5261,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/FIFA",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5271,7 +5271,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/History_of_the_New_York_City_Subway",
-          "verified": false
+          "verified": true
         },
         {
           "text": "John Ambrose Fleming, a British engineer, patents the vacuum tube diode, the first electronic valve and a step towards radio.",
@@ -5279,7 +5279,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/John_Ambrose_Fleming",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5289,7 +5289,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Madama_Butterfly",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Anton Chekhov's last play, The Cherry Orchard, opens at the Moscow Art Theatre, and Chekhov dies a few months later.",
@@ -5297,7 +5297,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Cherry_Orchard",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5410,7 +5410,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Anglo-Russian_Entente",
-          "verified": false
+          "verified": true
         },
         {
           "text": "In Finland, nineteen women are elected to parliament, in the first election in Europe open to women candidates.",
@@ -5418,7 +5418,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1907_Finnish_parliamentary_election",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5428,7 +5428,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Brownsea_Island_Scout_camp",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5438,7 +5438,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/RMS_Lusitania",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5448,7 +5448,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5516,7 +5516,7 @@
           "region": "East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/It%C5%8D_Hirobumi",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5526,7 +5526,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/NAACP",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5536,7 +5536,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Bakelite",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5546,7 +5546,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Piano_Concerto_No._3_(Rachmaninoff)",
-          "verified": false
+          "verified": true
         },
         {
           "text": "In Paris, the impresario Sergei Diaghilev opens a season of Russian ballet and opera that amazes audiences.",
@@ -5554,7 +5554,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Ballets_Russes",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -9396,7 +9396,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2000_Russian_presidential_election",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Vicente Fox wins Mexico's presidential election, ending more than seventy years of rule by one party.",
@@ -9404,7 +9404,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
-          "verified": false
+          "verified": true
         },
         {
           "text": "After mass protests in Belgrade, Yugoslav president Slobodan Milošević is forced to give up power.",
@@ -9412,7 +9412,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Overthrow_of_Slobodan_Milo%C5%A1evi%C4%87",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -9422,7 +9422,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Kursk_submarine_disaster",
-          "verified": false
+          "verified": true
         },
         {
           "text": "A Concorde supersonic airliner crashes after taking off from Paris, killing everyone aboard and some people on the ground.",
@@ -9430,7 +9430,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Air_France_Flight_4590",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -9440,7 +9440,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Human_Genome_Project",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The first crew arrives at the International Space Station, beginning a continuous human presence in space.",
@@ -9448,7 +9448,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Expedition_1",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -9458,7 +9458,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Charles_M._Schulz",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -9518,7 +9518,7 @@
           "region": "South-East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/East_Timor",
-          "verified": false
+          "verified": true
         },
         {
           "text": "In his State of the Union speech, President George W. Bush names Iran, Iraq and North Korea as an axis of evil.",
@@ -9526,7 +9526,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Axis_of_evil",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -9536,7 +9536,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_the_United_States",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The Winter Olympic Games open in Salt Lake City, Utah, under tight security.",
@@ -9544,7 +9544,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/2002_Winter_Olympics",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -9554,7 +9554,7 @@
           "region": "Africa",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -9564,7 +9564,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Tribute_in_Light",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -9730,7 +9730,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Execution_of_Saddam_Hussein",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Hezbollah fighters capture two Israeli soldiers in a cross-border raid, and Israel responds with a month-long war in Lebanon.",
@@ -9738,7 +9738,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2006_Lebanon_War",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -9748,7 +9748,7 @@
           "region": "South-East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/2006_Yogyakarta_earthquake",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Italy win the football World Cup in Germany, beating France on penalties after the French captain is sent off for a head-butt.",
@@ -9756,7 +9756,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -9766,7 +9766,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/IAU_definition_of_planet",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The social network Twitter is founded in San Francisco, with messages limited to a few characters.",
@@ -9774,7 +9774,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Twitter",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -9784,7 +9784,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2006",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -10207,7 +10207,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2015_United_Kingdom_general_election",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Greece elects the left-wing Syriza party, led by Alexis Tsipras, on a promise to end austerity.",
@@ -10215,7 +10215,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/January_2015_Greek_legislative_election",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -10225,7 +10225,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting",
-          "verified": false
+          "verified": true
         },
         {
           "text": "A powerful earthquake strikes Nepal, killing about nine thousand people and damaging historic buildings in Kathmandu.",
@@ -10233,7 +10233,7 @@
           "region": "South Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The United States Supreme Court rules that same-sex couples have the right to marry in every state, in Obergefell v. Hodges.",
@@ -10241,7 +10241,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Obergefell_v._Hodges",
-          "verified": false
+          "verified": true
         },
         {
           "text": "A photo of a dress goes viral online, as millions argue over whether it is blue and black or white and gold.",
@@ -10249,7 +10249,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/The_dress",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -10259,7 +10259,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Apple_Watch",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -10269,7 +10269,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -10337,7 +10337,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2017_United_Kingdom_general_election",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Zimbabwe's army takes control of the country, and Robert Mugabe, who had ruled for almost four decades, resigns days later.",
@@ -10345,7 +10345,7 @@
           "region": "Africa",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2017_Zimbabwean_coup_d%27%C3%A9tat",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Catalonia holds an independence referendum that Spain's courts have banned, and police use force to stop people voting.",
@@ -10353,7 +10353,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2017_Catalan_independence_referendum",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Emmanuel Macron, a former banker and economy minister with a brand-new party, is elected president of France.",
@@ -10361,7 +10361,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2017_French_presidential_election",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -10371,7 +10371,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/2017_Manchester_Arena_bombing",
-          "verified": false
+          "verified": true
         },
         {
           "text": "At Kuala Lumpur airport, Kim Jong-nam, half-brother of North Korea's leader, is poisoned with a nerve agent and dies.",
@@ -10379,7 +10379,7 @@
           "region": "South-East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Assassination_of_Kim_Jong-nam",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -10389,7 +10389,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/IPhone_X",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Epic Games releases Fortnite Battle Royale, a free online game in which a hundred players fight until one is left standing.",
@@ -10397,7 +10397,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Nintendo releases the Switch, a games console that can be used at home on a television or carried as a handheld.",
@@ -10405,7 +10405,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Nintendo_Switch",
-          "verified": false
+          "verified": true
         },
         {
           "text": "SpaceX launches a rocket booster that has already flown to space once, the first reuse of an orbital-class rocket.",
@@ -10413,7 +10413,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/SpaceX_reusable_launch_system_development_program",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -10423,7 +10423,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Despacito",
-          "verified": false
+          "verified": true
         },
         {
           "text": "At the Oscars, La La Land is wrongly announced as best picture, and then Moonlight is revealed as the true winner.",
@@ -10431,7 +10431,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/89th_Academy_Awards",
-          "verified": false
+          "verified": true
         }
       ]
     }
