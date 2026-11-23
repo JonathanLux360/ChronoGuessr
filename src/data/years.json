@@ -6034,6 +6034,14 @@
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
           "verified": true
+        },
+        {
+          "text": "In Paris, a young Vietnamese nationalist, later known as Ho Chi Minh, petitions the Allied leaders at Versailles for his country's rights.",
+          "context": "He used the name Nguyen Ai Quoc, meaning Nguyen the Patriot. The leaders, including Woodrow Wilson, ignored him, and he later turned to communism.",
+          "region": "South-East Asia",
+          "difficulty": 3,
+          "source": "https://en.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh",
+          "verified": false
         }
       ],
       "society": [
@@ -6079,6 +6087,14 @@
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/League_of_Nations",
           "verified": true
+        },
+        {
+          "text": "Polish forces under Józef Piłsudski beat the Red Army at the gates of Warsaw, in a victory called the Miracle on the Vistula.",
+          "context": "The Soviets had hoped to carry communism west into Germany. The battle was fought in August, and Poland kept its independence.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Warsaw_(1920)",
+          "verified": false
         }
       ],
       "society": [
@@ -6177,6 +6193,14 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Kid_(1921_film)",
+          "verified": false
+        },
+        {
+          "text": "Jaroslav Hašek begins publishing The Good Soldier Švejk, a comic Czech novel about a simple soldier who bumbles through the First World War.",
+          "context": "The book came out in parts from 1921 until Hašek's death in 1923, and was never finished. It is one of the most translated Czech novels.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Good_Soldier_%C5%A0vejk",
           "verified": false
         }
       ]
@@ -8167,6 +8191,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Pather_Panchali_(film)",
           "verified": true
+        },
+        {
+          "text": "The Museum of Modern Art in New York opens The Family of Man, a huge exhibition of photographs about human life, curated by Edward Steichen.",
+          "context": "It showed more than five hundred photographs from dozens of countries. It then toured the world for years, and millions of people saw it.",
+          "region": "North America",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/The_Family_of_Man",
+          "verified": false
         }
       ]
     }
@@ -9155,6 +9187,14 @@
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Carnation_Revolution",
           "verified": true
+        },
+        {
+          "text": "Greek officers stage a coup in Cyprus, and Turkey sends troops to invade the island days later, splitting it in two.",
+          "context": "The coup in July aimed to unite Cyprus with Greece. Turkish forces took the north, and the island has been divided ever since.",
+          "region": "Europe",
+          "difficulty": 2,
+          "source": "https://en.wikipedia.org/wiki/Turkish_invasion_of_Cyprus",
+          "verified": false
         }
       ],
       "society": [
