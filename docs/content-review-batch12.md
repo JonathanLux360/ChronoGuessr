@@ -24,7 +24,7 @@ The dates come from the Wikipedia year pages. I read the year pages and opened t
 
 **Dropped.** 1623, 1643 and 1665 were removed at your request. 1607, 1608, 1620, 1628, 1653, 1675 and 1688 had a thin or disputed category.
 
-## [ ] 1656
+## [x] 1656
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ The dates come from the Wikipedia year pages. I read the year pages and opened t
 | Arts & Culture (main) | Diego Velázquez paints Las Meninas, a royal portrait of the Spanish court in which the painter himself stands at his easel. | It shows the young Infanta Margarita with her maids and attendants in the palace. It is one of the most studied paintings in Western art. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Las_Meninas) |
 | Arts & Culture (alternative) | King John Casimir of Poland crowns the Black Madonna of Częstochowa as Queen and Protector of Poland. | The crowning took place in Lwów, in April. The icon is still Poland's most revered holy image. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Black_Madonna_of_Cz%C4%99stochowa) |
 
-## [ ] 1698
+## [x] 1698
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |

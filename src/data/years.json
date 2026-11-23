@@ -189,7 +189,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Tarentum_(212_BC)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -199,7 +199,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Publius_Licinius_Crassus_Dives",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -209,7 +209,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Siege_of_Syracuse_(213%E2%80%93212_BC)",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -219,7 +219,7 @@
           "region": "East Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Epang_Palace",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -234,7 +234,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Avaricum",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -244,7 +244,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Publius_Clodius_Pulcher",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -254,7 +254,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Alesia",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -264,7 +264,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Pro_Milone",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -279,7 +279,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/31_BC",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -289,7 +289,7 @@
           "region": "Middle East",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/31_BC_Judea_earthquake",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -299,7 +299,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Actium",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -309,7 +309,7 @@
           "region": "South Asia",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Tiruvalluvar",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -639,7 +639,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Provisions_of_Oxford",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Venetian and Genoese fleets fight a fierce sea battle off Acre in their long war over trade in the Crusader ports of the Holy Land.",
@@ -647,7 +647,7 @@
           "region": "Middle East",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Acre_(1258)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -657,7 +657,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Republic_of_Genoa",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -667,7 +667,7 @@
           "region": "Middle East",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -677,7 +677,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Salisbury_Cathedral",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Civil unrest in northern Italy gives rise to the Geisslerlieder, penitential songs sung by wandering bands of Flagellants.",
@@ -685,7 +685,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Geisslerlieder",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2064,7 +2064,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Warsaw_(1656)",
-          "verified": false
+          "verified": true
         },
         {
           "text": "London's Lord Mayor suggests that Oliver Cromwell take the crown, but Cromwell turns it down.",
@@ -2072,7 +2072,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Oliver_Cromwell",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2082,7 +2082,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/James_Nayler",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2092,7 +2092,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Pendulum_clock",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2102,7 +2102,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Las_Meninas",
-          "verified": false
+          "verified": true
         },
         {
           "text": "King John Casimir of Poland crowns the Black Madonna of Częstochowa as Queen and Protector of Poland.",
@@ -2110,7 +2110,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Black_Madonna_of_Cz%C4%99stochowa",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -2276,7 +2276,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/George_I_of_Great_Britain",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The Russian Streltsy, a corps of rebel musketeers, face mass executions after a failed uprising against Peter the Great.",
@@ -2284,7 +2284,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Streltsy_uprising_(1698)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -2294,7 +2294,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Beard_tax",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Scottish settlers sail from Leith to found a colony at Darien in Panama, in a scheme backed by much of Scotland's wealth.",
@@ -2302,7 +2302,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Darien_scheme",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -2312,7 +2312,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Thomas_Savery",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The world's first open-sea lighthouse is lit on the Eddystone Rocks off Plymouth, a reef where ships had been wrecked for centuries.",
@@ -2320,7 +2320,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Eddystone_Lighthouse",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -2330,7 +2330,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/A_Short_View_of_the_Immorality_and_Profaneness_of_the_English_Stage",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5288,7 +5288,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Tannenberg_(1914)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5316,7 +5316,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/HMS_Pathfinder_(1904)",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5341,7 +5341,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Italy_in_World_War_I",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5351,7 +5351,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5361,7 +5361,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Second_Battle_of_Ypres",
-          "verified": false
+          "verified": true
         },
         {
           "text": "In Berlin, Albert Einstein presents the final equations of his general theory of relativity, a new theory of gravity.",
@@ -5369,7 +5369,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/History_of_general_relativity",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5379,7 +5379,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Metamorphosis",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5394,7 +5394,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Easter_Rising",
-          "verified": false
+          "verified": true
         },
         {
           "text": "On the first day of a huge British offensive on the Somme, the army suffers its worst losses, with tens of thousands killed or wounded.",
@@ -5402,7 +5402,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_the_Somme",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5412,7 +5412,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Margaret_Sanger",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The central span of the Quebec Bridge, a giant steel bridge over the St Lawrence River in Canada, falls into the water during construction.",
@@ -5420,7 +5420,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Quebec_Bridge",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5430,7 +5430,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Battle_of_Flers%E2%80%93Courcelette",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5440,7 +5440,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Dada",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -5463,7 +5463,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/American_entry_into_World_War_I",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5491,7 +5491,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Zimmermann_Telegram",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5516,7 +5516,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Fourteen_Points",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Russia's new Bolshevik government signs the Treaty of Brest-Litovsk with Germany, ending its part in the war and giving up huge lands.",
@@ -5524,7 +5524,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -5534,7 +5534,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Representation_of_the_People_Act_1918",
-          "verified": false
+          "verified": true
         },
         {
           "text": "A new and deadly strain of flu starts to spread around the world, and will later be called the Spanish flu.",
@@ -5542,7 +5542,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Spanish_flu_pandemic",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -5552,7 +5552,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Paris_Gun",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Britain creates the Royal Air Force, the world's first independent air force, by merging its army and navy flying services.",
@@ -5560,7 +5560,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Royal_Air_Force",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -5570,7 +5570,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Wilfred_Owen",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -6287,7 +6287,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Clement_Attlee",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Delegates from fifty countries sign the United Nations Charter in San Francisco.",
@@ -6295,7 +6295,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/United_Nations_Charter",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -6305,7 +6305,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Nuremberg_trials",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -6315,7 +6315,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)",
-          "verified": false
+          "verified": true
         },
         {
           "text": "An American bomber drops the first atomic bomb ever used in war on the Japanese city of Hiroshima, and Nagasaki is hit three days later.",
@@ -6323,7 +6323,7 @@
           "region": "East Asia",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -6333,7 +6333,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Carousel_(musical)",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -6613,7 +6613,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Elizabeth_II",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -6641,7 +6641,7 @@
           "region": "Oceania",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Operation_Hurricane",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -6808,7 +6808,7 @@
           "region": "North America",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Albert_Einstein",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -6975,7 +6975,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/NASA",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7197,7 +7197,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/The_Rolling_Stones",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -7212,7 +7212,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
-          "verified": false
+          "verified": true
         },
         {
           "text": "John Profumo, Britain's war minister, resigns after admitting he lied to Parliament about his affair with Christine Keeler.",
@@ -7220,7 +7220,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/Profumo_affair",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7230,7 +7230,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/16th_Street_Baptist_Church_bombing",
-          "verified": false
+          "verified": true
         },
         {
           "text": "A strong earthquake destroys much of the city of Skopje in Yugoslavia and kills more than a thousand people.",
@@ -7238,7 +7238,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/1963_Skopje_earthquake",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7248,7 +7248,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Valentina_Tereshkova",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7258,7 +7258,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Please_Please_Me",
-          "verified": false
+          "verified": true
         },
         {
           "text": "BBC television broadcasts the first episode of Doctor Who, about a mysterious time traveller and his granddaughter.",
@@ -7266,7 +7266,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Doctor_Who",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -7297,7 +7297,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7325,7 +7325,7 @@
           "region": "Europe",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/BBC_Two",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -7458,7 +7458,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Sexual_Offences_Act_1967",
-          "verified": false
+          "verified": true
         },
         {
           "text": "Parliament passes the Abortion Act, allowing legal abortions in Britain under medical supervision.",
@@ -7466,7 +7466,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Abortion_Act_1967",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7517,7 +7517,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Rivers_of_Blood_speech",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7588,7 +7588,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Open_University",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -7684,7 +7684,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Bloody_Sunday_(1972)",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7745,7 +7745,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Enlargement_of_the_European_Union",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -7851,7 +7851,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -8010,7 +8010,7 @@
           "region": "Europe",
           "difficulty": 1,
           "source": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -8214,7 +8214,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/1983_United_Kingdom_general_election",
-          "verified": false
+          "verified": true
         },
         {
           "text": "American troops invade the Caribbean island of Grenada after a coup, in an operation condemned by Britain and the United Nations.",
@@ -8222,7 +8222,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/United_States_invasion_of_Grenada",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -8232,7 +8232,7 @@
           "region": "East Asia",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Korean_Air_Lines_Flight_007",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -8242,7 +8242,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Strategic_Defense_Initiative",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The ARPANET switches to TCP/IP, the common language that the modern internet still uses.",
@@ -8250,7 +8250,7 @@
           "region": "North America",
           "difficulty": 3,
           "source": "https://en.wikipedia.org/wiki/ARPANET",
-          "verified": false
+          "verified": true
         }
       ],
       "arts_culture": [
@@ -8260,7 +8260,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Motown_25:_Yesterday,_Today,_Forever",
-          "verified": false
+          "verified": true
         },
         {
           "text": "The final episode of the war comedy M*A*S*H draws a huge American television audience, a record at the time.",
@@ -8268,7 +8268,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Goodbye,_Farewell_and_Amen",
-          "verified": false
+          "verified": true
         }
       ]
     }
@@ -8291,7 +8291,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Brighton_hotel_bombing",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -8309,7 +8309,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/UK_miners%27_strike_(1984%E2%80%931985)",
-          "verified": false
+          "verified": true
         }
       ],
       "technology": [
@@ -8450,7 +8450,7 @@
           "region": "Europe",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/Community_Charge",
-          "verified": false
+          "verified": true
         }
       ],
       "society": [
@@ -8496,7 +8496,7 @@
           "region": "North America",
           "difficulty": 2,
           "source": "https://en.wikipedia.org/wiki/We_Didn%27t_Start_the_Fire",
-          "verified": false
+          "verified": true
         }
       ]
     }

@@ -29,7 +29,7 @@ The dates for the new years come from the Wikipedia year pages and linked articl
 
 **Left out.** 1066, 1086 and 1215 have no firm Technology or Arts & Culture event (1215's Magna Carta, 15 June, is a strong Society item, but the year needs all four categories). 1314 has weak Technology and Arts items. I also left out clues that give their year away on their own: the assassination of President Kennedy (1963), the Cuban Missile Crisis (1962) and the fall of the Berlin Wall (1989).
 
-## [ ] 1915
+## [x] 1915
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ The dates for the new years come from the Wikipedia year pages and linked articl
 | Technology (alternative) | In Berlin, Albert Einstein presents the final equations of his general theory of relativity, a new theory of gravity. | He lectured on it to the Prussian Academy of Sciences in November. The theory explained a small oddity in the orbit of Mercury. | Europe | 2 | [link](https://en.wikipedia.org/wiki/History_of_general_relativity) |
 | Arts & Culture | In Prague, Franz Kafka's story The Metamorphosis, about a man who wakes up as a giant insect, is published. | It first appeared in a German magazine in October. Kafka worked as an insurance clerk, and most of his work came out after his death. | Europe | 2 | [link](https://en.wikipedia.org/wiki/The_Metamorphosis) |
 
-## [ ] 1916
+## [x] 1916
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ The dates for the new years come from the Wikipedia year pages and linked articl
 | Technology | British tanks are used in battle for the first time, lumbering across northern France at Flers-Courcelette. | The first tanks were slow and often broke down, but they frightened German troops. The French were upset because they had wanted to wait and use many tanks at once. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Battle_of_Flers%E2%80%93Courcelette) |
 | Arts & Culture | In neutral Zürich, artists at the Cabaret Voltaire launch Dada, an anti-war art movement that mocks logic and tradition. | Poets and artists such as Hugo Ball and Tristan Tzara performed nonsense poems and noise music. Dada began as a protest against the war. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Dada) |
 
-## [ ] 1945
+## [x] 1945
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -61,7 +61,7 @@ The dates for the new years come from the Wikipedia year pages and linked articl
 | Technology (alternative) | An American bomber drops the first atomic bomb ever used in war on the Japanese city of Hiroshima, and Nagasaki is hit three days later. | The attacks killed well over a hundred thousand people. Japan announced its surrender within days. | East Asia | 1 | [link](https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki) |
 | Arts & Culture | Rodgers and Hammerstein's musical Carousel opens on Broadway, with the song You'll Never Walk Alone. | The show is based on a Hungarian play by Ferenc Molnár. It opened in April and ran for more than eight hundred performances. | North America | 3 | [link](https://en.wikipedia.org/wiki/Carousel_(musical)) |
 
-## [ ] 1963
+## [x] 1963
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -73,7 +73,7 @@ The dates for the new years come from the Wikipedia year pages and linked articl
 | Arts & Culture (main) | The Beatles release their first album, Please Please Me, in Britain, recorded in a single day. | Most of it was recorded in one long session in February at Abbey Road Studios in London. The album topped the British charts for many weeks. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Please_Please_Me) |
 | Arts & Culture (alternative) | BBC television broadcasts the first episode of Doctor Who, about a mysterious time traveller and his granddaughter. | It went out the day after the assassination of President Kennedy, and the BBC repeated it the next week because many people had missed it. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Doctor_Who) |
 
-## [ ] 1983
+## [x] 1983
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -85,7 +85,7 @@ The dates for the new years come from the Wikipedia year pages and linked articl
 | Arts & Culture (main) | Michael Jackson performs Billie Jean on television and shows off the moonwalk, a gliding backwards dance step, for the first time. | The show, Motown 25, was taped in March and broadcast on NBC in May. Millions of people watched. | North America | 2 | [link](https://en.wikipedia.org/wiki/Motown_25:_Yesterday,_Today,_Forever) |
 | Arts & Culture (alternative) | The final episode of the war comedy M*A*S*H draws a huge American television audience, a record at the time. | More than a hundred million people are said to have watched it. The show was set in a medical unit during the Korean War. | North America | 2 | [link](https://en.wikipedia.org/wiki/Goodbye,_Farewell_and_Amen) |
 
-## [ ] 1918
+## [x] 1918
 
 Added at your request: the death of Wilfred Owen is the Arts & Culture clue. The other three categories were found to match it.
 

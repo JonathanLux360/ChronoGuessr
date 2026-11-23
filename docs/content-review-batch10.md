@@ -23,7 +23,7 @@ BCE years use astronomical numbering (one minus the BCE number: 52 BCE is stored
 
 **Checked and left out.** 105 CE (Cai Lun and paper, and the Danube bridge, both dated to 105 CE on the year page) has no exact-year Society or Arts & Culture clue. 218 BCE (Hannibal and the Alps) has no Arts & Culture clue, and its dates for the crossing and the Trebia are disputed.
 
-## [ ] 52 BCE (stored as -51)
+## [x] 52 BCE (stored as -51)
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ BCE years use astronomical numbering (one minus the BCE number: 52 BCE is stored
 | Technology | Caesar's army digs two huge rings of siege works around Alesia, trapping Vercingetorix inside and holding off a Gallic relief army. | One ring faced the town and the other faced outwards, with trenches, towers and forts. It was fought in the autumn. Archaeologists doubt the lines were unbroken. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Battle_of_Alesia) |
 | Arts & Culture | The Roman orator Cicero rises to defend Milo on a murder charge, but the crowd and soldiers rattle him and the defence fails. | Cicero later wrote out the speech he wished he had given. It became a model of Latin oratory. Milo went into exile. | Europe | 3 | [link](https://en.wikipedia.org/wiki/Pro_Milone) |
 
-## [ ] 212 BCE (stored as -211)
+## [x] 212 BCE (stored as -211)
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -41,7 +41,7 @@ BCE years use astronomical numbering (one minus the BCE number: 52 BCE is stored
 | Technology | The Romans under Marcellus take Syracuse, which had held them off with Archimedes' catapults, cranes and ship-lifting claws. | The claw was a crane-like arm that lifted ships and dropped them. The siege began the year before. Archimedes was killed in the sack, on a date that is uncertain. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Siege_of_Syracuse_(213%E2%80%93212_BC)) |
 | Arts & Culture | Qin Shi Huang, the first emperor of China, begins work on the vast Epang Palace near his capital. | The palace was never finished. A later tradition says the rebel Xiang Yu burned it down, but historians doubt the story. | East Asia | 3 | [link](https://en.wikipedia.org/wiki/Epang_Palace) |
 
-## [ ] 31 BCE (stored as -30)
+## [x] 31 BCE (stored as -30)
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |

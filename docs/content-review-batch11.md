@@ -20,7 +20,7 @@
 
 **Dropped.** 1279 and 1291 were removed from the game data at your request. 963 and the other years I tried had no exact-year Technology or Arts & Culture clue.
 
-## [ ] 1258
+## [x] 1258
 
 | Category | Clue | Context shown after the guess | Region | Diff | Source |
 | --- | --- | --- | --- | --- | --- |
