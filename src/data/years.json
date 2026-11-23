@@ -10238,29 +10238,29 @@
       ],
       "technology": [
         {
-          "text": "The New Horizons spacecraft flies past Pluto after a nine-year journey, sending back the first close-up pictures of the dwarf planet.",
-          "context": "The pictures showed a huge heart-shaped plain of nitrogen ice. The flyby took place in July.",
+          "text": "Apple releases the Apple Watch, its first smartwatch, which tracks fitness and shows messages on a small screen on the wrist.",
+          "context": "It went on sale in April, after being announced the previous September. It soon became one of the best-selling watches in the world.",
           "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/New_Horizons",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Apple_Watch",
           "verified": false
         }
       ],
       "arts_culture": [
         {
-          "text": "A Picasso painting, Les Femmes d'Alger, sells at auction in New York for a record price of about one hundred and eighty million dollars.",
-          "context": "It was then the highest price ever paid for a painting at auction. Picasso painted a series of works inspired by Delacroix.",
+          "text": "Uptown Funk, by Mark Ronson and Bruno Mars, spends months at number one and becomes the biggest hit of the year.",
+          "context": "The single came out in November the year before, but its long run at the top of the charts was in this year. It won the Grammy for Record of the Year the following February.",
           "region": "North America",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Les_Femmes_d%27Alger",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Uptown_Funk",
           "verified": false
         },
         {
-          "text": "The BBC announces that it will not renew Jeremy Clarkson's contract as presenter of Top Gear, after a fight with a producer.",
-          "context": "The row followed a long day of filming. Clarkson, Richard Hammond and James May later made a similar show for Amazon.",
-          "region": "Europe",
-          "difficulty": 2,
-          "source": "https://en.wikipedia.org/wiki/Top_Gear_(2002_TV_series)",
+          "text": "Star Wars returns in The Force Awakens, with Daisy Ridley as the scavenger Rey, and breaks box office records within days.",
+          "context": "It was the first Star Wars film made after Disney bought Lucasfilm, and the first in ten years. Harrison Ford returned as Han Solo. It opened in December.",
+          "region": "North America",
+          "difficulty": 1,
+          "source": "https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens",
           "verified": false
         }
       ]

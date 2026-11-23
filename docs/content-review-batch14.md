@@ -26,7 +26,7 @@
 - 1909: Itō and An Jung-geun, and Korea's annexation; Baekeland's 1907 work; Rachmaninoff's tour; Diaghilev's 1909 season.
 - 2000 to 2017: the career details and tolls in each context line, as listed in the contexts themselves.
 
-**Weak points:** 1745 Arts & Culture is the death of Jonathan Swift (a death rather than a work). Les Demoiselles d'Avignon (1907) is dated to March, but some sources say July. Twitter's founding (2006) is dated to March, and its public launch was in July.
+**Weak points:** 2015 Arts & Culture: Uptown Funk was released in November 2014, so the clue uses its 2015 run at number one and says so in the context. Someone who knows the release date might guess the year before. The 2015 Technology and Arts & Culture clues were chosen by you (the Apple Watch, Uptown Funk and the Star Wars film), and the Apple Watch details are from my own knowledge. 1745 Arts & Culture is the death of Jonathan Swift (a death rather than a work). Les Demoiselles d'Avignon (1907) is dated to March, but some sources say July. Twitter's founding (2006) is dated to March, and its public launch was in July.
 
 ## [ ] 1721
 
@@ -154,9 +154,9 @@
 | Politics (alt 1) | Greece elects the left-wing Syriza party, led by Alexis Tsipras, on a promise to end austerity. | Syriza was the first radical left party to win power in a euro country. Months of tense talks with Greece's creditors followed. | Europe | 2 | [link](https://en.wikipedia.org/wiki/January_2015_Greek_legislative_election) |
 | Society (main) | Gunmen attack the Paris office of the satirical magazine Charlie Hebdo and kill twelve people. | The attackers said they were avenging cartoons of the Prophet. Millions marched in France in the days afterwards. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting) |
 | Society (alt 1) | A powerful earthquake strikes Nepal, killing about nine thousand people and damaging historic buildings in Kathmandu. | It struck in April, and caused an avalanche on Mount Everest. Many of the old temples in Kathmandu's Durbar Square were wrecked. | South Asia | 2 | [link](https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake) |
-| Technology | The New Horizons spacecraft flies past Pluto after a nine-year journey, sending back the first close-up pictures of the dwarf planet. | The pictures showed a huge heart-shaped plain of nitrogen ice. The flyby took place in July. | North America | 2 | [link](https://en.wikipedia.org/wiki/New_Horizons) |
-| Arts & Culture (main) | A Picasso painting, Les Femmes d'Alger, sells at auction in New York for a record price of about one hundred and eighty million dollars. | It was then the highest price ever paid for a painting at auction. Picasso painted a series of works inspired by Delacroix. | North America | 2 | [link](https://en.wikipedia.org/wiki/Les_Femmes_d%27Alger) |
-| Arts & Culture (alt 1) | The BBC announces that it will not renew Jeremy Clarkson's contract as presenter of Top Gear, after a fight with a producer. | The row followed a long day of filming. Clarkson, Richard Hammond and James May later made a similar show for Amazon. | Europe | 2 | [link](https://en.wikipedia.org/wiki/Top_Gear_(2002_TV_series)) |
+| Technology | Apple releases the Apple Watch, its first smartwatch, which tracks fitness and shows messages on a small screen on the wrist. | It went on sale in April, after being announced the previous September. It soon became one of the best-selling watches in the world. | North America | 1 | [link](https://en.wikipedia.org/wiki/Apple_Watch) |
+| Arts & Culture (main) | Uptown Funk, by Mark Ronson and Bruno Mars, spends months at number one and becomes the biggest hit of the year. | The single came out in November the year before, but its long run at the top of the charts was in this year. It won the Grammy for Record of the Year the following February. | North America | 1 | [link](https://en.wikipedia.org/wiki/Uptown_Funk) |
+| Arts & Culture (alt 1) | Star Wars returns in The Force Awakens, with Daisy Ridley as the scavenger Rey, and breaks box office records within days. | It was the first Star Wars film made after Disney bought Lucasfilm, and the first in ten years. Harrison Ford returned as Han Solo. It opened in December. | North America | 1 | [link](https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens) |
 
 ## [ ] 2017
 
